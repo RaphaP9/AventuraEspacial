@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Xml.Serialization;
 
 public class ScenesManager : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class ScenesManager : MonoBehaviour
     public State SceneState => state;
 
     [Header("Settings")]
+    [SerializeField] private bool simulateFirstSceneTransition;
     [SerializeField] private TransitionType openingTransitionType;
     [SerializeField, Range (0.05f, 0.5f)] private float transitionInInterval; //Value > 0 to avoid stutter on scene transition
 
@@ -26,8 +28,8 @@ public class ScenesManager : MonoBehaviour
     public static event EventHandler<OnSceneLoadEventArgs> OnSceneLoadCompleteReal;
     public static event EventHandler<OnSceneLoadEventArgs> OnSceneLoadComplete;
 
-    public float loadProgress;
-    public bool isLoadingScene;
+    private float loadProgress;
+    private bool isLoadingScene;
 
     public float LoadProgress => loadProgress;
     public bool IsLoadingScene => isLoadingScene;
@@ -94,6 +96,8 @@ public class ScenesManager : MonoBehaviour
 
     private void SimulateTransitionIn(TransitionType transitionType)
     {
+        if (!simulateFirstSceneTransition) return;
+
         //Simulate the load of current scene, only to TransitionIn the first scene played
         OnSceneLoadComplete?.Invoke(this, new OnSceneLoadEventArgs { originScene = "", targetScene = SceneManager.GetActiveScene().name });
         OnSceneTransitionInStart.Invoke(this, new OnSceneTransitionLoadEventArgs { originScene = "", targetScene = SceneManager.GetActiveScene().name, transitionType = transitionType});
@@ -212,6 +216,8 @@ public class ScenesManager : MonoBehaviour
 
     #endregion
 
+    public bool IsSceneOnIdle() => state == State.Idle;
+    public void DefaultLoadScene(string targetScene) => SceneManager.LoadScene(targetScene);
     public void QuitGame() => Application.Quit();
 
     #region TransitionUIHandler Subscriptions

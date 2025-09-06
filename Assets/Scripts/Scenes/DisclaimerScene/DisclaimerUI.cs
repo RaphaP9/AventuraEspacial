@@ -32,6 +32,7 @@ public class DisclaimerUI : MonoBehaviour
         PlayerPrefs.Save();
     
         ScenesManager.Instance.TransitionLoadTargetScene(nextScene,transitionType);
+        //ScenesManager.Instance.SimpleLoadTargetScene(nextScene);
     }
 
     private void RejectDisclaimer()

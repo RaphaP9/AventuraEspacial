@@ -234,10 +234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+  simulateFirstSceneTransition: 1
   openingTransitionType: 0
   transitionInInterval: 0.05
-  loadProgress: 0
-  isLoadingScene: 0
 --- !u!1 &4199401478031820499
 GameObject:
   m_ObjectHideFlags: 0

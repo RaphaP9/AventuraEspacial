@@ -307,7 +307,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disclaimerAuthorizationKey: DisclaimerAuthorizationKey
   disclaimerRejectedScene: DisclaimerScene
-  disclaimerAcceptedScene: Test
+  disclaimerAcceptedScene: TimerSelectorScene
 --- !u!1 &1550010258
 GameObject:
   m_ObjectHideFlags: 0
