@@ -48,23 +48,10 @@ public class RotationDetectorManager : MonoBehaviour
 
     public void ForceRotationAndNextScene()
     {
-        ForceLandscapeLeft();
+        SceneRotationManager.Instance.RotateToLandscape();
         hasRotated = true;
+
         StartCoroutine(LoadNextSceneAfterTimeCoroutine());
-    }
-
-    private void ForceLandscapeLeft()
-    {
-        #if UNITY_EDITOR
-            GameViewUtilities.SwitchToLandscape();
-        #else
-            Screen.autorotateToPortrait = false;
-            Screen.autorotateToLandscapeRight = false;
-            Screen.autorotateToLandscapeLeft = false;
-            Screen.autorotateToPortraitUpsideDown = false;
-
-            Screen.orientation = ScreenOrientation.LandscapeLeft;
-        #endif
     }
 
     private IEnumerator LoadNextSceneAfterTimeCoroutine()

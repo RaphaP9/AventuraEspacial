@@ -1,0 +1,1 @@
+D:\Raphael\2025-2\AventuraEspacial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\d2s6p1w2\obj\arm64-v8a

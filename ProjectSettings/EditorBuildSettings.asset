@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TimerSelectorScene.unity
     guid: 42cba9bbefb4a6744b92cf0034905883
   - enabled: 1
+    path: Assets/Scenes/RotationScene.unity
+    guid: c9917b3dc496b664d885f12635f88fba
+  - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 7eee61677906f69449fb9a33123de84b
   m_configObjects:

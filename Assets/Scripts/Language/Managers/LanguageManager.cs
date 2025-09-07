@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
+using UnityEngine.InputSystem;
 
 public class LanguageManager : MonoBehaviour
 {
@@ -42,7 +43,7 @@ public class LanguageManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Keyboard.current.lKey.wasPressedThisFrame)
         {
             if(currentLanguage == Language.Español)
             {
