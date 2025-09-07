@@ -836,7 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceptButton: {fileID: 1819090146}
   rejectButton: {fileID: 1175535670}
-  disclaimerAuthorizationKey: DisclaimerAuthorizationKey
+  disclaimerAuthorizationKey: DisclaimerAuthorization
   nextScene: TimerSelectorScene
   transitionType: 0
 --- !u!1 &914136886

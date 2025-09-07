@@ -16,7 +16,7 @@ public static class MappingUtilities
         else
         {
             int timeMinutes = timeSecondsRounded / 60;
-            mappedTime = timeMinutes > 1 ? $"{timeMinutes} minuto" : $"{timeMinutes} minutos";
+            mappedTime = timeMinutes > 1 ? $"{timeMinutes} minutos" : $"{timeMinutes} minuto";
         }
 
         return mappedTime;
