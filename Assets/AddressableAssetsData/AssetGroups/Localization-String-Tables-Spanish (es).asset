@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (es)
   m_GUID: f9561b31a86b9314eb28dca048558c8a
   m_SerializeEntries:
+  - m_GUID: 6f3f220f347697642beff53d6f97a1cb
+    m_Address: General_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 769a9d63802585f4eadec7007c17c22c
     m_Address: TimerSelectorSceneTable_es
     m_ReadOnly: 1

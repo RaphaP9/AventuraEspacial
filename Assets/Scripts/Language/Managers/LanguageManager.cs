@@ -40,6 +40,21 @@ public class LanguageManager : MonoBehaviour
         LoadLanguage();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            if(currentLanguage == Language.Español)
+            {
+                SetLanguage(Language.English);
+            }
+            else
+            {
+                SetLanguage(Language.Español);
+            }
+        }
+    }
+
     private void SetSingleton()
     {
         if (Instance == null)

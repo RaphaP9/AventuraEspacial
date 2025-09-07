@@ -1,6 +1,8 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class TimerSelectorUI : MonoBehaviour
 {
@@ -20,6 +22,15 @@ public class TimerSelectorUI : MonoBehaviour
     [SerializeField] private TransitionType nextSceneTransitionType;
 
     private int currentIndex;
+
+    private void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
+    }
+    private void OnDisable()
+    {
+        LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
+    }
 
     private void Awake()
     {
@@ -86,6 +97,13 @@ public class TimerSelectorUI : MonoBehaviour
 
     private void UpdateUI()
     {
-        timeText.text = MappingUtilities.MapTime(timerSelectorSettingsSO.timerSettings[currentIndex].time);
+        timeText.text = FormattingUtilities.FormatTime(timerSelectorSettingsSO.timerSettings[currentIndex].time);
     }
+
+    #region Subscriptions
+    private void LocalizationSettings_SelectedLocaleChanged(Locale obj)
+    {
+        UpdateUI();
+    }
+    #endregion
 }
