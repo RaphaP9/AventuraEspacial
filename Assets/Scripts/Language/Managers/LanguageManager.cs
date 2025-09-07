@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class LanguageManager : MonoBehaviour
 {
@@ -17,6 +19,9 @@ public class LanguageManager : MonoBehaviour
 
     [Header("Runtime Filled")]
     [SerializeField] private Language currentLanguage;
+
+    [Header("Debug")]
+    [SerializeField] private bool debug;
 
     public static event EventHandler<OnLanguageEventArgs> OnLanguageSet;
 
@@ -56,14 +61,14 @@ public class LanguageManager : MonoBehaviour
         {
             loadedLanguage = defaultLanguage;
 
-            int defaultLanguageID = FindLanguageIdentified(defaultLanguage).id;
-            PlayerPrefs.SetInt(languageKey, defaultLanguageID);
+            string defaultLanguageCode = FindLanguageIdentified(defaultLanguage).code;
+            PlayerPrefs.SetString(languageKey, defaultLanguageCode);
             PlayerPrefs.Save();
         }
         else
         {
-            int storedLanguageID = PlayerPrefs.GetInt(languageKey);
-            loadedLanguage = FindLanguageIdentified(storedLanguageID).language;
+            string storedLanguageCode = PlayerPrefs.GetString(languageKey);
+            loadedLanguage = FindLanguageIdentified(storedLanguageCode).language;
         }
 
         SetLanguage(loadedLanguage);
@@ -76,29 +81,56 @@ public class LanguageManager : MonoBehaviour
             if (languageIdentified.language == language) return languageIdentified;
         }
 
+        if (debug) Debug.Log($"No Language Identified found for: {language}");
         return null;
     }
 
-    private LanguageIdentified FindLanguageIdentified(int id)
+    private LanguageIdentified FindLanguageIdentified(string code)
     {
         foreach (LanguageIdentified languageIdentified in languagesIdentified)
         {
-            if (languageIdentified.id == id) return languageIdentified;
+            if (languageIdentified.code == code) return languageIdentified;
         }
 
+        if (debug) Debug.Log($"No Language Identified found for code: {code}");
         return null;
     }
 
     public void SetLanguage(Language language)
     {
         currentLanguage = language;
+        SelectLocale(language);
+
+        string languageCode = FindLanguageIdentified(language).code;
+
+        PlayerPrefs.SetString(languageKey, languageCode);
+        PlayerPrefs.Save();
+
         OnLanguageSet?.Invoke(this, new OnLanguageEventArgs { language = language });
+    }
+
+    private void SelectLocale(Language language)
+    {
+        string languageCode = FindLanguageIdentified(language).code;
+
+        List<Locale> locales = LocalizationSettings.AvailableLocales.Locales;
+
+        foreach (Locale locale in locales)
+        {
+            if (locale.Identifier.Code == languageCode)
+            {
+                LocalizationSettings.SelectedLocale = locale;
+                break;
+            }
+        }
+
+        if (debug) Debug.Log($"No locale found for Language: {language} - {languageCode}");
     }
 }
 
 [System.Serializable]
 public class LanguageIdentified
 {
-    public int id;
+    public string code;
     public Language language;
 }

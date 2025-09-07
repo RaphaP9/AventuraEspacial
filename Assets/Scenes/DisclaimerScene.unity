@@ -593,8 +593,9 @@ GameObject:
   - component: {fileID: 681556936}
   - component: {fileID: 681556938}
   - component: {fileID: 681556937}
+  - component: {fileID: 681556939}
   m_Layer: 5
-  m_Name: Text1
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IMPORTANTE
+  m_text: Important
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
   m_sharedMaterial: {fileID: -7176163894937619852, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
@@ -672,7 +673,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -718,6 +719,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681556935}
   m_CullTransparentMesh: 1
+--- !u!114 &681556939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681556935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:84ecbc3ce1f21814cb695966599017fb
+    m_TableEntryReference:
+      m_KeyId: 27936636928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 681556937}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &749675843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,8 +1411,9 @@ GameObject:
   - component: {fileID: 1844522277}
   - component: {fileID: 1844522279}
   - component: {fileID: 1844522278}
+  - component: {fileID: 1844522280}
   m_Layer: 5
-  m_Name: Text2
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1416,8 +1458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Al continuar, consiento que el menor de edad bajo mi cuidado use esta
-    aplicaci\xF3n."
+  m_text: "\rBy continuing, I consent to the minor under my care using this application."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89463b15d24900c47995606972839e91, type: 2}
   m_sharedMaterial: {fileID: -2409221056181660941, guid: 89463b15d24900c47995606972839e91, type: 2}
@@ -1496,6 +1537,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844522276}
   m_CullTransparentMesh: 1
+--- !u!114 &1844522280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844522276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:84ecbc3ce1f21814cb695966599017fb
+    m_TableEntryReference:
+      m_KeyId: 179220987904
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1844522278}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &2065280437
 GameObject:
   m_ObjectHideFlags: 0

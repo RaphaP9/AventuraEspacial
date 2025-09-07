@@ -47,8 +47,9 @@ MonoBehaviour:
   defaultLanguage: 0
   languageKey: Language
   languagesIdentified:
-  - id: 1
+  - code: en
     language: 1
-  - id: 2
+  - code: es
     language: 0
   currentLanguage: 0
+  debug: 0
