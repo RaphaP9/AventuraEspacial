@@ -22,13 +22,13 @@ MonoBehaviour:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 769a9d63802585f4eadec7007c17c22c
-    m_Address: TimerSelectorSceneTable_es
+    m_Address: TimerSelectorScene_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c681d2a66a1753347b85263a7986cc16
-    m_Address: Disclaimer Scene Labels_es
+    m_Address: DisclaimerScene_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

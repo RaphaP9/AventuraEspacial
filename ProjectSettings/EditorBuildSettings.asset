@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/RotationScene.unity
     guid: c9917b3dc496b664d885f12635f88fba
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6600feb73eaff184689d87f2977fe6f6
+  - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 7eee61677906f69449fb9a33123de84b
   m_configObjects:

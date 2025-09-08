@@ -48,6 +48,8 @@ public class RotationDetectorManager : MonoBehaviour
 
     public void ForceRotationAndNextScene()
     {
+        if (hasRotated) return;
+
         SceneRotationManager.Instance.RotateToLandscape();
         hasRotated = true;
 

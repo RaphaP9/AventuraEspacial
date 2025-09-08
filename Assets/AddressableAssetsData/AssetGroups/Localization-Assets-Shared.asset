@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b53548fb66169745b7e4c01a2a89405
+    m_Address: Assets/Localization/Tables/Sprites Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 84ecbc3ce1f21814cb695966599017fb
     m_Address: Assets/Localization/Tables/Disclaimer Scene Labels Shared Data.asset
     m_ReadOnly: 1
