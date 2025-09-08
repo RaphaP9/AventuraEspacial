@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RotationDetectorManager : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class RotationDetectorManager : MonoBehaviour
     [SerializeField] private string nextScene;
     [SerializeField] private TransitionType nextSceneTransitionType;
     [SerializeField] private float timeToLoadNextScene;
+    [Space]
+    [SerializeField] private bool forceLandscapeAfterRotation;
+
+    [Header("UI Settings")]
+    [SerializeField] private Image backgroundImage;
+    [SerializeField] private Sprite landscapeSprite;
 
     [Header("Runtime Filled")]
     [SerializeField] private bool hasRotated;
@@ -50,7 +57,12 @@ public class RotationDetectorManager : MonoBehaviour
     {
         if (hasRotated) return;
 
-        SceneRotationManager.Instance.RotateToLandscape();
+        if (forceLandscapeAfterRotation)
+        {
+            SetBackgroundImage(landscapeSprite);
+            SceneRotationManager.Instance.RotateToLandscape();
+        }
+
         hasRotated = true;
 
         StartCoroutine(LoadNextSceneAfterTimeCoroutine());
@@ -61,4 +73,7 @@ public class RotationDetectorManager : MonoBehaviour
         yield return new WaitForSeconds(timeToLoadNextScene);
         ScenesManager.Instance.TransitionLoadTargetScene(nextScene, nextSceneTransitionType);   
     }
+
+
+    private void SetBackgroundImage(Sprite sprite) => backgroundImage.sprite = sprite;
 }

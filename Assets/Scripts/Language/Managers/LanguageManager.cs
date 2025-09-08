@@ -34,10 +34,6 @@ public class LanguageManager : MonoBehaviour
     private void Awake()
     {
         SetSingleton();
-    }
-
-    private void Start()
-    {
         LoadLanguage();
     }
 

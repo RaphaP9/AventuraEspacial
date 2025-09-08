@@ -270,6 +270,9 @@ MonoBehaviour:
   nextScene: MainMenu
   nextSceneTransitionType: 0
   timeToLoadNextScene: 0.5
+  forceLandscapeAfterRotation: 1
+  backgroundImage: {fileID: 281139716}
+  landscapeSprite: {fileID: 21300000, guid: c3e93eb5f430ca54ab7306d05bf6eca7, type: 3}
   hasRotated: 0
 --- !u!1 &197455048
 GameObject:
@@ -1343,7 +1346,7 @@ MonoBehaviour:
       m_KeyId: 3337043968
       m_Key: 
     m_FallbackState: 0
-    m_WaitForCompletion: 0
+    m_WaitForCompletion: 1
     m_LocalVariables: []
   m_FormatArguments: []
   m_UpdateString:
