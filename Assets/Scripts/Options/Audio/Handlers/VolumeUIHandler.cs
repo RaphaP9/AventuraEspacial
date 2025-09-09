@@ -13,6 +13,8 @@ public abstract class VolumeUIHandler : MonoBehaviour
     [SerializeField] List<OptionBarUI> optionBarUIs;
 
     protected const float VOLUME_BUTTON_CHANGE = 0.1f;
+    protected const float FULL_VOLUME_VALUE = 1f;
+    protected const float MUTE_VOLUME_VALUE = 0f;
 
     private void Awake()
     {
@@ -24,7 +26,7 @@ public abstract class VolumeUIHandler : MonoBehaviour
         increaseVolumeButton.onClick.AddListener(IncreaseVolumeByButton);
         decreaseVolumeButton.onClick.AddListener(DecreaseVolumeByButton);
 
-        IntializeOptionBarUIs();
+        IntializeOptionBarsListeners();
     }
 
     private void Start()
@@ -34,7 +36,7 @@ public abstract class VolumeUIHandler : MonoBehaviour
 
     protected abstract VolumeManager GetVolumeManager();
 
-    protected void IntializeOptionBarUIs()
+    protected void IntializeOptionBarsListeners()
     {
         foreach(OptionBarUI optionBarUI in optionBarUIs)
         {
