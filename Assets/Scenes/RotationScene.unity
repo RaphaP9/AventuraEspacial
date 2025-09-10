@@ -267,8 +267,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 701397e89a6da9c439682e202420c3c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: MainMenu
-  nextSceneTransitionType: 0
+  regularStartingScene: MainMenu
+  regularStartingSceneTransitionType: 0
+  firstSessionStartingScene: MainMenu
+  firstSessionStartingSceneTransitionType: 0
   timeToLoadNextScene: 0.5
   forceLandscapeAfterRotation: 1
   backgroundImage: {fileID: 281139716}

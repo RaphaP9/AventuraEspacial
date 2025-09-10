@@ -7,8 +7,12 @@ public class RotationDetectorManager : MonoBehaviour
     public static RotationDetectorManager Instance { get; private set; }
 
     [Header("Settings")]
-    [SerializeField] private string nextScene;
-    [SerializeField] private TransitionType nextSceneTransitionType;
+    [SerializeField] private string regularStartingScene;
+    [SerializeField] private TransitionType regularStartingSceneTransitionType;
+    [Space]
+    [SerializeField] private string firstSessionStartingScene;
+    [SerializeField] private TransitionType firstSessionStartingSceneTransitionType;
+    [Space]
     [SerializeField] private float timeToLoadNextScene;
     [Space]
     [SerializeField] private bool forceLandscapeAfterRotation;
@@ -71,9 +75,18 @@ public class RotationDetectorManager : MonoBehaviour
     private IEnumerator LoadNextSceneAfterTimeCoroutine()
     {
         yield return new WaitForSeconds(timeToLoadNextScene);
-        ScenesManager.Instance.TransitionLoadTargetScene(nextScene, nextSceneTransitionType);   
+        TransitionToStartingScene();
     }
 
+    #region Starting Scene
+    public bool ShouldTransitionToFirstSessionStartingScene() => DataContainer.Instance.Data.timesEnteredGame <= 0;
+
+    public void TransitionToStartingScene()
+    {
+        if (ShouldTransitionToFirstSessionStartingScene()) ScenesManager.Instance.TransitionLoadTargetScene(firstSessionStartingScene, firstSessionStartingSceneTransitionType);
+        else ScenesManager.Instance.TransitionLoadTargetScene(regularStartingScene, regularStartingSceneTransitionType);
+    }
+    #endregion
 
     private void SetBackgroundImage(Sprite sprite) => backgroundImage.sprite = sprite;
 }
