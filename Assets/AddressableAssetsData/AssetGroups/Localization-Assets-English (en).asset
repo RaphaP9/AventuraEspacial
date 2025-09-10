@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-English (en)
   m_GUID: e340a2840438587449c01782535d57ad
   m_SerializeEntries:
+  - m_GUID: 04197a24d6b58774cb6f396454cda2f5
+    m_Address: Sample1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba83da70d46dfdc429980870fccc324b
     m_Address: GameLogo2
     m_ReadOnly: 1

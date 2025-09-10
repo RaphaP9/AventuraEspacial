@@ -269,7 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   regularStartingScene: MainMenu
   regularStartingSceneTransitionType: 0
-  firstSessionStartingScene: MainMenu
+  firstSessionStartingScene: StartCinematicScene
   firstSessionStartingSceneTransitionType: 0
   timeToLoadNextScene: 0.5
   forceLandscapeAfterRotation: 1

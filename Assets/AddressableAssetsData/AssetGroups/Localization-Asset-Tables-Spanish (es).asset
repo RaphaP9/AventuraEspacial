@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-Asset-Tables-Spanish (es)
   m_GUID: 2e9df02e83fc5a94db581dadbb566554
   m_SerializeEntries:
+  - m_GUID: dbff63bac7be592429673d808af66d5b
+    m_Address: Videos_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f99faed1e0a164842912b5f8129e575e
     m_Address: Sprites_es
     m_ReadOnly: 1
