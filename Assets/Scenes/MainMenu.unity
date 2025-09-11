@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 522512085}
   - component: {fileID: 522512086}
   m_Layer: 0
-  m_Name: SceneDataSaveLoader
+  m_Name: SceneDataModifier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,7 +1248,7 @@ MonoBehaviour:
   playButton: {fileID: 696100031}
   quitButton: {fileID: 1928467169}
   settingsButton: {fileID: 1899245081}
-  playScene: Test
+  playScene: MiniGameSelection
   playSceneTransitionType: 0
 --- !u!1 &852674211
 GameObject:
