@@ -80,7 +80,6 @@ public class OptionsOpeningManager : MonoBehaviour
         OptionsOpen = false;
     }
 
-
     #region DevMenuUI Subscriptions
 
     private void OptionsUI_OnCloseFromUI(object sender, EventArgs e)
