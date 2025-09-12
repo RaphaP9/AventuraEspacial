@@ -113,6 +113,8 @@ public static class GeneralUtilities
         return finalVector;
 
     }
+
+    public static float GetVector2MagnitudeDifference(Vector2 vectorA, Vector2 vectorB) => Vector2.Distance(vectorA, vectorB);
     #endregion
 
     #region VectorInts

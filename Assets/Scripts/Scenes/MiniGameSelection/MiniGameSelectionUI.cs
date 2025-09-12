@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MinuGameSelectionUI : MonoBehaviour
+public class MiniGameSelectionUI : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] private Button backButton;

@@ -25,4 +25,9 @@ public static class UIUtilities
         string stringValue = number.ToString(CultureInfo.InvariantCulture);
         return stringValue;
     }
+
+    public static Vector2 GetCanvasPosition(RectTransform target, Canvas canvas)
+    {
+        return canvas.transform.InverseTransformPoint(target.position);
+    }
 }
