@@ -28,6 +28,9 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     private const float STOP_SNAP_THRESHOLD = 0.1f;
 
+    #region Events
+    public static event EventHandler<OnItemsInitializedEventArgs> OnItemsInitialized;
+
     public static event EventHandler OnFirstItemReached;
     public static event EventHandler OnLastItemReached;
 
@@ -37,12 +40,28 @@ public class SnappingScrollMenuUI : MonoBehaviour
     public static event EventHandler OnLastItemAway;
     public static event EventHandler OnFirstItemAway;
 
+    public static event EventHandler<OnItemSnapEventArgs> OnItemSnap;
+    #endregion
+
+    #region Custom Classes
     [System.Serializable]
     public class ItemRefferencePosition
     {
         public RectTransform rectTransform;
         public Vector2 refferencePosition;
     }
+
+    public class OnItemsInitializedEventArgs : EventArgs
+    {
+        public List<ItemRefferencePosition> items;
+    }
+
+    public class OnItemSnapEventArgs : EventArgs
+    {
+        public int itemIndex;
+        public bool instantly;
+    }
+    #endregion
 
     private void OnEnable()
     {
@@ -85,6 +104,8 @@ public class SnappingScrollMenuUI : MonoBehaviour
             ItemRefferencePosition itemRefferencePosition = new ItemRefferencePosition { rectTransform = rectTransform, refferencePosition = refferencePosition};
             items.Add(itemRefferencePosition);
         }
+
+        OnItemsInitialized?.Invoke(this, new OnItemsInitializedEventArgs { items = items });
     }
 
     private void InstantSnapToStartIndex()
@@ -96,6 +117,8 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
         if (currentIndex <= 0) OnFirstItemReachedStart?.Invoke(this, EventArgs.Empty);
         if (currentIndex >= items.Count -1) OnLastItemReachedStart?.Invoke(this, EventArgs.Empty);
+
+        OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = true });
     }
 
     private void HandleItemSnap()
@@ -110,12 +133,16 @@ public class SnappingScrollMenuUI : MonoBehaviour
     {
         TryIncreaseIndex();
         UpdateTargetSnapItemToIndex(currentIndex);
+
+        OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = false});
     }
 
     public void DisplaceLeftCommand()
     {
         TryDecreaseIndex();
         UpdateTargetSnapItemToIndex(currentIndex);
+
+        OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = false });
     }
 
     #region Increase Decrease Index
