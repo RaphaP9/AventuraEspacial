@@ -31,8 +31,8 @@ public class SnappingScrollMenuUI : MonoBehaviour
     public static event EventHandler OnFirstItemReached;
     public static event EventHandler OnLastItemReached;
 
-    public static event EventHandler OnFirstItemReachedInstantly;
-    public static event EventHandler OnLastItemReachedInstantly;
+    public static event EventHandler OnFirstItemReachedStart;
+    public static event EventHandler OnLastItemReachedStart;
 
     public static event EventHandler OnLastItemAway;
     public static event EventHandler OnFirstItemAway;
@@ -94,8 +94,8 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
         content.anchoredPosition = -targetSnapItem.refferencePosition;
 
-        if (currentIndex <= 0) OnFirstItemReachedInstantly?.Invoke(this, EventArgs.Empty);
-        if (currentIndex >= items.Count -1) OnLastItemReachedInstantly?.Invoke(this, EventArgs.Empty);
+        if (currentIndex <= 0) OnFirstItemReachedStart?.Invoke(this, EventArgs.Empty);
+        if (currentIndex >= items.Count -1) OnLastItemReachedStart?.Invoke(this, EventArgs.Empty);
     }
 
     private void HandleItemSnap()
