@@ -66,13 +66,10 @@ public class SwipeManager : MonoBehaviour
                 if (swipeDelta.x > 0)
                 {
                     OnSwipeRight?.Invoke(this, EventArgs.Empty);
-                    Debug.Log("Right");
                 }
                 else
                 {
                     OnSwipeLeft?.Invoke(this, EventArgs.Empty);
-                    Debug.Log("Left");
-
                 }              
             }
             else
@@ -80,14 +77,10 @@ public class SwipeManager : MonoBehaviour
                 if (swipeDelta.y > 0)
                 {
                     OnSwipeUp?.Invoke(this, EventArgs.Empty);
-                    Debug.Log("Up");
-
                 }
                 else
                 {
                     OnSwipeDown?.Invoke(this, EventArgs.Empty);
-                    Debug.Log("Down");
-
                 }
             }
         }
