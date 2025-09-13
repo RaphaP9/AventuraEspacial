@@ -1,0 +1,1849 @@
+fileFormatVersion: 2
+guid: 3f15a53eda630ee47a2bf5c43634578c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3853684352724386936
+    second: Naranja_Minijuego1_Spritesheet_0
+  - first:
+      213: 8288731250306573518
+    second: Naranja_Minijuego1_Spritesheet_1
+  - first:
+      213: 6130697833788213724
+    second: Naranja_Minijuego1_Spritesheet_2
+  - first:
+      213: -7330906632040806676
+    second: Naranja_Minijuego1_Spritesheet_3
+  - first:
+      213: -6120042523808091021
+    second: Naranja_Minijuego1_Spritesheet_4
+  - first:
+      213: 548985832287420082
+    second: Naranja_Minijuego1_Spritesheet_5
+  - first:
+      213: 7811589689398921606
+    second: Naranja_Minijuego1_Spritesheet_6
+  - first:
+      213: 4928687163600912527
+    second: Naranja_Minijuego1_Spritesheet_7
+  - first:
+      213: 1726805712789895245
+    second: Naranja_Minijuego1_Spritesheet_8
+  - first:
+      213: 9066946160774588055
+    second: Naranja_Minijuego1_Spritesheet_9
+  - first:
+      213: -6728740877393324909
+    second: Naranja_Minijuego1_Spritesheet_10
+  - first:
+      213: 6709271451021957087
+    second: Naranja_Minijuego1_Spritesheet_11
+  - first:
+      213: 4195398420896058728
+    second: Naranja_Minijuego1_Spritesheet_12
+  - first:
+      213: 6683100053215975174
+    second: Naranja_Minijuego1_Spritesheet_13
+  - first:
+      213: 1675360221530347713
+    second: Naranja_Minijuego1_Spritesheet_14
+  - first:
+      213: 1255085072110752171
+    second: Naranja_Minijuego1_Spritesheet_15
+  - first:
+      213: -695957425946312789
+    second: Naranja_Minijuego1_Spritesheet_16
+  - first:
+      213: 479334913204189842
+    second: Naranja_Minijuego1_Spritesheet_17
+  - first:
+      213: 4476498567001865784
+    second: Naranja_Minijuego1_Spritesheet_18
+  - first:
+      213: -26466314456807942
+    second: Naranja_Minijuego1_Spritesheet_19
+  - first:
+      213: -6816982116152854123
+    second: Naranja_Minijuego1_Spritesheet_20
+  - first:
+      213: -6964058961264451510
+    second: Naranja_Minijuego1_Spritesheet_21
+  - first:
+      213: 4956657974604318316
+    second: Naranja_Minijuego1_Spritesheet_22
+  - first:
+      213: 1117641888204558098
+    second: Naranja_Minijuego1_Spritesheet_23
+  - first:
+      213: 5091492908510476296
+    second: Naranja_Minijuego1_Spritesheet_24
+  - first:
+      213: 2396235162626642686
+    second: Naranja_Minijuego1_Spritesheet_25
+  - first:
+      213: -4993210867811237178
+    second: Naranja_Minijuego1_Spritesheet_26
+  - first:
+      213: 4730314509273353738
+    second: Naranja_Minijuego1_Spritesheet_27
+  - first:
+      213: 2888105941964747426
+    second: Naranja_Minijuego1_Spritesheet_28
+  - first:
+      213: -1734233626920196722
+    second: Naranja_Minijuego1_Spritesheet_29
+  - first:
+      213: -8323218650511351924
+    second: Naranja_Minijuego1_Spritesheet_30
+  - first:
+      213: 7834297666232957420
+    second: Naranja_Minijuego1_Spritesheet_31
+  - first:
+      213: 4942297219617170484
+    second: Naranja_Minijuego1_Spritesheet_32
+  - first:
+      213: 7234819776983685709
+    second: Naranja_Minijuego1_Spritesheet_33
+  - first:
+      213: 1091274128878813100
+    second: Naranja_Minijuego1_Spritesheet_34
+  - first:
+      213: -5771599820161383896
+    second: Naranja_Minijuego1_Spritesheet_35
+  - first:
+      213: -6689456847004074628
+    second: Naranja_Minijuego1_Spritesheet_36
+  - first:
+      213: -3623838911285495815
+    second: Naranja_Minijuego1_Spritesheet_37
+  - first:
+      213: 5801469798201322852
+    second: Naranja_Minijuego1_Spritesheet_38
+  - first:
+      213: 3031329380459209616
+    second: Naranja_Minijuego1_Spritesheet_39
+  - first:
+      213: 264523658286219813
+    second: Naranja_Minijuego1_Spritesheet_40
+  - first:
+      213: -9122642936310311253
+    second: Naranja_Minijuego1_Spritesheet_41
+  - first:
+      213: -7901336797797231407
+    second: Naranja_Minijuego1_Spritesheet_42
+  - first:
+      213: 2697811967485580957
+    second: Naranja_Minijuego1_Spritesheet_43
+  - first:
+      213: -3782385593803644400
+    second: Naranja_Minijuego1_Spritesheet_44
+  - first:
+      213: -4715525206749900293
+    second: Naranja_Minijuego1_Spritesheet_45
+  - first:
+      213: -5233011270247928884
+    second: Naranja_Minijuego1_Spritesheet_46
+  - first:
+      213: 1552445991406168455
+    second: Naranja_Minijuego1_Spritesheet_47
+  - first:
+      213: 1612296525799551262
+    second: Naranja_Minijuego1_Spritesheet_48
+  - first:
+      213: 5022456843414203768
+    second: Naranja_Minijuego1_Spritesheet_49
+  - first:
+      213: -268382724085141354
+    second: Naranja_Minijuego1_Spritesheet_50
+  - first:
+      213: 2960049156175100783
+    second: Naranja_Minijuego1_Spritesheet_51
+  - first:
+      213: -8656128104358397803
+    second: Naranja_Minijuego1_Spritesheet_52
+  - first:
+      213: 5423825063976889660
+    second: Naranja_Minijuego1_Spritesheet_53
+  - first:
+      213: -785299727682849516
+    second: Naranja_Minijuego1_Spritesheet_54
+  - first:
+      213: -2992700667647713157
+    second: Naranja_Minijuego1_Spritesheet_55
+  - first:
+      213: 6376492132804280522
+    second: Naranja_Minijuego1_Spritesheet_56
+  - first:
+      213: -3481957148139176888
+    second: Naranja_Minijuego1_Spritesheet_57
+  - first:
+      213: 254847355668003032
+    second: Naranja_Minijuego1_Spritesheet_58
+  - first:
+      213: -6696055349084469307
+    second: Naranja_Minijuego1_Spritesheet_59
+  - first:
+      213: 1434343549721627344
+    second: Naranja_Minijuego1_Spritesheet_60
+  - first:
+      213: 7920034050633198667
+    second: Naranja_Minijuego1_Spritesheet_61
+  - first:
+      213: 2293811366481986951
+    second: Naranja_Minijuego1_Spritesheet_62
+  - first:
+      213: -2533511919368005010
+    second: Naranja_Minijuego1_Spritesheet_63
+  - first:
+      213: -6261893280953167190
+    second: Naranja_Minijuego1_Spritesheet_64
+  - first:
+      213: 3752755209435432697
+    second: Naranja_Minijuego1_Spritesheet_65
+  - first:
+      213: -8911886184393766636
+    second: Naranja_Minijuego1_Spritesheet_66
+  - first:
+      213: 4201791255668467552
+    second: Naranja_Minijuego1_Spritesheet_67
+  - first:
+      213: 6252407158324960058
+    second: Naranja_Minijuego1_Spritesheet_68
+  - first:
+      213: -4343419261341108493
+    second: Naranja_Minijuego1_Spritesheet_69
+  - first:
+      213: 5249573857474886311
+    second: Naranja_Minijuego1_Spritesheet_70
+  - first:
+      213: 1827798730130871470
+    second: Naranja_Minijuego1_Spritesheet_71
+  - first:
+      213: 8697977644232492179
+    second: Naranja_Minijuego1_Spritesheet_72
+  - first:
+      213: 2356404964346867846
+    second: Naranja_Minijuego1_Spritesheet_73
+  - first:
+      213: -1817035298799526280
+    second: Naranja_Minijuego1_Spritesheet_74
+  - first:
+      213: 6941243684586362851
+    second: Naranja_Minijuego1_Spritesheet_75
+  - first:
+      213: -183380734587678877
+    second: Naranja_Minijuego1_Spritesheet_76
+  - first:
+      213: 9087351187420409920
+    second: Naranja_Minijuego1_Spritesheet_77
+  - first:
+      213: 6735132925990193609
+    second: Naranja_Minijuego1_Spritesheet_78
+  - first:
+      213: -7734752804799248797
+    second: Naranja_Minijuego1_Spritesheet_79
+  - first:
+      213: -3677804761558515771
+    second: Naranja_Minijuego1_Spritesheet_80
+  - first:
+      213: -1073133519875898233
+    second: Naranja_Minijuego1_Spritesheet_81
+  - first:
+      213: -7020458340132335135
+    second: Naranja_Minijuego1_Spritesheet_82
+  - first:
+      213: -1500526373720493685
+    second: Naranja_Minijuego1_Spritesheet_83
+  - first:
+      213: -886161101824445000
+    second: Naranja_Minijuego1_Spritesheet_84
+  - first:
+      213: -3114535783609735034
+    second: Naranja_Minijuego1_Spritesheet_85
+  - first:
+      213: -3239907434587207291
+    second: Naranja_Minijuego1_Spritesheet_86
+  - first:
+      213: 6804936901745860360
+    second: Naranja_Minijuego1_Spritesheet_87
+  - first:
+      213: -9093444003645685571
+    second: Naranja_Minijuego1_Spritesheet_88
+  - first:
+      213: 460379877544051376
+    second: Naranja_Minijuego1_Spritesheet_89
+  - first:
+      213: 9172084569846010642
+    second: Naranja_Minijuego1_Spritesheet_90
+  - first:
+      213: 6218621937953806675
+    second: Naranja_Minijuego1_Spritesheet_91
+  - first:
+      213: 5398046190718130020
+    second: Naranja_Minijuego1_Spritesheet_92
+  - first:
+      213: 6304570509503786910
+    second: Naranja_Minijuego1_Spritesheet_93
+  - first:
+      213: -2198091075175547616
+    second: Naranja_Minijuego1_Spritesheet_94
+  - first:
+      213: -3698356913773375023
+    second: Naranja_Minijuego1_Spritesheet_95
+  - first:
+      213: -3666329954022046489
+    second: Naranja_Minijuego1_Spritesheet_96
+  - first:
+      213: 5248242649758776839
+    second: Naranja_Minijuego1_Spritesheet_97
+  - first:
+      213: 5876816055187282937
+    second: Naranja_Minijuego1_Spritesheet_98
+  - first:
+      213: -7760075835199127860
+    second: Naranja_Minijuego1_Spritesheet_99
+  - first:
+      213: 6331840165213834909
+    second: Naranja_Minijuego1_Spritesheet_100
+  - first:
+      213: -4728178099761601614
+    second: Naranja_Minijuego1_Spritesheet_101
+  - first:
+      213: -4538794333569571472
+    second: Naranja_Minijuego1_Spritesheet_102
+  - first:
+      213: 2763047429780944969
+    second: Naranja_Minijuego1_Spritesheet_103
+  - first:
+      213: -6724079240209067638
+    second: Naranja_Minijuego1_Spritesheet_104
+  - first:
+      213: 1372289453495091965
+    second: Naranja_Minijuego1_Spritesheet_105
+  - first:
+      213: -1686667186634849300
+    second: Naranja_Minijuego1_Spritesheet_106
+  - first:
+      213: 1379533162014172115
+    second: Naranja_Minijuego1_Spritesheet_107
+  - first:
+      213: -2852689437114783121
+    second: Naranja_Minijuego1_Spritesheet_108
+  - first:
+      213: 332984811534789600
+    second: Naranja_Minijuego1_Spritesheet_109
+  - first:
+      213: -5028646822108372344
+    second: Naranja_Minijuego1_Spritesheet_110
+  - first:
+      213: 3869929619439319504
+    second: Naranja_Minijuego1_Spritesheet_111
+  - first:
+      213: 6912850655707167980
+    second: Naranja_Minijuego1_Spritesheet_112
+  - first:
+      213: -6476888169162069539
+    second: Naranja_Minijuego1_Spritesheet_113
+  - first:
+      213: 7472313674562437259
+    second: Naranja_Minijuego1_Spritesheet_114
+  - first:
+      213: -4943406194971873424
+    second: Naranja_Minijuego1_Spritesheet_115
+  - first:
+      213: -206865128453359986
+    second: Naranja_Minijuego1_Spritesheet_116
+  - first:
+      213: 3665318468889838588
+    second: Naranja_Minijuego1_Spritesheet_117
+  - first:
+      213: -2986786721004690854
+    second: Naranja_Minijuego1_Spritesheet_118
+  - first:
+      213: 3981028949997886105
+    second: Naranja_Minijuego1_Spritesheet_119
+  - first:
+      213: -4001018537678499224
+    second: Naranja_Minijuego1_Spritesheet_120
+  - first:
+      213: -3857758876249292111
+    second: Naranja_Minijuego1_Spritesheet_121
+  - first:
+      213: 2259915665728092768
+    second: Naranja_Minijuego1_Spritesheet_122
+  - first:
+      213: 8407682235229417866
+    second: Naranja_Minijuego1_Spritesheet_123
+  - first:
+      213: -2566836997040485935
+    second: Naranja_Minijuego1_Spritesheet_124
+  - first:
+      213: 1672870881850740075
+    second: Naranja_Minijuego1_Spritesheet_125
+  - first:
+      213: -8456305819858482896
+    second: Naranja_Minijuego1_Spritesheet_126
+  - first:
+      213: 2743092471887063924
+    second: Naranja_Minijuego1_Spritesheet_127
+  - first:
+      213: 2506772431700104951
+    second: Naranja_Minijuego1_Spritesheet_128
+  - first:
+      213: -5443892157994741660
+    second: Naranja_Minijuego1_Spritesheet_129
+  - first:
+      213: 1558947417566168562
+    second: Naranja_Minijuego1_Spritesheet_130
+  - first:
+      213: 8885882511940991907
+    second: Naranja_Minijuego1_Spritesheet_131
+  - first:
+      213: -5350683633491768930
+    second: Naranja_Minijuego1_Spritesheet_132
+  - first:
+      213: -648552577820488510
+    second: Naranja_Minijuego1_Spritesheet_133
+  - first:
+      213: 5766798097340853189
+    second: Naranja_Minijuego1_Spritesheet_134
+  - first:
+      213: 1735463622245500804
+    second: Naranja_Minijuego1_Spritesheet_135
+  - first:
+      213: -5206838880454472749
+    second: Naranja_Minijuego1_Spritesheet_136
+  - first:
+      213: -4291924809753220226
+    second: Naranja_Minijuego1_Spritesheet_137
+  - first:
+      213: -7419866176703901507
+    second: Naranja_Minijuego1_Spritesheet_138
+  - first:
+      213: 1661151783189860445
+    second: Naranja_Minijuego1_Spritesheet_139
+  - first:
+      213: -3763046173446326586
+    second: Naranja_Minijuego1_Spritesheet_140
+  - first:
+      213: 3866093988269290973
+    second: Naranja_Minijuego1_Spritesheet_141
+  - first:
+      213: 1670524559551745611
+    second: Naranja_Minijuego1_Spritesheet_142
+  - first:
+      213: 4571012819997486595
+    second: Naranja_Minijuego1_Spritesheet_143
+  - first:
+      213: 2617818605167796051
+    second: Naranja_Minijuego1_Spritesheet_144
+  - first:
+      213: -6271274257937768105
+    second: Naranja_Minijuego1_Spritesheet_145
+  - first:
+      213: 3571787300957381502
+    second: Naranja_Minijuego1_Spritesheet_146
+  - first:
+      213: 8383542261659749581
+    second: Naranja_Minijuego1_Spritesheet_147
+  - first:
+      213: 5250565711106539135
+    second: Naranja_Minijuego1_Spritesheet_148
+  - first:
+      213: 2446953106065310524
+    second: Naranja_Minijuego1_Spritesheet_149
+  - first:
+      213: 7784786180222183958
+    second: Naranja_Minijuego1_Spritesheet_150
+  - first:
+      213: 7446191708716679126
+    second: Naranja_Minijuego1_Spritesheet_151
+  - first:
+      213: -1109535528425942740
+    second: Naranja_Minijuego1_Spritesheet_152
+  - first:
+      213: 6119030427424065370
+    second: Naranja_Minijuego1_Spritesheet_153
+  - first:
+      213: 6591208044072803003
+    second: Naranja_Minijuego1_Spritesheet_154
+  - first:
+      213: -7873702831677254286
+    second: Naranja_Minijuego1_Spritesheet_155
+  - first:
+      213: 8842241653473412717
+    second: Naranja_Minijuego1_Spritesheet_156
+  - first:
+      213: 639525050818640444
+    second: Naranja_Minijuego1_Spritesheet_157
+  - first:
+      213: 174782896250041685
+    second: Naranja_Minijuego1_Spritesheet_158
+  - first:
+      213: 1645887691123891587
+    second: Naranja_Minijuego1_Spritesheet_159
+  - first:
+      213: -363406097935227525
+    second: Naranja_Minijuego1_Spritesheet_160
+  - first:
+      213: -6774300902522568706
+    second: Naranja_Minijuego1_Spritesheet_161
+  - first:
+      213: -4356296528663273847
+    second: Naranja_Minijuego1_Spritesheet_162
+  - first:
+      213: -2575424019131470379
+    second: Naranja_Minijuego1_Spritesheet_163
+  - first:
+      213: -4237661563968185348
+    second: Naranja_Minijuego1_Spritesheet_164
+  - first:
+      213: 2236037870354803431
+    second: Naranja_Minijuego1_Spritesheet_165
+  - first:
+      213: -365536490139798522
+    second: Naranja_Minijuego1_Spritesheet_166
+  - first:
+      213: -6651143214775785548
+    second: Naranja_Minijuego1_Spritesheet_167
+  - first:
+      213: 716043796123361940
+    second: Naranja_Minijuego1_Spritesheet_168
+  - first:
+      213: -1290197932489736713
+    second: Naranja_Minijuego1_Spritesheet_169
+  - first:
+      213: -8205869851670551971
+    second: Naranja_Minijuego1_Spritesheet_170
+  - first:
+      213: -5272566534781493931
+    second: Naranja_Minijuego1_Spritesheet_171
+  - first:
+      213: -1974417327651866947
+    second: Naranja_Minijuego1_Spritesheet_172
+  - first:
+      213: -2818240290333413666
+    second: Naranja_Minijuego1_Spritesheet_173
+  - first:
+      213: 3613685112597049654
+    second: Naranja_Minijuego1_Spritesheet_174
+  - first:
+      213: -5637609633377592975
+    second: Naranja_Minijuego1_Spritesheet_175
+  - first:
+      213: 8433259207773034849
+    second: Naranja_Minijuego1_Spritesheet_176
+  - first:
+      213: -4561723695558121469
+    second: Naranja_Minijuego1_Spritesheet_177
+  - first:
+      213: -8655452732585141058
+    second: Naranja_Minijuego1_Spritesheet_178
+  - first:
+      213: -1257465014383297320
+    second: Naranja_Minijuego1_Spritesheet_179
+  - first:
+      213: -2152994953616298413
+    second: Naranja_Minijuego1_Spritesheet_180
+  - first:
+      213: 8554424259267668494
+    second: Naranja_Minijuego1_Spritesheet_181
+  - first:
+      213: -4478411493899446271
+    second: Naranja_Minijuego1_Spritesheet_182
+  - first:
+      213: 3589612204415457212
+    second: Naranja_Minijuego1_Spritesheet_183
+  - first:
+      213: 811808849547780682
+    second: Naranja_Minijuego1_Spritesheet_184
+  - first:
+      213: 6709296437621540242
+    second: Naranja_Minijuego1_Spritesheet_185
+  - first:
+      213: 3429741584953101246
+    second: Naranja_Minijuego1_Spritesheet_186
+  - first:
+      213: -7874194449512236671
+    second: Naranja_Minijuego1_Spritesheet_187
+  - first:
+      213: -499302893291399708
+    second: Naranja_Minijuego1_Spritesheet_188
+  - first:
+      213: -5931570660382188159
+    second: Naranja_Minijuego1_Spritesheet_189
+  - first:
+      213: 8143153322055134566
+    second: Naranja_Minijuego1_Spritesheet_190
+  - first:
+      213: -951432657800762809
+    second: Naranja_Minijuego1_Spritesheet_191
+  - first:
+      213: -7836688763453545471
+    second: Naranja_Minijuego1_Spritesheet_192
+  - first:
+      213: 3085809243012555058
+    second: Naranja_Minijuego1_Spritesheet_193
+  - first:
+      213: 543055011469216897
+    second: Naranja_Minijuego1_Spritesheet_194
+  - first:
+      213: 109831564645582096
+    second: Naranja_Minijuego1_Spritesheet_195
+  - first:
+      213: -4848112267815095334
+    second: Naranja_Minijuego1_Spritesheet_196
+  - first:
+      213: 8484085607728716684
+    second: Naranja_Minijuego1_Spritesheet_197
+  - first:
+      213: -7492291101733914539
+    second: Naranja_Minijuego1_Spritesheet_198
+  - first:
+      213: -819220604037145973
+    second: Naranja_Minijuego1_Spritesheet_199
+  - first:
+      213: 2808950474934436534
+    second: Naranja_Minijuego1_Spritesheet_200
+  - first:
+      213: -7984787861123730388
+    second: Naranja_Minijuego1_Spritesheet_201
+  - first:
+      213: -4069734077148873037
+    second: Naranja_Minijuego1_Spritesheet_202
+  - first:
+      213: -2390342131094585456
+    second: Naranja_Minijuego1_Spritesheet_203
+  - first:
+      213: 7269928596008926983
+    second: Naranja_Minijuego1_Spritesheet_204
+  - first:
+      213: 4131131872250398057
+    second: Naranja_Minijuego1_Spritesheet_205
+  - first:
+      213: 1920345749847803817
+    second: Naranja_Minijuego1_Spritesheet_206
+  - first:
+      213: 4038922784942207003
+    second: Naranja_Minijuego1_Spritesheet_207
+  - first:
+      213: 3120647309216013152
+    second: Naranja_Minijuego1_Spritesheet_208
+  - first:
+      213: 5863505766958258855
+    second: Naranja_Minijuego1_Spritesheet_209
+  - first:
+      213: -2087436026317787559
+    second: Naranja_Minijuego1_Spritesheet_210
+  - first:
+      213: 8615305985321468468
+    second: Naranja_Minijuego1_Spritesheet_211
+  - first:
+      213: 4882241752855339130
+    second: Naranja_Minijuego1_Spritesheet_212
+  - first:
+      213: -7632078231890829691
+    second: Naranja_Minijuego1_Spritesheet_213
+  - first:
+      213: -125558438818287558
+    second: Naranja_Minijuego1_Spritesheet_214
+  - first:
+      213: 6129032658333560065
+    second: Naranja_Minijuego1_Spritesheet_215
+  - first:
+      213: -4925906039979041642
+    second: Naranja_Minijuego1_Spritesheet_216
+  - first:
+      213: -1952347721781457834
+    second: Naranja_Minijuego1_Spritesheet_217
+  - first:
+      213: -2873040011419118648
+    second: Naranja_Minijuego1_Spritesheet_218
+  - first:
+      213: -5987592360307423459
+    second: Naranja_Minijuego1_Spritesheet_219
+  - first:
+      213: -9187149427570981632
+    second: Naranja_Minijuego1_Spritesheet_220
+  - first:
+      213: 6511888944083894701
+    second: Naranja_Minijuego1_Spritesheet_221
+  - first:
+      213: -3977929877606016550
+    second: Naranja_Minijuego1_Spritesheet_222
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Orange_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4e05c792b91eb49accbceb9c2c7761
+      internalID: 804528303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405aed58ca609364090325fd445c8fa6
+      internalID: 2053096268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bcb3280fb391b40a9677ea040dd1e2
+      internalID: 1964768625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59ad5115177224ca3cf0626037b7b5
+      internalID: 270441648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54305de00ca4f441ad294a8c4972d4d
+      internalID: -254995118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f7bfbde3e8c0043beeaf4e32e39cd8
+      internalID: -1658070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943756d88a5a8d4db1651bdcdbaab14
+      internalID: 630621344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc2c383dab12a8498bd2b6d202eea7a
+      internalID: -1466693604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29cd0af8b62a7f41adf312b29f6f86b
+      internalID: 1418587737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba6ea45521ecd4493ad7d4d221773a
+      internalID: 1489306324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc00cbaeee308043836b225547e3422
+      internalID: -293995068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86e5c5e3b735b94190dac2e4a1cccfc
+      internalID: -687191671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a953b96fba1d129418b6de3fef18c0b6
+      internalID: 579946538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a3aa34c3107694883c4e011f027054
+      internalID: 88828476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_14
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737cda85bb7b16642b023a5ae63ddae8
+      internalID: -2004484108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_15
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4ea0010d826ea45ae891a1ca73d3e5
+      internalID: 1923866031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_16
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c66129480f3ef4fb026c2e21293929
+      internalID: -2076090882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_17
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019434b0c98efd840840a07864e4a920
+      internalID: -1702430998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b36097c78aa944aff6fd274440d11
+      internalID: 73282709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c0f931244c6b747ac636df4bf6aecc
+      internalID: 1615345953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6d124aca153074fa98b238192591f5
+      internalID: -326569146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a03ac4a233c25438082a07abc0521d
+      internalID: 1992661230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519cec590d92f1449a8698873e93ae12
+      internalID: 1244343031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b137cfd1c8b23d443ad0d2131a1e75fd
+      internalID: -356927323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aa83b2bdfc51d4ab9d8596a616977f
+      internalID: -1717252403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_25
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3113921f43ba0b49bf031786b3cc91d
+      internalID: 940660227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_26
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1063a6575bb1c0740a784c883ed2af42
+      internalID: -1388597509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a7b3297052a949bb8951bdea0b3aa
+      internalID: 512926308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cf4d654241e314fbcf47c2ea5adff3
+      internalID: -644873511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285d09c5a5f1e75428bd2c32b81f61d6
+      internalID: -2035445039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e46c711d1847cf4c918cd0770f1f94f
+      internalID: -630285562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_31
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f062332d402e6cf45a6fcdae03f21f09
+      internalID: 1520653974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_32
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43cd02021b45d74fa382410a3054407
+      internalID: -1464331127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_33
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1dd60914e426747b67774c92de0616
+      internalID: 660947158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_34
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115e641b7692a814aa5af743826226d9
+      internalID: 433786960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_35
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1621ddc2bbdcf4f9191d0caee9622b
+      internalID: -909820403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d655e01ecb13a5343b20f73fded7ce69
+      internalID: -1185752585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8a220ae0ab7a445b9fe848812d86df
+      internalID: 904272032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e1b5a43a320f2439fe5e044e6d30ee
+      internalID: -927940853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b76841fa6673e9459daa2f0dca1a9af
+      internalID: 2065530078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292eb56bc3ae0e5498fcf7095102a023
+      internalID: -529741442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a93f37ab0b59ba4b90e791a563f6b3a
+      internalID: -499464556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db27d2d7bbb1314f9220247fae7ed0c
+      internalID: 1337042285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_43
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc2153ce1f7c384db504a3f70631e1e
+      internalID: 1597226187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Orange_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440c4937b83c6db44a848532af20313b
+      internalID: -1804227439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b43c1d06e1e6cd24880df28d18b731c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Orange_0: 804528303
+      Spritesheet_Orange_1: 2053096268
+      Spritesheet_Orange_10: -293995068
+      Spritesheet_Orange_11: -687191671
+      Spritesheet_Orange_12: 579946538
+      Spritesheet_Orange_13: 88828476
+      Spritesheet_Orange_14: -2004484108
+      Spritesheet_Orange_15: 1923866031
+      Spritesheet_Orange_16: -2076090882
+      Spritesheet_Orange_17: -1702430998
+      Spritesheet_Orange_18: 73282709
+      Spritesheet_Orange_19: 1615345953
+      Spritesheet_Orange_2: 1964768625
+      Spritesheet_Orange_20: -326569146
+      Spritesheet_Orange_21: 1992661230
+      Spritesheet_Orange_22: 1244343031
+      Spritesheet_Orange_23: -356927323
+      Spritesheet_Orange_24: -1717252403
+      Spritesheet_Orange_25: 940660227
+      Spritesheet_Orange_26: -1388597509
+      Spritesheet_Orange_27: 512926308
+      Spritesheet_Orange_28: -644873511
+      Spritesheet_Orange_29: -2035445039
+      Spritesheet_Orange_3: 270441648
+      Spritesheet_Orange_30: -630285562
+      Spritesheet_Orange_31: 1520653974
+      Spritesheet_Orange_32: -1464331127
+      Spritesheet_Orange_33: 660947158
+      Spritesheet_Orange_34: 433786960
+      Spritesheet_Orange_35: -909820403
+      Spritesheet_Orange_36: -1185752585
+      Spritesheet_Orange_37: 904272032
+      Spritesheet_Orange_38: -927940853
+      Spritesheet_Orange_39: 2065530078
+      Spritesheet_Orange_4: -254995118
+      Spritesheet_Orange_40: -529741442
+      Spritesheet_Orange_41: -499464556
+      Spritesheet_Orange_42: 1337042285
+      Spritesheet_Orange_43: 1597226187
+      Spritesheet_Orange_44: -1804227439
+      Spritesheet_Orange_5: -1658070
+      Spritesheet_Orange_6: 630621344
+      Spritesheet_Orange_7: -1466693604
+      Spritesheet_Orange_8: 1418587737
+      Spritesheet_Orange_9: 1489306324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

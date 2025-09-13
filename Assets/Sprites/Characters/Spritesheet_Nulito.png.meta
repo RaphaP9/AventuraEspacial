@@ -1,0 +1,1457 @@
+fileFormatVersion: 2
+guid: 435acf795329b0e44a5ef84a2e9ead60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1342201575223969629
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_0
+  - first:
+      213: -6243500281974023901
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_1
+  - first:
+      213: -408131267169629507
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_2
+  - first:
+      213: -9034609995580211100
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_3
+  - first:
+      213: 8550779420115227144
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_4
+  - first:
+      213: 7821409814426612687
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_5
+  - first:
+      213: 6984807847477143842
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_6
+  - first:
+      213: 4897279193526133140
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_7
+  - first:
+      213: -7993068883804744878
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_8
+  - first:
+      213: 3071173889347153637
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_9
+  - first:
+      213: -6311857933278798441
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_10
+  - first:
+      213: -7971520259781489987
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_11
+  - first:
+      213: 5393561128979561338
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_12
+  - first:
+      213: -2272676088665019511
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_13
+  - first:
+      213: 2369405350292529652
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_14
+  - first:
+      213: -8998802201578044816
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_15
+  - first:
+      213: -7448393373473318603
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_16
+  - first:
+      213: 5321773955813257529
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_17
+  - first:
+      213: -3365431914207066928
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_18
+  - first:
+      213: 3822224169288897837
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_19
+  - first:
+      213: 3500608556735559846
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_20
+  - first:
+      213: -4587404167761245422
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_21
+  - first:
+      213: 8905314531989078244
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_22
+  - first:
+      213: 3455128801887022334
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_23
+  - first:
+      213: -7882705654663036685
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_24
+  - first:
+      213: 2027749539129172438
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_25
+  - first:
+      213: -8826886985230908517
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_26
+  - first:
+      213: -2626916247647572443
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_27
+  - first:
+      213: -3274636978393294970
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_28
+  - first:
+      213: -9115449772512593479
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_29
+  - first:
+      213: -8123258770421313386
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_30
+  - first:
+      213: 518099399690140165
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_31
+  - first:
+      213: 4433157462563688287
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_32
+  - first:
+      213: -7923414885455086782
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_33
+  - first:
+      213: 5402899190345248394
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_34
+  - first:
+      213: 2713381631225676766
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_35
+  - first:
+      213: -5075751299165776076
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_36
+  - first:
+      213: 2329504169260348981
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_37
+  - first:
+      213: 5722834000822682357
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_38
+  - first:
+      213: 7235887484006339131
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_39
+  - first:
+      213: 1216374351965912879
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_40
+  - first:
+      213: -6380670248172761746
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_41
+  - first:
+      213: 6755523115721159566
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_42
+  - first:
+      213: 269578964276328782
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_43
+  - first:
+      213: -3494553898424800914
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_44
+  - first:
+      213: 9176207971629439792
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_45
+  - first:
+      213: -2252933212073044509
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_46
+  - first:
+      213: -1754704416716637389
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_47
+  - first:
+      213: -2923942574899663947
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_48
+  - first:
+      213: 84224698596776812
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_49
+  - first:
+      213: 8500201340485030333
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_50
+  - first:
+      213: -4841956803180989814
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_51
+  - first:
+      213: 1870289022296434839
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_52
+  - first:
+      213: -7296264490564848671
+    second: AbueloNulitoAlien_Minijuego1_Spritesheet_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327532b4bf59a8458e0a0b02e9fb378
+      internalID: 270509791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59f39a1019bbe94e96af62985d1a96b
+      internalID: -2024682527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_2
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b0b185b07fb5946bf9b5c0621cdc4e
+      internalID: -1213942168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_3
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a0be1cd97ca0443a004fc5e0a4dc7a
+      internalID: 376720292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_4
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cbdaa68232b7545986ac59567d0a92
+      internalID: -805881781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_5
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d581af78826e0b548a3347239f10aafa
+      internalID: 265118472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_6
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73db2e0e094a824bb9b241d24762f7e
+      internalID: 1306880687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_7
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53cc16a6e175ec45903638c94197b48
+      internalID: 1206124660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_8
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4463b767a474be4439181a2bc4449844
+      internalID: -1698618883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_9
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb903074549cce4598277126a29ceea
+      internalID: 270138926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879bf35bdb97094438dfce8496e08f49
+      internalID: 1204529555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b85712d8c36c441a81316fbee02481
+      internalID: 1111623605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_12
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42924fb00f00c7147b05e3f63b675a57
+      internalID: 1015641652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_13
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab0fc631c1a7814d9b1015237521f3d
+      internalID: 1288843382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_14
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f403aa53e79847bacb8fd6d2557e7
+      internalID: 969679539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_15
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041aa0f3be664c7429fa510813138ec6
+      internalID: 1580112936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_16
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf133445db8c1e4cbf737466aa9ed64
+      internalID: -1103139604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_17
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926ac88ca8c50a4ea48ff0b66c2c037
+      internalID: -711776760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_18
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44162700ecf95b148be95aa5f6dada69
+      internalID: -1446533843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_19
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8b9db58e7e2342a3e57eabd329332
+      internalID: -209749539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca46e1faf39c886419fcc2eccdb76513
+      internalID: 1106855138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ca70577ae6ec459bc1a5314de51b5
+      internalID: -1666087099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_22
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78972c10ea4aa0b4bb34ee65f42e6be7
+      internalID: 2078360205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_23
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e2d4a0809bcc2439dd5a4745f34a2f
+      internalID: -1144003650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_24
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebacf47f6315b14694cbea3727db3dc
+      internalID: 650221874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_25
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc450447bce28414196dd50b44376699
+      internalID: 1449969313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_26
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693541f668491b419eb73815e240172
+      internalID: -1788077440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_27
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2bcef49b7749d49a45caf0c60b5f49
+      internalID: -894599189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_28
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f7713326391943bf63df94c42ee21
+      internalID: -2119284829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_29
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef0b00cc8826e64aa7359f1dd2eac8b
+      internalID: 1747137498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066990151a8a18f4eb325032be5cb821
+      internalID: 1874298556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ef3286daa9644aad4046b50b5780b
+      internalID: 656025845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_32
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08e8c219bcd7dc47b0988d27e525f27
+      internalID: 2020301862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_33
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54c54a6e00f8534184d871b5fad9c28
+      internalID: 380457980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_34
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce6577ff6e7da47a92b92ab1c14b15
+      internalID: -1387411532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_35
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b6b9eb416bff44b578e572bea94d2
+      internalID: 1052678119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_36
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5135fbd0a5956a042a58b68fd8c23104
+      internalID: -1758546300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_37
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275e4a0394c21d04985332944eaae9ce
+      internalID: 1476509746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_38
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed80a6fd8da6ee47b401db245f29b45
+      internalID: 1303825185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_39
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e2a00b08e1374c8b509d793001ca8
+      internalID: -1673291409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87177e19d33f9634ea7bf382662f36df
+      internalID: -648109723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_41
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed404fe5d41ad9845a8893adcb06c2b0
+      internalID: 1008619806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_42
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe69c51c1f4f8409dbb626b8d396e2
+      internalID: 729099286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_43
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8536c09fef93da647ab47e7477d96ca8
+      internalID: 1789996450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_44
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0df075add6c554fb3edb1a406b9cff
+      internalID: -717106591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_45
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756e321cda9071b41bb5599b402d3eee
+      internalID: -914164297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_46
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9174cd0cc7e04ae4fb89831cd35557a5
+      internalID: -907500113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_47
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef4b39b3f187f4b8a5ca3774bc969f
+      internalID: -1330220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_48
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e6b9d8c8fe7e84f9ac684381a63cc8
+      internalID: -1015333331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Nulito_49
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e3f47309296f45b8898699680c0bb
+      internalID: 1858494950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e37883449f9e2464893900672258f71e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":486.0,"y":486.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Nulito_0: 270509791
+      Spritesheet_Nulito_1: -2024682527
+      Spritesheet_Nulito_10: 1204529555
+      Spritesheet_Nulito_11: 1111623605
+      Spritesheet_Nulito_12: 1015641652
+      Spritesheet_Nulito_13: 1288843382
+      Spritesheet_Nulito_14: 969679539
+      Spritesheet_Nulito_15: 1580112936
+      Spritesheet_Nulito_16: -1103139604
+      Spritesheet_Nulito_17: -711776760
+      Spritesheet_Nulito_18: -1446533843
+      Spritesheet_Nulito_19: -209749539
+      Spritesheet_Nulito_2: -1213942168
+      Spritesheet_Nulito_20: 1106855138
+      Spritesheet_Nulito_21: -1666087099
+      Spritesheet_Nulito_22: 2078360205
+      Spritesheet_Nulito_23: -1144003650
+      Spritesheet_Nulito_24: 650221874
+      Spritesheet_Nulito_25: 1449969313
+      Spritesheet_Nulito_26: -1788077440
+      Spritesheet_Nulito_27: -894599189
+      Spritesheet_Nulito_28: -2119284829
+      Spritesheet_Nulito_29: 1747137498
+      Spritesheet_Nulito_3: 376720292
+      Spritesheet_Nulito_30: 1874298556
+      Spritesheet_Nulito_31: 656025845
+      Spritesheet_Nulito_32: 2020301862
+      Spritesheet_Nulito_33: 380457980
+      Spritesheet_Nulito_34: -1387411532
+      Spritesheet_Nulito_35: 1052678119
+      Spritesheet_Nulito_36: -1758546300
+      Spritesheet_Nulito_37: 1476509746
+      Spritesheet_Nulito_38: 1303825185
+      Spritesheet_Nulito_39: -1673291409
+      Spritesheet_Nulito_4: -805881781
+      Spritesheet_Nulito_40: -648109723
+      Spritesheet_Nulito_41: 1008619806
+      Spritesheet_Nulito_42: 729099286
+      Spritesheet_Nulito_43: 1789996450
+      Spritesheet_Nulito_44: -717106591
+      Spritesheet_Nulito_45: -914164297
+      Spritesheet_Nulito_46: -907500113
+      Spritesheet_Nulito_47: -1330220
+      Spritesheet_Nulito_48: -1015333331
+      Spritesheet_Nulito_49: 1858494950
+      Spritesheet_Nulito_5: 265118472
+      Spritesheet_Nulito_6: 1306880687
+      Spritesheet_Nulito_7: 1206124660
+      Spritesheet_Nulito_8: -1698618883
+      Spritesheet_Nulito_9: 270138926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

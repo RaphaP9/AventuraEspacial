@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: bbd6ccad09ff59b40af91045f461598e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4829870507413597723
+    second: OvniNulito_Minijuego1_Spritesheet_0
+  - first:
+      213: 807895197141743231
+    second: OvniNulito_Minijuego1_Spritesheet_1
+  - first:
+      213: -6116007411456827156
+    second: OvniNulito_Minijuego1_Spritesheet_2
+  - first:
+      213: -1277217133614111225
+    second: OvniNulito_Minijuego1_Spritesheet_3
+  - first:
+      213: 6787217467265528636
+    second: OvniNulito_Minijuego1_Spritesheet_4
+  - first:
+      213: -808777845200361796
+    second: OvniNulito_Minijuego1_Spritesheet_5
+  - first:
+      213: 3636097885707214448
+    second: OvniNulito_Minijuego1_Spritesheet_6
+  - first:
+      213: -5377355005554354454
+    second: OvniNulito_Minijuego1_Spritesheet_7
+  - first:
+      213: 5029302796225197891
+    second: OvniNulito_Minijuego1_Spritesheet_8
+  - first:
+      213: -3787080763225237757
+    second: OvniNulito_Minijuego1_Spritesheet_9
+  - first:
+      213: -8733436610795726829
+    second: OvniNulito_Minijuego1_Spritesheet_10
+  - first:
+      213: -2595716390258417676
+    second: OvniNulito_Minijuego1_Spritesheet_11
+  - first:
+      213: 3213103780693530145
+    second: OvniNulito_Minijuego1_Spritesheet_12
+  - first:
+      213: -9199635244734535041
+    second: OvniNulito_Minijuego1_Spritesheet_13
+  - first:
+      213: 6742553260781875306
+    second: OvniNulito_Minijuego1_Spritesheet_14
+  - first:
+      213: 7662109061266994197
+    second: OvniNulito_Minijuego1_Spritesheet_15
+  - first:
+      213: 5867179168787703862
+    second: OvniNulito_Minijuego1_Spritesheet_16
+  - first:
+      213: 6909245547839262817
+    second: OvniNulito_Minijuego1_Spritesheet_17
+  - first:
+      213: -5481100924373900492
+    second: OvniNulito_Minijuego1_Spritesheet_18
+  - first:
+      213: -7225096154603078117
+    second: OvniNulito_Minijuego1_Spritesheet_19
+  - first:
+      213: -4351621389264082500
+    second: OvniNulito_Minijuego1_Spritesheet_20
+  - first:
+      213: 712413953982094690
+    second: OvniNulito_Minijuego1_Spritesheet_21
+  - first:
+      213: -1863224257826575021
+    second: OvniNulito_Minijuego1_Spritesheet_22
+  - first:
+      213: -7249634946463167154
+    second: OvniNulito_Minijuego1_Spritesheet_23
+  - first:
+      213: 8449368587853579329
+    second: OvniNulito_Minijuego1_Spritesheet_24
+  - first:
+      213: 1648139513752614977
+    second: OvniNulito_Minijuego1_Spritesheet_25
+  - first:
+      213: 4778204398500812892
+    second: OvniNulito_Minijuego1_Spritesheet_26
+  - first:
+      213: 5870738088990320520
+    second: OvniNulito_Minijuego1_Spritesheet_27
+  - first:
+      213: -6440687139170543442
+    second: OvniNulito_Minijuego1_Spritesheet_28
+  - first:
+      213: -9105289383152482462
+    second: OvniNulito_Minijuego1_Spritesheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4134d420005e5524798cb8a453bde91f
+      internalID: -1956927758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381219508d07ca41a18473213abed1a
+      internalID: -198750424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_2
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2a10ac745653d4ea90f8ce894def0b
+      internalID: 124376202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_3
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a3be514fe58be42a676c7e9546c732
+      internalID: -437668795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_4
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fc3b30de7cf7948a25d2d662ab3109
+      internalID: 2009400889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_5
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356386ccd3ac8ec49925589ab3051a83
+      internalID: -1995085724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_6
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1944
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbdd0371b8fa604cbffe7d31f0d9d14
+      internalID: -2137887221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a645ee1a16dc844a2542f5adb2799b
+      internalID: -843987938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_8
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340510210d73b624493de8493820d946
+      internalID: -1657150128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_9
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7834e1e69f384e8bf84e8efe5be66
+      internalID: -1680447780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_10
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209c8cc0c2d367649a89a201a59fc477
+      internalID: 1225475825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_11
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6b461c443cb32459d16d6bedae8008
+      internalID: -38269827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_12
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd3c90f15dcf444f972a289d3e6b590
+      internalID: 370326230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_13
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1458
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31d252a8743f3488ac1228a4bf9893
+      internalID: 1560163983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc22108fb7d1d149a593f1d85821bf5
+      internalID: -834804215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a144ed223cfac104e94883ee7ed76c9c
+      internalID: -1136737536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_16
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ba989de03dff4f8ce0e8d7d935506
+      internalID: 118306771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_17
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa67371408fe374593773eac9add674
+      internalID: 612508960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_18
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce3382b81a57140a8fe46f03c4ddce
+      internalID: 290157012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_19
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff58ed8e477a6446b504a008a7490df
+      internalID: 51131558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_20
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 972
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b0e9d90e13514aa9ff9e3a6eb78fd
+      internalID: 1581252811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01d5e084ceaedc4bb7f3733708b8e16
+      internalID: 1029017696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_22
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a920e69348f1de84f83f16232361fb21
+      internalID: 1058716975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_23
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5edaca35077db46a8bbd539eab1c5a
+      internalID: 1979890147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_24
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc2626e649a86a47992cb7572f99de3
+      internalID: 1680081811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_25
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea82fec5959591242a62376f4828656a
+      internalID: 1767091177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_26
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f86a0a7ba44eca4b8f11adb113cee7f
+      internalID: -253453312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_27
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 486
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a85f310af63ac4ba74882e1b9946aa
+      internalID: -117957659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2d08cf2e469044d82ae8775d8a1f6c
+      internalID: -725072312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Ovni_29
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d72dfeac4523e458eea0e23aa0dbb9
+      internalID: 1445947670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 95f2458cd56aca44c986d557a44a745b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":486.0,"y":486.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Ovni_0: -1956927758
+      Spritesheet_Ovni_1: -198750424
+      Spritesheet_Ovni_10: 1225475825
+      Spritesheet_Ovni_11: -38269827
+      Spritesheet_Ovni_12: 370326230
+      Spritesheet_Ovni_13: 1560163983
+      Spritesheet_Ovni_14: -834804215
+      Spritesheet_Ovni_15: -1136737536
+      Spritesheet_Ovni_16: 118306771
+      Spritesheet_Ovni_17: 612508960
+      Spritesheet_Ovni_18: 290157012
+      Spritesheet_Ovni_19: 51131558
+      Spritesheet_Ovni_2: 124376202
+      Spritesheet_Ovni_20: 1581252811
+      Spritesheet_Ovni_21: 1029017696
+      Spritesheet_Ovni_22: 1058716975
+      Spritesheet_Ovni_23: 1979890147
+      Spritesheet_Ovni_24: 1680081811
+      Spritesheet_Ovni_25: 1767091177
+      Spritesheet_Ovni_26: -253453312
+      Spritesheet_Ovni_27: -117957659
+      Spritesheet_Ovni_28: -725072312
+      Spritesheet_Ovni_29: 1445947670
+      Spritesheet_Ovni_3: -437668795
+      Spritesheet_Ovni_4: 2009400889
+      Spritesheet_Ovni_5: -1995085724
+      Spritesheet_Ovni_6: -2137887221
+      Spritesheet_Ovni_7: -843987938
+      Spritesheet_Ovni_8: -1657150128
+      Spritesheet_Ovni_9: -1680447780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1990 @@
+fileFormatVersion: 2
+guid: 584cefb28074b864aa771cec6b6393bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3085660139932999318
+    second: Morado_Minijuego1_Spritesheet_0
+  - first:
+      213: -5423639256295463446
+    second: Morado_Minijuego1_Spritesheet_1
+  - first:
+      213: -937540630995084462
+    second: Morado_Minijuego1_Spritesheet_2
+  - first:
+      213: 2161198233076332613
+    second: Morado_Minijuego1_Spritesheet_3
+  - first:
+      213: 1477271473801563562
+    second: Morado_Minijuego1_Spritesheet_4
+  - first:
+      213: -7178184436299534423
+    second: Morado_Minijuego1_Spritesheet_5
+  - first:
+      213: 7990703932924252938
+    second: Morado_Minijuego1_Spritesheet_6
+  - first:
+      213: 6416306235010194102
+    second: Morado_Minijuego1_Spritesheet_7
+  - first:
+      213: -7678488278919285579
+    second: Morado_Minijuego1_Spritesheet_8
+  - first:
+      213: -8245085694687050812
+    second: Morado_Minijuego1_Spritesheet_9
+  - first:
+      213: 7861383687152834175
+    second: Morado_Minijuego1_Spritesheet_10
+  - first:
+      213: -5774589716079950962
+    second: Morado_Minijuego1_Spritesheet_11
+  - first:
+      213: 7163572073127067093
+    second: Morado_Minijuego1_Spritesheet_12
+  - first:
+      213: 1967734331077396958
+    second: Morado_Minijuego1_Spritesheet_13
+  - first:
+      213: 2474971288166569955
+    second: Morado_Minijuego1_Spritesheet_14
+  - first:
+      213: 4841494559639198779
+    second: Morado_Minijuego1_Spritesheet_15
+  - first:
+      213: -2341538801778620597
+    second: Morado_Minijuego1_Spritesheet_16
+  - first:
+      213: 762251000369949593
+    second: Morado_Minijuego1_Spritesheet_17
+  - first:
+      213: 3514037490479680563
+    second: Morado_Minijuego1_Spritesheet_18
+  - first:
+      213: -7816788286339751085
+    second: Morado_Minijuego1_Spritesheet_19
+  - first:
+      213: -8589771904736428792
+    second: Morado_Minijuego1_Spritesheet_20
+  - first:
+      213: -1386944051976195470
+    second: Morado_Minijuego1_Spritesheet_21
+  - first:
+      213: 1570141586139836074
+    second: Morado_Minijuego1_Spritesheet_22
+  - first:
+      213: -1627131708490258041
+    second: Morado_Minijuego1_Spritesheet_23
+  - first:
+      213: 5934723851086913389
+    second: Morado_Minijuego1_Spritesheet_24
+  - first:
+      213: -5667593945085835044
+    second: Morado_Minijuego1_Spritesheet_25
+  - first:
+      213: 7858231620631587903
+    second: Morado_Minijuego1_Spritesheet_26
+  - first:
+      213: 2833815661327986067
+    second: Morado_Minijuego1_Spritesheet_27
+  - first:
+      213: 4593685929981585290
+    second: Morado_Minijuego1_Spritesheet_28
+  - first:
+      213: -7687300064549594359
+    second: Morado_Minijuego1_Spritesheet_29
+  - first:
+      213: -6430352377346382611
+    second: Morado_Minijuego1_Spritesheet_30
+  - first:
+      213: -3865791652007887926
+    second: Morado_Minijuego1_Spritesheet_31
+  - first:
+      213: -8934670898726849660
+    second: Morado_Minijuego1_Spritesheet_32
+  - first:
+      213: 7830727383946325832
+    second: Morado_Minijuego1_Spritesheet_33
+  - first:
+      213: 2230977930955873911
+    second: Morado_Minijuego1_Spritesheet_34
+  - first:
+      213: -7716173304015492173
+    second: Morado_Minijuego1_Spritesheet_35
+  - first:
+      213: -5489274173335008095
+    second: Morado_Minijuego1_Spritesheet_36
+  - first:
+      213: 3626770233028870261
+    second: Morado_Minijuego1_Spritesheet_37
+  - first:
+      213: 8298533328370888802
+    second: Morado_Minijuego1_Spritesheet_38
+  - first:
+      213: 2656254129406584503
+    second: Morado_Minijuego1_Spritesheet_39
+  - first:
+      213: 4817849210922312227
+    second: Morado_Minijuego1_Spritesheet_40
+  - first:
+      213: 223445505414268829
+    second: Morado_Minijuego1_Spritesheet_41
+  - first:
+      213: -6411149956584705197
+    second: Morado_Minijuego1_Spritesheet_42
+  - first:
+      213: 8165813935283671932
+    second: Morado_Minijuego1_Spritesheet_43
+  - first:
+      213: 3917466317076187242
+    second: Morado_Minijuego1_Spritesheet_44
+  - first:
+      213: 6071087017989299251
+    second: Morado_Minijuego1_Spritesheet_45
+  - first:
+      213: -6202237033332533682
+    second: Morado_Minijuego1_Spritesheet_46
+  - first:
+      213: 6643684828708208748
+    second: Morado_Minijuego1_Spritesheet_47
+  - first:
+      213: 3410647359926402535
+    second: Morado_Minijuego1_Spritesheet_48
+  - first:
+      213: 4024131997048145175
+    second: Morado_Minijuego1_Spritesheet_49
+  - first:
+      213: 1623246845438480986
+    second: Morado_Minijuego1_Spritesheet_50
+  - first:
+      213: -849555915797647486
+    second: Morado_Minijuego1_Spritesheet_51
+  - first:
+      213: 4102830730572314212
+    second: Morado_Minijuego1_Spritesheet_52
+  - first:
+      213: 408950799686665506
+    second: Morado_Minijuego1_Spritesheet_53
+  - first:
+      213: -4205461559196348729
+    second: Morado_Minijuego1_Spritesheet_54
+  - first:
+      213: 3784103548955949064
+    second: Morado_Minijuego1_Spritesheet_55
+  - first:
+      213: 6310743365552543720
+    second: Morado_Minijuego1_Spritesheet_56
+  - first:
+      213: -5102501811124793543
+    second: Morado_Minijuego1_Spritesheet_57
+  - first:
+      213: 5952322276638991168
+    second: Morado_Minijuego1_Spritesheet_58
+  - first:
+      213: 2531036014176114725
+    second: Morado_Minijuego1_Spritesheet_59
+  - first:
+      213: -3976127098929920417
+    second: Morado_Minijuego1_Spritesheet_60
+  - first:
+      213: -9080875041582774829
+    second: Morado_Minijuego1_Spritesheet_61
+  - first:
+      213: -3103422992016613964
+    second: Morado_Minijuego1_Spritesheet_62
+  - first:
+      213: -5990990381764642339
+    second: Morado_Minijuego1_Spritesheet_63
+  - first:
+      213: 1562097869315002410
+    second: Morado_Minijuego1_Spritesheet_64
+  - first:
+      213: -7780168111324824059
+    second: Morado_Minijuego1_Spritesheet_65
+  - first:
+      213: -4598245805398078537
+    second: Morado_Minijuego1_Spritesheet_66
+  - first:
+      213: -6185092402416362666
+    second: Morado_Minijuego1_Spritesheet_67
+  - first:
+      213: 8216750787583767666
+    second: Morado_Minijuego1_Spritesheet_68
+  - first:
+      213: -1555824645663943786
+    second: Morado_Minijuego1_Spritesheet_69
+  - first:
+      213: 1127524097338896528
+    second: Morado_Minijuego1_Spritesheet_70
+  - first:
+      213: 5948276040061959374
+    second: Morado_Minijuego1_Spritesheet_71
+  - first:
+      213: 3636393791632941331
+    second: Morado_Minijuego1_Spritesheet_72
+  - first:
+      213: -4016729486811213488
+    second: Morado_Minijuego1_Spritesheet_73
+  - first:
+      213: 178775492235556748
+    second: Morado_Minijuego1_Spritesheet_74
+  - first:
+      213: -7104738900686931089
+    second: Morado_Minijuego1_Spritesheet_75
+  - first:
+      213: 4540248294820928890
+    second: Morado_Minijuego1_Spritesheet_76
+  - first:
+      213: 8091907635446622636
+    second: Morado_Minijuego1_Spritesheet_77
+  - first:
+      213: 6825053881869651538
+    second: Morado_Minijuego1_Spritesheet_78
+  - first:
+      213: -1748271336251140271
+    second: Morado_Minijuego1_Spritesheet_79
+  - first:
+      213: -6855967969028958069
+    second: Morado_Minijuego1_Spritesheet_80
+  - first:
+      213: -6972620345611750057
+    second: Morado_Minijuego1_Spritesheet_81
+  - first:
+      213: 6188402544534729394
+    second: Morado_Minijuego1_Spritesheet_82
+  - first:
+      213: 7816306098365113221
+    second: Morado_Minijuego1_Spritesheet_83
+  - first:
+      213: 5779870536323594549
+    second: Morado_Minijuego1_Spritesheet_84
+  - first:
+      213: -8231703176971606380
+    second: Morado_Minijuego1_Spritesheet_85
+  - first:
+      213: -4459896698656763429
+    second: Morado_Minijuego1_Spritesheet_86
+  - first:
+      213: -7043341991831917242
+    second: Morado_Minijuego1_Spritesheet_87
+  - first:
+      213: -1304073274656628143
+    second: Morado_Minijuego1_Spritesheet_88
+  - first:
+      213: 3691609171434078522
+    second: Morado_Minijuego1_Spritesheet_89
+  - first:
+      213: -6050415233795010870
+    second: Morado_Minijuego1_Spritesheet_90
+  - first:
+      213: -8483949711349143862
+    second: Morado_Minijuego1_Spritesheet_91
+  - first:
+      213: -2011587497900073629
+    second: Morado_Minijuego1_Spritesheet_92
+  - first:
+      213: 4347272322461892759
+    second: Morado_Minijuego1_Spritesheet_93
+  - first:
+      213: -4649092603932772038
+    second: Morado_Minijuego1_Spritesheet_94
+  - first:
+      213: -2153989855768251012
+    second: Morado_Minijuego1_Spritesheet_95
+  - first:
+      213: -2949361242026021313
+    second: Morado_Minijuego1_Spritesheet_96
+  - first:
+      213: 470933340185862950
+    second: Morado_Minijuego1_Spritesheet_97
+  - first:
+      213: -5464548542869232281
+    second: Morado_Minijuego1_Spritesheet_98
+  - first:
+      213: 1019042178091629636
+    second: Morado_Minijuego1_Spritesheet_99
+  - first:
+      213: 4442132039965663462
+    second: Morado_Minijuego1_Spritesheet_100
+  - first:
+      213: -878018963649886671
+    second: Morado_Minijuego1_Spritesheet_101
+  - first:
+      213: 1042621946194931016
+    second: Morado_Minijuego1_Spritesheet_102
+  - first:
+      213: 408745168022644788
+    second: Morado_Minijuego1_Spritesheet_103
+  - first:
+      213: 566364051369332974
+    second: Morado_Minijuego1_Spritesheet_104
+  - first:
+      213: -7089640646226977091
+    second: Morado_Minijuego1_Spritesheet_105
+  - first:
+      213: 5750539355495121254
+    second: Morado_Minijuego1_Spritesheet_106
+  - first:
+      213: -1489767179358873422
+    second: Morado_Minijuego1_Spritesheet_107
+  - first:
+      213: 6857699751518822506
+    second: Morado_Minijuego1_Spritesheet_108
+  - first:
+      213: 4183561728256680536
+    second: Morado_Minijuego1_Spritesheet_109
+  - first:
+      213: 5947398231579110905
+    second: Morado_Minijuego1_Spritesheet_110
+  - first:
+      213: 7251590527976382877
+    second: Morado_Minijuego1_Spritesheet_111
+  - first:
+      213: -5268762266135010699
+    second: Morado_Minijuego1_Spritesheet_112
+  - first:
+      213: -81340671986886098
+    second: Morado_Minijuego1_Spritesheet_113
+  - first:
+      213: 5457843483895380048
+    second: Morado_Minijuego1_Spritesheet_114
+  - first:
+      213: -4510937307319148564
+    second: Morado_Minijuego1_Spritesheet_115
+  - first:
+      213: -2755443948942585499
+    second: Morado_Minijuego1_Spritesheet_116
+  - first:
+      213: 3884245341024715421
+    second: Morado_Minijuego1_Spritesheet_117
+  - first:
+      213: 9032272115127153832
+    second: Morado_Minijuego1_Spritesheet_118
+  - first:
+      213: 5511875544780821229
+    second: Morado_Minijuego1_Spritesheet_119
+  - first:
+      213: -7563004057009660382
+    second: Morado_Minijuego1_Spritesheet_120
+  - first:
+      213: 8689803646499804844
+    second: Morado_Minijuego1_Spritesheet_121
+  - first:
+      213: -7133429156579887397
+    second: Morado_Minijuego1_Spritesheet_122
+  - first:
+      213: -7026530749375163342
+    second: Morado_Minijuego1_Spritesheet_123
+  - first:
+      213: 6866432088185001516
+    second: Morado_Minijuego1_Spritesheet_124
+  - first:
+      213: 2846063448086371615
+    second: Morado_Minijuego1_Spritesheet_125
+  - first:
+      213: -5919908467333230260
+    second: Morado_Minijuego1_Spritesheet_126
+  - first:
+      213: -6218021867111079343
+    second: Morado_Minijuego1_Spritesheet_127
+  - first:
+      213: -1209139115396762737
+    second: Morado_Minijuego1_Spritesheet_128
+  - first:
+      213: 4045369619808977814
+    second: Morado_Minijuego1_Spritesheet_129
+  - first:
+      213: 6553670189802034899
+    second: Morado_Minijuego1_Spritesheet_130
+  - first:
+      213: 5615310923700032212
+    second: Morado_Minijuego1_Spritesheet_131
+  - first:
+      213: -2497507217726579655
+    second: Morado_Minijuego1_Spritesheet_132
+  - first:
+      213: 2308830504072513391
+    second: Morado_Minijuego1_Spritesheet_133
+  - first:
+      213: -3269318666220901706
+    second: Morado_Minijuego1_Spritesheet_134
+  - first:
+      213: 1866780383418932274
+    second: Morado_Minijuego1_Spritesheet_135
+  - first:
+      213: 5739670645628412057
+    second: Morado_Minijuego1_Spritesheet_136
+  - first:
+      213: -998902134111099449
+    second: Morado_Minijuego1_Spritesheet_137
+  - first:
+      213: -5746816253881804434
+    second: Morado_Minijuego1_Spritesheet_138
+  - first:
+      213: 3347681301667832831
+    second: Morado_Minijuego1_Spritesheet_139
+  - first:
+      213: -4628481683286822302
+    second: Morado_Minijuego1_Spritesheet_140
+  - first:
+      213: 1445535889678289709
+    second: Morado_Minijuego1_Spritesheet_141
+  - first:
+      213: 8234217617522788799
+    second: Morado_Minijuego1_Spritesheet_142
+  - first:
+      213: -5810779887355445077
+    second: Morado_Minijuego1_Spritesheet_143
+  - first:
+      213: -6865369246371913306
+    second: Morado_Minijuego1_Spritesheet_144
+  - first:
+      213: -3158749826200866860
+    second: Morado_Minijuego1_Spritesheet_145
+  - first:
+      213: -5401023236486571798
+    second: Morado_Minijuego1_Spritesheet_146
+  - first:
+      213: -576396112833904614
+    second: Morado_Minijuego1_Spritesheet_147
+  - first:
+      213: 6555042426409683380
+    second: Morado_Minijuego1_Spritesheet_148
+  - first:
+      213: 3288343561800850909
+    second: Morado_Minijuego1_Spritesheet_149
+  - first:
+      213: -4938227693451529040
+    second: Morado_Minijuego1_Spritesheet_150
+  - first:
+      213: 7707245293415790553
+    second: Morado_Minijuego1_Spritesheet_151
+  - first:
+      213: -734569486270187809
+    second: Morado_Minijuego1_Spritesheet_152
+  - first:
+      213: 8873007442332462180
+    second: Morado_Minijuego1_Spritesheet_153
+  - first:
+      213: -6375887973277775966
+    second: Morado_Minijuego1_Spritesheet_154
+  - first:
+      213: -8549792815195505545
+    second: Morado_Minijuego1_Spritesheet_155
+  - first:
+      213: 6263875369112866542
+    second: Morado_Minijuego1_Spritesheet_156
+  - first:
+      213: 3440857410292681101
+    second: Morado_Minijuego1_Spritesheet_157
+  - first:
+      213: 8547527657586211364
+    second: Morado_Minijuego1_Spritesheet_158
+  - first:
+      213: 4420665297846202073
+    second: Morado_Minijuego1_Spritesheet_159
+  - first:
+      213: -4056636562461489546
+    second: Morado_Minijuego1_Spritesheet_160
+  - first:
+      213: 2031141448102700335
+    second: Morado_Minijuego1_Spritesheet_161
+  - first:
+      213: -3091215088888447076
+    second: Morado_Minijuego1_Spritesheet_162
+  - first:
+      213: 9173144296062896831
+    second: Morado_Minijuego1_Spritesheet_163
+  - first:
+      213: -3133763220884840602
+    second: Morado_Minijuego1_Spritesheet_164
+  - first:
+      213: 1071121782849767528
+    second: Morado_Minijuego1_Spritesheet_165
+  - first:
+      213: -2508360468561235181
+    second: Morado_Minijuego1_Spritesheet_166
+  - first:
+      213: -8516424305656692250
+    second: Morado_Minijuego1_Spritesheet_167
+  - first:
+      213: 5916755335347310893
+    second: Morado_Minijuego1_Spritesheet_168
+  - first:
+      213: -4284104068946908285
+    second: Morado_Minijuego1_Spritesheet_169
+  - first:
+      213: -6677488573103307418
+    second: Morado_Minijuego1_Spritesheet_170
+  - first:
+      213: -2697159033684757567
+    second: Morado_Minijuego1_Spritesheet_171
+  - first:
+      213: -4200634152904848124
+    second: Morado_Minijuego1_Spritesheet_172
+  - first:
+      213: 4363863369179549911
+    second: Morado_Minijuego1_Spritesheet_173
+  - first:
+      213: 7679439920490587386
+    second: Morado_Minijuego1_Spritesheet_174
+  - first:
+      213: -6089983510997264854
+    second: Morado_Minijuego1_Spritesheet_175
+  - first:
+      213: -7979691493151216094
+    second: Morado_Minijuego1_Spritesheet_176
+  - first:
+      213: -7258218943599779795
+    second: Morado_Minijuego1_Spritesheet_177
+  - first:
+      213: 6240430096702651614
+    second: Morado_Minijuego1_Spritesheet_178
+  - first:
+      213: -1659889954082641150
+    second: Morado_Minijuego1_Spritesheet_179
+  - first:
+      213: 8663985685215889659
+    second: Morado_Minijuego1_Spritesheet_180
+  - first:
+      213: 7814584726687249463
+    second: Morado_Minijuego1_Spritesheet_181
+  - first:
+      213: 8131622059547595539
+    second: Morado_Minijuego1_Spritesheet_182
+  - first:
+      213: -6741835973008955007
+    second: Morado_Minijuego1_Spritesheet_183
+  - first:
+      213: -2994469116727651839
+    second: Morado_Minijuego1_Spritesheet_184
+  - first:
+      213: -7680816401749194970
+    second: Morado_Minijuego1_Spritesheet_185
+  - first:
+      213: -6085639781620245922
+    second: Morado_Minijuego1_Spritesheet_186
+  - first:
+      213: 5305866316027924627
+    second: Morado_Minijuego1_Spritesheet_187
+  - first:
+      213: 7529415015416666563
+    second: Morado_Minijuego1_Spritesheet_188
+  - first:
+      213: 2081207573121308472
+    second: Morado_Minijuego1_Spritesheet_189
+  - first:
+      213: 297831231569257888
+    second: Morado_Minijuego1_Spritesheet_190
+  - first:
+      213: -356966443765966350
+    second: Morado_Minijuego1_Spritesheet_191
+  - first:
+      213: 2454410375758859617
+    second: Morado_Minijuego1_Spritesheet_192
+  - first:
+      213: -4073629530575801671
+    second: Morado_Minijuego1_Spritesheet_193
+  - first:
+      213: -8818060125108937847
+    second: Morado_Minijuego1_Spritesheet_194
+  - first:
+      213: 1981887687773124195
+    second: Morado_Minijuego1_Spritesheet_195
+  - first:
+      213: 3130800097017747019
+    second: Morado_Minijuego1_Spritesheet_196
+  - first:
+      213: -4889637657793176213
+    second: Morado_Minijuego1_Spritesheet_197
+  - first:
+      213: -7840730121658060291
+    second: Morado_Minijuego1_Spritesheet_198
+  - first:
+      213: 7482806363524330060
+    second: Morado_Minijuego1_Spritesheet_199
+  - first:
+      213: -1828291135808818798
+    second: Morado_Minijuego1_Spritesheet_200
+  - first:
+      213: 8487355469127342594
+    second: Morado_Minijuego1_Spritesheet_201
+  - first:
+      213: -6197123955848929995
+    second: Morado_Minijuego1_Spritesheet_202
+  - first:
+      213: -4652521333531796431
+    second: Morado_Minijuego1_Spritesheet_203
+  - first:
+      213: -3621468559334242380
+    second: Morado_Minijuego1_Spritesheet_204
+  - first:
+      213: 9095369622134865322
+    second: Morado_Minijuego1_Spritesheet_205
+  - first:
+      213: 8124639445295882111
+    second: Morado_Minijuego1_Spritesheet_206
+  - first:
+      213: -8646035988701074033
+    second: Morado_Minijuego1_Spritesheet_207
+  - first:
+      213: -3983779598139654152
+    second: Morado_Minijuego1_Spritesheet_208
+  - first:
+      213: 4711611081178049777
+    second: Morado_Minijuego1_Spritesheet_209
+  - first:
+      213: -7114064628338649093
+    second: Morado_Minijuego1_Spritesheet_210
+  - first:
+      213: -3474659241997268702
+    second: Morado_Minijuego1_Spritesheet_211
+  - first:
+      213: 7118954483932412074
+    second: Morado_Minijuego1_Spritesheet_212
+  - first:
+      213: -4946577271573089756
+    second: Morado_Minijuego1_Spritesheet_213
+  - first:
+      213: 2803409786778632593
+    second: Morado_Minijuego1_Spritesheet_214
+  - first:
+      213: -2810411197617548133
+    second: Morado_Minijuego1_Spritesheet_215
+  - first:
+      213: -1581178786164119658
+    second: Morado_Minijuego1_Spritesheet_216
+  - first:
+      213: 867994871136098277
+    second: Morado_Minijuego1_Spritesheet_217
+  - first:
+      213: -6490623447506599038
+    second: Morado_Minijuego1_Spritesheet_218
+  - first:
+      213: 3440667882741824418
+    second: Morado_Minijuego1_Spritesheet_219
+  - first:
+      213: 1384073559917487360
+    second: Morado_Minijuego1_Spritesheet_220
+  - first:
+      213: 7827948834669722508
+    second: Morado_Minijuego1_Spritesheet_221
+  - first:
+      213: 7062278406779173572
+    second: Morado_Minijuego1_Spritesheet_222
+  - first:
+      213: -1267774082423412405
+    second: Morado_Minijuego1_Spritesheet_223
+  - first:
+      213: 3360019653711977832
+    second: Morado_Minijuego1_Spritesheet_224
+  - first:
+      213: 8934897835784596253
+    second: Morado_Minijuego1_Spritesheet_225
+  - first:
+      213: 6894745555787594901
+    second: Morado_Minijuego1_Spritesheet_226
+  - first:
+      213: 6908877242212305209
+    second: Morado_Minijuego1_Spritesheet_227
+  - first:
+      213: 8318112685428990912
+    second: Morado_Minijuego1_Spritesheet_228
+  - first:
+      213: 3415332135442179995
+    second: Morado_Minijuego1_Spritesheet_229
+  - first:
+      213: 3481112547223516935
+    second: Morado_Minijuego1_Spritesheet_230
+  - first:
+      213: -4663281882905939397
+    second: Morado_Minijuego1_Spritesheet_231
+  - first:
+      213: -9020217515172849716
+    second: Morado_Minijuego1_Spritesheet_232
+  - first:
+      213: -7742072637955357176
+    second: Morado_Minijuego1_Spritesheet_233
+  - first:
+      213: -3193460660647352781
+    second: Morado_Minijuego1_Spritesheet_234
+  - first:
+      213: -8285143088431747618
+    second: Morado_Minijuego1_Spritesheet_235
+  - first:
+      213: 3395484354981320715
+    second: Morado_Minijuego1_Spritesheet_236
+  - first:
+      213: -682587517456435768
+    second: Morado_Minijuego1_Spritesheet_237
+  - first:
+      213: -5169052681009787152
+    second: Morado_Minijuego1_Spritesheet_238
+  - first:
+      213: -1691522022072932170
+    second: Morado_Minijuego1_Spritesheet_239
+  - first:
+      213: -5171871240241001607
+    second: Morado_Minijuego1_Spritesheet_240
+  - first:
+      213: -8835151834978600927
+    second: Morado_Minijuego1_Spritesheet_241
+  - first:
+      213: 6609683945371675558
+    second: Morado_Minijuego1_Spritesheet_242
+  - first:
+      213: 3398360606765340234
+    second: Morado_Minijuego1_Spritesheet_243
+  - first:
+      213: 3065430911995139867
+    second: Morado_Minijuego1_Spritesheet_244
+  - first:
+      213: -7113659259766238315
+    second: Morado_Minijuego1_Spritesheet_245
+  - first:
+      213: 7119016592797282578
+    second: Morado_Minijuego1_Spritesheet_246
+  - first:
+      213: -1300273917798437863
+    second: Morado_Minijuego1_Spritesheet_247
+  - first:
+      213: 3201761867678006674
+    second: Morado_Minijuego1_Spritesheet_248
+  - first:
+      213: 6811386742486442243
+    second: Morado_Minijuego1_Spritesheet_249
+  - first:
+      213: 2158973932031107434
+    second: Morado_Minijuego1_Spritesheet_250
+  - first:
+      213: 8310562379922599885
+    second: Morado_Minijuego1_Spritesheet_251
+  - first:
+      213: 1500164738431236132
+    second: Morado_Minijuego1_Spritesheet_252
+  - first:
+      213: 4600976274386671024
+    second: Morado_Minijuego1_Spritesheet_253
+  - first:
+      213: 858917911793731523
+    second: Morado_Minijuego1_Spritesheet_254
+  - first:
+      213: -5702411757079650764
+    second: Morado_Minijuego1_Spritesheet_255
+  - first:
+      213: -7227153519688994319
+    second: Morado_Minijuego1_Spritesheet_256
+  - first:
+      213: 5955441649836700406
+    second: Morado_Minijuego1_Spritesheet_257
+  - first:
+      213: -2118563360547885234
+    second: Morado_Minijuego1_Spritesheet_258
+  - first:
+      213: 3704320637813054635
+    second: Morado_Minijuego1_Spritesheet_259
+  - first:
+      213: -7249878189257349513
+    second: Morado_Minijuego1_Spritesheet_260
+  - first:
+      213: -4102867355216095786
+    second: Morado_Minijuego1_Spritesheet_261
+  - first:
+      213: -2080170745113400087
+    second: Morado_Minijuego1_Spritesheet_262
+  - first:
+      213: -6957069304752155067
+    second: Morado_Minijuego1_Spritesheet_263
+  - first:
+      213: -2692566081229252797
+    second: Morado_Minijuego1_Spritesheet_264
+  - first:
+      213: -2870205283212963075
+    second: Morado_Minijuego1_Spritesheet_265
+  - first:
+      213: -6828678119748593517
+    second: Morado_Minijuego1_Spritesheet_266
+  - first:
+      213: -270767154831003077
+    second: Morado_Minijuego1_Spritesheet_267
+  - first:
+      213: 8826915177984937778
+    second: Morado_Minijuego1_Spritesheet_268
+  - first:
+      213: -3509087786986123957
+    second: Morado_Minijuego1_Spritesheet_269
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Purple_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31da5f0800bb854d83e9e1f8366d997
+      internalID: -1091023477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cca97b47272a07469c61013b93a3396
+      internalID: 27312131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d508693a3420fbc46b000e0f27ed21aa
+      internalID: -60089914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ce07af05d5b884ab1cbf6ee9329b93
+      internalID: -671087049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde5f20cc1233fb479b5674f7951c199
+      internalID: 781547881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc13596c4a8af314d81cb666753d212f
+      internalID: 64282566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48051bc57b7724d83aef849c99a3a7
+      internalID: 2075951060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2022296a68d90a346b8919bc9105400e
+      internalID: 1137168523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955f735dfa149a43878ea799eed47f3
+      internalID: -830693411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79d4bd5b54b70e4f979916b8ed46cce
+      internalID: 722169766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1843135c1e26123488292207c065ff7f
+      internalID: 1739876072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a17fd4a6453b849a67fef82378ca6f
+      internalID: -166483767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da00bc96cb12714296e4c2470339198
+      internalID: -241369309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2910c1731d9ea3141a0d22b3b8edba7f
+      internalID: -1299473843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_14
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19ecaa9ece16ab4d8c7f624444e757c
+      internalID: -2082795377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_15
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bb7f4fe84c1a840b325cb18c90905a
+      internalID: 871977424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_16
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab170b2a41a60c408212a596fb557e3
+      internalID: 1866513673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_17
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45226ecb9119c74194f217d75719171
+      internalID: 250960879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e70d177ddfe2c94bb0bc2644018d0de
+      internalID: -1921536369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecefe586c86a10409222926662d8a88
+      internalID: 1909862302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6201f9fa54fa9242b2eaa59f8c81a64
+      internalID: -1851462759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0ec61d3829b6b4f8b6600b3710aba8
+      internalID: 1945861811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce162fea69000f45a71ea9841c2dfec
+      internalID: 1936762727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e92a98e84386b0409c7e677ec55fa96
+      internalID: -223792689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c766fa3e066e4185d83c0f8b02367
+      internalID: -647851418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_25
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f498a60b7052234dae9dd77ee7d8b32
+      internalID: 1888422216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_26
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caeba698af825a4cb594ba57acc0d57
+      internalID: 1765406403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed9ae92afea3f34a8fc24b1a05c982b
+      internalID: -808274371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285065cba4ce5584d84f08aba55e456c
+      internalID: -1394735709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94178ff3b42d372458bb99e75665b903
+      internalID: -1266691486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964fa952e750710459831eed0580218b
+      internalID: -843055070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_31
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736d2457b20f06c47a2db196986e212d
+      internalID: -1951799918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_32
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356671cd434e85343a4e7d7e24ade371
+      internalID: 507542518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_33
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff33ea6a8808070438b5b2111f0d50ae
+      internalID: 1120593789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_34
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a270c55b6022d4cb81d7849cbe2efd
+      internalID: 1299000926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_35
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3306193395717b47bf40266ac903be5
+      internalID: 372258437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41767026bcd764997cd063ddb0e85d
+      internalID: -138053070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85fed6bda0b3e4a926de3aac4b228a
+      internalID: -895470900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a497e2411c38a4fa4d967d36d242df
+      internalID: -271538383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3215932590731744f8d9d15a1c0fcedd
+      internalID: 364472420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55865049edb7a1e43bf28db453ddd24d
+      internalID: 1876009221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbbacef308339d44b90e39b85abb2a5
+      internalID: -1211395918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ec0ff3d6c3894db9373542bf933d3
+      internalID: 1804179413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_43
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40a3e2780e46349adb4d49274a2676
+      internalID: 1552846967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Purple_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ebcbf7c4d30314bb2e4b7fcaeb8a5c
+      internalID: -54142739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 19a3f650a55637043bbc7f1ba441afab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Purple_0: -1091023477
+      Spritesheet_Purple_1: 27312131
+      Spritesheet_Purple_10: 1739876072
+      Spritesheet_Purple_11: -166483767
+      Spritesheet_Purple_12: -241369309
+      Spritesheet_Purple_13: -1299473843
+      Spritesheet_Purple_14: -2082795377
+      Spritesheet_Purple_15: 871977424
+      Spritesheet_Purple_16: 1866513673
+      Spritesheet_Purple_17: 250960879
+      Spritesheet_Purple_18: -1921536369
+      Spritesheet_Purple_19: 1909862302
+      Spritesheet_Purple_2: -60089914
+      Spritesheet_Purple_20: -1851462759
+      Spritesheet_Purple_21: 1945861811
+      Spritesheet_Purple_22: 1936762727
+      Spritesheet_Purple_23: -223792689
+      Spritesheet_Purple_24: -647851418
+      Spritesheet_Purple_25: 1888422216
+      Spritesheet_Purple_26: 1765406403
+      Spritesheet_Purple_27: -808274371
+      Spritesheet_Purple_28: -1394735709
+      Spritesheet_Purple_29: -1266691486
+      Spritesheet_Purple_3: -671087049
+      Spritesheet_Purple_30: -843055070
+      Spritesheet_Purple_31: -1951799918
+      Spritesheet_Purple_32: 507542518
+      Spritesheet_Purple_33: 1120593789
+      Spritesheet_Purple_34: 1299000926
+      Spritesheet_Purple_35: 372258437
+      Spritesheet_Purple_36: -138053070
+      Spritesheet_Purple_37: -895470900
+      Spritesheet_Purple_38: -271538383
+      Spritesheet_Purple_39: 364472420
+      Spritesheet_Purple_4: 781547881
+      Spritesheet_Purple_40: 1876009221
+      Spritesheet_Purple_41: -1211395918
+      Spritesheet_Purple_42: 1804179413
+      Spritesheet_Purple_43: 1552846967
+      Spritesheet_Purple_44: -54142739
+      Spritesheet_Purple_5: 64282566
+      Spritesheet_Purple_6: 2075951060
+      Spritesheet_Purple_7: 1137168523
+      Spritesheet_Purple_8: -830693411
+      Spritesheet_Purple_9: 722169766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2173 @@
+fileFormatVersion: 2
+guid: 49b1e94fa9b34494cb3c67b4f0d314f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -536860417758270210
+    second: PuntaespinRojo_Minijuego1_Spritesheet_0
+  - first:
+      213: -3287782449917626715
+    second: PuntaespinRojo_Minijuego1_Spritesheet_1
+  - first:
+      213: -6919854983995268174
+    second: PuntaespinRojo_Minijuego1_Spritesheet_2
+  - first:
+      213: -3980137921995895380
+    second: PuntaespinRojo_Minijuego1_Spritesheet_3
+  - first:
+      213: 4054281325183245656
+    second: PuntaespinRojo_Minijuego1_Spritesheet_4
+  - first:
+      213: 5794101251730933418
+    second: PuntaespinRojo_Minijuego1_Spritesheet_5
+  - first:
+      213: -3306287871984338779
+    second: PuntaespinRojo_Minijuego1_Spritesheet_6
+  - first:
+      213: 6005472905413290889
+    second: PuntaespinRojo_Minijuego1_Spritesheet_7
+  - first:
+      213: -9122823094886426571
+    second: PuntaespinRojo_Minijuego1_Spritesheet_8
+  - first:
+      213: -4060178856682849459
+    second: PuntaespinRojo_Minijuego1_Spritesheet_9
+  - first:
+      213: -3582172464769459905
+    second: PuntaespinRojo_Minijuego1_Spritesheet_10
+  - first:
+      213: -7152169823993876710
+    second: PuntaespinRojo_Minijuego1_Spritesheet_11
+  - first:
+      213: -7685387157526477714
+    second: PuntaespinRojo_Minijuego1_Spritesheet_12
+  - first:
+      213: 8549972325216971651
+    second: PuntaespinRojo_Minijuego1_Spritesheet_13
+  - first:
+      213: -6684478874408229530
+    second: PuntaespinRojo_Minijuego1_Spritesheet_14
+  - first:
+      213: -4578194737414495505
+    second: PuntaespinRojo_Minijuego1_Spritesheet_15
+  - first:
+      213: -7975778201742005447
+    second: PuntaespinRojo_Minijuego1_Spritesheet_16
+  - first:
+      213: -5072368873403568406
+    second: PuntaespinRojo_Minijuego1_Spritesheet_17
+  - first:
+      213: -2435369398995339424
+    second: PuntaespinRojo_Minijuego1_Spritesheet_18
+  - first:
+      213: 6784856623142329043
+    second: PuntaespinRojo_Minijuego1_Spritesheet_19
+  - first:
+      213: 7257412543320832482
+    second: PuntaespinRojo_Minijuego1_Spritesheet_20
+  - first:
+      213: 5382048956813908926
+    second: PuntaespinRojo_Minijuego1_Spritesheet_21
+  - first:
+      213: -4049669649634793799
+    second: PuntaespinRojo_Minijuego1_Spritesheet_22
+  - first:
+      213: -7463838966769710340
+    second: PuntaespinRojo_Minijuego1_Spritesheet_23
+  - first:
+      213: 7044703911255299198
+    second: PuntaespinRojo_Minijuego1_Spritesheet_24
+  - first:
+      213: 7492000955806041144
+    second: PuntaespinRojo_Minijuego1_Spritesheet_25
+  - first:
+      213: -1201273465209986891
+    second: PuntaespinRojo_Minijuego1_Spritesheet_26
+  - first:
+      213: -6060280875182738258
+    second: PuntaespinRojo_Minijuego1_Spritesheet_27
+  - first:
+      213: 889437186227353924
+    second: PuntaespinRojo_Minijuego1_Spritesheet_28
+  - first:
+      213: -9189428553637407573
+    second: PuntaespinRojo_Minijuego1_Spritesheet_29
+  - first:
+      213: 5627653167299934159
+    second: PuntaespinRojo_Minijuego1_Spritesheet_30
+  - first:
+      213: -142772556885470677
+    second: PuntaespinRojo_Minijuego1_Spritesheet_31
+  - first:
+      213: -7693260298102374023
+    second: PuntaespinRojo_Minijuego1_Spritesheet_32
+  - first:
+      213: -816820476380432320
+    second: PuntaespinRojo_Minijuego1_Spritesheet_33
+  - first:
+      213: 393376460213249505
+    second: PuntaespinRojo_Minijuego1_Spritesheet_34
+  - first:
+      213: 831198209337283653
+    second: PuntaespinRojo_Minijuego1_Spritesheet_35
+  - first:
+      213: -8348792796928426882
+    second: PuntaespinRojo_Minijuego1_Spritesheet_36
+  - first:
+      213: -2039782760345995043
+    second: PuntaespinRojo_Minijuego1_Spritesheet_37
+  - first:
+      213: -2348624724305066698
+    second: PuntaespinRojo_Minijuego1_Spritesheet_38
+  - first:
+      213: -3315779880786634394
+    second: PuntaespinRojo_Minijuego1_Spritesheet_39
+  - first:
+      213: 6499068832388661115
+    second: PuntaespinRojo_Minijuego1_Spritesheet_40
+  - first:
+      213: -453041748145761394
+    second: PuntaespinRojo_Minijuego1_Spritesheet_41
+  - first:
+      213: 5130456416377656837
+    second: PuntaespinRojo_Minijuego1_Spritesheet_42
+  - first:
+      213: 6626939780780940417
+    second: PuntaespinRojo_Minijuego1_Spritesheet_43
+  - first:
+      213: -6252725824759875937
+    second: PuntaespinRojo_Minijuego1_Spritesheet_44
+  - first:
+      213: 149606924559783135
+    second: PuntaespinRojo_Minijuego1_Spritesheet_45
+  - first:
+      213: -3796348257727009762
+    second: PuntaespinRojo_Minijuego1_Spritesheet_46
+  - first:
+      213: 9059896120578189824
+    second: PuntaespinRojo_Minijuego1_Spritesheet_47
+  - first:
+      213: -7450297977876974081
+    second: PuntaespinRojo_Minijuego1_Spritesheet_48
+  - first:
+      213: -7513690344609477703
+    second: PuntaespinRojo_Minijuego1_Spritesheet_49
+  - first:
+      213: 8020143329644544224
+    second: PuntaespinRojo_Minijuego1_Spritesheet_50
+  - first:
+      213: -8030296365952572786
+    second: PuntaespinRojo_Minijuego1_Spritesheet_51
+  - first:
+      213: 35424586579526661
+    second: PuntaespinRojo_Minijuego1_Spritesheet_52
+  - first:
+      213: -4583101112010847173
+    second: PuntaespinRojo_Minijuego1_Spritesheet_53
+  - first:
+      213: 6545113874438469506
+    second: PuntaespinRojo_Minijuego1_Spritesheet_54
+  - first:
+      213: -6257295280571079879
+    second: PuntaespinRojo_Minijuego1_Spritesheet_55
+  - first:
+      213: 6469020066901548989
+    second: PuntaespinRojo_Minijuego1_Spritesheet_56
+  - first:
+      213: 2976740801453792676
+    second: PuntaespinRojo_Minijuego1_Spritesheet_57
+  - first:
+      213: 4527838402000582178
+    second: PuntaespinRojo_Minijuego1_Spritesheet_58
+  - first:
+      213: -4408153873393765002
+    second: PuntaespinRojo_Minijuego1_Spritesheet_59
+  - first:
+      213: -1032453384666573124
+    second: PuntaespinRojo_Minijuego1_Spritesheet_60
+  - first:
+      213: 2432157672622752575
+    second: PuntaespinRojo_Minijuego1_Spritesheet_61
+  - first:
+      213: 8406824845531490366
+    second: PuntaespinRojo_Minijuego1_Spritesheet_62
+  - first:
+      213: 7545199525519219521
+    second: PuntaespinRojo_Minijuego1_Spritesheet_63
+  - first:
+      213: -8782560165383495376
+    second: PuntaespinRojo_Minijuego1_Spritesheet_64
+  - first:
+      213: -6849963099944537325
+    second: PuntaespinRojo_Minijuego1_Spritesheet_65
+  - first:
+      213: -8031861622672633299
+    second: PuntaespinRojo_Minijuego1_Spritesheet_66
+  - first:
+      213: 806599512341461331
+    second: PuntaespinRojo_Minijuego1_Spritesheet_67
+  - first:
+      213: 2551521322530057929
+    second: PuntaespinRojo_Minijuego1_Spritesheet_68
+  - first:
+      213: -5619474814352344929
+    second: PuntaespinRojo_Minijuego1_Spritesheet_69
+  - first:
+      213: 4703907869582128133
+    second: PuntaespinRojo_Minijuego1_Spritesheet_70
+  - first:
+      213: 146311163956020982
+    second: PuntaespinRojo_Minijuego1_Spritesheet_71
+  - first:
+      213: -2437054319081452728
+    second: PuntaespinRojo_Minijuego1_Spritesheet_72
+  - first:
+      213: -7731661393356991531
+    second: PuntaespinRojo_Minijuego1_Spritesheet_73
+  - first:
+      213: -7287541498241993328
+    second: PuntaespinRojo_Minijuego1_Spritesheet_74
+  - first:
+      213: -5739810922878464945
+    second: PuntaespinRojo_Minijuego1_Spritesheet_75
+  - first:
+      213: 2731984407602977405
+    second: PuntaespinRojo_Minijuego1_Spritesheet_76
+  - first:
+      213: -7150321880320830018
+    second: PuntaespinRojo_Minijuego1_Spritesheet_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d7d4ebbc67c34594f68e29f1c789a
+      internalID: 238674170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245281204e7c3048b6f2f904bcb1ed8
+      internalID: -758806815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399fe48901c157b4ab423f461f7fdc57
+      internalID: -1003402756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2621685ce5c09e24dae93ef813f6c03b
+      internalID: -976582636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3726fda1b48a4db3adad43eecec44
+      internalID: -547849312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04241d6cf3d37bc4caf92862f7cada53
+      internalID: 302292524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fa77a5faaf7cc4ca07b594514b77be
+      internalID: -953494483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c73e3aef6b6d8f4c9659ae947e5ffed
+      internalID: 1792857836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8961af841e8404492e4a4bdf38ee35
+      internalID: 842005998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b790bb83681b0d4abc4f3fd01620d1c
+      internalID: 1714563639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a783ee044459741b49e7bcfe3c7b2a
+      internalID: -1853480734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ad6fefe8fb4144683c5768957da1d1
+      internalID: -67473896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5773db6ebfe04bb9592d4fd43fea1
+      internalID: -1089543682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306c32165256a52488ebd6067dc4003a
+      internalID: 1896788285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_14
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b37e37d9110c14ab70676f7a0e2396
+      internalID: 1316382921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_15
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0cd616bc4bdf24abe34558f9bfbc90
+      internalID: -424397538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_16
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212937071e6ef0343a8525ebb91377cf
+      internalID: 916257575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_17
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae334c7afa4e94eaa3640adf2e4798
+      internalID: 475918153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed40b53df481cb4490abdda38f6f8a3
+      internalID: -289418654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba9076c2e18524daf63f1d61f1a859
+      internalID: 165831690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3085ff1daf2fae044a1ebc91ffe57696
+      internalID: 1088434310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720b4cb48694bc540b0095878c43aa05
+      internalID: 182251091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b05486108025e4da2c3173abd228b8
+      internalID: 1980190181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc0cc0c6c5f5c4b9215d15d3f78ecc
+      internalID: 342665634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f13bbd8add893409203405b0796461
+      internalID: 1630818902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_25
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280e5a0ea37f5234c8aeb3e470499bd1
+      internalID: -1018012997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_26
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9697416dae95644c8b5d686fea6d686
+      internalID: 1628538445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f083c1c22a41ca428eb8dafdc339549
+      internalID: 2122033029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa7a3872c75c44b9ca28ad12217948
+      internalID: 1062835109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbdda601085a0142872ad4f83402bd3
+      internalID: -500836969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e623f0c4c7ff824586187b474a6caaa
+      internalID: 1722295386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_31
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d58e78968ce974a96d559a6f34ec96
+      internalID: -80526670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_32
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0f4a8db05f1634c878dd84f3a6d62e
+      internalID: 1600665397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_33
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c8a3dde8980e749b7b17a279b1dba8
+      internalID: 853442433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_34
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c2b76f990dd349b084a4dfa34b4d9
+      internalID: 1306138918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_35
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8153af8264e5834bad82a59ffbb8453
+      internalID: -893936405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063922f1200a1eb458df9fdff4a64cb2
+      internalID: 909103420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802deb9709b5fd4ebbc19eeb2c63b3d
+      internalID: 459725403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377a346707b0a3946bc47f355693a880
+      internalID: 404345484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737bfd2802679b049bd3aea2a2dc32be
+      internalID: -701143436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f28131aba786244bdd109db6e90219
+      internalID: 1048430360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babf1c2deb01fe6438ef9c10fdd96ca9
+      internalID: -781491687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1013aa2f232d6ed4385df7f5957aaa7c
+      internalID: 979905193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_43
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7cc481065414448a8d202f9996c16
+      internalID: 2097465431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde9f9d7067eb044683167e764b8192c
+      internalID: 1691746004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73034115a5bd4f84cb0c1d0dd452948c
+      internalID: 999954848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcd54b249b24894fb1cf231fb74d5db
+      internalID: 881218113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_47
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db3d0fa35d63af4bb1f7d132d997449
+      internalID: 1633842744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_48
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a4e12ba4324b94886cde5894789e6e
+      internalID: 1740591366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_49
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24eb58d745af5b4d857181fbe45f3d5
+      internalID: 1981615636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_50
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed67518807419874d80e5be85d1299a8
+      internalID: 821533122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_51
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca54d2d55f641409e0ff2e7b9b76d9
+      internalID: -1515837363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_52
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a58d672d47665a42ac6328d7349318e
+      internalID: -232775717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_53
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fab574a2152f5459b2ba11a6a1b571
+      internalID: -1794043061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399ca5a3a0eae84ab7e57b6001713c6
+      internalID: -1420599476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_55
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de22a8278d97cc43847923101efd0d8
+      internalID: -2031478624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_56
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef229dbbcab12341aaa1347820daf3c
+      internalID: 1793164072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_57
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16c6093246d36d47b65f5b9fed351b5
+      internalID: -274234553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_58
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1852cb0b07425043bc8e1767e02c1c1
+      internalID: 2005977708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_59
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a1272bb21e8ff499fb31da8688a400
+      internalID: 2059581664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_60
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846710764a92170478da72117943a060
+      internalID: -1856902072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_61
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef72216dcb0724a8bddcdb8c1af0e7
+      internalID: -688856286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_62
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5004fc57e335e34aac5c10ba54544bf
+      internalID: -1044603028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b3ed53a31e8a45b4f9d5dfad7694b
+      internalID: 1703339351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_64
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd37cfc016eee247a5947e92203debe
+      internalID: -176569314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_65
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf9a0858e30e84e85cfd2c00de38d2
+      internalID: 1183086771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_66
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f596bcc85f3a313478fc8e93c74d40e5
+      internalID: -1015699415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_67
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dfa4f75224aa94cb2d42ba847118b9
+      internalID: -1526211547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_68
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b754ee1ff5db2e24dadd5b078c3607bc
+      internalID: -916740575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_69
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f0a9d50e1501b42983bd3fdde433ed
+      internalID: -23807525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_70
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2dfb5911cc7e439f7cde85f6ef752
+      internalID: -633715974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_71
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eb3027fc61f0d41b606990a7c30494
+      internalID: -498691512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87c9d8b2f23d56449cac1463a7b6682
+      internalID: -44730422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_73
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9819710d2228344a578a0800b86df3
+      internalID: 815162653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_74
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c344528bafaa7a94788cfad0f4f0e4a5
+      internalID: 31975786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_75
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569ed27d75a56184e89cb563da995b1d
+      internalID: 728403101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_76
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cead73cdfad22d4caf19170c97556bc
+      internalID: -884954471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinRed_77
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21566db75ab1d5458bee82edf87cbff
+      internalID: -1829044321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 059f9593a8236e8429fc6f1802dcdb31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_SpikespinRed_0: 238674170
+      Spritesheet_SpikespinRed_1: -758806815
+      Spritesheet_SpikespinRed_10: -1853480734
+      Spritesheet_SpikespinRed_11: -67473896
+      Spritesheet_SpikespinRed_12: -1089543682
+      Spritesheet_SpikespinRed_13: 1896788285
+      Spritesheet_SpikespinRed_14: 1316382921
+      Spritesheet_SpikespinRed_15: -424397538
+      Spritesheet_SpikespinRed_16: 916257575
+      Spritesheet_SpikespinRed_17: 475918153
+      Spritesheet_SpikespinRed_18: -289418654
+      Spritesheet_SpikespinRed_19: 165831690
+      Spritesheet_SpikespinRed_2: -1003402756
+      Spritesheet_SpikespinRed_20: 1088434310
+      Spritesheet_SpikespinRed_21: 182251091
+      Spritesheet_SpikespinRed_22: 1980190181
+      Spritesheet_SpikespinRed_23: 342665634
+      Spritesheet_SpikespinRed_24: 1630818902
+      Spritesheet_SpikespinRed_25: -1018012997
+      Spritesheet_SpikespinRed_26: 1628538445
+      Spritesheet_SpikespinRed_27: 2122033029
+      Spritesheet_SpikespinRed_28: 1062835109
+      Spritesheet_SpikespinRed_29: -500836969
+      Spritesheet_SpikespinRed_3: -976582636
+      Spritesheet_SpikespinRed_30: 1722295386
+      Spritesheet_SpikespinRed_31: -80526670
+      Spritesheet_SpikespinRed_32: 1600665397
+      Spritesheet_SpikespinRed_33: 853442433
+      Spritesheet_SpikespinRed_34: 1306138918
+      Spritesheet_SpikespinRed_35: -893936405
+      Spritesheet_SpikespinRed_36: 909103420
+      Spritesheet_SpikespinRed_37: 459725403
+      Spritesheet_SpikespinRed_38: 404345484
+      Spritesheet_SpikespinRed_39: -701143436
+      Spritesheet_SpikespinRed_4: -547849312
+      Spritesheet_SpikespinRed_40: 1048430360
+      Spritesheet_SpikespinRed_41: -781491687
+      Spritesheet_SpikespinRed_42: 979905193
+      Spritesheet_SpikespinRed_43: 2097465431
+      Spritesheet_SpikespinRed_44: 1691746004
+      Spritesheet_SpikespinRed_45: 999954848
+      Spritesheet_SpikespinRed_46: 881218113
+      Spritesheet_SpikespinRed_47: 1633842744
+      Spritesheet_SpikespinRed_48: 1740591366
+      Spritesheet_SpikespinRed_49: 1981615636
+      Spritesheet_SpikespinRed_5: 302292524
+      Spritesheet_SpikespinRed_50: 821533122
+      Spritesheet_SpikespinRed_51: -1515837363
+      Spritesheet_SpikespinRed_52: -232775717
+      Spritesheet_SpikespinRed_53: -1794043061
+      Spritesheet_SpikespinRed_54: -1420599476
+      Spritesheet_SpikespinRed_55: -2031478624
+      Spritesheet_SpikespinRed_56: 1793164072
+      Spritesheet_SpikespinRed_57: -274234553
+      Spritesheet_SpikespinRed_58: 2005977708
+      Spritesheet_SpikespinRed_59: 2059581664
+      Spritesheet_SpikespinRed_6: -953494483
+      Spritesheet_SpikespinRed_60: -1856902072
+      Spritesheet_SpikespinRed_61: -688856286
+      Spritesheet_SpikespinRed_62: -1044603028
+      Spritesheet_SpikespinRed_63: 1703339351
+      Spritesheet_SpikespinRed_64: -176569314
+      Spritesheet_SpikespinRed_65: 1183086771
+      Spritesheet_SpikespinRed_66: -1015699415
+      Spritesheet_SpikespinRed_67: -1526211547
+      Spritesheet_SpikespinRed_68: -916740575
+      Spritesheet_SpikespinRed_69: -23807525
+      Spritesheet_SpikespinRed_7: 1792857836
+      Spritesheet_SpikespinRed_70: -633715974
+      Spritesheet_SpikespinRed_71: -498691512
+      Spritesheet_SpikespinRed_72: -44730422
+      Spritesheet_SpikespinRed_73: 815162653
+      Spritesheet_SpikespinRed_74: 31975786
+      Spritesheet_SpikespinRed_75: 728403101
+      Spritesheet_SpikespinRed_76: -884954471
+      Spritesheet_SpikespinRed_77: -1829044321
+      Spritesheet_SpikespinRed_8: 842005998
+      Spritesheet_SpikespinRed_9: 1714563639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1263 @@
+fileFormatVersion: 2
+guid: e87fb0723e11f2f46800e8cda33f9669
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2225695017615773548
+    second: BitacoraEspacial_Minijuego1_Spritesheet_0
+  - first:
+      213: 8322434762154073052
+    second: BitacoraEspacial_Minijuego1_Spritesheet_1
+  - first:
+      213: 629762350697646662
+    second: BitacoraEspacial_Minijuego1_Spritesheet_2
+  - first:
+      213: 4864131988771266784
+    second: BitacoraEspacial_Minijuego1_Spritesheet_3
+  - first:
+      213: 7925070362882743380
+    second: BitacoraEspacial_Minijuego1_Spritesheet_4
+  - first:
+      213: 6591554114353727294
+    second: BitacoraEspacial_Minijuego1_Spritesheet_5
+  - first:
+      213: -3250388455888057437
+    second: BitacoraEspacial_Minijuego1_Spritesheet_6
+  - first:
+      213: -1164304907947747953
+    second: BitacoraEspacial_Minijuego1_Spritesheet_7
+  - first:
+      213: 7447935600660465508
+    second: BitacoraEspacial_Minijuego1_Spritesheet_8
+  - first:
+      213: -4641376777860186900
+    second: BitacoraEspacial_Minijuego1_Spritesheet_9
+  - first:
+      213: -4330074072807259863
+    second: BitacoraEspacial_Minijuego1_Spritesheet_10
+  - first:
+      213: 7973217657148000255
+    second: BitacoraEspacial_Minijuego1_Spritesheet_11
+  - first:
+      213: 7731855607288965993
+    second: BitacoraEspacial_Minijuego1_Spritesheet_12
+  - first:
+      213: 1818037278265031398
+    second: BitacoraEspacial_Minijuego1_Spritesheet_13
+  - first:
+      213: -3178637082364504757
+    second: BitacoraEspacial_Minijuego1_Spritesheet_14
+  - first:
+      213: -4156770177987160948
+    second: BitacoraEspacial_Minijuego1_Spritesheet_15
+  - first:
+      213: 3105949266637237680
+    second: BitacoraEspacial_Minijuego1_Spritesheet_16
+  - first:
+      213: 5039429833672003576
+    second: BitacoraEspacial_Minijuego1_Spritesheet_17
+  - first:
+      213: 1401741866801640098
+    second: BitacoraEspacial_Minijuego1_Spritesheet_18
+  - first:
+      213: -2042242077428640337
+    second: BitacoraEspacial_Minijuego1_Spritesheet_19
+  - first:
+      213: -7975462262104862053
+    second: BitacoraEspacial_Minijuego1_Spritesheet_20
+  - first:
+      213: -6328105402605678023
+    second: BitacoraEspacial_Minijuego1_Spritesheet_21
+  - first:
+      213: 7635751266602242551
+    second: BitacoraEspacial_Minijuego1_Spritesheet_22
+  - first:
+      213: 2879600915815951132
+    second: BitacoraEspacial_Minijuego1_Spritesheet_23
+  - first:
+      213: 3016847082174929260
+    second: BitacoraEspacial_Minijuego1_Spritesheet_24
+  - first:
+      213: 6207928410507071754
+    second: BitacoraEspacial_Minijuego1_Spritesheet_25
+  - first:
+      213: -2845442538017906262
+    second: BitacoraEspacial_Minijuego1_Spritesheet_26
+  - first:
+      213: 3699454773040355736
+    second: BitacoraEspacial_Minijuego1_Spritesheet_27
+  - first:
+      213: -363859528836478356
+    second: BitacoraEspacial_Minijuego1_Spritesheet_28
+  - first:
+      213: -7955217941824358282
+    second: BitacoraEspacial_Minijuego1_Spritesheet_29
+  - first:
+      213: 2094086970273675995
+    second: BitacoraEspacial_Minijuego1_Spritesheet_30
+  - first:
+      213: -1023418737915881278
+    second: BitacoraEspacial_Minijuego1_Spritesheet_31
+  - first:
+      213: -335326693157565059
+    second: BitacoraEspacial_Minijuego1_Spritesheet_32
+  - first:
+      213: -4062653863539865336
+    second: BitacoraEspacial_Minijuego1_Spritesheet_33
+  - first:
+      213: 912923144387812427
+    second: BitacoraEspacial_Minijuego1_Spritesheet_34
+  - first:
+      213: 7945065307313178447
+    second: BitacoraEspacial_Minijuego1_Spritesheet_35
+  - first:
+      213: -3154946364690154452
+    second: BitacoraEspacial_Minijuego1_Spritesheet_36
+  - first:
+      213: 2149742621626022185
+    second: BitacoraEspacial_Minijuego1_Spritesheet_37
+  - first:
+      213: -8225482539154028282
+    second: BitacoraEspacial_Minijuego1_Spritesheet_38
+  - first:
+      213: 315293962708593113
+    second: BitacoraEspacial_Minijuego1_Spritesheet_39
+  - first:
+      213: 4755356983283779423
+    second: BitacoraEspacial_Minijuego1_Spritesheet_40
+  - first:
+      213: -5304085370616813791
+    second: BitacoraEspacial_Minijuego1_Spritesheet_41
+  - first:
+      213: 5745211367624538734
+    second: BitacoraEspacial_Minijuego1_Spritesheet_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9083bb2a6b1639046b2e128ba86440e4
+      internalID: 1311826967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e432a3cbd262840aad0b529a736b8f
+      internalID: -1680720165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78945dc420326648a0060a9ea94121b
+      internalID: 857377481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16051aa831071ec40ae08cf5b3f8eff8
+      internalID: -1285416651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb980437197e224f9edc1c38b9063ec
+      internalID: 1145227755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e325f1bdf46276b4ab4838d55da6bf06
+      internalID: -1346448138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0c3b3ff1e0c354c9cb7d1bf5454cae
+      internalID: -816740638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4c7a864fb95c14fb73b295cbb6c1ba
+      internalID: 2109901076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829d5848d547de54bae0a28169a6c06d
+      internalID: 129079204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_9
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e811e7006379b47aa46ab58133d5be
+      internalID: 357191195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_10
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088e455bf8db1a4092c6039d769bd53
+      internalID: -1219309882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_11
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e209605c115edc142bff52157b63d477
+      internalID: 596940706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a9d64c04c458f4cb93fffb09f29703
+      internalID: -543995638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa71faa711e95e34d8349edf134a1bb3
+      internalID: -328880854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_14
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c070144035ac1f46a8b9c951a9374dd
+      internalID: 1672355105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_15
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59138565b525f424d8bdb33e2c34943c
+      internalID: 626600513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_16
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5593a00401c0b0940be4290ef0e3dd55
+      internalID: -1646429354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_17
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685447018dae7c41a676dcb3e616545
+      internalID: 1620852694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e448a4077a7f1a3408858322e57b263c
+      internalID: -1481566297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3ab55ff0180f54fbf6262397e7181a
+      internalID: -1277288937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b165d07716d3c843a9dca3aec316960
+      internalID: 8655452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae95d44bcfc11d4aab4003ad1f73c6a
+      internalID: -750613456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47b47ee217289f44b6493030be60f22
+      internalID: -609737200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c553b48e7c327d5469a64e2a6faeefa8
+      internalID: -1938354093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d25f2a6282ddd9429258394ae800a55
+      internalID: -350657423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df453f5a3756daf4ba996f8cb5aac10b
+      internalID: 1549827374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_26
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2185035005329046920d4f90ac9af00
+      internalID: 1543765585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_27
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced6a7d595b00474d9d71e0e02994621
+      internalID: 753350764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_28
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16a91277f3cbb3478712904d8ae0ebf
+      internalID: 1720855802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_29
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afee80d62cc6ae49955903a7ae20882
+      internalID: -1794158064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a9b702b9368814face3707bc80f50f
+      internalID: 253995345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e706af999e2d1448186508a8402ba0
+      internalID: -741729053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_32
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e326f6503f6b447a47e79e2d86b66e
+      internalID: 1728573096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_33
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977459afcfac17c49bbde140e3a21218
+      internalID: 77121202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_34
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ecb570d45d86e4c80eea1e0e28e6c6
+      internalID: -1115858547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_35
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45107dae255b08544aee99eb1d3b458d
+      internalID: 528146851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833abb21d35230848b4d1cc25a175364
+      internalID: 29417952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a8e0cc0890f1e43abf7e7ed79e7bdf
+      internalID: 1051078201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff08f1e4fd018f4bb4e6aca1dacf359
+      internalID: -1858679755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a904b9c1dae1ef49b1786e253f53c25
+      internalID: -846951239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5343a88c0a834044b805c00dc14227f2
+      internalID: -989726910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee751dae829a5724c891feb64217badb
+      internalID: -891494778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Binacle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe18d1d5b070dc49a6b0148fd64b398
+      internalID: -412655631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a2e619a526e2d5f48a6ec9f035b90c5d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Binacle_0: 1311826967
+      Spritesheet_Binacle_1: -1680720165
+      Spritesheet_Binacle_10: -1219309882
+      Spritesheet_Binacle_11: 596940706
+      Spritesheet_Binacle_12: -543995638
+      Spritesheet_Binacle_13: -328880854
+      Spritesheet_Binacle_14: 1672355105
+      Spritesheet_Binacle_15: 626600513
+      Spritesheet_Binacle_16: -1646429354
+      Spritesheet_Binacle_17: 1620852694
+      Spritesheet_Binacle_18: -1481566297
+      Spritesheet_Binacle_19: -1277288937
+      Spritesheet_Binacle_2: 857377481
+      Spritesheet_Binacle_20: 8655452
+      Spritesheet_Binacle_21: -750613456
+      Spritesheet_Binacle_22: -609737200
+      Spritesheet_Binacle_23: -1938354093
+      Spritesheet_Binacle_24: -350657423
+      Spritesheet_Binacle_25: 1549827374
+      Spritesheet_Binacle_26: 1543765585
+      Spritesheet_Binacle_27: 753350764
+      Spritesheet_Binacle_28: 1720855802
+      Spritesheet_Binacle_29: -1794158064
+      Spritesheet_Binacle_3: -1285416651
+      Spritesheet_Binacle_30: 253995345
+      Spritesheet_Binacle_31: -741729053
+      Spritesheet_Binacle_32: 1728573096
+      Spritesheet_Binacle_33: 77121202
+      Spritesheet_Binacle_34: -1115858547
+      Spritesheet_Binacle_35: 528146851
+      Spritesheet_Binacle_36: 29417952
+      Spritesheet_Binacle_37: 1051078201
+      Spritesheet_Binacle_38: -1858679755
+      Spritesheet_Binacle_39: -846951239
+      Spritesheet_Binacle_4: 1145227755
+      Spritesheet_Binacle_40: -989726910
+      Spritesheet_Binacle_41: -891494778
+      Spritesheet_Binacle_42: -412655631
+      Spritesheet_Binacle_5: -1346448138
+      Spritesheet_Binacle_6: -816740638
+      Spritesheet_Binacle_7: 2109901076
+      Spritesheet_Binacle_8: 129079204
+      Spritesheet_Binacle_9: 357191195
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

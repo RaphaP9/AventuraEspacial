@@ -1,0 +1,2554 @@
+fileFormatVersion: 2
+guid: 0dcd94bb85697c14d97e5e9969c2f69a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1868104298617092902
+    second: Verde_Minijuego1_Spritesheet_0
+  - first:
+      213: -6533267767020513496
+    second: Verde_Minijuego1_Spritesheet_1
+  - first:
+      213: 3956263862523556357
+    second: Verde_Minijuego1_Spritesheet_2
+  - first:
+      213: 1543910819200422159
+    second: Verde_Minijuego1_Spritesheet_3
+  - first:
+      213: 592761936616316221
+    second: Verde_Minijuego1_Spritesheet_4
+  - first:
+      213: 7439641828387729067
+    second: Verde_Minijuego1_Spritesheet_5
+  - first:
+      213: 4614518912617355614
+    second: Verde_Minijuego1_Spritesheet_6
+  - first:
+      213: -7967791975474943090
+    second: Verde_Minijuego1_Spritesheet_7
+  - first:
+      213: 20783089383719184
+    second: Verde_Minijuego1_Spritesheet_8
+  - first:
+      213: -6516553729190922147
+    second: Verde_Minijuego1_Spritesheet_9
+  - first:
+      213: 3483092614368048529
+    second: Verde_Minijuego1_Spritesheet_10
+  - first:
+      213: -2641483897803708013
+    second: Verde_Minijuego1_Spritesheet_11
+  - first:
+      213: -3762282369341506617
+    second: Verde_Minijuego1_Spritesheet_12
+  - first:
+      213: -7573605798083863396
+    second: Verde_Minijuego1_Spritesheet_13
+  - first:
+      213: -4003718659956006063
+    second: Verde_Minijuego1_Spritesheet_14
+  - first:
+      213: 5815732521750035292
+    second: Verde_Minijuego1_Spritesheet_15
+  - first:
+      213: 2858869469255420878
+    second: Verde_Minijuego1_Spritesheet_16
+  - first:
+      213: 8255723077860719371
+    second: Verde_Minijuego1_Spritesheet_17
+  - first:
+      213: 6809485694111584555
+    second: Verde_Minijuego1_Spritesheet_18
+  - first:
+      213: -2802883451241583148
+    second: Verde_Minijuego1_Spritesheet_19
+  - first:
+      213: -2933647441373401341
+    second: Verde_Minijuego1_Spritesheet_20
+  - first:
+      213: 6913628795105290108
+    second: Verde_Minijuego1_Spritesheet_21
+  - first:
+      213: 4657173773937685178
+    second: Verde_Minijuego1_Spritesheet_22
+  - first:
+      213: -6626859833635600572
+    second: Verde_Minijuego1_Spritesheet_23
+  - first:
+      213: -3898067428485676585
+    second: Verde_Minijuego1_Spritesheet_24
+  - first:
+      213: -1924221410589541599
+    second: Verde_Minijuego1_Spritesheet_25
+  - first:
+      213: -5983488372098156575
+    second: Verde_Minijuego1_Spritesheet_26
+  - first:
+      213: -3119813399516766383
+    second: Verde_Minijuego1_Spritesheet_27
+  - first:
+      213: 8951125201746583496
+    second: Verde_Minijuego1_Spritesheet_28
+  - first:
+      213: -358946822521693052
+    second: Verde_Minijuego1_Spritesheet_29
+  - first:
+      213: -3159029691798069962
+    second: Verde_Minijuego1_Spritesheet_30
+  - first:
+      213: -6619134796755045679
+    second: Verde_Minijuego1_Spritesheet_31
+  - first:
+      213: -1846816278329435158
+    second: Verde_Minijuego1_Spritesheet_32
+  - first:
+      213: 408717245307749875
+    second: Verde_Minijuego1_Spritesheet_33
+  - first:
+      213: -2098779176817814428
+    second: Verde_Minijuego1_Spritesheet_34
+  - first:
+      213: -5196364888309877115
+    second: Verde_Minijuego1_Spritesheet_35
+  - first:
+      213: 8786353516274777222
+    second: Verde_Minijuego1_Spritesheet_36
+  - first:
+      213: 3028981834490050456
+    second: Verde_Minijuego1_Spritesheet_37
+  - first:
+      213: 4875909879438415904
+    second: Verde_Minijuego1_Spritesheet_38
+  - first:
+      213: 3611611813042395828
+    second: Verde_Minijuego1_Spritesheet_39
+  - first:
+      213: 435077623112437902
+    second: Verde_Minijuego1_Spritesheet_40
+  - first:
+      213: 4562166851475537471
+    second: Verde_Minijuego1_Spritesheet_41
+  - first:
+      213: -8190115870389533317
+    second: Verde_Minijuego1_Spritesheet_42
+  - first:
+      213: 7665416369239536394
+    second: Verde_Minijuego1_Spritesheet_43
+  - first:
+      213: 2118646815717499311
+    second: Verde_Minijuego1_Spritesheet_44
+  - first:
+      213: -2053004242429298038
+    second: Verde_Minijuego1_Spritesheet_45
+  - first:
+      213: 6350246739841351227
+    second: Verde_Minijuego1_Spritesheet_46
+  - first:
+      213: -8973192573338945305
+    second: Verde_Minijuego1_Spritesheet_47
+  - first:
+      213: -1751728976270893111
+    second: Verde_Minijuego1_Spritesheet_48
+  - first:
+      213: -5406529319339385914
+    second: Verde_Minijuego1_Spritesheet_49
+  - first:
+      213: -471741845271114595
+    second: Verde_Minijuego1_Spritesheet_50
+  - first:
+      213: 305484223267232033
+    second: Verde_Minijuego1_Spritesheet_51
+  - first:
+      213: -742287391523799823
+    second: Verde_Minijuego1_Spritesheet_52
+  - first:
+      213: -1926203208878876516
+    second: Verde_Minijuego1_Spritesheet_53
+  - first:
+      213: -7627817723742185178
+    second: Verde_Minijuego1_Spritesheet_54
+  - first:
+      213: -2975190423378663344
+    second: Verde_Minijuego1_Spritesheet_55
+  - first:
+      213: 1015583882475748844
+    second: Verde_Minijuego1_Spritesheet_56
+  - first:
+      213: -5936630063107185763
+    second: Verde_Minijuego1_Spritesheet_57
+  - first:
+      213: -799919061881513037
+    second: Verde_Minijuego1_Spritesheet_58
+  - first:
+      213: 3348384934531185734
+    second: Verde_Minijuego1_Spritesheet_59
+  - first:
+      213: -4175172369564315046
+    second: Verde_Minijuego1_Spritesheet_60
+  - first:
+      213: 6174525385446066217
+    second: Verde_Minijuego1_Spritesheet_61
+  - first:
+      213: -4334925401744592896
+    second: Verde_Minijuego1_Spritesheet_62
+  - first:
+      213: -8849200165256029020
+    second: Verde_Minijuego1_Spritesheet_63
+  - first:
+      213: 2527475940805585817
+    second: Verde_Minijuego1_Spritesheet_64
+  - first:
+      213: -2773466202166501028
+    second: Verde_Minijuego1_Spritesheet_65
+  - first:
+      213: -1247106715315346192
+    second: Verde_Minijuego1_Spritesheet_66
+  - first:
+      213: -3440557544792385155
+    second: Verde_Minijuego1_Spritesheet_67
+  - first:
+      213: -9064253565294631165
+    second: Verde_Minijuego1_Spritesheet_68
+  - first:
+      213: -658585335987708345
+    second: Verde_Minijuego1_Spritesheet_69
+  - first:
+      213: -4297853048166120545
+    second: Verde_Minijuego1_Spritesheet_70
+  - first:
+      213: -2209396632033430181
+    second: Verde_Minijuego1_Spritesheet_71
+  - first:
+      213: -5052492290139585430
+    second: Verde_Minijuego1_Spritesheet_72
+  - first:
+      213: -6981234277305186067
+    second: Verde_Minijuego1_Spritesheet_73
+  - first:
+      213: 2064317808240050823
+    second: Verde_Minijuego1_Spritesheet_74
+  - first:
+      213: 402960565803251901
+    second: Verde_Minijuego1_Spritesheet_75
+  - first:
+      213: -8796997726429796896
+    second: Verde_Minijuego1_Spritesheet_76
+  - first:
+      213: 7327716609163263928
+    second: Verde_Minijuego1_Spritesheet_77
+  - first:
+      213: 7662117446573633608
+    second: Verde_Minijuego1_Spritesheet_78
+  - first:
+      213: 1116302780216830701
+    second: Verde_Minijuego1_Spritesheet_79
+  - first:
+      213: -1488504728898423853
+    second: Verde_Minijuego1_Spritesheet_80
+  - first:
+      213: 2014418773208095084
+    second: Verde_Minijuego1_Spritesheet_81
+  - first:
+      213: -174549005523851563
+    second: Verde_Minijuego1_Spritesheet_82
+  - first:
+      213: 219991080460928205
+    second: Verde_Minijuego1_Spritesheet_83
+  - first:
+      213: -5405596652462152976
+    second: Verde_Minijuego1_Spritesheet_84
+  - first:
+      213: -8001604878131758610
+    second: Verde_Minijuego1_Spritesheet_85
+  - first:
+      213: 8481349794466077920
+    second: Verde_Minijuego1_Spritesheet_86
+  - first:
+      213: 6674484257763020653
+    second: Verde_Minijuego1_Spritesheet_87
+  - first:
+      213: -7441914318639291017
+    second: Verde_Minijuego1_Spritesheet_88
+  - first:
+      213: 2737955958706889969
+    second: Verde_Minijuego1_Spritesheet_89
+  - first:
+      213: -1707686355775795234
+    second: Verde_Minijuego1_Spritesheet_90
+  - first:
+      213: -5986337475742044560
+    second: Verde_Minijuego1_Spritesheet_91
+  - first:
+      213: -8468755862000372670
+    second: Verde_Minijuego1_Spritesheet_92
+  - first:
+      213: -7742047364766164252
+    second: Verde_Minijuego1_Spritesheet_93
+  - first:
+      213: -4525236308701694004
+    second: Verde_Minijuego1_Spritesheet_94
+  - first:
+      213: 6946047543571684448
+    second: Verde_Minijuego1_Spritesheet_95
+  - first:
+      213: 5258584823907434871
+    second: Verde_Minijuego1_Spritesheet_96
+  - first:
+      213: -8263289121630499479
+    second: Verde_Minijuego1_Spritesheet_97
+  - first:
+      213: -4414088860808688366
+    second: Verde_Minijuego1_Spritesheet_98
+  - first:
+      213: -9169945008542698973
+    second: Verde_Minijuego1_Spritesheet_99
+  - first:
+      213: -3854553059216048837
+    second: Verde_Minijuego1_Spritesheet_100
+  - first:
+      213: -4396519908922287339
+    second: Verde_Minijuego1_Spritesheet_101
+  - first:
+      213: 7751038955291607306
+    second: Verde_Minijuego1_Spritesheet_102
+  - first:
+      213: -8570100224592548575
+    second: Verde_Minijuego1_Spritesheet_103
+  - first:
+      213: -2401845691391107302
+    second: Verde_Minijuego1_Spritesheet_104
+  - first:
+      213: 8084502482585419570
+    second: Verde_Minijuego1_Spritesheet_105
+  - first:
+      213: -5507605401388395457
+    second: Verde_Minijuego1_Spritesheet_106
+  - first:
+      213: 6303557369685958769
+    second: Verde_Minijuego1_Spritesheet_107
+  - first:
+      213: 4477102292668696187
+    second: Verde_Minijuego1_Spritesheet_108
+  - first:
+      213: 5688879796623910167
+    second: Verde_Minijuego1_Spritesheet_109
+  - first:
+      213: 3247476585096538905
+    second: Verde_Minijuego1_Spritesheet_110
+  - first:
+      213: 9180817273684718002
+    second: Verde_Minijuego1_Spritesheet_111
+  - first:
+      213: 5347941817549755964
+    second: Verde_Minijuego1_Spritesheet_112
+  - first:
+      213: -8035493851143324336
+    second: Verde_Minijuego1_Spritesheet_113
+  - first:
+      213: 6502318348660716389
+    second: Verde_Minijuego1_Spritesheet_114
+  - first:
+      213: -3687992073852900499
+    second: Verde_Minijuego1_Spritesheet_115
+  - first:
+      213: 4606232102957167796
+    second: Verde_Minijuego1_Spritesheet_116
+  - first:
+      213: -7713301073699891207
+    second: Verde_Minijuego1_Spritesheet_117
+  - first:
+      213: -1060974224323228233
+    second: Verde_Minijuego1_Spritesheet_118
+  - first:
+      213: 5098752995125381881
+    second: Verde_Minijuego1_Spritesheet_119
+  - first:
+      213: 1427762138788631055
+    second: Verde_Minijuego1_Spritesheet_120
+  - first:
+      213: -941174648237248037
+    second: Verde_Minijuego1_Spritesheet_121
+  - first:
+      213: 1686607748394622066
+    second: Verde_Minijuego1_Spritesheet_122
+  - first:
+      213: -7393529289778340674
+    second: Verde_Minijuego1_Spritesheet_123
+  - first:
+      213: -1420553284349805517
+    second: Verde_Minijuego1_Spritesheet_124
+  - first:
+      213: -3562886424186878337
+    second: Verde_Minijuego1_Spritesheet_125
+  - first:
+      213: -3646537066794241273
+    second: Verde_Minijuego1_Spritesheet_126
+  - first:
+      213: 6622138022906071389
+    second: Verde_Minijuego1_Spritesheet_127
+  - first:
+      213: -1409443301082648846
+    second: Verde_Minijuego1_Spritesheet_128
+  - first:
+      213: 5515316108225021934
+    second: Verde_Minijuego1_Spritesheet_129
+  - first:
+      213: 6265508457084838021
+    second: Verde_Minijuego1_Spritesheet_130
+  - first:
+      213: 4974415048856607321
+    second: Verde_Minijuego1_Spritesheet_131
+  - first:
+      213: 4840246332645971224
+    second: Verde_Minijuego1_Spritesheet_132
+  - first:
+      213: -7479576220907848459
+    second: Verde_Minijuego1_Spritesheet_133
+  - first:
+      213: 8595312404157402997
+    second: Verde_Minijuego1_Spritesheet_134
+  - first:
+      213: -4280736593490498394
+    second: Verde_Minijuego1_Spritesheet_135
+  - first:
+      213: 1317885574423297595
+    second: Verde_Minijuego1_Spritesheet_136
+  - first:
+      213: 314710995675041271
+    second: Verde_Minijuego1_Spritesheet_137
+  - first:
+      213: 8579430598779561503
+    second: Verde_Minijuego1_Spritesheet_138
+  - first:
+      213: 5777750402858956097
+    second: Verde_Minijuego1_Spritesheet_139
+  - first:
+      213: 6567909499877892313
+    second: Verde_Minijuego1_Spritesheet_140
+  - first:
+      213: -6378823406498309361
+    second: Verde_Minijuego1_Spritesheet_141
+  - first:
+      213: 1514699437148317534
+    second: Verde_Minijuego1_Spritesheet_142
+  - first:
+      213: -244823101786291814
+    second: Verde_Minijuego1_Spritesheet_143
+  - first:
+      213: 7660147008134561121
+    second: Verde_Minijuego1_Spritesheet_144
+  - first:
+      213: 2331493742997982394
+    second: Verde_Minijuego1_Spritesheet_145
+  - first:
+      213: 4027167213940707458
+    second: Verde_Minijuego1_Spritesheet_146
+  - first:
+      213: 1825708673575604245
+    second: Verde_Minijuego1_Spritesheet_147
+  - first:
+      213: -6384873973373820141
+    second: Verde_Minijuego1_Spritesheet_148
+  - first:
+      213: -7177322629154280088
+    second: Verde_Minijuego1_Spritesheet_149
+  - first:
+      213: 3283657990400898076
+    second: Verde_Minijuego1_Spritesheet_150
+  - first:
+      213: 3294493913664523059
+    second: Verde_Minijuego1_Spritesheet_151
+  - first:
+      213: 2881082138331597005
+    second: Verde_Minijuego1_Spritesheet_152
+  - first:
+      213: -1562928186771633668
+    second: Verde_Minijuego1_Spritesheet_153
+  - first:
+      213: 5054615187000140164
+    second: Verde_Minijuego1_Spritesheet_154
+  - first:
+      213: -2606037628578062039
+    second: Verde_Minijuego1_Spritesheet_155
+  - first:
+      213: -8214141507886565173
+    second: Verde_Minijuego1_Spritesheet_156
+  - first:
+      213: 7314936456303329344
+    second: Verde_Minijuego1_Spritesheet_157
+  - first:
+      213: -6629198477760456716
+    second: Verde_Minijuego1_Spritesheet_158
+  - first:
+      213: 3144641735296339064
+    second: Verde_Minijuego1_Spritesheet_159
+  - first:
+      213: -8232282226670939972
+    second: Verde_Minijuego1_Spritesheet_160
+  - first:
+      213: -3004752697866650890
+    second: Verde_Minijuego1_Spritesheet_161
+  - first:
+      213: -6768493103560537855
+    second: Verde_Minijuego1_Spritesheet_162
+  - first:
+      213: 3159314795684454469
+    second: Verde_Minijuego1_Spritesheet_163
+  - first:
+      213: 2265157130674653799
+    second: Verde_Minijuego1_Spritesheet_164
+  - first:
+      213: 438603585123755687
+    second: Verde_Minijuego1_Spritesheet_165
+  - first:
+      213: -357626977824311897
+    second: Verde_Minijuego1_Spritesheet_166
+  - first:
+      213: -5640973319011388248
+    second: Verde_Minijuego1_Spritesheet_167
+  - first:
+      213: 541151816069500962
+    second: Verde_Minijuego1_Spritesheet_168
+  - first:
+      213: -2792509139986570210
+    second: Verde_Minijuego1_Spritesheet_169
+  - first:
+      213: -2596610105612971361
+    second: Verde_Minijuego1_Spritesheet_170
+  - first:
+      213: -6728849441704139922
+    second: Verde_Minijuego1_Spritesheet_171
+  - first:
+      213: -1096308764779436768
+    second: Verde_Minijuego1_Spritesheet_172
+  - first:
+      213: 2053289003905856412
+    second: Verde_Minijuego1_Spritesheet_173
+  - first:
+      213: 6160446291240122928
+    second: Verde_Minijuego1_Spritesheet_174
+  - first:
+      213: 4656750167146366801
+    second: Verde_Minijuego1_Spritesheet_175
+  - first:
+      213: -523464991439614942
+    second: Verde_Minijuego1_Spritesheet_176
+  - first:
+      213: -7901613009612666557
+    second: Verde_Minijuego1_Spritesheet_177
+  - first:
+      213: 1957934875012497191
+    second: Verde_Minijuego1_Spritesheet_178
+  - first:
+      213: -5121700447051496955
+    second: Verde_Minijuego1_Spritesheet_179
+  - first:
+      213: 4802981210881463518
+    second: Verde_Minijuego1_Spritesheet_180
+  - first:
+      213: 1293655835956445834
+    second: Verde_Minijuego1_Spritesheet_181
+  - first:
+      213: 3975100870726471640
+    second: Verde_Minijuego1_Spritesheet_182
+  - first:
+      213: -3687589928078479707
+    second: Verde_Minijuego1_Spritesheet_183
+  - first:
+      213: 1014737064776745362
+    second: Verde_Minijuego1_Spritesheet_184
+  - first:
+      213: -1634032723354447669
+    second: Verde_Minijuego1_Spritesheet_185
+  - first:
+      213: -5287025466240618705
+    second: Verde_Minijuego1_Spritesheet_186
+  - first:
+      213: 7403506006829275013
+    second: Verde_Minijuego1_Spritesheet_187
+  - first:
+      213: 6574952571115729034
+    second: Verde_Minijuego1_Spritesheet_188
+  - first:
+      213: 6428524756669833482
+    second: Verde_Minijuego1_Spritesheet_189
+  - first:
+      213: -5927756665448630365
+    second: Verde_Minijuego1_Spritesheet_190
+  - first:
+      213: 4498646039964588015
+    second: Verde_Minijuego1_Spritesheet_191
+  - first:
+      213: -7890142226304542360
+    second: Verde_Minijuego1_Spritesheet_192
+  - first:
+      213: -7518325801381873664
+    second: Verde_Minijuego1_Spritesheet_193
+  - first:
+      213: -2620339153388252856
+    second: Verde_Minijuego1_Spritesheet_194
+  - first:
+      213: 3798405092263528190
+    second: Verde_Minijuego1_Spritesheet_195
+  - first:
+      213: -4996144900545888323
+    second: Verde_Minijuego1_Spritesheet_196
+  - first:
+      213: -6892683887520933954
+    second: Verde_Minijuego1_Spritesheet_197
+  - first:
+      213: -5880257819308979869
+    second: Verde_Minijuego1_Spritesheet_198
+  - first:
+      213: 4034665024548306600
+    second: Verde_Minijuego1_Spritesheet_199
+  - first:
+      213: -6553022644979962855
+    second: Verde_Minijuego1_Spritesheet_200
+  - first:
+      213: 1935157806527590971
+    second: Verde_Minijuego1_Spritesheet_201
+  - first:
+      213: -7365939154856905281
+    second: Verde_Minijuego1_Spritesheet_202
+  - first:
+      213: -5693510655583233148
+    second: Verde_Minijuego1_Spritesheet_203
+  - first:
+      213: 3974064985827993239
+    second: Verde_Minijuego1_Spritesheet_204
+  - first:
+      213: -2040908259374792083
+    second: Verde_Minijuego1_Spritesheet_205
+  - first:
+      213: 6647869527743377065
+    second: Verde_Minijuego1_Spritesheet_206
+  - first:
+      213: 2497719715158964326
+    second: Verde_Minijuego1_Spritesheet_207
+  - first:
+      213: 5006051297201927532
+    second: Verde_Minijuego1_Spritesheet_208
+  - first:
+      213: 1425032891381120981
+    second: Verde_Minijuego1_Spritesheet_209
+  - first:
+      213: 24301016972184152
+    second: Verde_Minijuego1_Spritesheet_210
+  - first:
+      213: 9105696657591152061
+    second: Verde_Minijuego1_Spritesheet_211
+  - first:
+      213: -4630178026191740205
+    second: Verde_Minijuego1_Spritesheet_212
+  - first:
+      213: 32927636867536696
+    second: Verde_Minijuego1_Spritesheet_213
+  - first:
+      213: -1215302537970631855
+    second: Verde_Minijuego1_Spritesheet_214
+  - first:
+      213: -9075717390684514993
+    second: Verde_Minijuego1_Spritesheet_215
+  - first:
+      213: -3020531791753309525
+    second: Verde_Minijuego1_Spritesheet_216
+  - first:
+      213: -7385609677579987593
+    second: Verde_Minijuego1_Spritesheet_217
+  - first:
+      213: 4124068028466323403
+    second: Verde_Minijuego1_Spritesheet_218
+  - first:
+      213: 1931664528639941562
+    second: Verde_Minijuego1_Spritesheet_219
+  - first:
+      213: -1034663019016896465
+    second: Verde_Minijuego1_Spritesheet_220
+  - first:
+      213: 8198302363366951145
+    second: Verde_Minijuego1_Spritesheet_221
+  - first:
+      213: -8356587593448661829
+    second: Verde_Minijuego1_Spritesheet_222
+  - first:
+      213: -2486524557098352862
+    second: Verde_Minijuego1_Spritesheet_223
+  - first:
+      213: -3854261692962504759
+    second: Verde_Minijuego1_Spritesheet_224
+  - first:
+      213: 5712248703650644720
+    second: Verde_Minijuego1_Spritesheet_225
+  - first:
+      213: 5759777152990727725
+    second: Verde_Minijuego1_Spritesheet_226
+  - first:
+      213: -3517839137463819514
+    second: Verde_Minijuego1_Spritesheet_227
+  - first:
+      213: 9127439537925230770
+    second: Verde_Minijuego1_Spritesheet_228
+  - first:
+      213: -428923007167674445
+    second: Verde_Minijuego1_Spritesheet_229
+  - first:
+      213: 933841079048587444
+    second: Verde_Minijuego1_Spritesheet_230
+  - first:
+      213: 5990669556656244725
+    second: Verde_Minijuego1_Spritesheet_231
+  - first:
+      213: -2831223905054403264
+    second: Verde_Minijuego1_Spritesheet_232
+  - first:
+      213: -1054240067272730850
+    second: Verde_Minijuego1_Spritesheet_233
+  - first:
+      213: -8773608428303592085
+    second: Verde_Minijuego1_Spritesheet_234
+  - first:
+      213: -6521471736838483741
+    second: Verde_Minijuego1_Spritesheet_235
+  - first:
+      213: -597360054685550806
+    second: Verde_Minijuego1_Spritesheet_236
+  - first:
+      213: 1450650348058211825
+    second: Verde_Minijuego1_Spritesheet_237
+  - first:
+      213: 5464864011241916114
+    second: Verde_Minijuego1_Spritesheet_238
+  - first:
+      213: 203734723199152603
+    second: Verde_Minijuego1_Spritesheet_239
+  - first:
+      213: -6994850302449040971
+    second: Verde_Minijuego1_Spritesheet_240
+  - first:
+      213: 4230955314144282760
+    second: Verde_Minijuego1_Spritesheet_241
+  - first:
+      213: -2549856206587496295
+    second: Verde_Minijuego1_Spritesheet_242
+  - first:
+      213: 3607265792604736784
+    second: Verde_Minijuego1_Spritesheet_243
+  - first:
+      213: 4589341063699577754
+    second: Verde_Minijuego1_Spritesheet_244
+  - first:
+      213: 3128217393366274940
+    second: Verde_Minijuego1_Spritesheet_245
+  - first:
+      213: 3821082864220455024
+    second: Verde_Minijuego1_Spritesheet_246
+  - first:
+      213: 541288469994505143
+    second: Verde_Minijuego1_Spritesheet_247
+  - first:
+      213: 9108004520741100834
+    second: Verde_Minijuego1_Spritesheet_248
+  - first:
+      213: -6459118143253287180
+    second: Verde_Minijuego1_Spritesheet_249
+  - first:
+      213: 1835357056628587487
+    second: Verde_Minijuego1_Spritesheet_250
+  - first:
+      213: -5337541067884396654
+    second: Verde_Minijuego1_Spritesheet_251
+  - first:
+      213: 3484869490258233993
+    second: Verde_Minijuego1_Spritesheet_252
+  - first:
+      213: 2608806217629230120
+    second: Verde_Minijuego1_Spritesheet_253
+  - first:
+      213: 5576085863020804289
+    second: Verde_Minijuego1_Spritesheet_254
+  - first:
+      213: 3072341744436555046
+    second: Verde_Minijuego1_Spritesheet_255
+  - first:
+      213: 3237198071235438321
+    second: Verde_Minijuego1_Spritesheet_256
+  - first:
+      213: -7029443243366760092
+    second: Verde_Minijuego1_Spritesheet_257
+  - first:
+      213: 7717784659166135701
+    second: Verde_Minijuego1_Spritesheet_258
+  - first:
+      213: 183491533562655639
+    second: Verde_Minijuego1_Spritesheet_259
+  - first:
+      213: -7066267208940273095
+    second: Verde_Minijuego1_Spritesheet_260
+  - first:
+      213: 4591985134410096518
+    second: Verde_Minijuego1_Spritesheet_261
+  - first:
+      213: 8894776405618655258
+    second: Verde_Minijuego1_Spritesheet_262
+  - first:
+      213: -6666976500733068124
+    second: Verde_Minijuego1_Spritesheet_263
+  - first:
+      213: 1007645005801966141
+    second: Verde_Minijuego1_Spritesheet_264
+  - first:
+      213: -5303017013562244979
+    second: Verde_Minijuego1_Spritesheet_265
+  - first:
+      213: -9052151755786491717
+    second: Verde_Minijuego1_Spritesheet_266
+  - first:
+      213: -836347881490749476
+    second: Verde_Minijuego1_Spritesheet_267
+  - first:
+      213: -4678056321478371173
+    second: Verde_Minijuego1_Spritesheet_268
+  - first:
+      213: 4866594486094000888
+    second: Verde_Minijuego1_Spritesheet_269
+  - first:
+      213: -5907311907709637084
+    second: Verde_Minijuego1_Spritesheet_270
+  - first:
+      213: -2408986700562955130
+    second: Verde_Minijuego1_Spritesheet_271
+  - first:
+      213: -5623310139253716054
+    second: Verde_Minijuego1_Spritesheet_272
+  - first:
+      213: 543134954856202087
+    second: Verde_Minijuego1_Spritesheet_273
+  - first:
+      213: 841247389071216088
+    second: Verde_Minijuego1_Spritesheet_274
+  - first:
+      213: -8435385517068359130
+    second: Verde_Minijuego1_Spritesheet_275
+  - first:
+      213: -2875810897654348074
+    second: Verde_Minijuego1_Spritesheet_276
+  - first:
+      213: -1751837830559726269
+    second: Verde_Minijuego1_Spritesheet_277
+  - first:
+      213: -2937438794420852798
+    second: Verde_Minijuego1_Spritesheet_278
+  - first:
+      213: -7023961010706756756
+    second: Verde_Minijuego1_Spritesheet_279
+  - first:
+      213: -7573564331206791620
+    second: Verde_Minijuego1_Spritesheet_280
+  - first:
+      213: -495804817288191162
+    second: Verde_Minijuego1_Spritesheet_281
+  - first:
+      213: -2503550966457235251
+    second: Verde_Minijuego1_Spritesheet_282
+  - first:
+      213: 477814567943212058
+    second: Verde_Minijuego1_Spritesheet_283
+  - first:
+      213: 1212075010687329592
+    second: Verde_Minijuego1_Spritesheet_284
+  - first:
+      213: -6257502780278558622
+    second: Verde_Minijuego1_Spritesheet_285
+  - first:
+      213: -7729733978990305002
+    second: Verde_Minijuego1_Spritesheet_286
+  - first:
+      213: -2654143790850283758
+    second: Verde_Minijuego1_Spritesheet_287
+  - first:
+      213: -3011142028500493266
+    second: Verde_Minijuego1_Spritesheet_288
+  - first:
+      213: 5474181225915068993
+    second: Verde_Minijuego1_Spritesheet_289
+  - first:
+      213: -498614089967633585
+    second: Verde_Minijuego1_Spritesheet_290
+  - first:
+      213: -8220813904148771980
+    second: Verde_Minijuego1_Spritesheet_291
+  - first:
+      213: -145186712758217561
+    second: Verde_Minijuego1_Spritesheet_292
+  - first:
+      213: -5901748364332010754
+    second: Verde_Minijuego1_Spritesheet_293
+  - first:
+      213: -1300885045552342483
+    second: Verde_Minijuego1_Spritesheet_294
+  - first:
+      213: -204451343758101823
+    second: Verde_Minijuego1_Spritesheet_295
+  - first:
+      213: -1389246397831138224
+    second: Verde_Minijuego1_Spritesheet_296
+  - first:
+      213: 8408384104693530208
+    second: Verde_Minijuego1_Spritesheet_297
+  - first:
+      213: 6517322492341217325
+    second: Verde_Minijuego1_Spritesheet_298
+  - first:
+      213: 1803719028703964746
+    second: Verde_Minijuego1_Spritesheet_299
+  - first:
+      213: -3213752372503885649
+    second: Verde_Minijuego1_Spritesheet_300
+  - first:
+      213: 1001870130690069674
+    second: Verde_Minijuego1_Spritesheet_301
+  - first:
+      213: -5189577678225901135
+    second: Verde_Minijuego1_Spritesheet_302
+  - first:
+      213: -8105852465723004825
+    second: Verde_Minijuego1_Spritesheet_303
+  - first:
+      213: -5037458729456720560
+    second: Verde_Minijuego1_Spritesheet_304
+  - first:
+      213: 1575243067352716678
+    second: Verde_Minijuego1_Spritesheet_305
+  - first:
+      213: -7496026916822503744
+    second: Verde_Minijuego1_Spritesheet_306
+  - first:
+      213: 6974489751459377699
+    second: Verde_Minijuego1_Spritesheet_307
+  - first:
+      213: -1552750853074275687
+    second: Verde_Minijuego1_Spritesheet_308
+  - first:
+      213: -3348282903494060386
+    second: Verde_Minijuego1_Spritesheet_309
+  - first:
+      213: 5339249287653048775
+    second: Verde_Minijuego1_Spritesheet_310
+  - first:
+      213: -7135052059550721645
+    second: Verde_Minijuego1_Spritesheet_311
+  - first:
+      213: -4000118083324638878
+    second: Verde_Minijuego1_Spritesheet_312
+  - first:
+      213: 2514477362588830567
+    second: Verde_Minijuego1_Spritesheet_313
+  - first:
+      213: 302203307426728587
+    second: Verde_Minijuego1_Spritesheet_314
+  - first:
+      213: -4856756529576532645
+    second: Verde_Minijuego1_Spritesheet_315
+  - first:
+      213: 4498026466652680925
+    second: Verde_Minijuego1_Spritesheet_316
+  - first:
+      213: 3866942901268083047
+    second: Verde_Minijuego1_Spritesheet_317
+  - first:
+      213: -2747915205504499189
+    second: Verde_Minijuego1_Spritesheet_318
+  - first:
+      213: 7615629197710370044
+    second: Verde_Minijuego1_Spritesheet_319
+  - first:
+      213: -7632390921215530200
+    second: Verde_Minijuego1_Spritesheet_320
+  - first:
+      213: -3332073169158282496
+    second: Verde_Minijuego1_Spritesheet_321
+  - first:
+      213: -1360191348554618268
+    second: Verde_Minijuego1_Spritesheet_322
+  - first:
+      213: 8578064537192395805
+    second: Verde_Minijuego1_Spritesheet_323
+  - first:
+      213: -5103363517622509821
+    second: Verde_Minijuego1_Spritesheet_324
+  - first:
+      213: -2860995817944623575
+    second: Verde_Minijuego1_Spritesheet_325
+  - first:
+      213: -3049175220003190961
+    second: Verde_Minijuego1_Spritesheet_326
+  - first:
+      213: -4123885417745150744
+    second: Verde_Minijuego1_Spritesheet_327
+  - first:
+      213: 8031886086455350434
+    second: Verde_Minijuego1_Spritesheet_328
+  - first:
+      213: -9036262773487508962
+    second: Verde_Minijuego1_Spritesheet_329
+  - first:
+      213: 7631856510783008407
+    second: Verde_Minijuego1_Spritesheet_330
+  - first:
+      213: -3630917780634127735
+    second: Verde_Minijuego1_Spritesheet_331
+  - first:
+      213: -5609212998241310094
+    second: Verde_Minijuego1_Spritesheet_332
+  - first:
+      213: -2529602143530282018
+    second: Verde_Minijuego1_Spritesheet_333
+  - first:
+      213: -3826407133698842562
+    second: Verde_Minijuego1_Spritesheet_334
+  - first:
+      213: -9223070318456396753
+    second: Verde_Minijuego1_Spritesheet_335
+  - first:
+      213: -4745995943307768980
+    second: Verde_Minijuego1_Spritesheet_336
+  - first:
+      213: -7979379029711378856
+    second: Verde_Minijuego1_Spritesheet_337
+  - first:
+      213: 6283371064007751048
+    second: Verde_Minijuego1_Spritesheet_338
+  - first:
+      213: -2655065136572571502
+    second: Verde_Minijuego1_Spritesheet_339
+  - first:
+      213: 8826827465488621525
+    second: Verde_Minijuego1_Spritesheet_340
+  - first:
+      213: -6953624759142625726
+    second: Verde_Minijuego1_Spritesheet_341
+  - first:
+      213: -5526659511282022366
+    second: Verde_Minijuego1_Spritesheet_342
+  - first:
+      213: -5473578210573471061
+    second: Verde_Minijuego1_Spritesheet_343
+  - first:
+      213: 3544677817277775346
+    second: Verde_Minijuego1_Spritesheet_344
+  - first:
+      213: 196535641855712922
+    second: Verde_Minijuego1_Spritesheet_345
+  - first:
+      213: -2023108539927036229
+    second: Verde_Minijuego1_Spritesheet_346
+  - first:
+      213: -4624805962544473555
+    second: Verde_Minijuego1_Spritesheet_347
+  - first:
+      213: 708326801758476823
+    second: Verde_Minijuego1_Spritesheet_348
+  - first:
+      213: 7311055898624923230
+    second: Verde_Minijuego1_Spritesheet_349
+  - first:
+      213: -5628127748884786610
+    second: Verde_Minijuego1_Spritesheet_350
+  - first:
+      213: -6111858901440883313
+    second: Verde_Minijuego1_Spritesheet_351
+  - first:
+      213: 7701782568556231520
+    second: Verde_Minijuego1_Spritesheet_352
+  - first:
+      213: 8150090741532187170
+    second: Verde_Minijuego1_Spritesheet_353
+  - first:
+      213: 1277935672784447308
+    second: Verde_Minijuego1_Spritesheet_354
+  - first:
+      213: 4966309069415599077
+    second: Verde_Minijuego1_Spritesheet_355
+  - first:
+      213: 7779848324491491893
+    second: Verde_Minijuego1_Spritesheet_356
+  - first:
+      213: -5436954291951181120
+    second: Verde_Minijuego1_Spritesheet_357
+  - first:
+      213: -4750289542130876331
+    second: Verde_Minijuego1_Spritesheet_358
+  - first:
+      213: -8060523154612202644
+    second: Verde_Minijuego1_Spritesheet_359
+  - first:
+      213: 7340032353791769738
+    second: Verde_Minijuego1_Spritesheet_360
+  - first:
+      213: -2740742544748248340
+    second: Verde_Minijuego1_Spritesheet_361
+  - first:
+      213: 719441725427996658
+    second: Verde_Minijuego1_Spritesheet_362
+  - first:
+      213: -3400488004782132267
+    second: Verde_Minijuego1_Spritesheet_363
+  - first:
+      213: 7506975999416914746
+    second: Verde_Minijuego1_Spritesheet_364
+  - first:
+      213: -8880137425057392229
+    second: Verde_Minijuego1_Spritesheet_365
+  - first:
+      213: 2512350665656615029
+    second: Verde_Minijuego1_Spritesheet_366
+  - first:
+      213: -4522830486470249469
+    second: Verde_Minijuego1_Spritesheet_367
+  - first:
+      213: 3868818989569781895
+    second: Verde_Minijuego1_Spritesheet_368
+  - first:
+      213: -7060155037740841232
+    second: Verde_Minijuego1_Spritesheet_369
+  - first:
+      213: 626324894279369712
+    second: Verde_Minijuego1_Spritesheet_370
+  - first:
+      213: -8079163810999209340
+    second: Verde_Minijuego1_Spritesheet_371
+  - first:
+      213: -1493599295754399694
+    second: Verde_Minijuego1_Spritesheet_372
+  - first:
+      213: 3786748027114610265
+    second: Verde_Minijuego1_Spritesheet_373
+  - first:
+      213: 687773585949370133
+    second: Verde_Minijuego1_Spritesheet_374
+  - first:
+      213: -5765880087429750620
+    second: Verde_Minijuego1_Spritesheet_375
+  - first:
+      213: 1673082838274947942
+    second: Verde_Minijuego1_Spritesheet_376
+  - first:
+      213: 1988719617995484321
+    second: Verde_Minijuego1_Spritesheet_377
+  - first:
+      213: 7065515413505839850
+    second: Verde_Minijuego1_Spritesheet_378
+  - first:
+      213: -1475418867232933812
+    second: Verde_Minijuego1_Spritesheet_379
+  - first:
+      213: -4789952618683572932
+    second: Verde_Minijuego1_Spritesheet_380
+  - first:
+      213: 7233375375299878632
+    second: Verde_Minijuego1_Spritesheet_381
+  - first:
+      213: -4217190139850946676
+    second: Verde_Minijuego1_Spritesheet_382
+  - first:
+      213: -2312511360309871509
+    second: Verde_Minijuego1_Spritesheet_383
+  - first:
+      213: -1154136845789859725
+    second: Verde_Minijuego1_Spritesheet_384
+  - first:
+      213: -4587460448689073405
+    second: Verde_Minijuego1_Spritesheet_385
+  - first:
+      213: 6124117506065428590
+    second: Verde_Minijuego1_Spritesheet_386
+  - first:
+      213: -7149922185006960209
+    second: Verde_Minijuego1_Spritesheet_387
+  - first:
+      213: -7678027126680215588
+    second: Verde_Minijuego1_Spritesheet_388
+  - first:
+      213: 5226466574471391466
+    second: Verde_Minijuego1_Spritesheet_389
+  - first:
+      213: -542002212842152337
+    second: Verde_Minijuego1_Spritesheet_390
+  - first:
+      213: -8051008134069767888
+    second: Verde_Minijuego1_Spritesheet_391
+  - first:
+      213: 6575816544976968277
+    second: Verde_Minijuego1_Spritesheet_392
+  - first:
+      213: 5797437036902204123
+    second: Verde_Minijuego1_Spritesheet_393
+  - first:
+      213: -7622048129745169603
+    second: Verde_Minijuego1_Spritesheet_394
+  - first:
+      213: -2799324274114031130
+    second: Verde_Minijuego1_Spritesheet_395
+  - first:
+      213: 557782453460798557
+    second: Verde_Minijuego1_Spritesheet_396
+  - first:
+      213: 8896923602131157162
+    second: Verde_Minijuego1_Spritesheet_397
+  - first:
+      213: 1757027197595940437
+    second: Verde_Minijuego1_Spritesheet_398
+  - first:
+      213: 610210839020737932
+    second: Verde_Minijuego1_Spritesheet_399
+  - first:
+      213: -6723733185953491965
+    second: Verde_Minijuego1_Spritesheet_400
+  - first:
+      213: -173426868210028483
+    second: Verde_Minijuego1_Spritesheet_401
+  - first:
+      213: 6740016945462157691
+    second: Verde_Minijuego1_Spritesheet_402
+  - first:
+      213: -1479654317789302557
+    second: Verde_Minijuego1_Spritesheet_403
+  - first:
+      213: 7848973848521153449
+    second: Verde_Minijuego1_Spritesheet_404
+  - first:
+      213: 4241748066835774996
+    second: Verde_Minijuego1_Spritesheet_405
+  - first:
+      213: -7236933102906224849
+    second: Verde_Minijuego1_Spritesheet_406
+  - first:
+      213: -755527957325608529
+    second: Verde_Minijuego1_Spritesheet_407
+  - first:
+      213: 1918102385375129784
+    second: Verde_Minijuego1_Spritesheet_408
+  - first:
+      213: -6309375620305646796
+    second: Verde_Minijuego1_Spritesheet_409
+  - first:
+      213: 8783983124496108894
+    second: Verde_Minijuego1_Spritesheet_410
+  - first:
+      213: -5336358455239849491
+    second: Verde_Minijuego1_Spritesheet_411
+  - first:
+      213: 2304719750119802263
+    second: Verde_Minijuego1_Spritesheet_412
+  - first:
+      213: -6331145661259506038
+    second: Verde_Minijuego1_Spritesheet_413
+  - first:
+      213: 1784420203892113240
+    second: Verde_Minijuego1_Spritesheet_414
+  - first:
+      213: 2859839821863684069
+    second: Verde_Minijuego1_Spritesheet_415
+  - first:
+      213: -5268820382584568787
+    second: Verde_Minijuego1_Spritesheet_416
+  - first:
+      213: -6697016726208509441
+    second: Verde_Minijuego1_Spritesheet_417
+  - first:
+      213: 1175904873626184987
+    second: Verde_Minijuego1_Spritesheet_418
+  - first:
+      213: 2643024596714863772
+    second: Verde_Minijuego1_Spritesheet_419
+  - first:
+      213: -2961341028266942750
+    second: Verde_Minijuego1_Spritesheet_420
+  - first:
+      213: 5492055414836554131
+    second: Verde_Minijuego1_Spritesheet_421
+  - first:
+      213: 5223745069280741149
+    second: Verde_Minijuego1_Spritesheet_422
+  - first:
+      213: 8221011047803306796
+    second: Verde_Minijuego1_Spritesheet_423
+  - first:
+      213: 4756656614841365731
+    second: Verde_Minijuego1_Spritesheet_424
+  - first:
+      213: -9013224150220425680
+    second: Verde_Minijuego1_Spritesheet_425
+  - first:
+      213: 8788304872828941498
+    second: Verde_Minijuego1_Spritesheet_426
+  - first:
+      213: 1332201557981773939
+    second: Verde_Minijuego1_Spritesheet_427
+  - first:
+      213: -9028347944563874622
+    second: Verde_Minijuego1_Spritesheet_428
+  - first:
+      213: -4681696506073625621
+    second: Verde_Minijuego1_Spritesheet_429
+  - first:
+      213: 9075364290156294477
+    second: Verde_Minijuego1_Spritesheet_430
+  - first:
+      213: 6587354725589966868
+    second: Verde_Minijuego1_Spritesheet_431
+  - first:
+      213: 5702800929059081306
+    second: Verde_Minijuego1_Spritesheet_432
+  - first:
+      213: 4161690290523337839
+    second: Verde_Minijuego1_Spritesheet_433
+  - first:
+      213: -5975112541599286259
+    second: Verde_Minijuego1_Spritesheet_434
+  - first:
+      213: 7316054964899150970
+    second: Verde_Minijuego1_Spritesheet_435
+  - first:
+      213: 2666786584056607786
+    second: Verde_Minijuego1_Spritesheet_436
+  - first:
+      213: 1290120757721584666
+    second: Verde_Minijuego1_Spritesheet_437
+  - first:
+      213: -6321324862283456814
+    second: Verde_Minijuego1_Spritesheet_438
+  - first:
+      213: -1195436997568573587
+    second: Verde_Minijuego1_Spritesheet_439
+  - first:
+      213: -3400112351850253453
+    second: Verde_Minijuego1_Spritesheet_440
+  - first:
+      213: -4403083175817595092
+    second: Verde_Minijuego1_Spritesheet_441
+  - first:
+      213: -5353628920045625051
+    second: Verde_Minijuego1_Spritesheet_442
+  - first:
+      213: -5766737350708776662
+    second: Verde_Minijuego1_Spritesheet_443
+  - first:
+      213: 4554581618615590946
+    second: Verde_Minijuego1_Spritesheet_444
+  - first:
+      213: 6682298346041747500
+    second: Verde_Minijuego1_Spritesheet_445
+  - first:
+      213: -7605357599999753815
+    second: Verde_Minijuego1_Spritesheet_446
+  - first:
+      213: 9107773841823509200
+    second: Verde_Minijuego1_Spritesheet_447
+  - first:
+      213: 195977018906076382
+    second: Verde_Minijuego1_Spritesheet_448
+  - first:
+      213: 7939060862340117053
+    second: Verde_Minijuego1_Spritesheet_449
+  - first:
+      213: -205038300980141320
+    second: Verde_Minijuego1_Spritesheet_450
+  - first:
+      213: 270748341014749556
+    second: Verde_Minijuego1_Spritesheet_451
+  - first:
+      213: 2079295984363624541
+    second: Verde_Minijuego1_Spritesheet_452
+  - first:
+      213: -2425164413653483866
+    second: Verde_Minijuego1_Spritesheet_453
+  - first:
+      213: 9209373379421359620
+    second: Verde_Minijuego1_Spritesheet_454
+  - first:
+      213: 5226351691896502062
+    second: Verde_Minijuego1_Spritesheet_455
+  - first:
+      213: -7904865702466168469
+    second: Verde_Minijuego1_Spritesheet_456
+  - first:
+      213: -6734024898011481065
+    second: Verde_Minijuego1_Spritesheet_457
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Verde_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6475d3be7b1d74db304085bb460cae
+      internalID: -1831412217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5bfeb131b126c408aaf0aea9f4be76
+      internalID: 1304320138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ce17d71be6c0b49a1be42274a4e0f0
+      internalID: 130110264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e3a16c732527f4a96e258a665e5553
+      internalID: 756691946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551fc682c52de0d429edad0df0dd5407
+      internalID: 1445326960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1649bc3f1b640647a29d4cddda3a1f6
+      internalID: -1601372058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf47aacb9d82194da5a26b0bd46eca3
+      internalID: -1108757753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb08e1b1d74684b48b042b001aa6913b
+      internalID: 922431450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc2f0b42fbb32f44aa14775f73e51d9
+      internalID: -1382518115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b54bff07a545254eb62e0be4e2c910a
+      internalID: 1985276990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d43f2d68b798194a88a6eafdd674bf4
+      internalID: -474915011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f96aaa80ab1704b95722029d4cfbf7
+      internalID: -537754856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e635657d242ce27469e44d20c85abd66
+      internalID: -179050074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de76daa49a4fc5b49a564b55b745994e
+      internalID: -850615410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_14
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099e6f29238244849b4207dad916149f
+      internalID: -1078623366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_15
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c412a59003cf2c49bff63526b1c9a1d
+      internalID: 1406319123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_16
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6093abc1cf917499be613a7058cc2d
+      internalID: 2019835890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_17
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5b1ae0d63b6184d80fb5b5a0e8f778
+      internalID: -141188147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f859fac652ac42b94b32fcde366ff
+      internalID: -287817148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d75eb9103ea6c479add2e06f83b218
+      internalID: -270769865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8848af2d5a02541b235f10af564b6f
+      internalID: -766108422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f10548204b464599d6b9088358776
+      internalID: 1834832366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a404f9df34ac644b8d548d67e4697b
+      internalID: -261196758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0236bd6f4e6884b4c830d3cc96caae5b
+      internalID: 1279865073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7943fb4c923c54fb93f04e37a90a5a
+      internalID: -1693934055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_25
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eed5d7d497c81449823a7c730717cd
+      internalID: -993319706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_26
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa83c91c43bcd44f94530d15ca8d6ba
+      internalID: 1477949536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7460a26e78ecf5d4e99f9c962976ff57
+      internalID: -1611895464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60b3a40468bd5a41a5f2dcfad9827d6
+      internalID: -1435250785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d477ee15fda7b494e96cd036422626dd
+      internalID: -183026172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6471cdf27857209419c2aa08cf81e344
+      internalID: -373992728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_31
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ebef4fcc946444f8a8d80e8cf5bfae
+      internalID: 1352391660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_32
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8116a5fda3add4cbe276c2eeb6e5fe
+      internalID: -2084837642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_33
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2f9a8ea39abec4ca8c293a41db7062
+      internalID: 15626579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_34
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a7504406785d74f95106a591f22010
+      internalID: -861718180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_35
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f724904bb945f954fb0e6554fdafd666
+      internalID: -1014670124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493b4dadd26705e4f912541bd6eb59e9
+      internalID: -77310609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40e8b91a273804c84e776f0c94c56a
+      internalID: -311762647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03173941b7c7497489e5d43e27330c06
+      internalID: 1672516441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782ef323e616464782a2bdb4c2eaa44
+      internalID: 1711587889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1db5917e46c0148b93e5d41fdfd4bc
+      internalID: 1717422924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d3de00ca20c574688cd08633970e2c
+      internalID: -2012256582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c05959c05f6648bb9caa4935c6037
+      internalID: 1341888662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_43
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62c484437f612942ba57a8c04f8703a
+      internalID: 1680323811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Verde_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9445dded8dc7a344b3696eb18502df4
+      internalID: -1339479036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 749732b29c504bd42a3639606375eb65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_Verde_0: -1831412217
+      Spritesheet_Verde_1: 1304320138
+      Spritesheet_Verde_10: -474915011
+      Spritesheet_Verde_11: -537754856
+      Spritesheet_Verde_12: -179050074
+      Spritesheet_Verde_13: -850615410
+      Spritesheet_Verde_14: -1078623366
+      Spritesheet_Verde_15: 1406319123
+      Spritesheet_Verde_16: 2019835890
+      Spritesheet_Verde_17: -141188147
+      Spritesheet_Verde_18: -287817148
+      Spritesheet_Verde_19: -270769865
+      Spritesheet_Verde_2: 130110264
+      Spritesheet_Verde_20: -766108422
+      Spritesheet_Verde_21: 1834832366
+      Spritesheet_Verde_22: -261196758
+      Spritesheet_Verde_23: 1279865073
+      Spritesheet_Verde_24: -1693934055
+      Spritesheet_Verde_25: -993319706
+      Spritesheet_Verde_26: 1477949536
+      Spritesheet_Verde_27: -1611895464
+      Spritesheet_Verde_28: -1435250785
+      Spritesheet_Verde_29: -183026172
+      Spritesheet_Verde_3: 756691946
+      Spritesheet_Verde_30: -373992728
+      Spritesheet_Verde_31: 1352391660
+      Spritesheet_Verde_32: -2084837642
+      Spritesheet_Verde_33: 15626579
+      Spritesheet_Verde_34: -861718180
+      Spritesheet_Verde_35: -1014670124
+      Spritesheet_Verde_36: -77310609
+      Spritesheet_Verde_37: -311762647
+      Spritesheet_Verde_38: 1672516441
+      Spritesheet_Verde_39: 1711587889
+      Spritesheet_Verde_4: 1445326960
+      Spritesheet_Verde_40: 1717422924
+      Spritesheet_Verde_41: -2012256582
+      Spritesheet_Verde_42: 1341888662
+      Spritesheet_Verde_43: 1680323811
+      Spritesheet_Verde_44: -1339479036
+      Spritesheet_Verde_5: -1601372058
+      Spritesheet_Verde_6: -1108757753
+      Spritesheet_Verde_7: 922431450
+      Spritesheet_Verde_8: -1382518115
+      Spritesheet_Verde_9: 1985276990
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

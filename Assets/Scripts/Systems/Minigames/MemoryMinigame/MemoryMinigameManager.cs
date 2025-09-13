@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class MemoryMinigameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static MemoryMinigameManager Instance {  get; private set; }
+
+    [Header("RuntimeFilled")]
+    [SerializeField] private MiniGameState miniGameState;
+    private enum MiniGameState { StartingMinigame, NoCardSelected, WaitForSecondCard, FailPair, MatchPair, Win, Lose}
+
+
+    private void Awake()
     {
-        
+        SetSingleton();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SetSingleton()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            //Debug.LogWarning("There is more than one MemoryMinigameManager instance, proceding to destroy duplicate");
+            Destroy(gameObject);
+        }
     }
+
+    public bool CanFlipCard() => miniGameState == MiniGameState.NoCardSelected || miniGameState == MiniGameState.WaitForSecondCard;
 }

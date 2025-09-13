@@ -1,0 +1,2836 @@
+fileFormatVersion: 2
+guid: 1974dde95eb989745ad99cbecba1fc3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7301117605006955990
+    second: Puntaespin_Spritesheet_Placeholder_0
+  - first:
+      213: -179902001431587889
+    second: Puntaespin_Spritesheet_Placeholder_1
+  - first:
+      213: -7177077010316524141
+    second: Puntaespin_Spritesheet_Placeholder_2
+  - first:
+      213: 1755728736872293173
+    second: Puntaespin_Spritesheet_Placeholder_3
+  - first:
+      213: -8105643435567469503
+    second: Puntaespin_Spritesheet_Placeholder_4
+  - first:
+      213: -2985082140706211620
+    second: Puntaespin_Spritesheet_Placeholder_5
+  - first:
+      213: 6958106989297842238
+    second: Puntaespin_Spritesheet_Placeholder_6
+  - first:
+      213: 8112657241905631018
+    second: Puntaespin_Spritesheet_Placeholder_7
+  - first:
+      213: -7052284887963020351
+    second: Puntaespin_Spritesheet_Placeholder_8
+  - first:
+      213: 5127607610993659757
+    second: Puntaespin_Spritesheet_Placeholder_9
+  - first:
+      213: 342026647985258970
+    second: Puntaespin_Spritesheet_Placeholder_10
+  - first:
+      213: -6694723193825431944
+    second: Puntaespin_Spritesheet_Placeholder_11
+  - first:
+      213: -6356980697882595977
+    second: Puntaespin_Spritesheet_Placeholder_12
+  - first:
+      213: 5623717948524929124
+    second: Puntaespin_Spritesheet_Placeholder_13
+  - first:
+      213: -5327221895151478522
+    second: Puntaespin_Spritesheet_Placeholder_14
+  - first:
+      213: 1130988873776360587
+    second: Puntaespin_Spritesheet_Placeholder_15
+  - first:
+      213: 4770646034887317062
+    second: Puntaespin_Spritesheet_Placeholder_16
+  - first:
+      213: -2203563273226243507
+    second: Puntaespin_Spritesheet_Placeholder_17
+  - first:
+      213: 6282737568404000767
+    second: Puntaespin_Spritesheet_Placeholder_18
+  - first:
+      213: 1971540561786655493
+    second: Puntaespin_Spritesheet_Placeholder_19
+  - first:
+      213: 2716595094050212568
+    second: Puntaespin_Spritesheet_Placeholder_20
+  - first:
+      213: -976205447066899263
+    second: Puntaespin_Spritesheet_Placeholder_21
+  - first:
+      213: 240437585424098276
+    second: Puntaespin_Spritesheet_Placeholder_22
+  - first:
+      213: -5096423187438018614
+    second: Puntaespin_Spritesheet_Placeholder_23
+  - first:
+      213: -7293836887881728397
+    second: Puntaespin_Spritesheet_Placeholder_24
+  - first:
+      213: -6973267592066235117
+    second: Puntaespin_Spritesheet_Placeholder_25
+  - first:
+      213: -1187719402333046773
+    second: Puntaespin_Spritesheet_Placeholder_26
+  - first:
+      213: 814876591438687516
+    second: Puntaespin_Spritesheet_Placeholder_27
+  - first:
+      213: 4293071099885487485
+    second: Puntaespin_Spritesheet_Placeholder_28
+  - first:
+      213: -8908881673189072830
+    second: Puntaespin_Spritesheet_Placeholder_29
+  - first:
+      213: 8319364298551544866
+    second: Puntaespin_Spritesheet_Placeholder_30
+  - first:
+      213: -913638559231376737
+    second: Puntaespin_Spritesheet_Placeholder_31
+  - first:
+      213: 3242972488641676924
+    second: Puntaespin_Spritesheet_Placeholder_32
+  - first:
+      213: -3431309734126105519
+    second: Puntaespin_Spritesheet_Placeholder_33
+  - first:
+      213: -5045783588864389223
+    second: Puntaespin_Spritesheet_Placeholder_34
+  - first:
+      213: 6266472324816698760
+    second: Puntaespin_Spritesheet_Placeholder_35
+  - first:
+      213: -2938083484744676319
+    second: Puntaespin_Spritesheet_Placeholder_36
+  - first:
+      213: 2840837671707035583
+    second: Puntaespin_Spritesheet_Placeholder_37
+  - first:
+      213: -2182096449358889657
+    second: Puntaespin_Spritesheet_Placeholder_38
+  - first:
+      213: 241667573718880554
+    second: Puntaespin_Spritesheet_Placeholder_39
+  - first:
+      213: -4007981474500498322
+    second: Puntaespin_Spritesheet_Placeholder_40
+  - first:
+      213: -669707100158140966
+    second: Puntaespin_Spritesheet_Placeholder_41
+  - first:
+      213: 312742935393710050
+    second: Puntaespin_Spritesheet_Placeholder_42
+  - first:
+      213: 7240905772930191883
+    second: Puntaespin_Spritesheet_Placeholder_43
+  - first:
+      213: -1229323877277313549
+    second: Puntaespin_Spritesheet_Placeholder_44
+  - first:
+      213: -2689397507005026220
+    second: Puntaespin_Spritesheet_Placeholder_45
+  - first:
+      213: 8026774323523425991
+    second: Puntaespin_Spritesheet_Placeholder_46
+  - first:
+      213: 6274793939446216882
+    second: Puntaespin_Spritesheet_Placeholder_47
+  - first:
+      213: -8646181407984148868
+    second: Puntaespin_Spritesheet_Placeholder_48
+  - first:
+      213: 6735312509689465409
+    second: Puntaespin_Spritesheet_Placeholder_49
+  - first:
+      213: -4956070043429798812
+    second: Puntaespin_Spritesheet_Placeholder_50
+  - first:
+      213: 3671706967354365223
+    second: Puntaespin_Spritesheet_Placeholder_51
+  - first:
+      213: 2157028525484966204
+    second: Puntaespin_Spritesheet_Placeholder_52
+  - first:
+      213: 7957569838564034645
+    second: Puntaespin_Spritesheet_Placeholder_53
+  - first:
+      213: 2586089887832465684
+    second: Puntaespin_Spritesheet_Placeholder_54
+  - first:
+      213: -3241281646386800078
+    second: Puntaespin_Spritesheet_Placeholder_55
+  - first:
+      213: 2390611725407301124
+    second: Puntaespin_Spritesheet_Placeholder_56
+  - first:
+      213: 699612346617157143
+    second: Puntaespin_Spritesheet_Placeholder_57
+  - first:
+      213: -3697723293687605087
+    second: Puntaespin_Spritesheet_Placeholder_58
+  - first:
+      213: -4897833092170510059
+    second: Puntaespin_Spritesheet_Placeholder_59
+  - first:
+      213: 1659476812883173945
+    second: Puntaespin_Spritesheet_Placeholder_60
+  - first:
+      213: 2794174545131157192
+    second: Puntaespin_Spritesheet_Placeholder_61
+  - first:
+      213: -4877274378851429174
+    second: Puntaespin_Spritesheet_Placeholder_62
+  - first:
+      213: -8518153698891995026
+    second: Puntaespin_Spritesheet_Placeholder_63
+  - first:
+      213: 8839485049964441334
+    second: Puntaespin_Spritesheet_Placeholder_64
+  - first:
+      213: -4915254882021615309
+    second: Puntaespin_Spritesheet_Placeholder_65
+  - first:
+      213: 8399437908300356318
+    second: Puntaespin_Spritesheet_Placeholder_66
+  - first:
+      213: -7302147664136259004
+    second: Puntaespin_Spritesheet_Placeholder_67
+  - first:
+      213: 3480328056132693222
+    second: Puntaespin_Spritesheet_Placeholder_68
+  - first:
+      213: -637656754897791989
+    second: Puntaespin_Spritesheet_Placeholder_69
+  - first:
+      213: 1109960164553643397
+    second: Puntaespin_Spritesheet_Placeholder_70
+  - first:
+      213: -2999484593637384369
+    second: Puntaespin_Spritesheet_Placeholder_71
+  - first:
+      213: 1289802362444377762
+    second: Puntaespin_Spritesheet_Placeholder_72
+  - first:
+      213: 5288496845189464942
+    second: Puntaespin_Spritesheet_Placeholder_73
+  - first:
+      213: 8517698216631207726
+    second: Puntaespin_Spritesheet_Placeholder_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100.77539, y: -110.14451}
+        - {x: 129.56836, y: -40.218723}
+        - {x: 129.56836, y: 68.78323}
+        - {x: 96.66211, y: 107.859406}
+        - {x: -154.24805, y: 107.859406}
+        - {x: -154.24805, y: -132.76755}
+        - {x: -143.96484, y: -136.88083}
+        - {x: 86.37891, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d0bdce9c590ab4e91e4c8d6d4c8d8b
+      internalID: -2050114776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 129.68262, y: 74.953156}
+        - {x: 102.9463, y: 107.859406}
+        - {x: -8.112302, y: 107.859406}
+        - {x: -152.07715, y: 83.17972}
+        - {x: -152.07715, y: -85.46482}
+        - {x: -65.69824, y: -122.48435}
+        - {x: -55.415035, y: -124.54099}
+        - {x: -57.471676, y: -126.59763}
+        - {x: -57.471676, y: -136.88083}
+        - {x: 129.68262, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9ae58085370f48af8ceca6373e5ee
+      internalID: 1514614842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 119.51368, y: -120.42771}
+        - {x: 129.79689, y: -97.804665}
+        - {x: 129.79689, y: 99.63284}
+        - {x: 107.173836, y: 107.859406}
+        - {x: -71.7539, y: 107.859406}
+        - {x: -154.01953, y: 66.72659}
+        - {x: -154.01953, y: -95.748024}
+        - {x: -121.11327, y: -97.804665}
+        - {x: -102.60351, y: -99.861305}
+        - {x: -92.320305, y: -95.748024}
+        - {x: -94.376945, y: -79.2949}
+        - {x: -71.7539, y: -120.42771}
+        - {x: -57.357418, y: -136.88083}
+        - {x: 90.72071, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcc9ce8fe74d98469a5d04323b35fa7
+      internalID: -197594513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 129.91106, y: -99.861305}
+        - {x: 129.91106, y: 101.68948}
+        - {x: 115.514565, y: 107.859406}
+        - {x: 33.24894, y: 107.859406}
+        - {x: -151.84872, y: 58.50003}
+        - {x: -151.84872, y: -52.558567}
+        - {x: -129.22568, y: -126.59763}
+        - {x: -116.885826, y: -136.88083}
+        - {x: 111.40128, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079cb56ccb338a049a292fa3b0523c46
+      internalID: -927216070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -92.09178, y: -95.748024}
+        - {x: -94.14842, y: -79.2949}
+        - {x: -65.35545, y: -136.88083}
+        - {x: 109.459, y: -136.88083}
+        - {x: 130.0254, y: -81.35154}
+        - {x: 130.0254, y: 97.5762}
+        - {x: 109.459, y: 107.859406}
+        - {x: -40.67577, y: 107.859406}
+        - {x: -145.56444, y: 60.55667}
+        - {x: -153.791, y: 42.046906}
+        - {x: -153.791, y: -31.99216}
+        - {x: -131.16795, y: -136.88083}
+        - {x: -120.88476, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd3f6aeee0af814ca931744be46e72b
+      internalID: -2132375245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 130.13951, y: -126.59763}
+        - {x: 130.13951, y: 101.68948}
+        - {x: 103.40318, y: 107.859406}
+        - {x: -42.618305, y: 107.859406}
+        - {x: -151.62025, y: 52.33011}
+        - {x: -151.62025, y: -52.558567}
+        - {x: -143.39369, y: -99.861305}
+        - {x: -77.5812, y: -136.88083}
+        - {x: 103.40318, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb33116b91eee499206f4d6e88a6a6
+      internalID: -1791972012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 130.25374, y: -87.52146}
+        - {x: 130.25374, y: 79.06644}
+        - {x: 89.120926, y: 107.859406}
+        - {x: 27.42171, y: 107.859406}
+        - {x: -153.56267, y: 60.55667}
+        - {x: -153.56267, y: -75.18162}
+        - {x: -132.99626, y: -136.88083}
+        - {x: 105.57405, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc853f1b5688e0c4da57d620785810bd
+      internalID: -1588349244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 130.36797, y: -69.011696}
+        - {x: 130.36797, y: 107.859406}
+        - {x: -27.99336, y: 107.859406}
+        - {x: -132.88203, y: 52.33011}
+        - {x: -151.3918, y: 37.933624}
+        - {x: -151.3918, y: 5.027372}
+        - {x: -145.22188, y: -85.46482}
+        - {x: -118.48555, y: -101.917946}
+        - {x: -85.5793, y: -97.804665}
+        - {x: -67.069534, y: -120.42771}
+        - {x: -54.72969, y: -134.82419}
+        - {x: -50.61641, y: -136.88083}
+        - {x: 85.12188, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cb7c33d03e5a040ac2f9380fd6f41c
+      internalID: 1023480763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3744
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 122.25589, y: -122.48435}
+        - {x: 130.48245, y: -89.5781}
+        - {x: 130.48245, y: 66.72659}
+        - {x: 89.34964, y: 107.859406}
+        - {x: 27.65042, y: 107.859406}
+        - {x: -145.10739, y: 50.273468}
+        - {x: -153.33395, y: 35.876984}
+        - {x: -153.33395, y: -108.08787}
+        - {x: -130.7109, y: -136.88083}
+        - {x: 87.293, y: -136.88083}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d030112eb37ebf45b718f09f2c1fd74
+      internalID: -670946075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 129.56836, y: -99.975784}
+        - {x: 129.56836, y: 66.612114}
+        - {x: 92.54883, y: 107.74493}
+        - {x: 20.566406, y: 107.74493}
+        - {x: -154.24805, y: 62.49883}
+        - {x: -154.24805, y: -89.69258}
+        - {x: -55.529297, y: -136.99532}
+        - {x: 94.60547, y: -136.99532}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cee0e1f8cea034294ff73aec80c642
+      internalID: 1717598506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 129.68262, y: -104.089066}
+        - {x: 129.68262, y: 107.74493}
+        - {x: -152.07715, y: 107.74493}
+        - {x: -152.07715, y: 23.422657}
+        - {x: -121.22754, y: -7.4269533}
+        - {x: -133.56738, y: -75.2961}
+        - {x: -133.56738, y: -81.46602}
+        - {x: -121.22754, y: -102.032425}
+        - {x: -86.26465, y: -97.91914}
+        - {x: -61.584957, y: -136.99532}
+        - {x: 76.20997, y: -136.99532}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb629b2ee952644a6477cf93c943df
+      internalID: -1074723671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_11
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e83888f1ff80b9409260b1e4554d2b3
+      internalID: -888386306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_12
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bca7eba806a804085c5088c44cde57
+      internalID: -1005733156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_13
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c0fb6cecad17543829f02fcb4a39ee
+      internalID: 979421494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_14
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072fc0102843bb24cb5b80daf1739202
+      internalID: -208742495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 88.43555, y: -44.560715}
+        - {x: 88.43555, y: 10.968583}
+        - {x: 67.86914, y: 70.61116}
+        - {x: 55.529297, y: 74.72444}
+        - {x: -2.0566406, y: 74.72444}
+        - {x: -84.322266, y: 0.6853795}
+        - {x: -84.322266, y: -69.2404}
+        - {x: -67.86914, y: -93.92009}
+        - {x: 47.302734, y: -93.92009}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a7cc250f95b534ab71b49af0e49415
+      internalID: 1032670494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -16.338863, y: -89.80681}
+        - {x: -12.225583, y: -79.523605}
+        - {x: 12.454105, y: -93.92009}
+        - {x: 20.680668, y: -93.92009}
+        - {x: 35.077152, y: -89.80681}
+        - {x: 88.54981, y: -46.617355}
+        - {x: 88.54981, y: 29.47835}
+        - {x: 74.15333, y: 70.61116}
+        - {x: 47.416996, y: 78.83772}
+        - {x: -8.112302, y: 78.83772}
+        - {x: -88.32129, y: 17.138504}
+        - {x: -88.32129, y: -52.787277}
+        - {x: -65.69824, y: -93.92009}
+        - {x: -20.452145, y: -93.92009}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730c48861e2ce548aa0f5f85ff1f77a
+      internalID: 1058179257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_17
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 88.66407, y: -69.2404}
+        - {x: 88.66407, y: 54.158035}
+        - {x: 82.49415, y: 78.83772}
+        - {x: 68.097664, y: 82.951004}
+        - {x: -1.8281181, y: 82.951004}
+        - {x: -94.376945, y: 23.308428}
+        - {x: -94.376945, y: -58.9572}
+        - {x: -79.98046, y: -93.92009}
+        - {x: 24.90821, y: -93.92009}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626a706de3ad79a4d92fe62fa17f46f8
+      internalID: -1396175565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_18
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 20.909096, y: -85.69353}
+        - {x: 76.43839, y: -65.12712}
+        - {x: 90.83488, y: -46.617355}
+        - {x: 90.83488, y: 25.365068}
+        - {x: 82.608315, y: 70.61116}
+        - {x: 45.588783, y: 87.064285}
+        - {x: 8.569252, y: 87.064285}
+        - {x: -96.31942, y: -5.4845424}
+        - {x: -96.31942, y: -21.937668}
+        - {x: -94.26278, y: -30.16423}
+        - {x: -59.29989, y: -93.92009}
+        - {x: 20.909096, y: -93.92009}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d6ec3ae6dc97e4985c21dfa214c094
+      internalID: -245981894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_19
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -36.56249, y: -85.69353}
+        - {x: -32.449207, y: -75.410324}
+        - {x: -18.052721, y: -89.80681}
+        - {x: -5.712877, y: -95.97673}
+        - {x: 12.796889, y: -95.97673}
+        - {x: 72.43947, y: -71.29704}
+        - {x: 90.949234, y: -58.9572}
+        - {x: 90.949234, y: 87.064285}
+        - {x: 88.89259, y: 89.120926}
+        - {x: -32.449207, y: 89.120926}
+        - {x: -102.37499, y: 31.53499}
+        - {x: -102.37499, y: -50.730637}
+        - {x: -81.80858, y: -95.97673}
+        - {x: -53.015614, y: -95.97673}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e0f9d3093ed914bad91dc46d91f18c
+      internalID: 83301624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_20
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 93.11998, y: -83.63689}
+        - {x: 93.11998, y: 80.89436}
+        - {x: 78.723495, y: 89.120926}
+        - {x: 2.6277902, y: 89.120926}
+        - {x: -106.37417, y: 21.251787}
+        - {x: -106.37417, y: -26.05095}
+        - {x: -77.5812, y: -73.35368}
+        - {x: -61.12807, y: -87.75017}
+        - {x: -42.618305, y: -83.63689}
+        - {x: -32.335102, y: -98.03337}
+        - {x: 41.703964, y: -98.03337}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02bf466086babf4cac1ff61a4b43ef0
+      internalID: -922500177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_21
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2.7420201, y: -95.97673}
+        - {x: 70.61116, y: -91.86345}
+        - {x: 93.23421, y: -46.617355}
+        - {x: 93.23421, y: 66.49788}
+        - {x: 50.044754, y: 91.17757}
+        - {x: 8.9119425, y: 91.17757}
+        - {x: -110.373215, y: 23.308428}
+        - {x: -110.373215, y: -21.937668}
+        - {x: -85.69353, y: -81.580246}
+        - {x: -63.07048, y: -83.63689}
+        - {x: -48.673996, y: -77.466965}
+        - {x: -23.994308, y: -98.03337}
+        - {x: -1.3712611, y: -98.03337}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec19794a7182f734ebfab3e8dab099f5
+      internalID: -703507558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_22
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -65.01289, y: -83.63689}
+        - {x: -54.72969, y: -71.29704}
+        - {x: -40.333202, y: -93.92009}
+        - {x: -34.16328, y: -100.09001}
+        - {x: 43.989063, y: -100.09001}
+        - {x: 95.40508, y: -58.9572}
+        - {x: 95.40508, y: 74.72444}
+        - {x: 58.385548, y: 89.120926}
+        - {x: -13.596875, y: 89.120926}
+        - {x: -112.31563, y: 66.49788}
+        - {x: -112.31563, y: -100.09001}
+        - {x: -108.20235, y: -100.09001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91ebfc4cabb65b428e49d963c7869a0
+      internalID: 1507249170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_23
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 95.51956, y: 87.064285}
+        - {x: -114.25779, y: 87.064285}
+        - {x: -114.25779, y: -102.14665}
+        - {x: 95.51956, y: -102.14665}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5619c2b8aad18d7478997c343af7dff7
+      internalID: -918675125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 98.71875, y: -57.01479}
+        - {x: 98.71875, y: 80.780136}
+        - {x: 94.60547, y: 84.89342}
+        - {x: -18.509766, y: 84.89342}
+        - {x: -119.28516, y: 54.043808}
+        - {x: -119.28516, y: -65.24135}
+        - {x: -90.49219, y: -100.20425}
+        - {x: 86.37891, y: -100.20425}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fee3f1eac6f68b42bacdab9fc2777d4
+      internalID: 497791951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 102.9463, y: -30.278461}
+        - {x: 102.9463, y: 47.873886}
+        - {x: 72.09669, y: 80.780136}
+        - {x: 10.397465, y: 80.780136}
+        - {x: -117.11426, y: 60.21373}
+        - {x: -117.11426, y: -50.844868}
+        - {x: -106.831055, y: -61.12807}
+        - {x: -94.49121, y: -65.24135}
+        - {x: -84.20801, y: -61.12807}
+        - {x: -59.528316, y: -98.147606}
+        - {x: -55.415035, y: -100.20425}
+        - {x: 72.09669, y: -100.20425}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dbb146fab13824f9de448d1194c0b4
+      internalID: -841685636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_26
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 103.060555, y: -65.24135}
+        - {x: 105.117195, y: -48.788227}
+        - {x: 105.117195, y: 43.760605}
+        - {x: 76.32423, y: 76.666855}
+        - {x: -116.99999, y: 76.666855}
+        - {x: -127.2832, y: 49.930527}
+        - {x: -127.2832, y: -106.37417}
+        - {x: 68.097664, y: -106.37417}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642e711e95b52514c87345e3368da362
+      internalID: -1647784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_27
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 109.34464, y: -96.090965}
+        - {x: 109.34464, y: 78.723495}
+        - {x: -131.28232, y: 78.723495}
+        - {x: -131.28232, y: -94.034325}
+        - {x: -90.1495, y: -112.54409}
+        - {x: 92.89152, y: -112.54409}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d3e298fab0cd14a8bd01bc93ab38e2
+      internalID: 1267415949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_28
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 90.949234, y: -73.46792}
+        - {x: 109.459, y: -40.561665}
+        - {x: 109.459, y: 33.4774}
+        - {x: 95.062515, y: 72.55357}
+        - {x: -3.6562362, y: 89.0067}
+        - {x: -116.77148, y: 89.0067}
+        - {x: -108.544914, y: 47.873886}
+        - {x: -139.39452, y: -3.5421317}
+        - {x: -139.39452, y: -19.995256}
+        - {x: -120.88476, y: -40.561665}
+        - {x: -131.16795, y: -87.8644}
+        - {x: -83.86522, y: -116.65737}
+        - {x: 47.75978, y: -116.65737}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faa139d94621ed469b8679ebbaafde7
+      internalID: 1172372806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_29
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 111.629745, y: -116.65737}
+        - {x: 111.629745, y: 45.817245}
+        - {x: 41.703964, y: 99.2899}
+        - {x: -110.48745, y: 99.2899}
+        - {x: -143.39369, y: 23.194197}
+        - {x: -143.39369, y: -52.90151}
+        - {x: -96.090965, y: -120.77065}
+        - {x: 103.40318, y: -120.77065}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16fdc594e626694b8dbd013c47706cd
+      internalID: 1773645772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_30
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 62.3846, y: -106.37417}
+        - {x: 109.68733, y: -34.391743}
+        - {x: 109.68733, y: 27.307478}
+        - {x: 95.29085, y: 49.930527}
+        - {x: -32.22087, y: 111.629745}
+        - {x: -102.14665, y: 111.629745}
+        - {x: -147.39275, y: 58.15709}
+        - {x: -147.39275, y: -61.12807}
+        - {x: -58.9572, y: -122.82729}
+        - {x: 29.47835, y: -122.82729}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e274a00bc9638b4ab9804c75627a2cd
+      internalID: -673484900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_31
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 109.80157, y: -71.41128}
+        - {x: 109.80157, y: 58.15709}
+        - {x: -60.899612, y: 121.91295}
+        - {x: -93.80586, y: 121.91295}
+        - {x: -147.27852, y: 58.15709}
+        - {x: -147.27852, y: -57.01479}
+        - {x: -79.40938, y: -122.82729}
+        - {x: 23.422657, y: -122.82729}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d43209a2c5af53469b857d31b6ddccb
+      internalID: -1697088963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_32
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 39.990265, y: -116.65737}
+        - {x: 89.34964, y: -69.35464}
+        - {x: 105.802765, y: -46.731586}
+        - {x: 105.802765, y: 35.534042}
+        - {x: -36.105442, y: 132.19615}
+        - {x: -106.03123, y: 132.19615}
+        - {x: -147.16403, y: 76.666855}
+        - {x: -147.16403, y: 35.534042}
+        - {x: -140.99411, y: 21.137556}
+        - {x: -130.7109, y: 17.024275}
+        - {x: -147.16403, y: -3.5421317}
+        - {x: -147.16403, y: -73.46792}
+        - {x: -103.97459, y: -120.77065}
+        - {x: 31.7637, y: -120.77065}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384094569e7d02c46a94ea893a74520b
+      internalID: -383533261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 102.83203, y: -75.63866}
+        - {x: 102.83203, y: 8.683608}
+        - {x: -37.01953, y: 140.30861}
+        - {x: -65.8125, y: 140.30861}
+        - {x: -76.0957, y: 125.912125}
+        - {x: -148.07812, y: 78.60939}
+        - {x: -148.07812, y: -61.242176}
+        - {x: -115.171875, y: -118.82812}
+        - {x: 49.359375, y: -118.82812}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08c042d67570a740a57b0074f028828
+      internalID: -751197899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 92.66309, y: -114.714836}
+        - {x: 102.9463, y: -81.80858}
+        - {x: 102.9463, y: 6.6269674}
+        - {x: 18.624027, y: 148.53517}
+        - {x: -115.05762, y: 148.53517}
+        - {x: -152.07715, y: 132.08205}
+        - {x: -152.07715, y: 72.43947}
+        - {x: -150.02051, y: 66.26955}
+        - {x: -139.7373, y: 43.6465}
+        - {x: -152.07715, y: 29.250015}
+        - {x: -152.07715, y: -38.61913}
+        - {x: -119.1709, y: -116.77148}
+        - {x: 82.37989, y: -116.77148}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad132bcdc8a5bd043a06453b56367fa7
+      internalID: 2093862532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_35
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 96.89063, y: -94.14842}
+        - {x: 96.89063, y: -1.5995954}
+        - {x: -3.8847587, y: 152.64845}
+        - {x: -63.52734, y: 152.64845}
+        - {x: -102.60351, y: 140.30861}
+        - {x: -156.07617, y: 101.23244}
+        - {x: -156.07617, y: -20.109362}
+        - {x: -116.99999, y: -118.82812}
+        - {x: 82.49415, y: -118.82812}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1569c23ec087124ca6246afddc8b9b5
+      internalID: 369753420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_36
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 92.89152, y: -67.412094}
+        - {x: 92.89152, y: 4.5703263}
+        - {x: 10.625894, y: 148.53517}
+        - {x: -5.8272324, y: 156.76173}
+        - {x: -24.336998, y: 156.76173}
+        - {x: -36.67684, y: 136.19533}
+        - {x: -118.94247, y: 125.912125}
+        - {x: -131.28232, y: 107.40236}
+        - {x: -127.16903, y: 86.83595}
+        - {x: -153.90536, y: 76.55275}
+        - {x: -153.90536, y: -116.77148}
+        - {x: -143.62216, y: -118.82812}
+        - {x: 68.21183, y: -118.82812}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54044c046f757a4e9e6f4fc306c28cf
+      internalID: -2114817234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_37
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 68.32619, y: -114.714836}
+        - {x: 84.77931, y: -75.63866}
+        - {x: 84.77931, y: 16.910172}
+        - {x: 33.363297, y: 158.81837}
+        - {x: -120.88476, y: 158.81837}
+        - {x: -155.84764, y: 152.64845}
+        - {x: -155.84764, y: -71.525375}
+        - {x: -135.28123, y: -116.77148}
+        - {x: 64.212906, y: -116.77148}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e38f42f65beaa439608ab8a7854ca6
+      internalID: -1004755232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_38
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 78.723495, y: 95.062515}
+        - {x: 35.534042, y: 156.76173}
+        - {x: -85.80776, y: 156.76173}
+        - {x: -116.65737, y: 146.47853}
+        - {x: -149.56361, y: 84.77931}
+        - {x: -149.56361, y: -69.468735}
+        - {x: -126.940575, y: -120.88476}
+        - {x: 78.723495, y: -120.88476}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5424506a67a20b42baaf892abb595f3
+      internalID: -326897098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_39
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 68.55452, y: -96.20506}
+        - {x: 68.55452, y: 78.60939}
+        - {x: 64.44124, y: 136.19533}
+        - {x: 56.21468, y: 160.87502}
+        - {x: -130.93962, y: 160.87502}
+        - {x: -155.61931, y: 142.36525}
+        - {x: -155.61931, y: -77.6953}
+        - {x: -110.373215, y: -100.31835}
+        - {x: -58.9572, y: -122.9414}
+        - {x: 21.251787, y: -122.9414}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa92bf0d0162746b9bc9d187f75e09
+      internalID: 2119474693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_40
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 70.725395, y: -98.26171}
+        - {x: 74.83868, y: -79.75194}
+        - {x: 74.83868, y: 167.04494}
+        - {x: 68.668755, y: 169.10158}
+        - {x: -69.126175, y: 169.10158}
+        - {x: -75.2961, y: 142.36525}
+        - {x: -73.239456, y: 136.19533}
+        - {x: -65.01289, y: 134.13869}
+        - {x: -126.71211, y: 121.79884}
+        - {x: -139.05196, y: 93.005875}
+        - {x: -159.61836, y: 35.419937}
+        - {x: -159.61836, y: -42.73241}
+        - {x: -141.1086, y: -96.20506}
+        - {x: -89.69258, y: -122.9414}
+        - {x: 19.309376, y: -122.9414}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d612c7ec7e0e6ab4d888a8e51313fb27
+      internalID: 2058148462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_41
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 89.34964, y: 43.6465}
+        - {x: 89.34964, y: 148.53517}
+        - {x: -1.1425502, y: 175.2715}
+        - {x: -60.78513, y: 175.2715}
+        - {x: -120.42771, y: 162.93166}
+        - {x: -163.61716, y: 107.40236}
+        - {x: -163.61716, y: -79.75194}
+        - {x: -101.917946, y: -120.88476}
+        - {x: 42.046906, y: -120.88476}
+      tessellationDetail: 0
+      bones: []
+      spriteID: df01be865a69b9542bd2c328ee8d6f35
+      internalID: -929810296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 24.679688, y: -114.829185}
+        - {x: 102.83203, y: -5.8272324}
+        - {x: 102.83203, y: 158.70403}
+        - {x: 78.15234, y: 179.27043}
+        - {x: -63.75586, y: 179.27043}
+        - {x: -113.115234, y: 144.30754}
+        - {x: -113.115234, y: 127.85441}
+        - {x: -100.77539, y: 119.627846}
+        - {x: -166.58789, y: 49.702065}
+        - {x: -166.58789, y: -1.7139509}
+        - {x: -143.96484, y: -65.46981}
+        - {x: -69.92578, y: -116.885826}
+        - {x: 6.169922, y: -116.885826}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c402f07baaa82484e8a821af31749f65
+      internalID: -1043967069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 37.133793, y: -100.4327}
+        - {x: 119.39942, y: 47.645424}
+        - {x: 119.39942, y: 142.2509}
+        - {x: 84.43653, y: 179.27043}
+        - {x: -131.51074, y: 179.27043}
+        - {x: -164.41699, y: 121.68449}
+        - {x: -164.41699, y: -36.67684}
+        - {x: -135.62402, y: -114.829185}
+        - {x: -14.282224, y: -114.829185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2c73622e57ef049b467da3fc2d34eb
+      internalID: 1454520284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_44
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 129.79689, y: -11.997154}
+        - {x: 129.79689, y: 144.30754}
+        - {x: 107.173836, y: 179.27043}
+        - {x: -1.8281181, y: 179.27043}
+        - {x: -3.8847587, y: 177.21379}
+        - {x: 0.2285226, y: 158.70403}
+        - {x: -34.734367, y: 173.10051}
+        - {x: -51.187496, y: 175.15715}
+        - {x: -65.58398, y: 168.98723}
+        - {x: -82.0371, y: 160.76067}
+        - {x: -162.2461, y: 107.288}
+        - {x: -162.2461, y: -11.997154}
+        - {x: -137.5664, y: -110.715904}
+        - {x: 8.455086, y: -110.715904}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39ecc0ccdf693c4e85f5e8729983933
+      internalID: 975134289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_45
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 142.2509, y: 47.645424}
+        - {x: 142.2509, y: 111.40128}
+        - {x: 70.26847, y: 179.27043}
+        - {x: -42.846764, y: 179.27043}
+        - {x: -57.243248, y: 171.04387}
+        - {x: -55.186607, y: 166.93059}
+        - {x: -147.73544, y: 115.514565}
+        - {x: -155.962, y: 105.23136}
+        - {x: -155.962, y: -28.45028}
+        - {x: -135.3956, y: -96.31942}
+        - {x: -83.979576, y: -108.65926}
+        - {x: -16.110435, y: -108.65926}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7182351df747d364aa27bd1623c5216e
+      internalID: 590783396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_46
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 150.59181, y: 20.909096}
+        - {x: 150.59181, y: 72.32511}
+        - {x: 127.968765, y: 115.514565}
+        - {x: 78.60939, y: 185.44035}
+        - {x: 66.26955, y: 185.44035}
+        - {x: 47.75978, y: 166.93059}
+        - {x: 43.6465, y: 152.5341}
+        - {x: 53.929703, y: 142.2509}
+        - {x: 8.683608, y: 175.15715}
+        - {x: -9.826159, y: 185.44035}
+        - {x: -22.166002, y: 185.44035}
+        - {x: -38.61913, y: 181.32707}
+        - {x: -143.5078, y: 136.08098}
+        - {x: -157.90428, y: 88.77824}
+        - {x: -157.90428, y: -11.997154}
+        - {x: -141.45116, y: -65.46981}
+        - {x: -114.714836, y: -104.54598}
+        - {x: 8.683608, y: -104.54598}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a11fcebffc848d408a8f50717c96e55
+      internalID: -1211380471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_47
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 156.87584, y: -9.940514}
+        - {x: 156.87584, y: 103.17472}
+        - {x: 132.19615, y: 171.04387}
+        - {x: 101.34654, y: 185.44035}
+        - {x: -155.73354, y: 185.44035}
+        - {x: -155.73354, y: -79.866295}
+        - {x: -116.65737, y: -98.37606}
+        - {x: -3.5421317, y: -98.37606}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5d6ec216b04d946b1b914706cfd1db
+      internalID: 1915539704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_48
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 159.0467, y: -11.997154}
+        - {x: 159.0467, y: 86.721596}
+        - {x: 124.08382, y: 166.93059}
+        - {x: 101.46077, y: 185.44035}
+        - {x: -100.09001, y: 185.44035}
+        - {x: -153.56267, y: 140.19426}
+        - {x: -153.56267, y: -71.63973}
+        - {x: -106.25993, y: -88.09286}
+        - {x: 8.9119425, y: -88.09286}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4450a5c4e52dda54aa22d14ddcc5c01a
+      internalID: -530035419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_49
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 155.04765, y: -44.903404}
+        - {x: 155.04765, y: 57.928627}
+        - {x: 150.93437, y: 109.34464}
+        - {x: 85.12188, y: 177.21379}
+        - {x: -141.1086, y: 177.21379}
+        - {x: -153.44844, y: 142.2509}
+        - {x: -153.44844, y: -36.67684}
+        - {x: -151.3918, y: -38.733482}
+        - {x: -118.48555, y: -77.809654}
+        - {x: -25.93672, y: -77.809654}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da48b4fece813c4e86bbe13c020d9dc
+      internalID: 634318716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_50
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 155.16214, y: 140.19426}
+        - {x: 120.19925, y: 177.21379}
+        - {x: -89.5781, y: 177.21379}
+        - {x: -153.33395, y: 74.38175}
+        - {x: -153.33395, y: -40.790123}
+        - {x: -140.99411, y: -65.46981}
+        - {x: 155.16214, y: -65.46981}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c31cd906ed8044c9898d3457fa645a
+      internalID: 633787757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 131.625, y: -65.58398}
+        - {x: 133.68164, y: -45.01757}
+        - {x: 117.228516, y: -10.054681}
+        - {x: 158.36133, y: 45.474617}
+        - {x: 158.36133, y: 78.38087}
+        - {x: 125.45508, y: 92.77735}
+        - {x: 117.228516, y: 115.4004}
+        - {x: 90.49219, y: 177.09962}
+        - {x: -55.529297, y: 177.09962}
+        - {x: -127.51172, y: 142.13673}
+        - {x: -152.1914, y: 94.83399}
+        - {x: -152.1914, y: -5.9413996}
+        - {x: -129.56836, y: -63.52734}
+        - {x: 39.07617, y: -69.69726}
+        - {x: 127.51172, y: -69.69726}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a58a64d01f3964d9f8f5272d0dc0f7
+      internalID: -1281524884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_52
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 160.53223, y: -45.01757}
+        - {x: 160.53223, y: 177.09962}
+        - {x: -65.69824, y: 177.09962}
+        - {x: -143.85059, y: 90.72071}
+        - {x: -143.85059, y: -12.111321}
+        - {x: -133.56738, y: -51.187496}
+        - {x: 39.190434, y: -84.09374}
+        - {x: 127.625984, y: -84.09374}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292ec3b913694444c91be861a4cdc7c3
+      internalID: -1269633683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_53
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 158.58986, y: -5.9413996}
+        - {x: 158.58986, y: 66.04102}
+        - {x: 119.51368, y: 129.79689}
+        - {x: 55.75782, y: 172.98634}
+        - {x: -51.187496, y: 172.98634}
+        - {x: -137.5664, y: 94.83399}
+        - {x: -137.5664, y: -12.111321}
+        - {x: 43.417976, y: -98.49023}
+        - {x: 127.74024, y: -98.49023}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8902c8c27be94ea4404ac30d215be
+      internalID: -443958848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_54
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 99.06144, y: -102.60351}
+        - {x: 154.59074, y: -32.677727}
+        - {x: 154.59074, y: 31.078133}
+        - {x: 138.13762, y: 117.45704}
+        - {x: 47.645424, y: 168.87306}
+        - {x: 10.625894, y: 168.87306}
+        - {x: -63.41317, y: 148.30666}
+        - {x: -73.69637, y: 131.85353}
+        - {x: -118.94247, y: 98.94727}
+        - {x: -129.22568, y: 78.38087}
+        - {x: -129.22568, y: 14.625008}
+        - {x: -112.772545, y: -7.99804}
+        - {x: 51.758705, y: -108.77343}
+        - {x: 84.664955, y: -108.77343}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b46dd22e3da2004f938cae585b3a702
+      internalID: 1120688372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_55
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 80.66603, y: -116.99999}
+        - {x: 150.59181, y: -53.244137}
+        - {x: 150.59181, y: 115.4004}
+        - {x: 64.212906, y: 162.70314}
+        - {x: -50.958973, y: 162.70314}
+        - {x: -124.99804, y: 98.94727}
+        - {x: -124.99804, y: 18.738289}
+        - {x: 16.910172, y: -119.05663}
+        - {x: 76.55275, y: -119.05663}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42011477c854c4e45a61ff5f199e94aa
+      internalID: 1791972136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_56
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 150.70592, y: -47.07421}
+        - {x: 150.70592, y: 84.55079}
+        - {x: 113.686386, y: 152.41994}
+        - {x: 99.2899, y: 154.47658}
+        - {x: -52.90151, y: 154.47658}
+        - {x: -102.26089, y: 138.02345}
+        - {x: -120.77065, y: 84.55079}
+        - {x: -120.77065, y: 29.021492}
+        - {x: 17.024275, y: -127.2832}
+        - {x: 115.74303, y: -127.2832}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96e3e23becae1b4d96bccf019720216
+      internalID: -1866612838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_57
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 152.87679, y: -100.54687}
+        - {x: 152.87679, y: 20.79493}
+        - {x: 150.82014, y: 26.964851}
+        - {x: 144.65022, y: 33.134773}
+        - {x: 142.59358, y: 33.134773}
+        - {x: 136.42366, y: 31.078133}
+        - {x: 119.970535, y: 105.117195}
+        - {x: 107.63069, y: 154.47658}
+        - {x: -73.35368, y: 154.47658}
+        - {x: -114.486496, y: 148.30666}
+        - {x: -114.486496, y: 10.511726}
+        - {x: -17.824387, y: -133.45312}
+        - {x: 97.34749, y: -133.45312}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3eeca0b5ae2614992a5af3e4cca5dd
+      internalID: -1471950261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_58
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 150.93437, y: -114.94335}
+        - {x: 150.93437, y: 152.41994}
+        - {x: -99.975784, y: 152.41994}
+        - {x: -106.145706, y: 138.02345}
+        - {x: -106.145706, y: 39.304695}
+        - {x: -21.823439, y: -135.50977}
+        - {x: 83.06524, y: -135.50977}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8888807fa918fc43a40258d7cbb0b14
+      internalID: -1907065068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_59
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 89.34964, y: -121.11327}
+        - {x: 114.02933, y: -100.54687}
+        - {x: 107.859406, y: -69.69726}
+        - {x: 146.93558, y: -53.244137}
+        - {x: 146.93558, y: 115.4004}
+        - {x: 120.19925, y: 123.62696}
+        - {x: 56.44339, y: 148.30666}
+        - {x: -58.72849, y: 148.30666}
+        - {x: -95.748024, y: 117.45704}
+        - {x: -95.748024, y: 45.474617}
+        - {x: -56.67185, y: -123.169914}
+        - {x: -42.275364, y: -133.45312}
+        - {x: 27.65042, y: -133.45312}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4d7393df0989a49ad038b11d8843f7
+      internalID: 536680283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 139.85156, y: -75.981445}
+        - {x: 139.85156, y: 129.68262}
+        - {x: 104.88867, y: 152.30566}
+        - {x: -67.86914, y: 152.30566}
+        - {x: -76.0957, y: 150.24902}
+        - {x: -88.43555, y: 107.05958}
+        - {x: -88.43555, y: -96.54785}
+        - {x: -86.37891, y: -129.4541}
+        - {x: 123.39844, y: -129.4541}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9ce3a115ede71448f419bae81b99fa
+      internalID: 2115379573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_61
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 86.49317, y: -108.887695}
+        - {x: 76.20997, y: -96.54785}
+        - {x: 107.05958, y: -84.20801}
+        - {x: 127.625984, y: -73.924805}
+        - {x: 137.90918, y: -59.528316}
+        - {x: 131.73926, y: -47.188473}
+        - {x: 117.34278, y: -49.245113}
+        - {x: 148.19238, y: 10.397465}
+        - {x: 148.19238, y: 86.49317}
+        - {x: 55.64356, y: 154.3623}
+        - {x: -45.131832, y: 154.3623}
+        - {x: -78.038086, y: 129.68262}
+        - {x: -78.038086, y: -135.62402}
+        - {x: 84.43653, y: -135.62402}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b308de4dd0bc488581c69b2f5d1a1
+      internalID: 1270488104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_62
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 142.13673, y: -135.62402}
+        - {x: 150.3633, y: -119.1709}
+        - {x: 150.3633, y: 90.60645}
+        - {x: 98.94727, y: 131.73926}
+        - {x: 51.64454, y: 152.30566}
+        - {x: -12.111321, y: 152.30566}
+        - {x: -75.86718, y: 127.625984}
+        - {x: -88.20702, y: 72.09669}
+        - {x: -88.20702, y: -133.56738}
+        - {x: -65.58398, y: -141.79395}
+        - {x: 131.85353, y: -141.79395}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13317801f41366447a398eb883796725
+      internalID: -1861176463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_63
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 31.1923, y: -141.79395}
+        - {x: 47.645424, y: -119.1709}
+        - {x: 99.06144, y: -113.00098}
+        - {x: 117.571205, y: -80.09473}
+        - {x: 154.59074, y: -20.452145}
+        - {x: 154.59074, y: 65.926765}
+        - {x: 86.721596, y: 150.24902}
+        - {x: -49.016685, y: 150.24902}
+        - {x: -69.58309, y: 105.00294}
+        - {x: -102.48934, y: -59.528316}
+        - {x: -102.48934, y: -121.22754}
+        - {x: 2.3993304, y: -145.90723}
+        - {x: 22.965736, y: -145.90723}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aeffb80d167bba4ebd1cecf96de4197
+      internalID: 1581975782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_64
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 152.64845, y: -67.75488}
+        - {x: 152.64845, y: 88.54981}
+        - {x: 90.949234, y: 146.13574}
+        - {x: -75.63866, y: 146.13574}
+        - {x: -114.714836, y: -22.508785}
+        - {x: -114.714836, y: -145.90723}
+        - {x: -108.544914, y: -147.96387}
+        - {x: 74.49611, y: -147.96387}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc508eaed155b84c957f72e215f19e3
+      internalID: -1856475907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_65
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 150.70592, y: -71.868164}
+        - {x: 150.70592, y: 125.56934}
+        - {x: 95.17662, y: 139.96582}
+        - {x: -48.788227, y: 139.96582}
+        - {x: -124.883934, y: -45.131832}
+        - {x: -124.883934, y: -92.43457}
+        - {x: -63.18471, y: -145.90723}
+        - {x: 72.55357, y: -145.90723}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a7211881b00340b1bb17abf1c9b0a
+      internalID: 529630559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_66
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 146.70686, y: 84.43653}
+        - {x: 87.064285, y: 135.85254}
+        - {x: -3.4279017, y: 135.85254}
+        - {x: -32.22087, y: 129.68262}
+        - {x: -135.0529, y: -24.565428}
+        - {x: -135.0529, y: -86.26465}
+        - {x: -83.63689, y: -141.79395}
+        - {x: 146.70686, y: -141.79395}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b72040d6f3c30c4185398f650a9a843
+      internalID: 864735726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_67
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 140.65117, y: -125.34082}
+        - {x: 140.65117, y: 51.530277}
+        - {x: 101.575005, y: 133.7959}
+        - {x: -1.2570312, y: 133.7959}
+        - {x: -134.93867, y: -18.395504}
+        - {x: -141.1086, y: -30.73535}
+        - {x: -141.1086, y: -55.415035}
+        - {x: -83.52266, y: -139.7373}
+        - {x: 124.19805, y: -139.7373}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c027b64f620cc4b47a161e8948f7ba5f
+      internalID: 312585429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_68
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 136.65237, y: 102.9463}
+        - {x: 132.5391, y: 129.68262}
+        - {x: 2.970731, y: 129.68262}
+        - {x: -147.16403, y: -6.0556607}
+        - {x: -147.16403, y: -78.038086}
+        - {x: -132.76755, y: -141.79395}
+        - {x: 136.65237, y: -141.79395}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a9eba62486859429852dc9744ae4dc
+      internalID: 903656906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 135.73828, y: -86.37891}
+        - {x: 135.73828, y: 76.0957}
+        - {x: 109.00195, y: 123.39844}
+        - {x: -37.01953, y: 123.39844}
+        - {x: -152.1914, y: 0}
+        - {x: -152.1914, y: -78.15234}
+        - {x: -115.171875, y: -143.96484}
+        - {x: 88.43555, y: -143.96484}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a46429df02c7546ae4301d7826151a
+      internalID: 95620888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_70
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 133.7959, y: -106.94531}
+        - {x: 133.7959, y: 74.03906}
+        - {x: 125.56934, y: 86.37891}
+        - {x: 78.26661, y: 119.28516}
+        - {x: 24.79395, y: 119.28516}
+        - {x: -145.90723, y: 34.96289}
+        - {x: -154.13379, y: 16.453125}
+        - {x: -154.13379, y: -24.679688}
+        - {x: -110.944336, y: -117.228516}
+        - {x: -49.245113, y: -141.9082}
+        - {x: 102.9463, y: -141.9082}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7e49299ddddf144ba3de8da3a86772
+      internalID: -1465160960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_71
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -88.20702, y: -117.228516}
+        - {x: -77.92382, y: -109.00195}
+        - {x: -61.4707, y: -127.51172}
+        - {x: -42.96093, y: -141.9082}
+        - {x: 84.55079, y: -141.9082}
+        - {x: 131.85353, y: -104.88867}
+        - {x: 131.85353, y: 74.03906}
+        - {x: 98.94727, y: 113.115234}
+        - {x: -114.94335, y: 113.115234}
+        - {x: -154.01953, y: 106.94531}
+        - {x: -154.01953, y: -141.9082}
+        - {x: -141.67969, y: -141.9082}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f2f4c85c3220e46af5e1d341f929ce
+      internalID: 894805465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_72
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -79.866295, y: -104.88867}
+        - {x: -69.58309, y: -139.85156}
+        - {x: 88.77824, y: -139.85156}
+        - {x: 131.9677, y: -57.585938}
+        - {x: 131.9677, y: 69.92578}
+        - {x: 94.94816, y: 109.00195}
+        - {x: 25.022377, y: 109.00195}
+        - {x: -153.90536, y: 43.189453}
+        - {x: -153.90536, y: -24.679688}
+        - {x: -127.16903, y: -139.85156}
+        - {x: -112.772545, y: -139.85156}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172aff31317001f4a9f7bab5634bce18
+      internalID: 2121089642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_73
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24.222643, y: -137.79492}
+        - {x: 49.81642, y: -133.68164}
+        - {x: 115.62892, y: -117.228516}
+        - {x: 130.0254, y: -51.416016}
+        - {x: 130.0254, y: 80.208984}
+        - {x: 80.66603, y: 106.94531}
+        - {x: 12.796889, y: 106.94531}
+        - {x: -151.73436, y: 51.416016}
+        - {x: -153.791, y: 43.189453}
+        - {x: -153.791, y: -24.679688}
+        - {x: -139.39452, y: -82.265625}
+        - {x: -116.77148, y: -106.94531}
+        - {x: -87.9785, y: -100.77539}
+        - {x: -50.958973, y: -137.79492}
+        - {x: -42.73241, y: -139.85156}
+        - {x: -32.449207, y: -139.85156}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b2ea6a148da3d4b881ff986cbe38e8
+      internalID: 1610950958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinDefault_74
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 130.13951, y: -113.115234}
+        - {x: 130.13951, y: 104.88867}
+        - {x: -151.62025, y: 104.88867}
+        - {x: -151.62025, y: -139.85156}
+        - {x: 91.06334, y: -139.85156}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf31fbbbda42f94fa9c4063b13d57b4
+      internalID: 23794508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c9c9b338c36c17e49bfca33553e8787f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_SpikespinDefault_0: -2050114776
+      Spritesheet_SpikespinDefault_1: 1514614842
+      Spritesheet_SpikespinDefault_10: -1074723671
+      Spritesheet_SpikespinDefault_11: -888386306
+      Spritesheet_SpikespinDefault_12: -1005733156
+      Spritesheet_SpikespinDefault_13: 979421494
+      Spritesheet_SpikespinDefault_14: -208742495
+      Spritesheet_SpikespinDefault_15: 1032670494
+      Spritesheet_SpikespinDefault_16: 1058179257
+      Spritesheet_SpikespinDefault_17: -1396175565
+      Spritesheet_SpikespinDefault_18: -245981894
+      Spritesheet_SpikespinDefault_19: 83301624
+      Spritesheet_SpikespinDefault_2: -197594513
+      Spritesheet_SpikespinDefault_20: -922500177
+      Spritesheet_SpikespinDefault_21: -703507558
+      Spritesheet_SpikespinDefault_22: 1507249170
+      Spritesheet_SpikespinDefault_23: -918675125
+      Spritesheet_SpikespinDefault_24: 497791951
+      Spritesheet_SpikespinDefault_25: -841685636
+      Spritesheet_SpikespinDefault_26: -1647784
+      Spritesheet_SpikespinDefault_27: 1267415949
+      Spritesheet_SpikespinDefault_28: 1172372806
+      Spritesheet_SpikespinDefault_29: 1773645772
+      Spritesheet_SpikespinDefault_3: -927216070
+      Spritesheet_SpikespinDefault_30: -673484900
+      Spritesheet_SpikespinDefault_31: -1697088963
+      Spritesheet_SpikespinDefault_32: -383533261
+      Spritesheet_SpikespinDefault_33: -751197899
+      Spritesheet_SpikespinDefault_34: 2093862532
+      Spritesheet_SpikespinDefault_35: 369753420
+      Spritesheet_SpikespinDefault_36: -2114817234
+      Spritesheet_SpikespinDefault_37: -1004755232
+      Spritesheet_SpikespinDefault_38: -326897098
+      Spritesheet_SpikespinDefault_39: 2119474693
+      Spritesheet_SpikespinDefault_4: -2132375245
+      Spritesheet_SpikespinDefault_40: 2058148462
+      Spritesheet_SpikespinDefault_41: -929810296
+      Spritesheet_SpikespinDefault_42: -1043967069
+      Spritesheet_SpikespinDefault_43: 1454520284
+      Spritesheet_SpikespinDefault_44: 975134289
+      Spritesheet_SpikespinDefault_45: 590783396
+      Spritesheet_SpikespinDefault_46: -1211380471
+      Spritesheet_SpikespinDefault_47: 1915539704
+      Spritesheet_SpikespinDefault_48: -530035419
+      Spritesheet_SpikespinDefault_49: 634318716
+      Spritesheet_SpikespinDefault_5: -1791972012
+      Spritesheet_SpikespinDefault_50: 633787757
+      Spritesheet_SpikespinDefault_51: -1281524884
+      Spritesheet_SpikespinDefault_52: -1269633683
+      Spritesheet_SpikespinDefault_53: -443958848
+      Spritesheet_SpikespinDefault_54: 1120688372
+      Spritesheet_SpikespinDefault_55: 1791972136
+      Spritesheet_SpikespinDefault_56: -1866612838
+      Spritesheet_SpikespinDefault_57: -1471950261
+      Spritesheet_SpikespinDefault_58: -1907065068
+      Spritesheet_SpikespinDefault_59: 536680283
+      Spritesheet_SpikespinDefault_6: -1588349244
+      Spritesheet_SpikespinDefault_60: 2115379573
+      Spritesheet_SpikespinDefault_61: 1270488104
+      Spritesheet_SpikespinDefault_62: -1861176463
+      Spritesheet_SpikespinDefault_63: 1581975782
+      Spritesheet_SpikespinDefault_64: -1856475907
+      Spritesheet_SpikespinDefault_65: 529630559
+      Spritesheet_SpikespinDefault_66: 864735726
+      Spritesheet_SpikespinDefault_67: 312585429
+      Spritesheet_SpikespinDefault_68: 903656906
+      Spritesheet_SpikespinDefault_69: 95620888
+      Spritesheet_SpikespinDefault_7: 1023480763
+      Spritesheet_SpikespinDefault_70: -1465160960
+      Spritesheet_SpikespinDefault_71: 894805465
+      Spritesheet_SpikespinDefault_72: 2121089642
+      Spritesheet_SpikespinDefault_73: 1610950958
+      Spritesheet_SpikespinDefault_74: 23794508
+      Spritesheet_SpikespinDefault_8: -670946075
+      Spritesheet_SpikespinDefault_9: 1717598506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

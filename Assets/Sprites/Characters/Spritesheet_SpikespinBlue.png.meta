@@ -1,0 +1,1835 @@
+fileFormatVersion: 2
+guid: 8744eae1192d1da4b8267b346d6dd39b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -347298123059318508
+    second: PuntaespinAzul_Minijuego1_Spritesheet_0
+  - first:
+      213: -8470171115046968681
+    second: PuntaespinAzul_Minijuego1_Spritesheet_1
+  - first:
+      213: -2861995334731183920
+    second: PuntaespinAzul_Minijuego1_Spritesheet_2
+  - first:
+      213: 4535671021523412802
+    second: PuntaespinAzul_Minijuego1_Spritesheet_3
+  - first:
+      213: -4783109310808412113
+    second: PuntaespinAzul_Minijuego1_Spritesheet_4
+  - first:
+      213: 434572633312421895
+    second: PuntaespinAzul_Minijuego1_Spritesheet_5
+  - first:
+      213: -5462364831465322160
+    second: PuntaespinAzul_Minijuego1_Spritesheet_6
+  - first:
+      213: 8475250512510908155
+    second: PuntaespinAzul_Minijuego1_Spritesheet_7
+  - first:
+      213: -2821862010953830244
+    second: PuntaespinAzul_Minijuego1_Spritesheet_8
+  - first:
+      213: 8578090540124390815
+    second: PuntaespinAzul_Minijuego1_Spritesheet_9
+  - first:
+      213: -3152620175322802328
+    second: PuntaespinAzul_Minijuego1_Spritesheet_10
+  - first:
+      213: 9037718123880662991
+    second: PuntaespinAzul_Minijuego1_Spritesheet_11
+  - first:
+      213: -1317182616476904344
+    second: PuntaespinAzul_Minijuego1_Spritesheet_12
+  - first:
+      213: 1661346297828447457
+    second: PuntaespinAzul_Minijuego1_Spritesheet_13
+  - first:
+      213: -7913811330684841262
+    second: PuntaespinAzul_Minijuego1_Spritesheet_14
+  - first:
+      213: -9098690951387934747
+    second: PuntaespinAzul_Minijuego1_Spritesheet_15
+  - first:
+      213: -55699352511329048
+    second: PuntaespinAzul_Minijuego1_Spritesheet_16
+  - first:
+      213: 3322749538439487213
+    second: PuntaespinAzul_Minijuego1_Spritesheet_17
+  - first:
+      213: -4118283605708950580
+    second: PuntaespinAzul_Minijuego1_Spritesheet_18
+  - first:
+      213: 3649982512287975541
+    second: PuntaespinAzul_Minijuego1_Spritesheet_19
+  - first:
+      213: 2655257551789284566
+    second: PuntaespinAzul_Minijuego1_Spritesheet_20
+  - first:
+      213: -7098838170743807289
+    second: PuntaespinAzul_Minijuego1_Spritesheet_21
+  - first:
+      213: 5886413609717887995
+    second: PuntaespinAzul_Minijuego1_Spritesheet_22
+  - first:
+      213: 6094672680824421180
+    second: PuntaespinAzul_Minijuego1_Spritesheet_23
+  - first:
+      213: 3721986775954175890
+    second: PuntaespinAzul_Minijuego1_Spritesheet_24
+  - first:
+      213: -696458025063550070
+    second: PuntaespinAzul_Minijuego1_Spritesheet_25
+  - first:
+      213: -6725534945332407887
+    second: PuntaespinAzul_Minijuego1_Spritesheet_26
+  - first:
+      213: 11157553965796670
+    second: PuntaespinAzul_Minijuego1_Spritesheet_27
+  - first:
+      213: 2732252949840984500
+    second: PuntaespinAzul_Minijuego1_Spritesheet_28
+  - first:
+      213: 4839443909969388476
+    second: PuntaespinAzul_Minijuego1_Spritesheet_29
+  - first:
+      213: -6015985411436443014
+    second: PuntaespinAzul_Minijuego1_Spritesheet_30
+  - first:
+      213: -1188722562285040490
+    second: PuntaespinAzul_Minijuego1_Spritesheet_31
+  - first:
+      213: 7498631350940847130
+    second: PuntaespinAzul_Minijuego1_Spritesheet_32
+  - first:
+      213: -7632479854708225978
+    second: PuntaespinAzul_Minijuego1_Spritesheet_33
+  - first:
+      213: -4673271890769578213
+    second: PuntaespinAzul_Minijuego1_Spritesheet_34
+  - first:
+      213: -3775297546188188894
+    second: PuntaespinAzul_Minijuego1_Spritesheet_35
+  - first:
+      213: 1430028367731250188
+    second: PuntaespinAzul_Minijuego1_Spritesheet_36
+  - first:
+      213: -3386477978368773790
+    second: PuntaespinAzul_Minijuego1_Spritesheet_37
+  - first:
+      213: -102039700502372546
+    second: PuntaespinAzul_Minijuego1_Spritesheet_38
+  - first:
+      213: 4321762606335261867
+    second: PuntaespinAzul_Minijuego1_Spritesheet_39
+  - first:
+      213: -3229424709803600605
+    second: PuntaespinAzul_Minijuego1_Spritesheet_40
+  - first:
+      213: -4944295147772379732
+    second: PuntaespinAzul_Minijuego1_Spritesheet_41
+  - first:
+      213: 8424706542264725435
+    second: PuntaespinAzul_Minijuego1_Spritesheet_42
+  - first:
+      213: 3139959399912273729
+    second: PuntaespinAzul_Minijuego1_Spritesheet_43
+  - first:
+      213: -1226583317949544639
+    second: PuntaespinAzul_Minijuego1_Spritesheet_44
+  - first:
+      213: 918629006954185276
+    second: PuntaespinAzul_Minijuego1_Spritesheet_45
+  - first:
+      213: -2715097785857704623
+    second: PuntaespinAzul_Minijuego1_Spritesheet_46
+  - first:
+      213: -8693878587485707852
+    second: PuntaespinAzul_Minijuego1_Spritesheet_47
+  - first:
+      213: -3926560586655229315
+    second: PuntaespinAzul_Minijuego1_Spritesheet_48
+  - first:
+      213: -1240311290012994664
+    second: PuntaespinAzul_Minijuego1_Spritesheet_49
+  - first:
+      213: -7464952553608178280
+    second: PuntaespinAzul_Minijuego1_Spritesheet_50
+  - first:
+      213: -4411184871550755642
+    second: PuntaespinAzul_Minijuego1_Spritesheet_51
+  - first:
+      213: 4281254225435625579
+    second: PuntaespinAzul_Minijuego1_Spritesheet_52
+  - first:
+      213: -1546046023032258253
+    second: PuntaespinAzul_Minijuego1_Spritesheet_53
+  - first:
+      213: 6468174773241799049
+    second: PuntaespinAzul_Minijuego1_Spritesheet_54
+  - first:
+      213: -315145805507563516
+    second: PuntaespinAzul_Minijuego1_Spritesheet_55
+  - first:
+      213: 7440716979037773221
+    second: PuntaespinAzul_Minijuego1_Spritesheet_56
+  - first:
+      213: -6267610087867536133
+    second: PuntaespinAzul_Minijuego1_Spritesheet_57
+  - first:
+      213: -2043311884392443123
+    second: PuntaespinAzul_Minijuego1_Spritesheet_58
+  - first:
+      213: -6556045168443125898
+    second: PuntaespinAzul_Minijuego1_Spritesheet_59
+  - first:
+      213: 4922548832299262985
+    second: PuntaespinAzul_Minijuego1_Spritesheet_60
+  - first:
+      213: -4590328820928127202
+    second: PuntaespinAzul_Minijuego1_Spritesheet_61
+  - first:
+      213: -3324354766210984017
+    second: PuntaespinAzul_Minijuego1_Spritesheet_62
+  - first:
+      213: 5300294022558154997
+    second: PuntaespinAzul_Minijuego1_Spritesheet_63
+  - first:
+      213: 1778554525375236008
+    second: PuntaespinAzul_Minijuego1_Spritesheet_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab925394f3e46a4785dc89fd7e94b14
+      internalID: 442559463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e3444dfbbefbb4180c444447c2ca55
+      internalID: -265502336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c994b73504e5b544a322cefca08a03e
+      internalID: 1674772074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4a1dadea7d7e945bf432c08429dc4b
+      internalID: -203854269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7244e0cf23214408e1cc33d56dc23a
+      internalID: -665670197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_5
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b839c784ef9422144a5c9fec7b3215d7
+      internalID: 856937458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_6
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c75f33c908cedf42a3e0d8b68c94487
+      internalID: 1392939182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_7
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17b36e49726b3f41964a9f07e3bdb3a
+      internalID: 849560762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3276
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8e2d5116372644e8b97182fa0d72f8
+      internalID: 1881355629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb63198ac559ad4cb31ed1ef0a11fe4
+      internalID: -387302291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc519a555ea3ce2459577194f83c45de
+      internalID: -1672305680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82d38ae1e70c984c84841bb3128573d
+      internalID: -1375714899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c467bf34d6c54e8109c8974cf947e
+      internalID: 921812651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_13
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e0b362752a9f4caa683d6d51e54ff
+      internalID: 1267600779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_14
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f904da6448f348afbfd2c2f8846f0
+      internalID: 1802723180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_15
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ec2487be53a14fa17cbe90ae1f203
+      internalID: 1079967090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_16
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f7289d6ace0a94ea6af9891b8cafd3
+      internalID: -1790398820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_17
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f672146c33c7a48b76ce1cdbbb150d
+      internalID: 491478175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61db2a9699ed7d439313f54358078e2
+      internalID: 401557358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6cc324caf5af345a703068f2520abc
+      internalID: 2013180724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb1ce5de68c420469bee8a78e4b5c38
+      internalID: 915272597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8962bb4e7a353804aab9898ab620bc93
+      internalID: 1367683470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d5f5ef55528a749bb5190ff5d2187b
+      internalID: 276706956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_23
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58016542bf863c54f8743a3434694a90
+      internalID: -1803838694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b30ab0795a11047bdff70b0a847180
+      internalID: 1252447594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_25
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad3816b15d86534f9b1a24e4ed75db4
+      internalID: -1526616971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_26
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da961f3f12b325042b3bd6fd32944561
+      internalID: -1943352687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6684ff7213dff9e4da43b7e2c2057ba1
+      internalID: 554390922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b2208b22adcb41bee3a462d273267
+      internalID: -750707218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80e44b2f3b3ae4c94d03f0fa5afe5e
+      internalID: -213740166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55678ae40eff15646bfbe77b5de88ba1
+      internalID: -1993759590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_31
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359643ab32773e64db96eba7538ef85f
+      internalID: -1572389296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_32
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f902965b91f45b4b98ecc0f86473244
+      internalID: 799152484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_33
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fa8d0d415cecd4392c845833022012
+      internalID: -1372648022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_34
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a070ffb2561c0ba4e9b336df787b5fcb
+      internalID: 1288430182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_35
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db73f32c7930cf049b9e6fa51102f295
+      internalID: -1286352942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee89360e96c4384386b9777c616f315
+      internalID: 2106972271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80696470cc32893458f72f65c41a75c6
+      internalID: 1754218833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f2350319b5e9042bbc1fd1c6ccc70c
+      internalID: 1380417017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bb19f445ceef44db1a0376751ec01a
+      internalID: 345976890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_40
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbad08560a43ad4083f4abe298e071a
+      internalID: -1529926498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32499ecc2dd2e91498b1d0ea5eba3d95
+      internalID: -397718691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519c7b8910cb284dbf26efbe25775cf
+      internalID: 1374093275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_43
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4cda7ba5566d242a16b8961c8fd638
+      internalID: -626863068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaceea0d3976e74790066c0efc60577
+      internalID: -1266047895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a225ef3abcf55418c2e693d81d114e
+      internalID: -196814693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86edda94ec817b54ba153ea6d3364aba
+      internalID: 1593274524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_47
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc66c1b19f0da0f45a0e6e0ac911f31e
+      internalID: -1316236819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_48
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c91267d52d010c4384ab1e499f82cf3
+      internalID: -1637856709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_49
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07373ae6c919ed4b9199887ea616ef2
+      internalID: -823843466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_50
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d1cae4c6ac5543b1b0b3ef1fb9596
+      internalID: 1731806637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_51
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeec4ad634352b409be3f32f3da037a
+      internalID: -1388130560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_52
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a9373a6d09ce47b5c568a24318acb
+      internalID: -1316748805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_53
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f91966c9e728c846a0fa69823573921
+      internalID: -1256673228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac6acbfbb20f44897dbe84c6809311
+      internalID: 386280235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_55
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87de3187e8111a42bbcfa1f1db8d91a
+      internalID: -306634458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_56
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e848fcd6960e4681d3d55927ec382
+      internalID: 295885549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_57
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d770316ab5fde244daecbfba9b30e210
+      internalID: 985184498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_58
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c896570854574f9c8290c6f6830a9
+      internalID: -111090587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_59
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d846f553fc6703742a891f39c4b9910f
+      internalID: 1455346768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_60
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb17de0821af04196e6fd5f0e7cf9d
+      internalID: 732580366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_61
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3dd3f340f2d0d44ac6b0a20e3ab35d
+      internalID: 1381155494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_62
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41043a4780895754a8e805494bb8938f
+      internalID: 1637409450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d49dc75514ac24ab2156bcdeee3ad6
+      internalID: 2056774377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_SpikespinBlue_64
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a4fb6be03d0274c81daf0d5ac1b876
+      internalID: 67343417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c41446897faa38c419c50fbf73299254
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":468.0,"y":468.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spritesheet_SpikespinBlue_0: 442559463
+      Spritesheet_SpikespinBlue_1: -265502336
+      Spritesheet_SpikespinBlue_10: -1672305680
+      Spritesheet_SpikespinBlue_11: -1375714899
+      Spritesheet_SpikespinBlue_12: 921812651
+      Spritesheet_SpikespinBlue_13: 1267600779
+      Spritesheet_SpikespinBlue_14: 1802723180
+      Spritesheet_SpikespinBlue_15: 1079967090
+      Spritesheet_SpikespinBlue_16: -1790398820
+      Spritesheet_SpikespinBlue_17: 491478175
+      Spritesheet_SpikespinBlue_18: 401557358
+      Spritesheet_SpikespinBlue_19: 2013180724
+      Spritesheet_SpikespinBlue_2: 1674772074
+      Spritesheet_SpikespinBlue_20: 915272597
+      Spritesheet_SpikespinBlue_21: 1367683470
+      Spritesheet_SpikespinBlue_22: 276706956
+      Spritesheet_SpikespinBlue_23: -1803838694
+      Spritesheet_SpikespinBlue_24: 1252447594
+      Spritesheet_SpikespinBlue_25: -1526616971
+      Spritesheet_SpikespinBlue_26: -1943352687
+      Spritesheet_SpikespinBlue_27: 554390922
+      Spritesheet_SpikespinBlue_28: -750707218
+      Spritesheet_SpikespinBlue_29: -213740166
+      Spritesheet_SpikespinBlue_3: -203854269
+      Spritesheet_SpikespinBlue_30: -1993759590
+      Spritesheet_SpikespinBlue_31: -1572389296
+      Spritesheet_SpikespinBlue_32: 799152484
+      Spritesheet_SpikespinBlue_33: -1372648022
+      Spritesheet_SpikespinBlue_34: 1288430182
+      Spritesheet_SpikespinBlue_35: -1286352942
+      Spritesheet_SpikespinBlue_36: 2106972271
+      Spritesheet_SpikespinBlue_37: 1754218833
+      Spritesheet_SpikespinBlue_38: 1380417017
+      Spritesheet_SpikespinBlue_39: 345976890
+      Spritesheet_SpikespinBlue_4: -665670197
+      Spritesheet_SpikespinBlue_40: -1529926498
+      Spritesheet_SpikespinBlue_41: -397718691
+      Spritesheet_SpikespinBlue_42: 1374093275
+      Spritesheet_SpikespinBlue_43: -626863068
+      Spritesheet_SpikespinBlue_44: -1266047895
+      Spritesheet_SpikespinBlue_45: -196814693
+      Spritesheet_SpikespinBlue_46: 1593274524
+      Spritesheet_SpikespinBlue_47: -1316236819
+      Spritesheet_SpikespinBlue_48: -1637856709
+      Spritesheet_SpikespinBlue_49: -823843466
+      Spritesheet_SpikespinBlue_5: 856937458
+      Spritesheet_SpikespinBlue_50: 1731806637
+      Spritesheet_SpikespinBlue_51: -1388130560
+      Spritesheet_SpikespinBlue_52: -1316748805
+      Spritesheet_SpikespinBlue_53: -1256673228
+      Spritesheet_SpikespinBlue_54: 386280235
+      Spritesheet_SpikespinBlue_55: -306634458
+      Spritesheet_SpikespinBlue_56: 295885549
+      Spritesheet_SpikespinBlue_57: 985184498
+      Spritesheet_SpikespinBlue_58: -111090587
+      Spritesheet_SpikespinBlue_59: 1455346768
+      Spritesheet_SpikespinBlue_6: 1392939182
+      Spritesheet_SpikespinBlue_60: 732580366
+      Spritesheet_SpikespinBlue_61: 1381155494
+      Spritesheet_SpikespinBlue_62: 1637409450
+      Spritesheet_SpikespinBlue_63: 2056774377
+      Spritesheet_SpikespinBlue_64: 67343417
+      Spritesheet_SpikespinBlue_7: 849560762
+      Spritesheet_SpikespinBlue_8: 1881355629
+      Spritesheet_SpikespinBlue_9: -387302291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
