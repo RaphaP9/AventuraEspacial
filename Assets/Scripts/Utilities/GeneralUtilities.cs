@@ -255,7 +255,7 @@ public static class GeneralUtilities
 
     public static List<T> FisherYatesShuffle<T>(List<T> list)
     {
-        List<T> shuffledList = list;
+        List<T> shuffledList = new List<T>(list);
 
         System.Random random = new System.Random();
 
@@ -295,6 +295,42 @@ public static class GeneralUtilities
         bool hasSameContents = setA.SetEquals(setB);
 
         return hasSameContents;
+    }
+
+    public static List<T> ChooseNRandomDifferentItemsFromPool<T>(List<T> pool, int quantity)
+    {
+        List<T> chosenItems = new List<T>();
+        List<T> remainingPool = new List<T>(pool);
+        System.Random random = new System.Random();
+
+        for (int i=0; i< quantity; i++)
+        {
+            if (remainingPool.Count <= 0)
+            {
+                Debug.Log($"Chosen up to {chosenItems.Count} items from pool. Can not chose the requires quantity {quantity}.");    
+                break;
+            }
+
+            int chosenIndex = random.Next(remainingPool.Count);
+            chosenItems.Add(remainingPool[chosenIndex]);
+
+            remainingPool.RemoveAt(chosenIndex);
+        }
+
+        return chosenItems;
+    }
+
+    public static List<T> ChooseNRandomDifferentItemsFromPoolFisherYates<T>(List<T> pool, int quantity)
+    {
+        List<T> shuffledPoolCopy = FisherYatesShuffle(pool);
+
+        if (quantity > shuffledPoolCopy.Count)
+        {
+            Debug.LogWarning($"Requested {quantity} items but only {shuffledPoolCopy.Count} available. Returning all items.");
+            quantity = shuffledPoolCopy.Count;
+        }
+
+        return shuffledPoolCopy.GetRange(0, quantity);
     }
 
     #endregion

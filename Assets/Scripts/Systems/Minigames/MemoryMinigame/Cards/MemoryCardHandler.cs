@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
 {
@@ -16,9 +17,22 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     [SerializeField] private bool isRevealed;
     [SerializeField] private bool isMatched;
 
+    public static event EventHandler<OnCardRevealedEventArgs> OnCardRevealed;
+
+    public MemoryCardSO MemoryCardSO => memoryCardSO;
+
+    public class OnCardRevealedEventArgs : EventArgs
+    {
+        public MemoryCardHandler memoryCardHandler;
+    }
+
     public void SetMemoryCard(MemoryCardSO memoryCardSO)
     {
         this.memoryCardSO = memoryCardSO;
+
+        isRevealed = false;
+        isMatched = false;
+
         SetMemoryCardImage(memoryCardSO.sprite);
     }
 
@@ -31,6 +45,31 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
         if (isMatched) return;
         if (!MemoryMinigameManager.Instance.CanFlipCard()) return;
 
-        Debug.Log("Clicked");
+        RevealCard();
+    }
+
+    public void RevealCard()
+    {
+        animatorController.PlayRevealAnimation();
+        isRevealed = true;
+
+        OnCardRevealed?.Invoke(this, new OnCardRevealedEventArgs { memoryCardHandler = this });
+    }
+
+    public void CoverCard()
+    {
+        animatorController.PlayCoverAnimation();
+        isRevealed = false;
+    }
+
+    public void MatchCard()
+    {
+        animatorController.PlayMatchAnimation();
+        isMatched = true;   
+    }
+
+    public void FailMatch()
+    {
+        animatorController.PlayFailAnimation();
     }
 }

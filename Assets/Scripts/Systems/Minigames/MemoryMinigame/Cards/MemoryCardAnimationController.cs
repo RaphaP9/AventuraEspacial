@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MemoryCardAnimationController : MonoBehaviour
@@ -13,6 +14,8 @@ public class MemoryCardAnimationController : MonoBehaviour
 
     private const string MATCH_ANIMATION_NAME = "Match";
     private const string FAIL_ANIMATION_NAME = "Fail";
+
+    private const float FLIP_REVEAL_ANIMATION_DURATION = 0.5f;
 
     public void PlayAppearAnimation() => animator.Play(APPEAR_ANIMATION_NAME);
     public void PlayDisappearAnimation() => animator.Play(DISAPPEAR_ANIMATION_NAME);
