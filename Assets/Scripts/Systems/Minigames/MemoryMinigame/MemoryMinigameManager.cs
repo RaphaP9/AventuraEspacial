@@ -29,7 +29,7 @@ public class MemoryMinigameManager : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool debug;
 
-    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, FailPair, MatchPair, CompletedRound, Win, Lose}
+    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, CompletedRound, Win, Lose}
 
     private bool gameEnded = false;
     private bool gameWon = false;
@@ -112,7 +112,7 @@ public class MemoryMinigameManager : MonoBehaviour
 
         OnRevealTimeEnd?.Invoke(this, EventArgs.Empty);
 
-        CoverAllCards();
+        CoverAllCards(currentRoundCards);
 
         bool roundEnded = false;
 
@@ -136,14 +136,11 @@ public class MemoryMinigameManager : MonoBehaviour
             MemoryCardHandler secondCard = lastRevealedCard;
             #endregion
 
-            if(firstCard.MemoryCardSO == secondCard.MemoryCardSO)
-            {
-                MatchRevealedCards();
-            }
-            else
-            {
-                FailRevealedCards();
-            }
+            SetMinigameState(MiniGameState.ProcessingPair);
+
+            StartCoroutine(ProcessPairCoroutine(firstCard, secondCard));
+
+            yield return new WaitForSeconds(settings.timeBetweenPairs);
 
             currentRevealedCards.Clear();
         }
@@ -201,30 +198,49 @@ public class MemoryMinigameManager : MonoBehaviour
 
     #region Cards
 
-    private void CoverAllCards()
+    private void CoverAllCards(List<MemoryCardHandler> memoryCardHandlers)
     {
-        foreach(MemoryCardHandler memoryCardHandler in currentRoundCards)
+        foreach(MemoryCardHandler memoryCardHandler in memoryCardHandlers)
         {
             memoryCardHandler.CoverCard();
         }
     }
 
-    private void MatchRevealedCards()
+    private void MatchRevealedCards(List<MemoryCardHandler> memoryCardHandlers)
     {
-        foreach (MemoryCardHandler memoryCardHandler in currentRevealedCards)
+        foreach (MemoryCardHandler memoryCardHandler in memoryCardHandlers)
         {
             memoryCardHandler.MatchCard();
         }
     }
 
-    private void FailRevealedCards()
+    private void FailRevealedCards(List<MemoryCardHandler> memoryCardHandlers)
     {
-        foreach (MemoryCardHandler memoryCardHandler in currentRevealedCards)
+        foreach (MemoryCardHandler memoryCardHandler in memoryCardHandlers)
         {
             memoryCardHandler.FailMatch();
         }
     }
 
+    #endregion
+
+    #region Pair Processing
+
+    private IEnumerator ProcessPairCoroutine(MemoryCardHandler firstCard, MemoryCardHandler secondCard)
+    {
+        List<MemoryCardHandler> evaluatedCards = new List<MemoryCardHandler> { firstCard, secondCard};
+
+        yield return new WaitForSeconds(PAIR_PROCESSING_TIME);
+
+        if (firstCard.MemoryCardSO == secondCard.MemoryCardSO)
+        {
+            MatchRevealedCards(evaluatedCards);
+        }
+        else
+        {
+            FailRevealedCards(evaluatedCards);
+        }
+    }
     #endregion
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 

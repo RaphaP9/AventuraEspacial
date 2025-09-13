@@ -7,6 +7,7 @@ public class MemoryMinigameSettings : ScriptableObject
     [Range(0f, 2f)] public float startingGameTime;
     [Range(0f, 2f)] public float roundIntervalTime;
     [Range(0f, 2f)] public float endingGameTime;
+    [Range(0f, 2f)] public float timeBetweenPairs;
     [Space]
     public List<MemoryRound> rounds;
     [Space]

@@ -72,4 +72,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     {
         animatorController.PlayFailAnimation();
     }
+
+    public void OnRevealBegin() => isRevealed = true;
+    public void OnCoverCompleted() => isRevealed = false;
 }

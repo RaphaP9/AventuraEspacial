@@ -15,6 +15,7 @@ MonoBehaviour:
   startingGameTime: 1
   roundIntervalTime: 1
   endingGameTime: 1
+  timeBetweenPairs: 0
   rounds:
   - cardBackSprite: {fileID: 21300000, guid: b286b4422a224fe4ba445d8e6baefd0d, type: 3}
     pairCount: 2
