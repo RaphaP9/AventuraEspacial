@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 864231909803e5c41b8140e8ce1144a1, type: 3}
-  m_Name: MemoryCard_Rocket
+  m_Name: MemoryCard_SpikeSpinBlue
   m_EditorClassIdentifier: 
-  id: 7
-  sprite: {fileID: -838700150, guid: ffac317648d03c648a712129c345cd56, type: 3}
+  id: 14
+  sprite: {fileID: 442559463, guid: 8744eae1192d1da4b8267b346d6dd39b, type: 3}

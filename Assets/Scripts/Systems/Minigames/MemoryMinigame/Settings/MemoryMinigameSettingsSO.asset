@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fea63d996499244af789e19e7ab034, type: 3}
   m_Name: MemoryMinigameSettingsSO
   m_EditorClassIdentifier: 
-  startingGameTime: 1
-  roundIntervalTime: 1
-  endingGameTime: 1
-  timeBetweenPairs: 0
   rounds:
   - cardBackSprite: {fileID: 21300000, guid: b286b4422a224fe4ba445d8e6baefd0d, type: 3}
     pairCount: 2
@@ -38,5 +34,29 @@ MonoBehaviour:
     revealTime: 10
     gridColumnCount: 6
   cardPool:
+  - {fileID: 11400000, guid: e645c7bf467c97a40a35d1e67151d377, type: 2}
+  - {fileID: 11400000, guid: d5170f81136aeb64ab1b75a3eb2c8cd2, type: 2}
+  - {fileID: 11400000, guid: 950467a7a30ee9b4a8eb78ce4172fbc7, type: 2}
+  - {fileID: 11400000, guid: ca4d92836466b0d4eb67b25bf67d06b5, type: 2}
+  - {fileID: 11400000, guid: d7fae6c127a5e184c9130c8bd134f359, type: 2}
+  - {fileID: 11400000, guid: 9c5573655d22fc94b88f438b8f653acf, type: 2}
+  - {fileID: 11400000, guid: b30aadb95c13120428858914eb8a18e6, type: 2}
+  - {fileID: 11400000, guid: 7860e996845c8aa4ab827dc03ba490cf, type: 2}
+  - {fileID: 11400000, guid: 7bf25eed940f36e4399ac65637c58883, type: 2}
+  - {fileID: 11400000, guid: 14fdccfc6e7ec96439e8f73bcb079ca4, type: 2}
+  - {fileID: 11400000, guid: 56ab5c1589394a34cbdc7d7a91ddef06, type: 2}
+  - {fileID: 11400000, guid: 5f76bff7886f887498684b2821f921fa, type: 2}
+  - {fileID: 11400000, guid: 727f6680684ae2a4586a948bc8b27c2a, type: 2}
   - {fileID: 11400000, guid: b316bd1a106d2a244872add981be4c11, type: 2}
   - {fileID: 11400000, guid: be81701c3f844464382c604d9eaf019a, type: 2}
+  - {fileID: 11400000, guid: 977345242be43c548b7a31453342c049, type: 2}
+  - {fileID: 11400000, guid: accffbc8b6fd667498bab7ac0cf7f09c, type: 2}
+  - {fileID: 11400000, guid: aa1fd74a129c73b4e8857f38e8363e51, type: 2}
+  - {fileID: 11400000, guid: d4857cf3ab3734a4f8157ed61344aa9b, type: 2}
+  - {fileID: 11400000, guid: ffc512b5c139f9f44919f6af05feaab4, type: 2}
+  - {fileID: 11400000, guid: 327dcc20158080049b59dc2126c82d83, type: 2}
+  startingGameTime: 2
+  timeBetweenPairs: 0
+  allPairsMatchTime: 3
+  switchRoundTimer: 2
+  endingGameTime: 2

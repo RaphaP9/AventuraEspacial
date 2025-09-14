@@ -14,7 +14,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
 
     [Header("Runtime Filled")]
     [SerializeField] private MemoryCardSO memoryCardSO;
-    [SerializeField] private bool isRevealed;
+    [SerializeField] private bool isRevealed; //NOTE: isRevealed is also manipulated by Animation Events
     [SerializeField] private bool isMatched;
 
     public static event EventHandler<OnCardRevealedEventArgs> OnCardRevealed;
@@ -37,7 +37,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     }
 
     private void SetMemoryCardImage(Sprite sprite) => frontImage.sprite = sprite;   
-    public void SetBackImage(Sprite sprite) => backImage.sprite = sprite;
+    public void SetBackSprite(Sprite sprite) => backImage.sprite = sprite;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -59,7 +59,6 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     public void CoverCard()
     {
         animatorController.PlayCoverAnimation();
-        isRevealed = false;
     }
 
     public void MatchCard()
@@ -71,6 +70,11 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     public void FailMatch()
     {
         animatorController.PlayFailAnimation();
+    }
+
+    public void DisappearCard()
+    {
+        animatorController.PlayDisappearAnimation();
     }
 
     public void OnRevealBegin() => isRevealed = true;

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864231909803e5c41b8140e8ce1144a1, type: 3}
   m_Name: MemoryCard_Satellite
   m_EditorClassIdentifier: 
-  id: 1
+  id: 16
   sprite: {fileID: 1665071042, guid: 52c0226a00f7b4645bb89dd15aeedd07, type: 3}
