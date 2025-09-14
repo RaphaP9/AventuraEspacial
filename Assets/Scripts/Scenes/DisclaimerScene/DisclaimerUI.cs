@@ -7,12 +7,26 @@ public class DisclaimerUI : MonoBehaviour
     [SerializeField] private Button acceptButton;
     [SerializeField] private Button rejectButton;
 
+    [Header("Components")]
+    [SerializeField] private ScrollRectBottomDetector detector;
+
     [Header("Next Scene Settings")]
     [SerializeField] private string nextScene;
     [SerializeField] private TransitionType transitionType;
 
+    private void OnEnable()
+    {
+        detector.OnBottomReached += Detector_OnBottomReached;
+    }
+
+    private void OnDisable()
+    {
+        detector.OnBottomReached -= Detector_OnBottomReached;
+    }
+
     private void Awake()
     {
+        DisableAcceptButton();
         InitializeButtonsListeners();
     }
 
@@ -32,4 +46,14 @@ public class DisclaimerUI : MonoBehaviour
     {
         ScenesManager.Instance.QuitGame();
     }
+
+    private void DisableAcceptButton() => acceptButton.interactable = false;
+    private void EnableAcceptButton() => acceptButton.interactable = true;
+
+    #region Subscriptions
+    private void Detector_OnBottomReached(object sender, System.EventArgs e)
+    {
+        EnableAcceptButton();
+    }
+    #endregion
 }

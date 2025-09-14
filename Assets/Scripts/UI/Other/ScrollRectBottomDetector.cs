@@ -44,6 +44,8 @@ public class ScrollRectBottomDetector : MonoBehaviour
         if (hasReachedBottom) return;
         if (scrollRect.verticalNormalizedPosition > BOTTOM_POSITION_THRESHOLD) return;
 
+        hasReachedBottom = true;
+
         OnBottomReached?.Invoke(this, EventArgs.Empty); 
     }
 }
