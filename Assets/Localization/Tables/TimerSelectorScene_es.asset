@@ -22,6 +22,25 @@ MonoBehaviour:
     m_Localized: "\xBFCu\xE1nto tiempo se va a jugar hoy?"
     m_Metadata:
       m_Items: []
+  - m_Id: 2739371730485248
+    m_Localized: '[OpcionDeTesteo]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739492178313216
+    m_Localized: "\xA1Desaf\xEDo r\xE1pido y entretenido!\nPerfecto para los m\xE1s
+      peque\xF1os\L(\xA1y toda la familia!)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2740024003477504
+    m_Localized: "\xA1Una experiencia retadora!\LRecomendado solo para ni\xF1os\nmayores
+      a 5 a\xF1os"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2740376232738816
+    m_Localized: "Recomendado solo para \nni\xF1os mayores a 7 a\xF1os, \no ni\xF1os
+      con experiencia con \njuegos educativos similares"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

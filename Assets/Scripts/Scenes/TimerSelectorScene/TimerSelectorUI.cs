@@ -98,6 +98,7 @@ public class TimerSelectorUI : MonoBehaviour
     private void UpdateUI()
     {
         timeText.text = FormattingUtilities.FormatTime(timerSelectorSettingsSO.timerSettings[currentIndex].time);
+        descriptionText.text = LocalizationSettings.StringDatabase.GetLocalizedString(timerSelectorSettingsSO.timeSelectorLocalizationTable, timerSelectorSettingsSO.timerSettings[currentIndex].descriptionLocalizationBinding);
     }
 
     #region Subscriptions

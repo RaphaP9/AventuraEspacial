@@ -22,6 +22,25 @@ MonoBehaviour:
     m_Localized: How much time will be played today?
     m_Metadata:
       m_Items: []
+  - m_Id: 2739371730485248
+    m_Localized: '[TestOption]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739492178313216
+    m_Localized: "\rA quick and fun challenge!\r\nPerfect for little ones \n(and
+      the whole family!)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2740024003477504
+    m_Localized: "A challenging experience! \nRecommended only for\nchildren over
+      5 years old"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2740376232738816
+    m_Localized: "\rRecommended only for \nchildren 7 years and older, \nor children
+      with experience with \nsimilar educational games."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -12,19 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1238d1a91896564f84a273b4a1ad360, type: 3}
   m_Name: TimerSelectorSettingsSO
   m_EditorClassIdentifier: 
+  timeSelectorLocalizationTable: TimerSelectorScene
   timerSettings:
   - time: 30
-    description: '[TestOption]'
+    descriptionLocalizationBinding: timerSelectorScene.testOptionDescription
   - time: 60
-    description: '[TestOption]'
+    descriptionLocalizationBinding: timerSelectorScene.testOptionDescription
   - time: 120
-    description: '[TestOption]'
+    descriptionLocalizationBinding: timerSelectorScene.testOptionDescription
   - time: 300
-    description: "\xA1Desaf\xEDo r\xE1pido y entretenido!\\r\\nPerfecto para los
-      m\xE1s peque\xF1os\\r\\n(\xA1Y toda la familia!)"
+    descriptionLocalizationBinding: timerSelectorScene.5MinuteDescription
   - time: 600
-    description: "\xA1Una experiencia retadora!\\r\\nRecomendado solo para ni\xF1os\\r\\nmayores
-      a 5 a\xF1os\\r\\n"
+    descriptionLocalizationBinding: timerSelectorScene.10MinuteDescription
   - time: 900
-    description: "Recomendado solo para ni\xF1os mayores a 7 a\xF1os, o ni\xF1os
-      con experiencia con juegos educativos similares"
+    descriptionLocalizationBinding: timerSelectorScene.15MinuteDescription

@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TimerSelectorSettingsSO", menuName = "ScriptableObjects/Settings/TimerSelectorSettings")]
 public class TimerSelectorSettingsSO : ScriptableObject
 {
+    public string timeSelectorLocalizationTable;
     public List<TimerSetting> timerSettings;
 }
 
@@ -11,5 +12,5 @@ public class TimerSelectorSettingsSO : ScriptableObject
 public class TimerSetting
 {
     public int time; //In Secconds
-    [TextArea(3, 10)] public string description;
+    public string descriptionLocalizationBinding;
 }
