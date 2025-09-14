@@ -336,6 +336,11 @@ public class MemoryMinigameManager : MonoBehaviour
 
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 
+    public void EndMinigame()
+    {
+
+    }
+
     #region
     private void MemoryCardHandler_OnCardRevealed(object sender, MemoryCardHandler.OnCardRevealedEventArgs e)
     {

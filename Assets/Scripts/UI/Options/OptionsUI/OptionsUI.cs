@@ -10,57 +10,49 @@ public class OptionsUI : UILayer
     [SerializeField] private Animator optionsUIAnimator;
 
     [Header("UI Components")]
+    [SerializeField] private Button optionsButton;
+    [SerializeField] private Button switchButton;
     [SerializeField] private Button closeButton;
 
-    private CanvasGroup canvasGroup;
+    [Header("Runtime Filled")]
+    [SerializeField] private OptionsState optionsState;
 
-    public static event EventHandler OnCloseFromUI;
+    private enum OptionsState { Closed, OpenChild, OpenParents}
+
     public static event EventHandler OnOptionsUIOpen;
     public static event EventHandler OnOptionsUIClose;
+    public static event EventHandler OnOptionsUISwitch;
 
     private const string SHOW_TRIGGER = "Show";
-    private const string HIDE_TRIGGER = "Hide";
-
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-        OptionsOpeningManager.OnOptionsOpen += OptionsOpeningManager_OnOptionsOpen;
-        OptionsOpeningManager.OnOptionsClose += OptionsOpeningManager_OnOptionsClose;
-    }
-
-    protected override void OnDisable()
-    {
-        base.OnDisable();
-        OptionsOpeningManager.OnOptionsOpen -= OptionsOpeningManager_OnOptionsOpen;
-        OptionsOpeningManager.OnOptionsClose -= OptionsOpeningManager_OnOptionsClose;
-    }
+    private const string HIDE_FROM_CHILD_TRIGGER = "HideFromChild";
+    private const string HIDE_FROM_PARENTS_TRIGGER = "HideFromParents";
+    private const string SWITCH_CHILD_TO_PARENTS_TRIGGER = "SwitchChildToParents";
+    private const string SWITCH_PARENTS_TO_CHILD_TRIGGER = "SwitchParentsToChild";
 
     private void Awake()
     {
-        canvasGroup = GetComponent<CanvasGroup>();
         InitializeButtonsListeners();
     }
 
     private void Start()
     {
-        InitializeVariables();
         SetUIState(State.Closed);
+        SetOptionsState(OptionsState.Closed);   
     }
 
     private void InitializeButtonsListeners()
     {
-        closeButton.onClick.AddListener(CloseFromUI);
+        optionsButton.onClick.AddListener(OpenUI);
+        switchButton.onClick.AddListener(SwitchUI);
+        closeButton.onClick.AddListener(CloseUI);
     }
 
-    private void InitializeVariables()
-    {
-        UIUtilities.SetCanvasGroupAlpha(canvasGroup, 0f);
-        canvasGroup.interactable = false;
-        canvasGroup.blocksRaycasts = false;
-    }
+    private void SetOptionsState(OptionsState state) => this.optionsState = state;
+
     public void OpenUI()
     {
         if (state != State.Closed) return;
+        if (optionsState != OptionsState.Closed) return;
 
         SetUIState(State.Open);
         AddToUILayersList();
@@ -72,41 +64,103 @@ public class OptionsUI : UILayer
     private void CloseUI()
     {
         if (state != State.Open) return;
+        if (optionsState == OptionsState.Closed) return;
 
         SetUIState(State.Closed);
-
         RemoveFromUILayersList();
-        HideOptionsUI();
-
         OnOptionsUIClose?.Invoke(this, EventArgs.Empty);
+
+        switch (optionsState)
+        {
+            case OptionsState.OpenChild:
+                HideFromChildUI();
+                break;
+            case OptionsState.OpenParents:
+                HideFromParentsUI();
+                break;
+        }
     }
 
-    protected override void CloseFromUI()
+    private void SwitchUI()
     {
-        OnCloseFromUI?.Invoke(this, EventArgs.Empty);
+        if (state != State.Open) return;
+        if (optionsState == OptionsState.Closed) return;
+
+        OnOptionsUISwitch?.Invoke(this, EventArgs.Empty);
+
+        switch (optionsState)
+        {
+            case OptionsState.OpenChild:
+                SwitchChildToParents();
+                break;
+            case OptionsState.OpenParents:
+                SwitchParentsToChild();
+                break;
+        }
     }
 
+    protected override void CloseFromUI() => CloseUI();
+
+
+    #region Animation Methods
     public void ShopOptionsUI()
     {
-        optionsUIAnimator.ResetTrigger(HIDE_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_CHILD_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_CHILD_TO_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_PARENTS_TO_CHILD_TRIGGER);
+
         optionsUIAnimator.SetTrigger(SHOW_TRIGGER);
+
+        SetOptionsState(OptionsState.OpenChild);
     }
 
-    public void HideOptionsUI()
+    public void HideFromChildUI()
     {
         optionsUIAnimator.ResetTrigger(SHOW_TRIGGER);
-        optionsUIAnimator.SetTrigger(HIDE_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_CHILD_TO_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_PARENTS_TO_CHILD_TRIGGER);
+
+        optionsUIAnimator.SetTrigger(HIDE_FROM_CHILD_TRIGGER);
+
+        SetOptionsState(OptionsState.Closed);
     }
 
-    #region OptionsOpeningManager Subscriptions
-    private void OptionsOpeningManager_OnOptionsOpen(object sender, System.EventArgs e)
+    public void HideFromParentsUI()
     {
-        OpenUI();
+        optionsUIAnimator.ResetTrigger(SHOW_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_CHILD_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_CHILD_TO_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_PARENTS_TO_CHILD_TRIGGER);
+
+        optionsUIAnimator.SetTrigger(HIDE_FROM_PARENTS_TRIGGER);
+
+        SetOptionsState(OptionsState.Closed);
     }
 
-    private void OptionsOpeningManager_OnOptionsClose(object sender, System.EventArgs e)
+    public void SwitchChildToParents()
     {
-        CloseUI();
+        optionsUIAnimator.ResetTrigger(SHOW_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_CHILD_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_PARENTS_TO_CHILD_TRIGGER);
+
+        optionsUIAnimator.SetTrigger(SWITCH_CHILD_TO_PARENTS_TRIGGER);
+
+        SetOptionsState(OptionsState.OpenParents);
+    }
+
+    public void SwitchParentsToChild()
+    {
+        optionsUIAnimator.ResetTrigger(SHOW_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_CHILD_TRIGGER);
+        optionsUIAnimator.ResetTrigger(HIDE_FROM_PARENTS_TRIGGER);
+        optionsUIAnimator.ResetTrigger(SWITCH_CHILD_TO_PARENTS_TRIGGER);
+
+        optionsUIAnimator.SetTrigger(SWITCH_PARENTS_TO_CHILD_TRIGGER);
+
+        SetOptionsState(OptionsState.OpenChild);
     }
     #endregion
 }
