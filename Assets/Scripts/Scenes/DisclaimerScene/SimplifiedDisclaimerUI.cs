@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class DisclaimerUI : MonoBehaviour
+public class SimplifiedDisclaimerUI : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] private Button acceptButton;
@@ -24,7 +25,7 @@ public class DisclaimerUI : MonoBehaviour
 
     private void AcceptDisclaimer()
     {
-        ScenesManager.Instance.TransitionLoadTargetScene(nextScene, transitionType);
+        ScenesManager.Instance.TransitionLoadTargetScene(nextScene,transitionType);
         //ScenesManager.Instance.SimpleLoadTargetScene(nextScene);
     }
 

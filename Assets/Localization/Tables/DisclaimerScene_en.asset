@@ -27,6 +27,28 @@ MonoBehaviour:
       application."
     m_Metadata:
       m_Items: []
+  - m_Id: 2747247274442752
+    m_Localized: This is a game designed to teach basic skills. By accepting, you
+      confirm that you are the child's legal tutor and authorize their use of the
+      app.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747497426927616
+    m_Localized: "\rLegal notice and parental consent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747631686598656
+    m_Localized: BigEnglishText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749538178121728
+    m_Localized: Accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749594901889024
+    m_Localized: Reject
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

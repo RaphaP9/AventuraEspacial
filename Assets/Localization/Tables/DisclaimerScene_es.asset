@@ -27,6 +27,49 @@ MonoBehaviour:
       esta aplicaci\xF3n."
     m_Metadata:
       m_Items: []
+  - m_Id: 2747247274442752
+    m_Localized: "Este es un juego dise\xF1ado para ense\xF1ar habilidades b\xE1sicas.
+      Al aceptar, confirmas que eres tutor legal del ni\xF1o y autorizas su uso de
+      la aplicaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747497426927616
+    m_Localized: Advertencia legal y consentimiento parental
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747631686598656
+    m_Localized: "Al permitir que su hijo/a utilice este juego, usted como padre/tutor
+      legal reconoce y acepta expresamente:\r\n1.- Que este juego cumple con la\_Ley
+      de Protecci\xF3n de la Privacidad Infantil en L\xEDnea (COPPA - EE.UU.), no
+      recopilando datos personales de menores de 13 a\xF1os sin su autorizaci\xF3n
+      verificable, y con el\_Reglamento General de Protecci\xF3n de Datos (GDPR-K
+      - UE), que exige consentimiento parental para menores de 16 a\xF1os (o edad
+      inferior seg\xFAn pa\xEDs miembro, como 14 a\xF1os en Espa\xF1a o 13 a\xF1os
+      en Francia).\r\n2.- Que el contenido est\xE1 dise\xF1ado bajo las\_pautas de
+      la Organizaci\xF3n Mundial de la Salud (OMS)\_para menores de 5 a\xF1os (m\xE1x.
+      1 hora diaria de pantallas educativas) y las recomendaciones de la\_Academia
+      Americana de Pediatr\xEDa (AAP)\_para ni\xF1os de 3-8 a\xF1os (sesiones estructuradas
+      de 10-15 minutos).\r\n3.- Que usted asume la responsabilidad de supervisar
+      el tiempo de uso, garantizando que no sustituya actividades f\xEDsicas, sociales
+      o educativas no digitales, tal como establece la\_Ley General de los Derechos
+      de la Ni\xF1ez (M\xE9xico)\_y la\_Children\u2019s Code (Reino Unido).\r\n4.-
+      Que el juego no incluye publicidad de terceros, compras integradas o enlaces
+      externos, cumpliendo con la\_Directiva de Servicios de Medios Audiovisuales
+      (UE 2018/1808)\_y la\_California Consumer Privacy Act (CCPA).\r\n5.- Que cualquier
+      dato an\xF3nimo recopilado (ej.: progreso en el juego) se almacena localmente
+      en el dispositivo, sin compartirse con servidores externos, conforme al\_Lei
+      Geral de Prote\xE7\xE3o de Dados (LGPD - Brasil)\_y la\_Ley de Protecci\xF3n
+      de Datos Personales (Argentina)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749538178121728
+    m_Localized: Aceptar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749594901889024
+    m_Localized: Rechazar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -20,7 +20,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 179220987904
+    m_Key: disclaimerScene.simpleDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747247274442752
     m_Key: disclaimerScene.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747497426927616
+    m_Key: disclaimerScene.scrollTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2747631686598656
+    m_Key: disclaimerScene.scrollDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749538178121728
+    m_Key: disclaimerScene.accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2749594901889024
+    m_Key: disclaimerScene.reject
     m_Metadata:
       m_Items: []
   m_Metadata:
