@@ -341,7 +341,6 @@ public class MemoryMinigameManager : MonoBehaviour
         }
     }
 
-
     #endregion
 
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
