@@ -52,12 +52,18 @@ public class MemoryMinigameManager : MonoBehaviour
 
     public static event EventHandler OnPairMatch;
     public static event EventHandler OnPairFailed;
+
+    public static event EventHandler OnGameInitialized;
+    public static event EventHandler OnGameLost;
+    public static event EventHandler OnGameWon;
     #endregion
 
     #region Custom Classes
     public class OnRoundEventArgs : EventArgs
     {
         public MemoryRound memoryRound;
+        public int roundIndex;
+        public int totalRounds;
     }
 
     public class OnRevealTimeEventArgs : EventArgs
@@ -106,6 +112,8 @@ public class MemoryMinigameManager : MonoBehaviour
         gameWon = false;
         gameLost = false;
         currentRoundIndex = 0;
+
+        OnGameInitialized?.Invoke(this, EventArgs.Empty);   
     }
 
     #region Coroutines
@@ -119,12 +127,11 @@ public class MemoryMinigameManager : MonoBehaviour
 
         while (!gameEnded)
         {
-            yield return StartCoroutine(MemoryRoundCoroutine(settings.rounds[currentRoundIndex]));
+            yield return StartCoroutine(MemoryRoundCoroutine(settings.rounds[currentRoundIndex], currentRoundIndex));
 
             #region Minigame Completed Evaluation
             if(currentRoundIndex>= settings.rounds.Count -1)
             {
-                SetMinigameState(MiniGameState.Win);
                 gameEnded = true;
             }
             else
@@ -133,16 +140,19 @@ public class MemoryMinigameManager : MonoBehaviour
             }
             #endregion
         }
+
+        SetMinigameState(MiniGameState.Win);
+        OnGameWon?.Invoke(this, EventArgs.Empty);
     }
 
-    private IEnumerator MemoryRoundCoroutine(MemoryRound memoryRound)
+    private IEnumerator MemoryRoundCoroutine(MemoryRound memoryRound, int roundIndex)
     {
         SetUpGridLayout(memoryRound);
 
         List<MemoryCardSO> chosenPairs = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(settings.cardPool, memoryRound.pairCount);
         CreateCards(chosenPairs, memoryRound);
 
-        OnRoundStart?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound }); 
+        OnRoundStart?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count }); 
 
         SetMinigameState(MiniGameState.RevealingCards);
 
@@ -199,7 +209,7 @@ public class MemoryMinigameManager : MonoBehaviour
 
                 yield return new WaitForSeconds(settings.allPairsMatchTime);
 
-                OnRoundEnd?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound });
+                OnRoundEnd?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
                 DisappearCards(currentRoundCards);
 
@@ -336,9 +346,12 @@ public class MemoryMinigameManager : MonoBehaviour
 
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 
-    public void EndMinigame()
+    public void LoseMinigame()
     {
+        StopAllCoroutines();
 
+        SetMinigameState(MiniGameState.Lose);
+        OnGameLost?.Invoke(this, EventArgs.Empty);
     }
 
     #region
