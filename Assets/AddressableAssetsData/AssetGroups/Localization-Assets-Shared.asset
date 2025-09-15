@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61078d6f3b237334598a946f8ee6b545
+    m_Address: Assets/Localization/Tables/MemoryMinigame Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 798559f005a24e84e94afc76a0b63aa6
     m_Address: Assets/Localization/Tables/General Shared Data.asset
     m_ReadOnly: 1
