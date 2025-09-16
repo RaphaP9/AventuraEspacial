@@ -47,7 +47,7 @@ public class OptionsUI : UILayer
         closeButton.onClick.AddListener(CloseUI);
     }
 
-    private void SetOptionsState(OptionsState state) => this.optionsState = state;
+    private void SetOptionsState(OptionsState state) => optionsState = state;
 
     public void OpenUI()
     {

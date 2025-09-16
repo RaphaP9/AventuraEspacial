@@ -15,6 +15,18 @@ public class PauseManager : MonoBehaviour
 
     public bool GamePaused => gamePaused;
 
+    private void OnEnable()
+    {
+        PauseUI.OnPauseUIOpen += PauseUI_OnPauseUIOpen;
+        PauseUI.OnPauseUIClose += PauseUI_OnPauseUIClose;
+    }
+
+    private void OnDisable()
+    {
+        PauseUI.OnPauseUIOpen -= PauseUI_OnPauseUIOpen;
+        PauseUI.OnPauseUIClose -= PauseUI_OnPauseUIClose;
+    }
+
     private void Awake()
     {
         SetSingleton();
@@ -62,4 +74,15 @@ public class PauseManager : MonoBehaviour
     private void SetGamePaused(bool gamePaused) => this.gamePaused = gamePaused;
     private void SetPauseTimeScale() => Time.timeScale = 0f;
     private void SetResumeTimeScale() => Time.timeScale = 1f;
+
+    #region Subscriptions
+    private void PauseUI_OnPauseUIOpen(object sender, EventArgs e)
+    {
+        PauseGame();
+    }
+    private void PauseUI_OnPauseUIClose(object sender, EventArgs e)
+    {
+        ResumeGame();
+    }
+    #endregion
 }

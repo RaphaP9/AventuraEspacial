@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
-using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
-using System.Threading.Tasks;
-using UnityEngine.Localization.Tables;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class CinematicSceneManager : MonoBehaviour
