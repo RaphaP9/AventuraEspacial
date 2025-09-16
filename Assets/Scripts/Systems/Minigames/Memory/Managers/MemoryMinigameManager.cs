@@ -31,7 +31,7 @@ public class MemoryMinigameManager : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool debug;
 
-    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, EndingRound, SwitchingRound, Win, Lose}
+    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, EndingRound, SwitchingRound, Winning, Win, Losing, Lose}
 
     private bool gameEnded = false;
     private bool gameWon = false;
@@ -54,8 +54,12 @@ public class MemoryMinigameManager : MonoBehaviour
     public static event EventHandler OnPairFailed;
 
     public static event EventHandler OnGameInitialized;
-    public static event EventHandler OnGameLost;
+
+    public static event EventHandler OnGameWinning;
     public static event EventHandler OnGameWon;
+
+    public static event EventHandler OnGameLosing;
+    public static event EventHandler OnGameLost;
     #endregion
 
     #region Custom Classes
@@ -143,6 +147,11 @@ public class MemoryMinigameManager : MonoBehaviour
             #endregion
         }
 
+        SetMinigameState(MiniGameState.Winning);
+        OnGameWinning?.Invoke(this, EventArgs.Empty);
+
+        yield return new WaitForSeconds(settings.endingGameTime);
+
         SetMinigameState(MiniGameState.Win);
         OnGameWon?.Invoke(this, EventArgs.Empty);
     }
@@ -215,8 +224,15 @@ public class MemoryMinigameManager : MonoBehaviour
 
                 DisappearCards(currentRoundCards);
 
-                SetMinigameState(MiniGameState.SwitchingRound);
-                yield return new WaitForSeconds(settings.switchRoundTimer);
+                if (IsLastRound(roundIndex))
+                {
+                    yield return new WaitForSeconds(settings.endLastRoundTimer);
+                }
+                else
+                {
+                    SetMinigameState(MiniGameState.SwitchingRound);
+                    yield return new WaitForSeconds(settings.switchRoundTimer);
+                }
 
                 currentMatchedCards.Clear();
                 currentRoundCards.Clear();
@@ -286,7 +302,6 @@ public class MemoryMinigameManager : MonoBehaviour
     #endregion
 
     #region Pair Processing
-
     private IEnumerator ProcessPairCoroutine(MemoryCardHandler firstCard, MemoryCardHandler secondCard)
     {
         List<MemoryCardHandler> evaluatedCards = new List<MemoryCardHandler> { firstCard, secondCard};
@@ -307,10 +322,10 @@ public class MemoryMinigameManager : MonoBehaviour
 
     private bool PairMatches(MemoryCardHandler firstCard, MemoryCardHandler secondCard) => firstCard.MemoryCardSO == secondCard.MemoryCardSO;
     private bool AllPairMatch() => currentMatchedCards.Count >= currentRoundCards.Count;
+    private bool IsLastRound(int roundIndex) => roundIndex + 1 >= settings.rounds.Count;
     #endregion
 
     #region Cards
-
     private void CoverCards(List<MemoryCardHandler> memoryCardHandlers)
     {
         foreach (MemoryCardHandler memoryCardHandler in memoryCardHandlers)
@@ -345,16 +360,27 @@ public class MemoryMinigameManager : MonoBehaviour
 
     #endregion
 
+    #region Public Methods
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
     public bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 
-    public void LoseMinigame()
+    public void LoseMinigameByTime()
     {
         StopAllCoroutines();
+        StartCoroutine(LoseMinigameByTimeCoroutine());
+    }
+
+    private IEnumerator LoseMinigameByTimeCoroutine()
+    {
+        SetMinigameState(MiniGameState.Losing);
+        OnGameLosing?.Invoke(this, EventArgs.Empty);
+
+        yield return new WaitForSeconds(settings.endingGameTime);
 
         SetMinigameState(MiniGameState.Lose);
         OnGameLost?.Invoke(this, EventArgs.Empty);
     }
+    #endregion
 
     #region Subscriptions
     private void MemoryCardHandler_OnCardRevealed(object sender, MemoryCardHandler.OnCardRevealedEventArgs e)
@@ -366,7 +392,7 @@ public class MemoryMinigameManager : MonoBehaviour
 
     private void MemoryMinigameTimerManager_OnTimeEnd(object sender, EventArgs e)
     {
-        LoseMinigame();
+        LoseMinigameByTime();
     }
     #endregion
 }

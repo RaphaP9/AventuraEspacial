@@ -24,6 +24,7 @@ public class MemoryMinigameSettings : ScriptableObject
     [Range(0f, 5f)] public float timeBetweenPairs;
     [Range(0f, 5f)] public float allPairsMatchTime;
     [Range(0f, 5f)] public float switchRoundTimer;
+    [Range(0f, 5f)] public float endLastRoundTimer;
     [Range(0f, 5f)] public float endingGameTime;
 }
 

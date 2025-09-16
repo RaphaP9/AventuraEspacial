@@ -57,7 +57,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 327dcc20158080049b59dc2126c82d83, type: 2}
   baseScorePerPairMatch: 2
   maxCombo: 5
-  bonusScorePerCombo: 1
+  bonusScorePerCombo: 2
   gameTime: 60
   timeBonusOnMatch: 5
   timePenaltyOnFail: 3
@@ -65,4 +65,5 @@ MonoBehaviour:
   timeBetweenPairs: 0
   allPairsMatchTime: 3
   switchRoundTimer: 2
+  endLastRoundTimer: 2
   endingGameTime: 2
