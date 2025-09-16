@@ -3078,6 +3078,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2139813020}
     m_Modifications:
+    - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: minigameScene
+      value: MemoryMinigame
+      objectReference: {fileID: 0}
     - target: {fileID: 7689746432190941960, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_Name
       value: MiniGameSelectionSingleUI
