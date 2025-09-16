@@ -58,6 +58,9 @@ MonoBehaviour:
   baseScorePerPairMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 1
+  gameTime: 60
+  timeBonusOnMatch: 5
+  timePenaltyOnFail: 3
   startingGameTime: 2
   timeBetweenPairs: 0
   allPairsMatchTime: 3

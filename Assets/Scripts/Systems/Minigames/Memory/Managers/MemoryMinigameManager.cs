@@ -75,11 +75,13 @@ public class MemoryMinigameManager : MonoBehaviour
     private void OnEnable()
     {
         MemoryCardHandler.OnCardRevealed += MemoryCardHandler_OnCardRevealed;
+        MemoryMinigameTimerManager.OnTimeEnd += MemoryMinigameTimerManager_OnTimeEnd;
     }
 
     private void OnDisable()
     {
         MemoryCardHandler.OnCardRevealed -= MemoryCardHandler_OnCardRevealed;
+        MemoryMinigameTimerManager.OnTimeEnd -= MemoryMinigameTimerManager_OnTimeEnd;
     }
 
     private void Awake()
@@ -344,6 +346,7 @@ public class MemoryMinigameManager : MonoBehaviour
     #endregion
 
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+    public bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 
     public void LoseMinigame()
     {
@@ -353,7 +356,7 @@ public class MemoryMinigameManager : MonoBehaviour
         OnGameLost?.Invoke(this, EventArgs.Empty);
     }
 
-    #region
+    #region Subscriptions
     private void MemoryCardHandler_OnCardRevealed(object sender, MemoryCardHandler.OnCardRevealedEventArgs e)
     {
         currentRevealedCards.Add(e.memoryCardHandler);
@@ -361,6 +364,10 @@ public class MemoryMinigameManager : MonoBehaviour
         cardRevealed = true;
     }
 
+    private void MemoryMinigameTimerManager_OnTimeEnd(object sender, EventArgs e)
+    {
+        LoseMinigame();
+    }
     #endregion
 }
     

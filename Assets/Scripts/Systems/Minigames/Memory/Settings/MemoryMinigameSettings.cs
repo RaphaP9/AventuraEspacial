@@ -10,9 +10,14 @@ public class MemoryMinigameSettings : ScriptableObject
     public List<MemoryCardSO> cardPool;
 
     [Header("Score Settings")]
-    [SerializeField, Range(1,10)] public int baseScorePerPairMatch;
-    [SerializeField, Range(2,10)] public int maxCombo;
-    [SerializeField, Range(1,10)] public int bonusScorePerCombo;
+    [Range(1,10)] public int baseScorePerPairMatch;
+    [Range(2,10)] public int maxCombo;
+    [Range(1,10)] public int bonusScorePerCombo;
+
+    [Header("Time Settings")]
+    [SerializeField, Range(0f, 600f)] public float gameTime;
+    [SerializeField, Range(0f, 10f)] public float timeBonusOnMatch;
+    [SerializeField, Range(0f, 10f)] public float timePenaltyOnFail;
 
     [Header("Low Level Timers")]
     [Range(0f, 5f)] public float startingGameTime;
