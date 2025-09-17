@@ -16,14 +16,14 @@ MonoBehaviour:
   assetLocalizationTable: MinigameFinalScoreAssets
   minigameFinalScoreSettingsList:
   - minimunScore: 75
-    messageLocalizationBinding: 
-    spriteLocalizationBinding: 
+    messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage1
+    spriteLocalizationBinding: minigameFinalScoreAssets.relatedSprite1
   - minimunScore: 50
-    messageLocalizationBinding: 
-    spriteLocalizationBinding: 
+    messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage1
+    spriteLocalizationBinding: minigameFinalScoreAssets.relatedSprite1
   - minimunScore: 25
-    messageLocalizationBinding: 
-    spriteLocalizationBinding: 
+    messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage1
+    spriteLocalizationBinding: minigameFinalScoreAssets.relatedSprite1
   - minimunScore: 0
-    messageLocalizationBinding: 
-    spriteLocalizationBinding: 
+    messageLocalizationBinding: minigameFinalScoreStrings.relatedMessage1
+    spriteLocalizationBinding: minigameFinalScoreAssets.relatedSprite1

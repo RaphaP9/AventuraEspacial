@@ -5,6 +5,7 @@ using UnityEngine.Localization.Settings;
 using System;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.Video;
+using UnityEngine.Localization;
 
 public class FinalScoreUI : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class FinalScoreUI : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [Header("UI Components")]
-    [SerializeField] private TextMeshProUGUI messageText;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI relatedMessageText;
     [SerializeField] private Image relatedImage;
 
     [Header("Debug")]
@@ -24,18 +26,25 @@ public class FinalScoreUI : MonoBehaviour
     private const string HIDE_TRIGGER = "Hide";
     private const string SHOW_TRIGGER = "Show";
 
+    private MinigameFinalScoreSetting setting;
+    private bool hasBeenSet = false;
     private void OnEnable()
     {
         MinigameManager.OnGameWon += MinigameManager_OnGameWon;
         MinigameManager.OnGameLost += MinigameManager_OnGameLost;
+
+        LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
     }
 
     private void OnDisable()
     {
         MinigameManager.OnGameWon -= MinigameManager_OnGameWon;
         MinigameManager.OnGameLost -= MinigameManager_OnGameLost;
+
+        LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
     }
 
+    #region Animations
     public void ShowUI()
     {
         animator.ResetTrigger(HIDE_TRIGGER);
@@ -47,20 +56,32 @@ public class FinalScoreUI : MonoBehaviour
         animator.ResetTrigger(SHOW_TRIGGER);
         animator.SetTrigger(HIDE_TRIGGER);
     }
+    #endregion
 
-    private void ShowUIByScore(int score)
+    #region Setters
+    private void SetUIByScore(int score)
     {
-        MinigameFinalScoreSetting setting = GetMinigameFinalScoreSettingByScore(score);
+        setting = GetMinigameFinalScoreSettingByScore(score);
+        hasBeenSet = true;
 
-        SetMessageTextBySetting(setting);
-        SetRelatedImageSpriteBySetting(setting);
-
+        SetScoreText(score);
+        SetUIByStoredSetting();
         ShowUI();
     }
 
-    private void SetMessageTextBySetting(MinigameFinalScoreSetting setting)
+    private void SetUIByStoredSetting()
     {
-        messageText.text = LocalizationSettings.StringDatabase.GetLocalizedString(minigameFinalScoreSettingsSO.stringLocalizationTable, setting.messageLocalizationBinding);
+        if (!hasBeenSet) return;
+
+        SetRelatedMessageTextBySetting(setting);
+        SetRelatedImageSpriteBySetting(setting);
+    }
+
+    private void SetScoreText(int score) => scoreText.text = score.ToString();
+
+    private void SetRelatedMessageTextBySetting(MinigameFinalScoreSetting setting)
+    {
+        relatedMessageText.text = LocalizationSettings.StringDatabase.GetLocalizedString(minigameFinalScoreSettingsSO.stringLocalizationTable, setting.messageLocalizationBinding);
     }
 
     private async void SetRelatedImageSpriteBySetting(MinigameFinalScoreSetting setting)
@@ -78,6 +99,9 @@ public class FinalScoreUI : MonoBehaviour
             if (debug) Debug.LogError($"Failed to load localized sprite [{minigameFinalScoreSettingsSO.assetLocalizationTable}] from [{setting.spriteLocalizationBinding}]");
         }
     }
+    #endregion
+
+    #region Utility Methods
 
     private MinigameFinalScoreSetting GetMinigameFinalScoreSettingByScore(int score)
     {
@@ -89,16 +113,23 @@ public class FinalScoreUI : MonoBehaviour
         if (debug) Debug.Log($"No score setting matches the minimum score. Score obtained: {score}. Returning last list element");
         return minigameFinalScoreSettingsSO.minigameFinalScoreSettingsList[^1];
     }
+    #endregion
 
     #region Subscriptions
     private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
     {
-        ShowUIByScore(minigameScoreManager.CurrentScore);
+        SetUIByScore(minigameScoreManager.CurrentScore);
     }
 
     private void MinigameManager_OnGameLost(object sender, System.EventArgs e)
     {
-        ShowUIByScore(minigameScoreManager.CurrentScore);
+        SetUIByScore(minigameScoreManager.CurrentScore);
     }
+
+    private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
+    {
+        SetUIByStoredSetting();
+    }
+
     #endregion
 }

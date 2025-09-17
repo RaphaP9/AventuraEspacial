@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: MinigameFinalScoreStrings
   m_TableCollectionNameGuidString: da700a39a176cc34daa7634e0dcc3c87
-  m_Entries: []
+  m_Entries:
+  - m_Id: 165057650966528
+    m_Key: minigameFinalScoreStrings.starPieces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167634522292224
+    m_Key: minigameFinalScoreStrings.relatedMessage1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
