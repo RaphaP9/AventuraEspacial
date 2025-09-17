@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-Asset-Tables-English (en)
   m_GUID: 479c68a32ccf45840afe42b7b9e164dd
   m_SerializeEntries:
+  - m_GUID: 0024ae25307def54ab030947d1589582
+    m_Address: MinigameFinalScoreAssets_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6662b6c4678bd9d4d9640032bcff9362
     m_Address: Videos_en
     m_ReadOnly: 1

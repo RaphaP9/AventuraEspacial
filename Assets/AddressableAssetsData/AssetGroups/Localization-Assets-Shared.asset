@@ -40,6 +40,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fc1f563a988cbc4b86c2658df7daa8f
+    m_Address: Assets/Localization/Tables/MinigameFinalScoreAssets/MinigameFinalScoreAssets
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 84ecbc3ce1f21814cb695966599017fb
     m_Address: Assets/Localization/Tables/Disclaimer Scene Labels Shared Data.asset
     m_ReadOnly: 1
@@ -47,6 +53,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c74db7a787a68a34e992bd5e1c48a9ae
     m_Address: Assets/Localization/Tables/Videos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da700a39a176cc34daa7634e0dcc3c87
+    m_Address: Assets/Localization/Tables/MinigameFinalScoreStrings/MinigameFinalScoreStrings
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

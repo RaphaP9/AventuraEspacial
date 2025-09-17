@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class MemoryMinigameManager : MonoBehaviour
+public class MemoryMinigameManager : MinigameManager
 {
     public static MemoryMinigameManager Instance {  get; private set; }
 
@@ -54,12 +54,6 @@ public class MemoryMinigameManager : MonoBehaviour
     public static event EventHandler OnPairFailed;
 
     public static event EventHandler OnGameInitialized;
-
-    public static event EventHandler OnGameWinning;
-    public static event EventHandler OnGameWon;
-
-    public static event EventHandler OnGameLosing;
-    public static event EventHandler OnGameLost;
     #endregion
 
     #region Custom Classes
@@ -148,12 +142,12 @@ public class MemoryMinigameManager : MonoBehaviour
         }
 
         SetMinigameState(MiniGameState.Winning);
-        OnGameWinning?.Invoke(this, EventArgs.Empty);
+        OnGameWinningMethod();
 
         yield return new WaitForSeconds(settings.endingGameTime);
 
         SetMinigameState(MiniGameState.Win);
-        OnGameWon?.Invoke(this, EventArgs.Empty);
+        OnGameWonMethod();
     }
 
     private IEnumerator MemoryRoundCoroutine(MemoryRound memoryRound, int roundIndex)
@@ -373,12 +367,12 @@ public class MemoryMinigameManager : MonoBehaviour
     private IEnumerator LoseMinigameByTimeCoroutine()
     {
         SetMinigameState(MiniGameState.Losing);
-        OnGameLosing?.Invoke(this, EventArgs.Empty);
+        OnGameLosingMethod();
 
         yield return new WaitForSeconds(settings.endingGameTime);
 
         SetMinigameState(MiniGameState.Lose);
-        OnGameLost?.Invoke(this, EventArgs.Empty);
+        OnGameLostMethod();
     }
     #endregion
 

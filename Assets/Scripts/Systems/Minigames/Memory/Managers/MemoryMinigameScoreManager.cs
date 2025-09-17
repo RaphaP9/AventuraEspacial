@@ -1,13 +1,12 @@
 using UnityEngine;
 using System;
 
-public class MemoryMinigameScoreManager : MonoBehaviour
+public class MemoryMinigameScoreManager : MinigameScoreManager
 {
     [Header("Components")]
     [SerializeField] private MemoryMinigameSettings settings;
 
     [Header("Runtime Filled")]
-    [SerializeField] private int currentScore;
     [SerializeField] private int currentCombo;
     [SerializeField] private int currentConsecutiveMatches;
 
@@ -17,17 +16,6 @@ public class MemoryMinigameScoreManager : MonoBehaviour
     public static event EventHandler<OnComboGainedEventArgs> OnComboGained; 
     public static event EventHandler<OnComboGainedEventArgs> OnComboUpdated;
     public static event EventHandler OnComboLost;
-
-    public class OnScoreInitializedEventArgs : EventArgs
-    {
-        public int currentScore;
-    }
-
-    public class OnScoreIncreasedEventArgs : EventArgs
-    {
-        public int currentScore;
-        public int increaseQuantity;
-    }
 
     public class OnComboGainedEventArgs : EventArgs
     {
@@ -53,8 +41,8 @@ public class MemoryMinigameScoreManager : MonoBehaviour
 
     private void InitializeVariables()
     {
-        currentScore = 0;
         currentConsecutiveMatches = 0;
+        currentScore = 0;
         currentCombo = 0;
 
         OnScoreInitialized?.Invoke(this, new OnScoreInitializedEventArgs { currentScore = currentScore});
@@ -130,6 +118,4 @@ public class MemoryMinigameScoreManager : MonoBehaviour
         ProcessPairFailed();
     }
     #endregion
-
-
 }
