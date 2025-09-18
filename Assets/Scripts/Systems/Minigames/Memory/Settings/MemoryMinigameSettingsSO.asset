@@ -15,11 +15,11 @@ MonoBehaviour:
   rounds:
   - cardBackSprite: {fileID: 21300000, guid: b286b4422a224fe4ba445d8e6baefd0d, type: 3}
     pairCount: 2
-    revealTime: 1
+    revealTime: 2
     gridColumnCount: 2
   - cardBackSprite: {fileID: 21300000, guid: f1d24ef3478d5ed4c8a8eb203886270e, type: 3}
     pairCount: 3
-    revealTime: 2
+    revealTime: 3
     gridColumnCount: 3
   - cardBackSprite: {fileID: 21300000, guid: 6b2ea5c7bcc228a4f8f6a09c777e1e82, type: 3}
     pairCount: 4
@@ -61,7 +61,7 @@ MonoBehaviour:
   gameTime: 60
   timeBonusOnMatch: 5
   timePenaltyOnFail: 3
-  startingGameTime: 2
+  startingGameTime: 3
   timeBetweenPairs: 0
   allPairsMatchTime: 3
   switchRoundTimer: 2

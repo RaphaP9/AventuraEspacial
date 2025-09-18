@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenuDataModifier : MonoBehaviour
+public class MainMenuSceneDataModifier : MonoBehaviour
 {
     private static bool hasEnteredGame = false;
 

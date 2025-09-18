@@ -4,10 +4,17 @@ using UnityEngine.UI;
 
 public class MinigameSelectionSingleUI : MonoBehaviour
 {
+    [Header("Settings")]
+    [SerializeField] private Minigame minigame;
+
     [Header("UI Components")]
     [SerializeField] private Button minigameButton;
 
-    [Header("Settings")]
+    [Header("StartCinematic Scene")]
+    [SerializeField] private string startCinematicScene;
+    [SerializeField] private TransitionType startCinematicTransitionType;
+
+    [Header("Minigame Scene")]
     [SerializeField] private string minigameScene;
     [SerializeField] private TransitionType minigameTransitionType;
 
@@ -18,8 +25,17 @@ public class MinigameSelectionSingleUI : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        minigameButton.onClick.AddListener(LoadMinigameScene);
+        minigameButton.onClick.AddListener(LoadNextScene);
     }
 
+    private void LoadNextScene()
+    {
+        bool isFirstTimeEntering = DataContainer.Instance.IsFirstTimeEnteringMinigame(minigame);
+
+        if (isFirstTimeEntering) LoadStartCinematicScene();
+        else LoadMinigameScene();
+    }
+
+    private void LoadStartCinematicScene() => ScenesManager.Instance.TransitionLoadTargetScene(startCinematicScene, startCinematicTransitionType);
     private void LoadMinigameScene() => ScenesManager.Instance.TransitionLoadTargetScene(minigameScene, minigameTransitionType);
 }

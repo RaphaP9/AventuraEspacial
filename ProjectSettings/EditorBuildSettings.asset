@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Minigames/MemoryMinigame.unity
     guid: c082b56c9ea6ad34397ef72be2bdb0a2
   - enabled: 1
+    path: Assets/Scenes/Cinematics/MemoryMinigameStartCinematic.unity
+    guid: 80f51a840408e7e4b8fe38a712d12dfc
+  - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 7eee61677906f69449fb9a33123de84b
   m_configObjects:

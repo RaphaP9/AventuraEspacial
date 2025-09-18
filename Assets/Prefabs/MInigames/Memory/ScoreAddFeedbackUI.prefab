@@ -88,7 +88,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5077539893439108837}
   feedbackText: {fileID: 8120608644543398724}
-  timeShowing: 3
+  timeShowing: 2
 --- !u!114 &8661774301973842696
 MonoBehaviour:
   m_ObjectHideFlags: 0

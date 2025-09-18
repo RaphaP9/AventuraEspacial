@@ -30,6 +30,9 @@ public class FinalScoreUI : MonoBehaviour
     private bool hasBeenSet = false;
     private void OnEnable()
     {
+        MinigameManager.OnGameWinning += MinigameManager_OnGameWinning;
+        MinigameManager.OnGameLosing += MinigameManager_OnGameLosing;
+
         MinigameManager.OnGameWon += MinigameManager_OnGameWon;
         MinigameManager.OnGameLost += MinigameManager_OnGameLost;
 
@@ -38,6 +41,9 @@ public class FinalScoreUI : MonoBehaviour
 
     private void OnDisable()
     {
+        MinigameManager.OnGameWinning -= MinigameManager_OnGameWinning;
+        MinigameManager.OnGameLosing -= MinigameManager_OnGameLosing;
+
         MinigameManager.OnGameWon -= MinigameManager_OnGameWon;
         MinigameManager.OnGameLost -= MinigameManager_OnGameLost;
 
@@ -66,7 +72,6 @@ public class FinalScoreUI : MonoBehaviour
 
         SetScoreText(score);
         SetUIByStoredSetting();
-        ShowUI();
     }
 
     private void SetUIByStoredSetting()
@@ -116,14 +121,25 @@ public class FinalScoreUI : MonoBehaviour
     #endregion
 
     #region Subscriptions
-    private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
+
+    private void MinigameManager_OnGameWinning(object sender, EventArgs e)
     {
         SetUIByScore(minigameScoreManager.CurrentScore);
     }
 
-    private void MinigameManager_OnGameLost(object sender, System.EventArgs e)
+    private void MinigameManager_OnGameLosing(object sender, EventArgs e)
     {
         SetUIByScore(minigameScoreManager.CurrentScore);
+    }
+
+    private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
+    {
+        ShowUI();
+    }
+
+    private void MinigameManager_OnGameLost(object sender, System.EventArgs e)
+    {
+        ShowUI();
     }
 
     private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
