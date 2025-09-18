@@ -1,11 +1,8 @@
 using TMPro;
 using UnityEngine;
 
-public class MemoryMinigameScoreUI : MonoBehaviour
+public class MemoryMinigameScoreUI : MinigameScoreUI
 {
-    [Header("UI Components")]
-    [SerializeField] private TextMeshProUGUI scoreText;
-
     private void OnEnable()
     {
         MemoryMinigameScoreManager.OnScoreInitialized += MemoryMinigameScoreManager_OnScoreInitialized;
@@ -17,8 +14,6 @@ public class MemoryMinigameScoreUI : MonoBehaviour
         MemoryMinigameScoreManager.OnScoreInitialized -= MemoryMinigameScoreManager_OnScoreInitialized;
         MemoryMinigameScoreManager.OnScoreIncreased -= MemoryMinigameScoreManager_OnScoreIncreased;
     }
-
-    private void SetScoreText(int score) => scoreText.text = score.ToString();
 
     #region Subcriptions
     private void MemoryMinigameScoreManager_OnScoreInitialized(object sender, MemoryMinigameScoreManager.OnScoreInitializedEventArgs e)

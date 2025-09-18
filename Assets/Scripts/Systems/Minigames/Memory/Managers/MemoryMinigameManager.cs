@@ -356,7 +356,7 @@ public class MemoryMinigameManager : MinigameManager
 
     #region Public Methods
     public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
-    public bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+    public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
 
     public void LoseMinigameByTime()
     {

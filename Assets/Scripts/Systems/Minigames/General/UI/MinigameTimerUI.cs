@@ -2,10 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class MemoryMinigameTimerUI : MonoBehaviour
+public class MinigameTimerUI : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private MemoryMinigameTimerManager memoryMinigameTimerManager;
+    [SerializeField] private MinigameTimerManager minigameTimerManager;
 
     [Header("UI Components")]
     [SerializeField] private Image timerImage;
@@ -20,12 +20,12 @@ public class MemoryMinigameTimerUI : MonoBehaviour
 
     private void OnEnable()
     {
-        MemoryMinigameTimerManager.OnTimeSet += MemoryMinigameTimerManager_OnTimeSet;
+        MinigameTimerManager.OnTimeSet += MinigameTimerManager_OnTimeSet;
     }
 
     private void OnDisable()
     {
-        MemoryMinigameTimerManager.OnTimeSet -= MemoryMinigameTimerManager_OnTimeSet;
+        MinigameTimerManager.OnTimeSet -= MinigameTimerManager_OnTimeSet;
     }
 
     private void Update()
@@ -37,7 +37,7 @@ public class MemoryMinigameTimerUI : MonoBehaviour
 
     private void HandleUI()
     {
-        targetFill = memoryMinigameTimerManager.CurrentTime / memoryMinigameTimerManager.TotalTime;
+        targetFill = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
 
         if (TargetReached()) return;
 
@@ -47,10 +47,9 @@ public class MemoryMinigameTimerUI : MonoBehaviour
     private bool TargetReached() => Math.Abs(timerImage.fillAmount - targetFill) < FILL_AMOUNT_REACHED_THRESHOLD;
 
     #region Subscriptions
-    private void MemoryMinigameTimerManager_OnTimeSet(object sender, MemoryMinigameTimerManager.OnTimeSetEventArgs e)
+    private void MinigameTimerManager_OnTimeSet(object sender, MemoryMinigameTimerManager.OnTimeSetEventArgs e)
     {
-        float fill = memoryMinigameTimerManager.CurrentTime / memoryMinigameTimerManager.TotalTime;
-
+        float fill = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
         SetFillInstantly(fill);
     }
     #endregion

@@ -10,12 +10,12 @@ public class ScoreAddFeedbackHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        MemoryMinigameScoreManager.OnScoreIncreased += MemoryMinigameScoreManager_OnScoreIncreased;
+        MinigameScoreManager.OnScoreIncreased += MinigameScoreManager_OnScoreIncreased;
     }
 
     private void OnDisable()
     {
-        MemoryMinigameScoreManager.OnScoreIncreased -= MemoryMinigameScoreManager_OnScoreIncreased;
+        MinigameScoreManager.OnScoreIncreased -= MinigameScoreManager_OnScoreIncreased;
     }
 
     private void HideEachOtherFeedback()
@@ -43,7 +43,7 @@ public class ScoreAddFeedbackHandler : MonoBehaviour
         scoreAddFeedbackUI.SetFeedbackText(feedbackText);
     }
 
-    private void MemoryMinigameScoreManager_OnScoreIncreased(object sender, MemoryMinigameScoreManager.OnScoreIncreasedEventArgs e)
+    private void MinigameScoreManager_OnScoreIncreased(object sender, MemoryMinigameScoreManager.OnScoreIncreasedEventArgs e)
     {
         HideEachOtherFeedback();
         CreateFeedback(e.increaseQuantity);

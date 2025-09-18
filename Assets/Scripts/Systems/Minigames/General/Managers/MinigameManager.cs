@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class MinigameManager : MonoBehaviour
+public abstract class MinigameManager : MonoBehaviour
 {
     public static event EventHandler OnGameWinning;
     public static event EventHandler OnGameWon;
@@ -13,4 +13,6 @@ public class MinigameManager : MonoBehaviour
     protected void OnGameWonMethod() => OnGameWon?.Invoke(this, EventArgs.Empty);
     protected void OnGameLosingMethod() => OnGameLosing?.Invoke(this, EventArgs.Empty);
     protected void OnGameLostMethod() => OnGameLost?.Invoke(this, EventArgs.Empty);
+
+    public abstract bool CanPassTime();
 }

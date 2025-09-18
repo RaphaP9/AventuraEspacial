@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class MemoryMinigameComboUI : MonoBehaviour
+public class MinigameComboUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
@@ -15,16 +15,16 @@ public class MemoryMinigameComboUI : MonoBehaviour
 
     private void OnEnable()
     {
-        MemoryMinigameScoreManager.OnComboGained += MemoryMinigameScoreManager_OnComboGained;
-        MemoryMinigameScoreManager.OnComboUpdated += MemoryMinigameScoreManager_OnComboUpdated;
-        MemoryMinigameScoreManager.OnComboLost += MemoryMinigameScoreManager_OnComboLost;
+        MinigameScoreManager.OnComboGained += MinigameScoreManager_OnComboGained;
+        MinigameScoreManager.OnComboUpdated += MinigameScoreManager_OnComboUpdated;
+        MinigameScoreManager.OnComboLost += MinigameScoreManager_OnComboLost;
     }
 
     private void OnDisable()
     {
-        MemoryMinigameScoreManager.OnComboGained -= MemoryMinigameScoreManager_OnComboGained;
-        MemoryMinigameScoreManager.OnComboUpdated -= MemoryMinigameScoreManager_OnComboUpdated;
-        MemoryMinigameScoreManager.OnComboLost -= MemoryMinigameScoreManager_OnComboLost;
+        MinigameScoreManager.OnComboGained -= MinigameScoreManager_OnComboGained;
+        MinigameScoreManager.OnComboUpdated -= MinigameScoreManager_OnComboUpdated;
+        MinigameScoreManager.OnComboLost -= MinigameScoreManager_OnComboLost;
     }
 
     private void ShowUI()
@@ -54,19 +54,19 @@ public class MemoryMinigameComboUI : MonoBehaviour
     private void SetComboValueText(int combo) => comboValueText.text = $"{MULTIPLIER_CHARACTER}{combo}";
 
     #region Subscriptions
-    private void MemoryMinigameScoreManager_OnComboGained(object sender, MemoryMinigameScoreManager.OnComboGainedEventArgs e)
+    private void MinigameScoreManager_OnComboGained(object sender, MemoryMinigameScoreManager.OnComboGainedEventArgs e)
     {
         SetComboValueText(e.comboGained);
         ShowUI();
     }
 
-    private void MemoryMinigameScoreManager_OnComboUpdated(object sender, MemoryMinigameScoreManager.OnComboGainedEventArgs e)
+    private void MinigameScoreManager_OnComboUpdated(object sender, MemoryMinigameScoreManager.OnComboGainedEventArgs e)
     {
         SetComboValueText(e.comboGained);
         UpdateUI();
     }
 
-    private void MemoryMinigameScoreManager_OnComboLost(object sender, System.EventArgs e)
+    private void MinigameScoreManager_OnComboLost(object sender, System.EventArgs e)
     {
         HideUI();
     }
