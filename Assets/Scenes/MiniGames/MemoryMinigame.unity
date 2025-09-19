@@ -2566,7 +2566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1477763442}
-  - component: {fileID: 1477763443}
+  - component: {fileID: 1477763445}
   - component: {fileID: 1477763444}
   m_Layer: 5
   m_Name: ScoreGroup
@@ -2596,19 +2596,6 @@ RectTransform:
   m_AnchoredPosition: {x: 75, y: -125}
   m_SizeDelta: {x: 350, y: 350}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1477763443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477763441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48032e35d00a18d46901989ea32f01da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 717215828}
 --- !u!114 &1477763444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2623,6 +2610,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feedbackPrefab: {fileID: 1077688927585799679, guid: 1e55eb85f95394a4fbb05fbaad82cdca, type: 3}
   feedbackHolder: {fileID: 1167003993}
+--- !u!114 &1477763445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477763441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54d49a3dc4a0664281610247039d8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 717215828}
 --- !u!1 &1542410617
 GameObject:
   m_ObjectHideFlags: 0

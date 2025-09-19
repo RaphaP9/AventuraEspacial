@@ -1733,8 +1733,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f1403a9a9b3c746aabe8754440453a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 1
+  totalTime: 0
   currentTime: 0
+  settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
 --- !u!1 &953512259
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2237,7 @@ MonoBehaviour:
   currentScore: 0
   currentCombo: 0
   currentConsecutiveHits: 0
+  settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
 --- !u!1 &1326248205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,6 +2282,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4366973e02a2a7d4c8ec0d83e3e3a28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
+  figurePrefab: {fileID: 0}
+  silhouettePrefab: {fileID: 0}
+  miniGameState: 0
+  currentRound:
+    backpackSprite: {fileID: 0}
+    silhouettesCount: 0
+  debug: 0
 --- !u!1 &1375057447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,7 +2534,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1477763441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2391a117b92a4f84c94424cbd79022e5, type: 3}
+  m_Script: {fileID: 11500000, guid: e54d49a3dc4a0664281610247039d8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 717215828}

@@ -66,4 +66,4 @@ MonoBehaviour:
   allPairsMatchTime: 3
   switchRoundTimer: 2
   endLastRoundTimer: 2
-  endingGameTime: 2
+  endingGameTime: 1

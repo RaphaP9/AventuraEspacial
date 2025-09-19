@@ -73,13 +73,13 @@ public class MemoryMinigameManager : MinigameManager
     private void OnEnable()
     {
         MemoryCardHandler.OnCardRevealed += MemoryCardHandler_OnCardRevealed;
-        MemoryMinigameTimerManager.OnTimeEnd += MemoryMinigameTimerManager_OnTimeEnd;
+        MinigameTimerManager.OnTimeEnd += MinigameTimerManager_OnTimeEnd;
     }
 
     private void OnDisable()
     {
         MemoryCardHandler.OnCardRevealed -= MemoryCardHandler_OnCardRevealed;
-        MemoryMinigameTimerManager.OnTimeEnd -= MemoryMinigameTimerManager_OnTimeEnd;
+        MinigameTimerManager.OnTimeEnd -= MinigameTimerManager_OnTimeEnd;
     }
 
     private void Awake()
@@ -130,7 +130,7 @@ public class MemoryMinigameManager : MinigameManager
             yield return StartCoroutine(MemoryRoundCoroutine(settings.rounds[currentRoundIndex], currentRoundIndex));
 
             #region Minigame Completed Evaluation
-            if(currentRoundIndex>= settings.rounds.Count -1)
+            if (currentRoundIndex >= settings.rounds.Count - 1)
             {
                 gameEnded = true;
             }
@@ -141,13 +141,7 @@ public class MemoryMinigameManager : MinigameManager
             #endregion
         }
 
-        SetMinigameState(MiniGameState.Winning);
-        OnGameWinningMethod();
-
-        yield return new WaitForSeconds(settings.endingGameTime);
-
-        SetMinigameState(MiniGameState.Win);
-        OnGameWonMethod();
+        yield return StartCoroutine(WinMinigameCoroutine());
     }
 
     private IEnumerator MemoryRoundCoroutine(MemoryRound memoryRound, int roundIndex)
@@ -242,6 +236,28 @@ public class MemoryMinigameManager : MinigameManager
             }
             #endregion
         }
+    }
+
+    private IEnumerator WinMinigameCoroutine()
+    {
+        SetMinigameState(MiniGameState.Winning);
+        OnGameWinningMethod();
+
+        yield return new WaitForSeconds(settings.endingGameTime);
+
+        SetMinigameState(MiniGameState.Win);
+        OnGameWonMethod();
+    }
+
+    private IEnumerator LoseMinigameByTimeCoroutine()
+    {
+        SetMinigameState(MiniGameState.Losing);
+        OnGameLosingMethod();
+
+        yield return new WaitForSeconds(settings.endingGameTime);
+
+        SetMinigameState(MiniGameState.Lose);
+        OnGameLostMethod();
     }
 
     #endregion
@@ -363,17 +379,6 @@ public class MemoryMinigameManager : MinigameManager
         StopAllCoroutines();
         StartCoroutine(LoseMinigameByTimeCoroutine());
     }
-
-    private IEnumerator LoseMinigameByTimeCoroutine()
-    {
-        SetMinigameState(MiniGameState.Losing);
-        OnGameLosingMethod();
-
-        yield return new WaitForSeconds(settings.endingGameTime);
-
-        SetMinigameState(MiniGameState.Lose);
-        OnGameLostMethod();
-    }
     #endregion
 
     #region Subscriptions
@@ -384,7 +389,7 @@ public class MemoryMinigameManager : MinigameManager
         cardRevealed = true;
     }
 
-    private void MemoryMinigameTimerManager_OnTimeEnd(object sender, EventArgs e)
+    private void MinigameTimerManager_OnTimeEnd(object sender, EventArgs e)
     {
         LoseMinigameByTime();
     }

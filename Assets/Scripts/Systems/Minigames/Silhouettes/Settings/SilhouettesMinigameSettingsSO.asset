@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rounds: []
   cardPool: []
-  baseScorePerSilhouetteMatch: 1
-  maxCombo: 2
-  bonusScorePerCombo: 1
-  gameTime: 0
-  timeBonusOnMatch: 0
-  timePenaltyOnFail: 0
-  startingGameTime: 0
-  switchRoundTimer: 0
-  endLastRoundTimer: 0
-  endingGameTime: 0
+  baseScorePerSilhouetteMatch: 2
+  maxCombo: 5
+  bonusScorePerCombo: 2
+  gameTime: 60
+  timeBonusOnMatch: 5
+  timePenaltyOnFail: 3
+  startingGameTime: 3
+  switchRoundTimer: 2
+  endLastRoundTimer: 2
+  endingGameTime: 1

@@ -26,7 +26,7 @@ public class MemoryMinigameTimerManager : MinigameTimerManager
     protected override bool CanPassTime() => MemoryMinigameManager.Instance.CanPassTime();
 
     #region Subscriptions
-    private void MemoryMinigameManager_OnGameInitialized(object sender, System.EventArgs e)
+    private void MemoryMinigameManager_OnGameInitialized(object sender, EventArgs e)
     {
         SetTotalTime(settings.gameTime);
     }

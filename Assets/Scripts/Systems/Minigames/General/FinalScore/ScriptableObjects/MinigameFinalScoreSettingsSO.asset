@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f589e2a0918676641b4b837d65ae21fc, type: 3}
-  m_Name: MemoryMinigameFinalScoreSettingsSO
+  m_Name: MinigameFinalScoreSettingsSO
   m_EditorClassIdentifier: 
   stringLocalizationTable: MinigameFinalScoreStrings
   assetLocalizationTable: MinigameFinalScoreAssets
