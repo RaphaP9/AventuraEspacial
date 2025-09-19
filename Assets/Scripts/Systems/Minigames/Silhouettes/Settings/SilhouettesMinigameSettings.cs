@@ -6,8 +6,6 @@ public class SilhouettesMinigameSettings : ScriptableObject
 {
     [Header("Rounds Settings")]
     public List<SilhouettesRound> rounds;
-    [Space]
-    public List<MemoryCardSO> cardPool;
 
     [Header("Score Settings")]
     [Range(1, 10)] public int baseScorePerSilhouetteMatch;
