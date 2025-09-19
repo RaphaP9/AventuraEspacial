@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   sprite: {fileID: 0}
-  silhouetteColor: {r: 0, g: 0, b: 0, a: 1}
+  silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}

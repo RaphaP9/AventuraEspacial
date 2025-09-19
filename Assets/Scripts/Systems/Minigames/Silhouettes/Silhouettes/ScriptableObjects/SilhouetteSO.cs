@@ -6,5 +6,5 @@ public class SilhouetteSO : ScriptableObject
     public int id;
     public Sprite sprite;
     [Space]
-    public Color silhouetteColor;
+    public Material silhouetteMaterial;
 }

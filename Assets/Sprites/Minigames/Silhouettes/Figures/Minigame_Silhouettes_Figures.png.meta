@@ -1,0 +1,963 @@
+fileFormatVersion: 2
+guid: 98bb4f248008a21428a3610a82bbbcfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6456430262224563059
+    second: Figuras_Minijuego2_0
+  - first:
+      213: -1025250664390225707
+    second: Figuras_Minijuego2_1
+  - first:
+      213: 5033737294548751538
+    second: Figuras_Minijuego2_2
+  - first:
+      213: -8417226599257536760
+    second: Figuras_Minijuego2_3
+  - first:
+      213: 5719317472158527718
+    second: Figuras_Minijuego2_4
+  - first:
+      213: -3491788876092156390
+    second: Figuras_Minijuego2_5
+  - first:
+      213: -7454666077723919552
+    second: Figuras_Minijuego2_6
+  - first:
+      213: 191823626110387085
+    second: Figuras_Minijuego2_7
+  - first:
+      213: 7985540134330080610
+    second: Figuras_Minijuego2_8
+  - first:
+      213: 4439768047951813417
+    second: Figuras_Minijuego2_9
+  - first:
+      213: 7633209771398372533
+    second: Figuras_Minijuego2_10
+  - first:
+      213: 5541809904522633038
+    second: Figuras_Minijuego2_11
+  - first:
+      213: 2415841662992944147
+    second: Figuras_Minijuego2_12
+  - first:
+      213: 4610257562671399133
+    second: Figuras_Minijuego2_13
+  - first:
+      213: -157597888263778
+    second: Figuras_Minijuego2_14
+  - first:
+      213: -6650830558934133366
+    second: Figuras_Minijuego2_15
+  - first:
+      213: 7768199961010838759
+    second: Figuras_Minijuego2_16
+  - first:
+      213: -5951395949885069032
+    second: Figuras_Minijuego2_17
+  - first:
+      213: -1747697743217772792
+    second: Figuras_Minijuego2_18
+  - first:
+      213: -813230459709855550
+    second: Figuras_Minijuego2_19
+  - first:
+      213: -7377786084467540165
+    second: Figuras_Minijuego2_20
+  - first:
+      213: 8208780055256771194
+    second: Figuras_Minijuego2_21
+  - first:
+      213: 3918970104503303850
+    second: Figuras_Minijuego2_22
+  - first:
+      213: -219884194502438533
+    second: Figuras_Minijuego2_23
+  - first:
+      213: -8070168930458612170
+    second: Figuras_Minijuego2_24
+  - first:
+      213: -2940798431450780706
+    second: Figuras_Minijuego2_25
+  - first:
+      213: -6937809831867618412
+    second: Figuras_Minijuego2_26
+  - first:
+      213: 9176780449253277917
+    second: Figuras_Minijuego2_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b23bfdf0e039ed4cb9e85ebf1af8e8c
+      internalID: -148966261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fbcaec12350a04a902678ad9c3034e
+      internalID: 129461946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732b86950ada9a044a6efde7c92946ea
+      internalID: -2032150445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77957fb16f897214eb6416b4ee569a65
+      internalID: -480913835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2808
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f95b9d200a5924a920d9ac87e28411
+      internalID: -1035017900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297cd9001a00c6f4582f3acb5da9d4e4
+      internalID: -3226345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63a2186e9fa89343b15b59ff626898f
+      internalID: -441577060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dc9b4573bbf5a40bb00bcfead780ad
+      internalID: 1305650999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_8
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc8350f813d6444accc2b3aa824988
+      internalID: -980913514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_9
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2340
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a224328b9c4762547bcda285f2bb5e3a
+      internalID: -751288617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef9fe079c72ce4eafa52ca9cd63977
+      internalID: -1717797476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce4be60990956d4899357d8c5268e2b
+      internalID: 1130377881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_12
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ba4883eac7254b8ee24a8b02f599d
+      internalID: -1901497327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_13
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6900e3759f2f09d49ad0f71c2185fcfc
+      internalID: -226181128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_14
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1872
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7c43d56fd15e45b1c99a8ca07bb3a
+      internalID: 1463214051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07171c4bb7bfc844fa8da9755533157b
+      internalID: 1514742965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf5884014730145af33f42f40c8e74
+      internalID: 1815040099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_17
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa58e30716acd246ab6eb262bc34e26
+      internalID: -778257396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_18
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7032e3049b20944a96c689d7044dd8a
+      internalID: -1690156291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_19
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1404
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687e8edc47a1c4f488ffea86580e1b25
+      internalID: -1786829257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ae54895158d24d99b98324652cf63
+      internalID: -1583671795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_21
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2dffbd5141dca479eaf0e9d52cbcbc
+      internalID: 1587469033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_22
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b5d617d9c41941a92b5feb9f423f6
+      internalID: -1643054590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_23
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8279b0eae3c9f44bba647869932ce6
+      internalID: 1752807386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_24
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 936
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46ac145e5c43ed4092c7946b5feaa9c
+      internalID: -433796391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1995a29687f5f44b21dcb9b2a7f33e
+      internalID: -1427479663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_26
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b839def2f151d43a6311dd839e8479
+      internalID: 1428108754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492631f0168457d42996d06364b651a1
+      internalID: 1814182865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_28
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dd9a4ae6ef4a14ea23dbb086787b57
+      internalID: -232371573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_29
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 468
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415c26c86bd456242964161a5c31cd74
+      internalID: -1477207683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d6b54d28f5dea44857de03fbdaca26
+      internalID: 1607061259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minigame_Silhouettes_Figures_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd01b61be25b874a967bca6dbd43471
+      internalID: -1572488308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fb161a4f4506c1541ae30fd629409ca8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Minigame_Silhouettes_Figures_0: -148966261
+      Minigame_Silhouettes_Figures_1: 129461946
+      Minigame_Silhouettes_Figures_10: -1717797476
+      Minigame_Silhouettes_Figures_11: 1130377881
+      Minigame_Silhouettes_Figures_12: -1901497327
+      Minigame_Silhouettes_Figures_13: -226181128
+      Minigame_Silhouettes_Figures_14: 1463214051
+      Minigame_Silhouettes_Figures_15: 1514742965
+      Minigame_Silhouettes_Figures_16: 1815040099
+      Minigame_Silhouettes_Figures_17: -778257396
+      Minigame_Silhouettes_Figures_18: -1690156291
+      Minigame_Silhouettes_Figures_19: -1786829257
+      Minigame_Silhouettes_Figures_2: -2032150445
+      Minigame_Silhouettes_Figures_20: -1583671795
+      Minigame_Silhouettes_Figures_21: 1587469033
+      Minigame_Silhouettes_Figures_22: -1643054590
+      Minigame_Silhouettes_Figures_23: 1752807386
+      Minigame_Silhouettes_Figures_24: -433796391
+      Minigame_Silhouettes_Figures_25: -1427479663
+      Minigame_Silhouettes_Figures_26: 1428108754
+      Minigame_Silhouettes_Figures_27: 1814182865
+      Minigame_Silhouettes_Figures_28: -232371573
+      Minigame_Silhouettes_Figures_29: -1477207683
+      Minigame_Silhouettes_Figures_3: -480913835
+      Minigame_Silhouettes_Figures_30: 1607061259
+      Minigame_Silhouettes_Figures_31: -1572488308
+      Minigame_Silhouettes_Figures_4: -1035017900
+      Minigame_Silhouettes_Figures_5: -3226345
+      Minigame_Silhouettes_Figures_6: -441577060
+      Minigame_Silhouettes_Figures_7: 1305650999
+      Minigame_Silhouettes_Figures_8: -980913514
+      Minigame_Silhouettes_Figures_9: -751288617
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
