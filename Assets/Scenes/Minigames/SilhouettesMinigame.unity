@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+  m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2388,7 +2388,7 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
   figurePrefab: {fileID: 5460885596936535089, guid: cd55abab096a3be438d3d2dfe9154ce4, type: 3}
   silhouettePrefab: {fileID: 5460885596936535089, guid: f37e426637d07ca438eb4db1bcb90b8d, type: 3}
-  miniGameState: 0
+  miniGameState: 2
   currentRound:
     backpackSprite: {fileID: 0}
     silhouettesCount: 0

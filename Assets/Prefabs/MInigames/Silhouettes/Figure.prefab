@@ -253,9 +253,9 @@ MonoBehaviour:
   figureImage: {fileID: 6464589082224040259}
   animatorController: {fileID: 9123149392393098972}
   transformToDrag: {fileID: 5460885596936535089}
-  moveToOriginTime: 0.5
-  moveToBackpackTime: 0.8
-  moveToOriginCurve:
+  smoothMovementFactor: 20
+  moveToOriginalPositionTime: 0.5
+  moveToOriginalPositionCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -279,6 +279,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  moveToBackpackTime: 0.8
   moveToBackpackCurve:
     serializedVersion: 2
     m_Curve:
@@ -303,10 +304,12 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  storedPosition: {x: 0, y: 0}
+  originalPosition: {x: 0, y: 0, z: 0}
   silhouetteSO: {fileID: 0}
-  isDragged: 0
+  isMoving: 0
+  isDragging: 0
   isMatched: 0
+  isHolding: 0
 --- !u!114 &9123149392393098972
 MonoBehaviour:
   m_ObjectHideFlags: 0
