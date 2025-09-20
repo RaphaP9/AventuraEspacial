@@ -18,7 +18,6 @@ public class MemoryMinigameManager : MinigameManager
 
     [Header("RuntimeFilled")]
     [SerializeField] private MiniGameState miniGameState;
-    [SerializeField] private MemoryRound currentRound;
     [Space]
     [SerializeField] private List<MemoryCardHandler> currentRoundCards;
     [Space]
@@ -286,7 +285,7 @@ public class MemoryMinigameManager : MinigameManager
     private void CreateCard(MemoryCardSO memoryCardSO, MemoryRound memoryRound)
     {
         Transform createdCard = Instantiate(cardPrefab, cardsContainer);
-        MemoryCardHandler memoryCardHandler = createdCard.GetComponent<MemoryCardHandler>();
+        MemoryCardHandler memoryCardHandler = createdCard.GetComponentInChildren<MemoryCardHandler>();
 
         if (memoryCardHandler == null)
         {

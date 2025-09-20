@@ -28,6 +28,23 @@ public class SilhouetteHandler : MonoBehaviour, IPointerEnterHandler, IPointerEx
         public SilhouetteHandler silhouetteHandler;
     }
 
+    #region Setters
+    public void SetSilhouette(SilhouetteSO silhouetteSO)
+    {
+        this.silhouetteSO = silhouetteSO;
+
+        isMatched = false;
+        isFailing = false;
+
+        SetSilhouetteImage(silhouetteSO.sprite);
+        SetSilhouetteMaterial(silhouetteSO.silhouetteMaterial);
+    }
+
+    private void SetSilhouetteImage(Sprite sprite) => silhouetteImage.sprite = sprite;
+    private void SetSilhouetteMaterial(Material material) => silhouetteImage.material = material;
+
+    #endregion
+
     #region Pointer Methods
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -55,10 +72,7 @@ public class SilhouetteHandler : MonoBehaviour, IPointerEnterHandler, IPointerEx
         isFailing = true;
         animatorController.PlayFailAnimation();
     }
-
-    public void DisappearSilhouette()
-    {
-        animatorController.PlayDisappearAnimation();
-    }
     #endregion
+
+    public void OnFailCompleted() => isFailing = false;
 }

@@ -15,9 +15,11 @@ public class SilhouettesMinigameManager : MinigameManager
     [SerializeField] private Transform figurePrefab;
     [SerializeField] private Transform silhouettePrefab;
 
+    [Header("Lists")]
+    [SerializeField] private List<SilhouetteMinigameRoundGameAreaHandler> roundGameAreaHandlers;
+
     [Header("RuntimeFilled")]
     [SerializeField] private MiniGameState miniGameState;
-    [SerializeField] private SilhouettesRound currentRound;
     [Space]
     [SerializeField] private List<FigureHandler> currentRoundFigures;
     [SerializeField] private List<SilhouetteHandler> currentRoundSilhouettes;
@@ -147,8 +149,8 @@ public class SilhouettesMinigameManager : MinigameManager
         List<SilhouetteSO> chosenSilhouettes = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(silhouetteRound.silhouettesPool, silhouetteRound.silhouettesCount);
 
         //CreateBackpack
-        //CreateFigures
-        //CreateSilhouettes
+        CreateFigures(chosenSilhouettes, roundIndex);
+        CreateSilhouettes(chosenSilhouettes, roundIndex);
 
         OnRoundStart?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
@@ -210,9 +212,9 @@ public class SilhouettesMinigameManager : MinigameManager
 
                 roundEnded = true;
 
-                //ClearBackpack
-                //ClearFigures
-                //ClearSilhouettes
+                ClearBackpack();
+                ClearFigures();
+                ClearSilhouettes();
             }
             else
             {
@@ -246,6 +248,105 @@ public class SilhouettesMinigameManager : MinigameManager
     #endregion
 
     #region Setters
+    private void CreateFigures(List<SilhouetteSO> chosenSilhouettes, int currentRoundIndex)
+    {
+        List<SilhouetteSO> silhouetteList = new List<SilhouetteSO>(chosenSilhouettes);
+
+        silhouetteList = GeneralUtilities.FisherYatesShuffle(silhouetteList);
+
+        int figureIndex = 0;
+
+        foreach (SilhouetteSO silhouetteSO in silhouetteList)
+        {
+            CreateFigure(silhouetteSO, roundGameAreaHandlers[currentRoundIndex].FigureHolders[figureIndex]);
+            figureIndex++;
+        }
+    }
+
+    private void CreateFigure(SilhouetteSO silhouetteSO, Transform figureHolder)
+    {
+        Transform createdFigure = Instantiate(figurePrefab, figureHolder);
+        FigureHandler figureHandler = createdFigure.GetComponentInChildren<FigureHandler>();
+
+        if (figureHandler == null)
+        {
+            if (debug) Debug.Log("Instantiated figure does not contain a FigureHandler component.");
+            return;
+        }
+
+        figureHandler.SetFigure(silhouetteSO);
+        currentRoundFigures.Add(figureHandler);
+    }
+
+    private void CreateSilhouettes(List<SilhouetteSO> chosenSilhouettes, int currentRoundIndex)
+    {
+        List<SilhouetteSO> silhouetteList = new List<SilhouetteSO>(chosenSilhouettes);
+
+        silhouetteList = GeneralUtilities.FisherYatesShuffle(silhouetteList);
+
+        int silhouetteIndex = 0;
+
+        foreach (SilhouetteSO silhouetteSO in silhouetteList)
+        {
+            CreateSilhouette(silhouetteSO, roundGameAreaHandlers[currentRoundIndex].SilhouetteHolders[silhouetteIndex]);
+            silhouetteIndex++;
+        }
+    }
+
+    private void CreateSilhouette(SilhouetteSO silhouetteSO, Transform silhouetteHolder)
+    {
+        Transform createdSilhouette = Instantiate(silhouettePrefab, silhouetteHolder);
+        SilhouetteHandler silhouetteHandler = createdSilhouette.GetComponentInChildren<SilhouetteHandler>();
+
+        if (silhouetteHandler == null)
+        {
+            if (debug) Debug.Log("Instantiated figure does not contain a SilhouetteHandler component.");
+            return;
+        }
+
+        silhouetteHandler.SetSilhouette(silhouetteSO);
+        currentRoundSilhouettes.Add(silhouetteHandler);
+    }
+
+    private void ClearBackpack()
+    {
+        foreach(SilhouetteMinigameRoundGameAreaHandler areaHandler in roundGameAreaHandlers)
+        {
+            for (int i = areaHandler.BackpackHolder.childCount - 1; i >= 0; i--)
+            {
+                Destroy(areaHandler.BackpackHolder.GetChild(i).gameObject);
+            }
+        }
+    }
+
+    private void ClearFigures()
+    {
+        foreach (SilhouetteMinigameRoundGameAreaHandler areaHandler in roundGameAreaHandlers)
+        {
+            foreach(Transform figureHolder in areaHandler.FigureHolders)
+            {
+                for (int i = figureHolder.childCount - 1; i >= 0; i--)
+                {
+                    Destroy(figureHolder.GetChild(i).gameObject);
+                }
+            }
+        }
+    }
+
+    private void ClearSilhouettes()
+    {
+        foreach (SilhouetteMinigameRoundGameAreaHandler areaHandler in roundGameAreaHandlers)
+        {
+            foreach (Transform silhouetteHolder in areaHandler.SilhouetteHolders)
+            {
+                for (int i = silhouetteHolder.childCount - 1; i >= 0; i--)
+                {
+                    Destroy(silhouetteHolder.GetChild(i).gameObject);
+                }
+            }
+        }
+    }
+
     private void SetMinigameState(MiniGameState state) => miniGameState = state;
 
     #endregion
@@ -262,9 +363,14 @@ public class SilhouettesMinigameManager : MinigameManager
                 OnFigureReturnToOriginalPosition?.Invoke(this, EventArgs.Empty);
                 break;
             case SilhouetteProcessResult.Match:
+                figure.MatchFigure();
+                figure.MoveToBackpack(roundGameAreaHandlers[currentRoundIndex].BackpackHolder);
+                silhouette.MatchSilhouette();
                 OnSilhouetteMatch?.Invoke(this, EventArgs.Empty);
                 break;
             case SilhouetteProcessResult.Fail:
+                figure.FailMatch();
+                silhouette.FailMatch();
                 OnSilhouetteFailed?.Invoke(this, EventArgs.Empty);
                 break;
         }

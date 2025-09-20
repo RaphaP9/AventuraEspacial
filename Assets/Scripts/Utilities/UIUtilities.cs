@@ -30,4 +30,9 @@ public static class UIUtilities
     {
         return canvas.transform.InverseTransformPoint(target.position);
     }
+
+    public static Vector3 GetBPositionInALocalSpace(RectTransform refferenceCoordinatesRect, RectTransform rectTransformToFindPosition)
+    {
+        return refferenceCoordinatesRect.InverseTransformPoint(rectTransformToFindPosition.position);
+    }
 }

@@ -38,6 +38,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     public static event EventHandler<OnFigureEventArgs> OnFigureDragEnd;
 
     private Canvas canvas;
+    private CanvasGroup canvasGroup;
 
     public class OnFigureEventArgs : EventArgs
     {
@@ -51,7 +52,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     #region Setters
 
-    public void SetSilhouhette(SilhouetteSO silhouetteSO)
+    public void SetFigure(SilhouetteSO silhouetteSO)
     {
         this.silhouetteSO = silhouetteSO;
 
@@ -66,7 +67,11 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     private void SetFigureImage(Sprite sprite) => figureImage.sprite = sprite;
     private void StoreOriginalPosition() => originalPosition = transformToDrag.anchoredPosition;
-    private void StoreCanvas() => canvas = gameObject.GetComponentInParent<Canvas>();
+    private void StoreCanvas()
+    {
+        canvas = gameObject.GetComponentInParent<Canvas>();
+        canvasGroup = gameObject.GetComponent<CanvasGroup>();
+    }
     #endregion
 
     #region Follow and Lerping
@@ -92,6 +97,18 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         if (canvas.renderMode != RenderMode.ScreenSpaceOverlay) cam = canvas.worldCamera;
 
         RectTransformUtility.ScreenPointToLocalPointInRectangle(parentRect, screenPos, cam, out Vector2 localPoint);
+        return localPoint;
+    }
+
+    public Vector2 GetPositionOfRectInRefferenceCoordinates(RectTransform refferenceCoordinatesRect, RectTransform rectTransformToFindPosition)
+    {
+        Camera cam = null;
+
+        if (canvas.renderMode != RenderMode.ScreenSpaceOverlay) cam = canvas.worldCamera;
+
+        Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(cam, rectTransformToFindPosition.position);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(refferenceCoordinatesRect, screenPoint, cam, out Vector2 localPoint);
+
         return localPoint;
     }
 
@@ -131,8 +148,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         isHolding = true;
         OnFigureDragStart?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
 
-        StoreCanvas(); //Remove Later
-        StoreOriginalPosition(); //Remove Later
+        canvasGroup.blocksRaycasts = false;
     }
 
     public void HandleDrag()
@@ -149,7 +165,8 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         isDragging = false;
 
         OnFigureDragEnd?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
-        ReturnToOriginalPosition();
+
+        canvasGroup.blocksRaycasts = true;
     }
     #endregion
 
@@ -166,19 +183,24 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         animatorController.PlayFailAnimation();
     }
 
-    public void DisappearFigure()
-    {
-        animatorController.PlayDisappearAnimation();
-    }
-
     public void ReturnToOriginalPosition()
     {
         StartCoroutine(AnimateMovement(transformToDrag, transformToDrag.anchoredPosition, originalPosition, moveToOriginalPositionTime, moveToOriginalPositionCurve));
     }
 
-    public void MoveToBackpack(Vector2 backpackPosition)
+    public void MoveToBackpack(RectTransform backpackRectTransform)
     {
+        Transform holder = transformToDrag.parent;
+        RectTransform holderRectTransform = holder.GetComponent<RectTransform>();
+
+        Vector2 backpackPosition = UIUtilities.GetBPositionInALocalSpace(holderRectTransform, backpackRectTransform);
         StartCoroutine(AnimateMovement(transformToDrag, transformToDrag.anchoredPosition, backpackPosition, moveToBackpackTime, moveToBackpackCurve));
+    }
+
+    public void OnFailCompleted()
+    {
+        ReturnToOriginalPosition();
+        isFailing = false;
     }
     #endregion
 }

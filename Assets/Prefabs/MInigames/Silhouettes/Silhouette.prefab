@@ -251,7 +251,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   silhouetteImage: {fileID: 6464589082224040259}
+  animatorController: {fileID: 6719881528547902635}
   silhouetteSO: {fileID: 0}
+  isPointerOn: 0
+  isMatched: 0
+  isFailing: 0
 --- !u!114 &6719881528547902635
 MonoBehaviour:
   m_ObjectHideFlags: 0

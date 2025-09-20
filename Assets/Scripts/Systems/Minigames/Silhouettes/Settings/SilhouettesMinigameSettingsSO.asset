@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rounds:
   - backpackSprite: {fileID: 21300000, guid: 3d012836c3d1ef4459190289388f7f1d, type: 3}
-    silhouettesCount: 1
-    silhouettesPool: []
+    silhouettesCount: 2
+    silhouettesPool:
+    - {fileID: 11400000, guid: 7a719c2e05d161d4f9b4141d370866d5, type: 2}
+    - {fileID: 11400000, guid: e5d6dd00151ef4d46aa4a8bc6b48b6b8, type: 2}
   baseScorePerSilhouetteMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 2
