@@ -65,6 +65,9 @@ public class SilhouettesMinigameManager : MinigameManager
         FigureHandler.OnFigureDragStart += FigureHandler_OnFigureDragStart;
         FigureHandler.OnFigureDragEnd += FigureHandler_OnFigureDragEnd;
 
+        SilhouetteHandler.OnSilhouettePointerEnter += SilhouetteHandler_OnSilhouettePointerEnter;
+        SilhouetteHandler.OnSilhouettePointerExit += SilhouetteHandler_OnSilhouettePointerExit;
+
         MinigameTimerManager.OnTimeEnd += MinigameTimerManager_OnTimeEnd;
     }
 
@@ -72,6 +75,9 @@ public class SilhouettesMinigameManager : MinigameManager
     {
         FigureHandler.OnFigureDragStart -= FigureHandler_OnFigureDragStart;
         FigureHandler.OnFigureDragEnd -= FigureHandler_OnFigureDragEnd;
+
+        SilhouetteHandler.OnSilhouettePointerEnter -= SilhouetteHandler_OnSilhouettePointerEnter;
+        SilhouetteHandler.OnSilhouettePointerExit -= SilhouetteHandler_OnSilhouettePointerExit;
 
         MinigameTimerManager.OnTimeEnd -= MinigameTimerManager_OnTimeEnd;
     }
@@ -299,6 +305,15 @@ public class SilhouettesMinigameManager : MinigameManager
     {
         lastDraggedFigure = e.figureHandler;
         draggingFigure = false;
+    }
+    private void SilhouetteHandler_OnSilhouettePointerEnter(object sender, SilhouetteHandler.OnSilhouetteEventArgs e)
+    {
+        lastPointerOnSilhouette = e.silhouetteHandler;
+    }
+
+    private void SilhouetteHandler_OnSilhouettePointerExit(object sender, SilhouetteHandler.OnSilhouetteEventArgs e)
+    {
+        if (lastPointerOnSilhouette == e.silhouetteHandler) lastPointerOnSilhouette = null;
     }
 
     private void MinigameTimerManager_OnTimeEnd(object sender, EventArgs e)

@@ -250,6 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b96b4eb808bcc9144bc9ae193782cf1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  silhouetteImage: {fileID: 6464589082224040259}
+  silhouetteSO: {fileID: 0}
 --- !u!114 &6719881528547902635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,3 +264,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfae239f8b79a543ab1387f72cf9e0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3791789031670400478}

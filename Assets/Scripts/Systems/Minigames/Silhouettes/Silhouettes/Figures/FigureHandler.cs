@@ -3,9 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using Unity.VisualScripting;
 
 public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -27,11 +25,12 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     [Header("Runtime Filled")]
     [SerializeField] private Vector3 originalPosition;
     [SerializeField] private SilhouetteSO silhouetteSO;
-
+    [Space]
     [SerializeField] private bool isMoving;
     [SerializeField] private bool isDragging;
     [SerializeField] private bool isMatched;
     [SerializeField] private bool isHolding;
+    [SerializeField] private bool isFailing; //Also managed by animation events
 
     public SilhouetteSO SilhouetteSO => silhouetteSO;
 
@@ -122,9 +121,10 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     #region Pointer Methods
     public void OnPointerDown(PointerEventData eventData)
     {
+        if (isMatched) return;
         if (isDragging) return;
         if (isHolding) return;
-        if (isMatched) return;
+        if (isFailing) return;
         if (!SilhouettesMinigameManager.Instance.CanDragSilhouette()) return;
 
         StopAllCoroutines();
@@ -154,9 +154,31 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     #endregion
 
     #region Public Methods
+    public void MatchFigure()
+    {
+        isMatched = true;
+        animatorController.PlayMatchAnimation();
+    }
+
+    public void FailMatch()
+    {
+        isFailing = true;
+        animatorController.PlayFailAnimation();
+    }
+
+    public void DisappearFigure()
+    {
+        animatorController.PlayDisappearAnimation();
+    }
+
     public void ReturnToOriginalPosition()
     {
         StartCoroutine(AnimateMovement(transformToDrag, transformToDrag.anchoredPosition, originalPosition, moveToOriginalPositionTime, moveToOriginalPositionCurve));
+    }
+
+    public void MoveToBackpack(Vector2 backpackPosition)
+    {
+        StartCoroutine(AnimateMovement(transformToDrag, transformToDrag.anchoredPosition, backpackPosition, moveToBackpackTime, moveToBackpackCurve));
     }
     #endregion
 }
