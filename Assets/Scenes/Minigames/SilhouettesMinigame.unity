@@ -2388,11 +2388,17 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
   figurePrefab: {fileID: 5460885596936535089, guid: cd55abab096a3be438d3d2dfe9154ce4, type: 3}
   silhouettePrefab: {fileID: 5460885596936535089, guid: f37e426637d07ca438eb4db1bcb90b8d, type: 3}
-  miniGameState: 2
+  miniGameState: 1
   currentRound:
     backpackSprite: {fileID: 0}
     silhouettesCount: 0
     silhouettesPool: []
+  currentRoundFigures: []
+  currentRoundSilhouettes: []
+  currentMatchedFigures: []
+  currentMatchedSilhouettes: []
+  lastDraggedFigure: {fileID: 0}
+  lastPointerOnSilhouette: {fileID: 0}
   debug: 0
 --- !u!1 &1375057447
 GameObject:

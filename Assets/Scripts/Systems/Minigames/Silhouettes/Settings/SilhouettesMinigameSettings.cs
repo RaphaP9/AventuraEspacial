@@ -19,8 +19,8 @@ public class SilhouettesMinigameSettings : ScriptableObject
 
     [Header("Low Level Timers")]
     [Range(0f, 5f)] public float startingGameTime;
-    //[Range(0f, 5f)] public float timeBetweenPairs;
-    //[Range(0f, 5f)] public float allPairsMatchTime;
+    [Range(0f, 5f)] public float timeBetweenSilhouettes;
+    [Range(0f, 5f)] public float allSilhouettesMatchTime;
     [Range(0f, 5f)] public float switchRoundTimer;
     [Range(0f, 5f)] public float endLastRoundTimer;
     [Range(0f, 5f)] public float endingGameTime;

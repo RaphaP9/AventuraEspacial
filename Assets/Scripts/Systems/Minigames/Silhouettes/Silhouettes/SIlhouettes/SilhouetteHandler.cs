@@ -2,15 +2,9 @@ using UnityEngine;
 
 public class SilhouetteHandler : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Runtime Filled")]
+    [SerializeField] private SilhouetteSO silhouetteSO;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public SilhouetteSO SilhouetteSO => silhouetteSO;
+
 }

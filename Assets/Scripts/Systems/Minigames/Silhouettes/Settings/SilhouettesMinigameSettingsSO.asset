@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f479e7534ea2d9249851bad4a591c8bb, type: 3}
   m_Name: SilhouettesMinigameSettingsSO
   m_EditorClassIdentifier: 
-  rounds: []
-  cardPool: []
+  rounds:
+  - backpackSprite: {fileID: 21300000, guid: 3d012836c3d1ef4459190289388f7f1d, type: 3}
+    silhouettesCount: 1
+    silhouettesPool: []
   baseScorePerSilhouetteMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 2
@@ -21,6 +23,8 @@ MonoBehaviour:
   timeBonusOnMatch: 5
   timePenaltyOnFail: 3
   startingGameTime: 3
+  timeBetweenSilhouettes: 0
+  allSilhouettesMatchTime: 3
   switchRoundTimer: 2
   endLastRoundTimer: 2
   endingGameTime: 1

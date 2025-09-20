@@ -33,6 +33,8 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     [SerializeField] private bool isMatched;
     [SerializeField] private bool isHolding;
 
+    public SilhouetteSO SilhouetteSO => silhouetteSO;
+
     public static event EventHandler<OnFigureEventArgs> OnFigureDragStart;
     public static event EventHandler<OnFigureEventArgs> OnFigureDragEnd;
 

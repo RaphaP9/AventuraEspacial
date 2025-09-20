@@ -18,15 +18,27 @@ public class SilhouettesMinigameManager : MinigameManager
     [Header("RuntimeFilled")]
     [SerializeField] private MiniGameState miniGameState;
     [SerializeField] private SilhouettesRound currentRound;
+    [Space]
+    [SerializeField] private List<FigureHandler> currentRoundFigures;
+    [SerializeField] private List<SilhouetteHandler> currentRoundSilhouettes;
+    [Space]
+    [SerializeField] private List<FigureHandler> currentMatchedFigures;
+    [SerializeField] private List<SilhouetteHandler> currentMatchedSilhouettes;
+    [Space]
+    [SerializeField] private FigureHandler lastDraggedFigure;
+    [SerializeField] private SilhouetteHandler lastPointerOnSilhouette;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
-    private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFigureSelection, DraggingFigure, ProcessingSilhouette, EndingRound, SwitchingRound, Winning, Win, Losing, Lose }
+    private enum MiniGameState { StartingMinigame, WaitForFigureDragging, DraggingFigure, ProcessingSilhouette, EndingRound, SwitchingRound, Winning, Win, Losing, Lose }
+    private enum SilhouetteProcessResult {NotDraggedOntoSilhouette, Match, Fail }
 
     private bool gameEnded = false;
     private bool gameWon = false;
     private bool gameLost = false;
     private int currentRoundIndex = 0;
+
+    private bool draggingFigure = false;
 
     #region Events
     public static event EventHandler<OnRoundEventArgs> OnRoundStart;
@@ -34,6 +46,7 @@ public class SilhouettesMinigameManager : MinigameManager
 
     public static event EventHandler OnSilhouetteMatch;
     public static event EventHandler OnSilhouetteFailed;
+    public static event EventHandler OnFigureReturnToOriginalPosition;
 
     public static event EventHandler OnGameInitialized;
     #endregion
@@ -49,12 +62,17 @@ public class SilhouettesMinigameManager : MinigameManager
 
     private void OnEnable()
     {
+        FigureHandler.OnFigureDragStart += FigureHandler_OnFigureDragStart;
+        FigureHandler.OnFigureDragEnd += FigureHandler_OnFigureDragEnd;
+
         MinigameTimerManager.OnTimeEnd += MinigameTimerManager_OnTimeEnd;
     }
 
     private void OnDisable()
-    { 
-    
+    {
+        FigureHandler.OnFigureDragStart -= FigureHandler_OnFigureDragStart;
+        FigureHandler.OnFigureDragEnd -= FigureHandler_OnFigureDragEnd;
+
         MinigameTimerManager.OnTimeEnd -= MinigameTimerManager_OnTimeEnd;
     }
 
@@ -95,7 +113,107 @@ public class SilhouettesMinigameManager : MinigameManager
     #region Coroutines
     private IEnumerator SilhouettesMinigameCoroutine()
     {
-        yield return null;
+        SetMinigameState(MiniGameState.StartingMinigame);
+
+        yield return new WaitForSeconds(settings.startingGameTime);
+
+        while (!gameEnded)
+        {
+            yield return StartCoroutine(SilhouettesRoundCoroutine(settings.rounds[currentRoundIndex], currentRoundIndex));
+
+            #region Minigame Completed Evaluation
+            if (currentRoundIndex >= settings.rounds.Count - 1)
+            {
+                gameEnded = true;
+            }
+            else
+            {
+                currentRoundIndex++;
+            }
+            #endregion
+        }
+
+        yield return StartCoroutine(WinMinigameCoroutine());
+    }
+
+    private IEnumerator SilhouettesRoundCoroutine(SilhouettesRound silhouetteRound, int roundIndex)
+    {
+        List<SilhouetteSO> chosenSilhouettes = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(silhouetteRound.silhouettesPool, silhouetteRound.silhouettesCount);
+
+        //CreateBackpack
+        //CreateFigures
+        //CreateSilhouettes
+
+        OnRoundStart?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
+
+        bool roundEnded = false;
+
+        while (!roundEnded)
+        {
+            #region Wait For Figure Dragging
+            SetMinigameState(MiniGameState.WaitForFigureDragging);
+
+            yield return new WaitUntil(() => draggingFigure);
+            FigureHandler draggedFigure = lastDraggedFigure;
+            #endregion
+
+            #region Figure Dragging
+            SetMinigameState(MiniGameState.DraggingFigure);
+            yield return new WaitUntil(() => !draggingFigure);
+            #endregion
+
+            #region Silhouette Processing - 3 cases
+            SetMinigameState(MiniGameState.ProcessingSilhouette);
+
+            if(GetSilhouetteProcessingResult(draggedFigure, lastPointerOnSilhouette) == SilhouetteProcessResult.Match)
+            {
+                currentMatchedFigures.Add(draggedFigure);
+                currentMatchedSilhouettes.Add(lastPointerOnSilhouette);
+            }
+
+            ProcessSilhouette(draggedFigure, lastPointerOnSilhouette);
+
+            lastDraggedFigure = null;
+            lastPointerOnSilhouette = null;
+            #endregion
+
+            #region Round End Evaluation
+            if (AllSilhouettesMatch())
+            {
+                SetMinigameState(MiniGameState.EndingRound);
+
+                yield return new WaitForSeconds(settings.allSilhouettesMatchTime);
+
+                OnRoundEnd?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
+
+                if (IsLastRound(roundIndex))
+                {
+                    yield return new WaitForSeconds(settings.endLastRoundTimer);
+                }
+                else
+                {
+                    SetMinigameState(MiniGameState.SwitchingRound);
+                    yield return new WaitForSeconds(settings.switchRoundTimer);
+                }
+
+                currentMatchedFigures.Clear();
+                currentMatchedSilhouettes.Clear();
+
+                currentRoundFigures.Clear();
+                currentRoundSilhouettes.Clear();
+
+                roundEnded = true;
+
+                //ClearBackpack
+                //ClearFigures
+                //ClearSilhouettes
+            }
+            else
+            {
+                yield return new WaitForSeconds(settings.timeBetweenSilhouettes);
+            }
+            #endregion
+        }
     }
 
     private IEnumerator WinMinigameCoroutine()
@@ -126,9 +244,42 @@ public class SilhouettesMinigameManager : MinigameManager
 
     #endregion
 
+    #region Silhouette Processing
+    private void ProcessSilhouette(FigureHandler figure, SilhouetteHandler silhouette)
+    {
+        SilhouetteProcessResult processResult = GetSilhouetteProcessingResult(figure, silhouette);
+
+        switch (processResult)
+        {
+            case SilhouetteProcessResult.NotDraggedOntoSilhouette:
+                figure.ReturnToOriginalPosition();
+                OnFigureReturnToOriginalPosition?.Invoke(this, EventArgs.Empty);
+                break;
+            case SilhouetteProcessResult.Match:
+                OnSilhouetteMatch?.Invoke(this, EventArgs.Empty);
+                break;
+            case SilhouetteProcessResult.Fail:
+                OnSilhouetteFailed?.Invoke(this, EventArgs.Empty);
+                break;
+        }
+    }
+
+    private SilhouetteProcessResult GetSilhouetteProcessingResult(FigureHandler figure, SilhouetteHandler silhouette)
+    {
+        if (silhouette == null) return SilhouetteProcessResult.NotDraggedOntoSilhouette;
+
+        if (figure.SilhouetteSO == silhouette.SilhouetteSO) return SilhouetteProcessResult.Match;
+        else return SilhouetteProcessResult.Fail;
+    }
+
+    private bool AllSilhouettesMatch() => currentMatchedFigures.Count >= currentRoundFigures.Count; //Can also check with silhouettes or both figures and silhouettes
+    private bool IsLastRound(int roundIndex) => roundIndex + 1 >= settings.rounds.Count;
+
+    #endregion
+
     #region Public Methods
-    public bool CanDragSilhouette() => miniGameState == MiniGameState.WaitForFigureSelection;
-    public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFigureSelection || miniGameState == MiniGameState.DraggingFigure;
+    public bool CanDragSilhouette() => miniGameState == MiniGameState.WaitForFigureDragging;
+    public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFigureDragging || miniGameState == MiniGameState.DraggingFigure;
 
     public void LoseMinigameByTime()
     {
@@ -138,6 +289,18 @@ public class SilhouettesMinigameManager : MinigameManager
     #endregion
 
     #region Subscriptions
+    private void FigureHandler_OnFigureDragStart(object sender, FigureHandler.OnFigureEventArgs e)
+    {
+        lastDraggedFigure = e.figureHandler;
+        draggingFigure = true;
+    }
+
+    private void FigureHandler_OnFigureDragEnd(object sender, FigureHandler.OnFigureEventArgs e)
+    {
+        lastDraggedFigure = e.figureHandler;
+        draggingFigure = false;
+    }
+
     private void MinigameTimerManager_OnTimeEnd(object sender, EventArgs e)
     {
         LoseMinigameByTime();
