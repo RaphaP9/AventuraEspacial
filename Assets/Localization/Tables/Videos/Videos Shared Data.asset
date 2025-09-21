@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: videos.memoryMinigame.startCinematic
     m_Metadata:
       m_Items: []
+  - m_Id: 3917488683696128
+    m_Key: videos.silhouettesMinigame.startCinematic
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 4749425370412089435
@@ -44,6 +48,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 2877697628258304
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 3917488683696128
           m_TableCodes:
           - en
           - es

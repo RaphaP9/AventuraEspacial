@@ -12,7 +12,6 @@ public class UILayersManager : MonoBehaviour
 
     public List<UILayer> UILayers => _UILayers;
 
-    public static event EventHandler<OnUILayerCloseInputEventArgs> OnUILayerCloseInput;
     public static event EventHandler OnCloseAllUILayers;
 
     public static event EventHandler OnUILayerActive;

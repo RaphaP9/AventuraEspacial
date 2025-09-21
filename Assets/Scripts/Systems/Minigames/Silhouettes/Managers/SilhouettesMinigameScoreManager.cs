@@ -17,9 +17,9 @@ public class SilhouettesMinigameScoreManager : MinigameScoreManager
         SilhouettesMinigameManager.OnSilhouetteFailed -= SilhouettesMinigameManager_OnSilhouetteFailed;
     }
 
-    protected override int GetBaseScorePerHit() => 0;
-    protected override int GetBonusScorePerCombo() => 0;
-    protected override int GetMaxCombo() => 0;
+    protected override int GetBaseScorePerHit() => settings.baseScorePerSilhouetteMatch;
+    protected override int GetBonusScorePerCombo() => settings.bonusScorePerCombo;
+    protected override int GetMaxCombo() => settings.maxCombo;
 
     #region Subscriptions
     private void SilhouettesMinigameManager_OnSilhouetteMatch(object sender, System.EventArgs e)

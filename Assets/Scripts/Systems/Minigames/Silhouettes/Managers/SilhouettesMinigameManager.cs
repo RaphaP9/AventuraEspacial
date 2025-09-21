@@ -12,6 +12,7 @@ public class SilhouettesMinigameManager : MinigameManager
     [SerializeField] private SilhouettesMinigameSettings settings;
     [Space]
     [Space]
+    [SerializeField] private Transform backpackPrefab;
     [SerializeField] private Transform figurePrefab;
     [SerializeField] private Transform silhouettePrefab;
 
@@ -29,6 +30,8 @@ public class SilhouettesMinigameManager : MinigameManager
     [Space]
     [SerializeField] private FigureHandler lastDraggedFigure;
     [SerializeField] private SilhouetteHandler lastPointerOnSilhouette;
+    [Space]
+    [SerializeField] private BackpackHandler currentBackpack;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
@@ -36,8 +39,6 @@ public class SilhouettesMinigameManager : MinigameManager
     private enum SilhouetteProcessResult {NotDraggedOntoSilhouette, Match, Fail }
 
     private bool gameEnded = false;
-    private bool gameWon = false;
-    private bool gameLost = false;
     private int currentRoundIndex = 0;
 
     private bool draggingFigure = false;
@@ -111,8 +112,6 @@ public class SilhouettesMinigameManager : MinigameManager
     private void InitializeVariables()
     {
         gameEnded = false;
-        gameWon = false;
-        gameLost = false;
         currentRoundIndex = 0;
 
         OnGameInitialized?.Invoke(this, EventArgs.Empty);
@@ -148,7 +147,7 @@ public class SilhouettesMinigameManager : MinigameManager
     {
         List<SilhouetteSO> chosenSilhouettes = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(silhouetteRound.silhouettesPool, silhouetteRound.silhouettesCount);
 
-        //CreateBackpack
+        CreateBackpack(roundIndex);
         CreateFigures(chosenSilhouettes, roundIndex);
         CreateSilhouettes(chosenSilhouettes, roundIndex);
 
@@ -194,6 +193,8 @@ public class SilhouettesMinigameManager : MinigameManager
 
                 OnRoundEnd?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
+                currentBackpack.Full();
+
                 if (IsLastRound(roundIndex))
                 {
                     yield return new WaitForSeconds(settings.endLastRoundTimer);
@@ -209,6 +210,8 @@ public class SilhouettesMinigameManager : MinigameManager
 
                 currentRoundFigures.Clear();
                 currentRoundSilhouettes.Clear();
+
+                currentBackpack = null;
 
                 roundEnded = true;
 
@@ -248,7 +251,22 @@ public class SilhouettesMinigameManager : MinigameManager
     #endregion
 
     #region Setters
-    private void CreateFigures(List<SilhouetteSO> chosenSilhouettes, int currentRoundIndex)
+    private void CreateBackpack(int roundIndex)
+    {
+        Transform createdBackpack = Instantiate(backpackPrefab, roundGameAreaHandlers[currentRoundIndex].BackpackHolder);
+        BackpackHandler backpackHandler = createdBackpack.GetComponentInChildren<BackpackHandler>();
+
+        if (backpackHandler == null)
+        {
+            if (debug) Debug.Log("Instantiated figure does not contain a BackpackHandler component.");
+            return;
+        }
+
+        currentBackpack = backpackHandler;
+        currentBackpack.SetBackpack(settings.rounds[roundIndex].backpackSprite);
+    }
+
+    private void CreateFigures(List<SilhouetteSO> chosenSilhouettes, int roundIndex)
     {
         List<SilhouetteSO> silhouetteList = new List<SilhouetteSO>(chosenSilhouettes);
 
@@ -258,7 +276,7 @@ public class SilhouettesMinigameManager : MinigameManager
 
         foreach (SilhouetteSO silhouetteSO in silhouetteList)
         {
-            CreateFigure(silhouetteSO, roundGameAreaHandlers[currentRoundIndex].FigureHolders[figureIndex]);
+            CreateFigure(silhouetteSO, roundGameAreaHandlers[roundIndex].FigureHolders[figureIndex]);
             figureIndex++;
         }
     }
@@ -278,7 +296,7 @@ public class SilhouettesMinigameManager : MinigameManager
         currentRoundFigures.Add(figureHandler);
     }
 
-    private void CreateSilhouettes(List<SilhouetteSO> chosenSilhouettes, int currentRoundIndex)
+    private void CreateSilhouettes(List<SilhouetteSO> chosenSilhouettes, int roundIndex)
     {
         List<SilhouetteSO> silhouetteList = new List<SilhouetteSO>(chosenSilhouettes);
 
@@ -288,7 +306,7 @@ public class SilhouettesMinigameManager : MinigameManager
 
         foreach (SilhouetteSO silhouetteSO in silhouetteList)
         {
-            CreateSilhouette(silhouetteSO, roundGameAreaHandlers[currentRoundIndex].SilhouetteHolders[silhouetteIndex]);
+            CreateSilhouette(silhouetteSO, roundGameAreaHandlers[roundIndex].SilhouetteHolders[silhouetteIndex]);
             silhouetteIndex++;
         }
     }
@@ -366,6 +384,7 @@ public class SilhouettesMinigameManager : MinigameManager
                 figure.MatchFigure();
                 figure.MoveToBackpack(roundGameAreaHandlers[currentRoundIndex].BackpackHolder);
                 silhouette.MatchSilhouette();
+                currentBackpack.AddItem();
                 OnSilhouetteMatch?.Invoke(this, EventArgs.Empty);
                 break;
             case SilhouetteProcessResult.Fail:

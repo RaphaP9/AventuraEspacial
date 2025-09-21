@@ -33,8 +33,6 @@ public class MemoryMinigameManager : MinigameManager
     private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, EndingRound, SwitchingRound, Winning, Win, Losing, Lose}
 
     private bool gameEnded = false;
-    private bool gameWon = false;
-    private bool gameLost = false;
     private int currentRoundIndex = 0;
 
     private bool cardRevealed = false;
@@ -108,8 +106,6 @@ public class MemoryMinigameManager : MinigameManager
     private void InitializeVariables()
     {
         gameEnded = false;
-        gameWon = false;
-        gameLost = false;
         currentRoundIndex = 0;
 
         OnGameInitialized?.Invoke(this, EventArgs.Empty);   
@@ -156,7 +152,7 @@ public class MemoryMinigameManager : MinigameManager
 
         float revealTime = memoryRound.revealTime;
 
-        OnRevealTimeEnd?.Invoke(this, new OnRevealTimeEventArgs { revealTime = revealTime });
+        OnRevealTimeStart?.Invoke(this, new OnRevealTimeEventArgs { revealTime = revealTime });
 
         yield return new WaitForSeconds(revealTime);
 

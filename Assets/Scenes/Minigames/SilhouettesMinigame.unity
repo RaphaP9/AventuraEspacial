@@ -2636,7 +2636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -651, y: -219}
+  m_AnchoredPosition: {x: -554, y: -225}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1240012627
@@ -2732,6 +2732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: 6652ebd38e1c0de419eb67df3baddf34, type: 2}
+  backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
   figurePrefab: {fileID: 5460885596936535089, guid: cd55abab096a3be438d3d2dfe9154ce4, type: 3}
   silhouettePrefab: {fileID: 5460885596936535089, guid: f37e426637d07ca438eb4db1bcb90b8d, type: 3}
   roundGameAreaHandlers:
@@ -2744,6 +2745,7 @@ MonoBehaviour:
   currentMatchedSilhouettes: []
   lastDraggedFigure: {fileID: 0}
   lastPointerOnSilhouette: {fileID: 0}
+  currentBackpack: {fileID: 0}
   debug: 0
 --- !u!1 &1375057447
 GameObject:
@@ -3351,8 +3353,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 93375515}
-  - {fileID: 1456730930}
   - {fileID: 599659973}
+  - {fileID: 1456730930}
   m_Father: {fileID: 1867812470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

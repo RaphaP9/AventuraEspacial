@@ -148,7 +148,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         isHolding = true;
         OnFigureDragStart?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
 
-        canvasGroup.blocksRaycasts = false;
+        canvasGroup.blocksRaycasts = false; //Must disableRaycastBlocking so the silhouette detects OnPointerENter/Exit events (Silhouette is rendered below Figure)
     }
 
     public void HandleDrag()
