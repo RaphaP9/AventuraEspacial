@@ -146,9 +146,10 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
         StopAllCoroutines();
         isHolding = true;
-        OnFigureDragStart?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
 
-        canvasGroup.blocksRaycasts = false; //Must disableRaycastBlocking so the silhouette detects OnPointerENter/Exit events (Silhouette is rendered below Figure)
+        animatorController.PlayDragAnimation(); //Drag animation does not block raycasts
+
+        OnFigureDragStart?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
     }
 
     public void HandleDrag()
@@ -164,9 +165,9 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         isHolding = false;
         isDragging = false;
 
-        OnFigureDragEnd?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
+        animatorController.PlayIdleAnimation(); //Idle animation blocks raycasts
 
-        canvasGroup.blocksRaycasts = true;
+        OnFigureDragEnd?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
     }
     #endregion
 

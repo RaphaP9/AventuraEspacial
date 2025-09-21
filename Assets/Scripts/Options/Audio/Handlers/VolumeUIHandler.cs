@@ -40,7 +40,7 @@ public abstract class VolumeUIHandler : MonoBehaviour
     {
         foreach(OptionBarUI optionBarUI in optionBarUIs)
         {
-            optionBarUI.BackgroundButton.onClick.AddListener(() => GetVolumeManager().ChangeVolume(optionBarUI.BarValue));
+            optionBarUI.BackgroundButton.onClick.AddListener(() => GetVolumeManager().ChangeVolume(optionBarUI.BarValue, true));
         }
     }
 
@@ -52,7 +52,7 @@ public abstract class VolumeUIHandler : MonoBehaviour
         if (desiredVolume > GetVolumeManager().GetMaxVolume()) return;
 
         desiredVolume = GeneralUtilities.RoundToNDecimalPlaces(desiredVolume, 1);
-        GetVolumeManager().ChangeVolume(desiredVolume);
+        GetVolumeManager().ChangeVolume(desiredVolume, true);
     }
 
     private void DecreaseVolumeByButton()
@@ -63,7 +63,7 @@ public abstract class VolumeUIHandler : MonoBehaviour
         if (desiredVolume < 0f) return;
 
         desiredVolume = GeneralUtilities.RoundToNDecimalPlaces(desiredVolume, 1);
-        GetVolumeManager().ChangeVolume(desiredVolume);
+        GetVolumeManager().ChangeVolume(desiredVolume, true);
     }
 
     protected void UpdateVisual()
