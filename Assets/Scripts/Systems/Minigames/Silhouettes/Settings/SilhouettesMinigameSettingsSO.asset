@@ -16,13 +16,77 @@ MonoBehaviour:
   - backpackSprite: {fileID: 21300000, guid: 3d012836c3d1ef4459190289388f7f1d, type: 3}
     silhouettesCount: 2
     silhouettesPool:
-    - {fileID: 11400000, guid: 7a719c2e05d161d4f9b4141d370866d5, type: 2}
-    - {fileID: 11400000, guid: e5d6dd00151ef4d46aa4a8bc6b48b6b8, type: 2}
-  - backpackSprite: {fileID: 21300000, guid: 3d012836c3d1ef4459190289388f7f1d, type: 3}
-    silhouettesCount: 2
+    - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
+    - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
+    - {fileID: 11400000, guid: 6cd0b9ab911adb1488bf65ac02d9f767, type: 2}
+    - {fileID: 11400000, guid: 2188421f7d590e14e9b3b67d038fbda1, type: 2}
+    - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
+    - {fileID: 11400000, guid: a39236e8cb3d8ab418113bf0b22252c1, type: 2}
+    - {fileID: 11400000, guid: 3d4ff7b488efb3845a09940ef914ad60, type: 2}
+    - {fileID: 11400000, guid: e7c956e3a8b23a149a815afa715c5c99, type: 2}
+    - {fileID: 11400000, guid: e6576d8c381bb78479e118319c190935, type: 2}
+    - {fileID: 11400000, guid: f6b5f478be253be419c61b41af73cb5f, type: 2}
+    - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
+    - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
+    - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
+  - backpackSprite: {fileID: 21300000, guid: 2684dccd013db6e4685162e6991d2005, type: 3}
+    silhouettesCount: 3
     silhouettesPool:
+    - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
+    - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
+    - {fileID: 11400000, guid: 6cd0b9ab911adb1488bf65ac02d9f767, type: 2}
+    - {fileID: 11400000, guid: 2188421f7d590e14e9b3b67d038fbda1, type: 2}
+    - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
+    - {fileID: 11400000, guid: a39236e8cb3d8ab418113bf0b22252c1, type: 2}
+    - {fileID: 11400000, guid: 3d4ff7b488efb3845a09940ef914ad60, type: 2}
+    - {fileID: 11400000, guid: e7c956e3a8b23a149a815afa715c5c99, type: 2}
+    - {fileID: 11400000, guid: e6576d8c381bb78479e118319c190935, type: 2}
+    - {fileID: 11400000, guid: f6b5f478be253be419c61b41af73cb5f, type: 2}
+    - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
+    - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
+    - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
+  - backpackSprite: {fileID: 21300000, guid: af89aa92976a4a8469a9a862125ce6ff, type: 3}
+    silhouettesCount: 4
+    silhouettesPool:
+    - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
+    - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
+    - {fileID: 11400000, guid: 6cd0b9ab911adb1488bf65ac02d9f767, type: 2}
+    - {fileID: 11400000, guid: 2188421f7d590e14e9b3b67d038fbda1, type: 2}
+    - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
+    - {fileID: 11400000, guid: a39236e8cb3d8ab418113bf0b22252c1, type: 2}
+    - {fileID: 11400000, guid: 3d4ff7b488efb3845a09940ef914ad60, type: 2}
+    - {fileID: 11400000, guid: e7c956e3a8b23a149a815afa715c5c99, type: 2}
+    - {fileID: 11400000, guid: e6576d8c381bb78479e118319c190935, type: 2}
+    - {fileID: 11400000, guid: f6b5f478be253be419c61b41af73cb5f, type: 2}
+    - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
+    - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
+    - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
+  - backpackSprite: {fileID: 21300000, guid: 605941b46dc2dd246819a1ad8128b121, type: 3}
+    silhouettesCount: 5
+    silhouettesPool:
+    - {fileID: 11400000, guid: 3533ff0af62e4d94392252653457c3a9, type: 2}
+    - {fileID: 11400000, guid: 621f49ac40a39c244bf2c3cfd052ab68, type: 2}
+    - {fileID: 11400000, guid: 04deb58dd5c819548b771654184140f7, type: 2}
+    - {fileID: 11400000, guid: a9590017d8b155a44ad40d4e5ec8bac6, type: 2}
     - {fileID: 11400000, guid: 7a719c2e05d161d4f9b4141d370866d5, type: 2}
-    - {fileID: 11400000, guid: e5d6dd00151ef4d46aa4a8bc6b48b6b8, type: 2}
+    - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
+    - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
+  - backpackSprite: {fileID: 21300000, guid: 62cffded27113c14b974f4a824c2dcbe, type: 3}
+    silhouettesCount: 5
+    silhouettesPool:
+    - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
+    - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
+    - {fileID: 11400000, guid: 6cd0b9ab911adb1488bf65ac02d9f767, type: 2}
+    - {fileID: 11400000, guid: 2188421f7d590e14e9b3b67d038fbda1, type: 2}
+    - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
+    - {fileID: 11400000, guid: a39236e8cb3d8ab418113bf0b22252c1, type: 2}
+    - {fileID: 11400000, guid: 3d4ff7b488efb3845a09940ef914ad60, type: 2}
+    - {fileID: 11400000, guid: e7c956e3a8b23a149a815afa715c5c99, type: 2}
+    - {fileID: 11400000, guid: e6576d8c381bb78479e118319c190935, type: 2}
+    - {fileID: 11400000, guid: f6b5f478be253be419c61b41af73cb5f, type: 2}
+    - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
+    - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
+    - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
   baseScorePerSilhouetteMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 2
