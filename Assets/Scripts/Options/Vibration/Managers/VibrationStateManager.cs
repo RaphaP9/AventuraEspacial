@@ -51,7 +51,7 @@ public class VibrationStateManager : MonoBehaviour
 
     protected virtual void InitializeVibration()
     {
-        ChangeVibration(initialState, true);
+        ChangeState(initialState, true);
         OnVibrationStateManagerInitialized?.Invoke(this, EventArgs.Empty);
     }
 
@@ -75,7 +75,7 @@ public class VibrationStateManager : MonoBehaviour
     }
     #endregion
 
-    private void ChangeVibration(bool state, bool saveToPlayerPrefs)
+    public void ChangeState(bool state, bool saveToPlayerPrefs)
     {
         vibrationEnabled = state;
 
