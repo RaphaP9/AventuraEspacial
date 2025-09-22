@@ -14,11 +14,14 @@ public class Data : DataModel
     {
         InitializeGeneralData();
         InitializeMemoryMinigameData();
+        InitializeSilhouettesMinigameData();
     }
 
     public override void Initialize()
     {
+        InitializeGeneralData();
         InitializeMemoryMinigameData();
+        InitializeSilhouettesMinigameData();
     }
 
     public void InitializeGeneralData()

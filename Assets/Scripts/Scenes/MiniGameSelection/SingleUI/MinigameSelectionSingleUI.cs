@@ -28,7 +28,7 @@ public class MinigameSelectionSingleUI : MonoBehaviour
         minigameButton.onClick.AddListener(LoadNextScene);
     }
 
-    private void LoadNextScene()
+    public void LoadNextScene()
     {
         bool isFirstTimeEntering = DataContainer.Instance.IsFirstTimeEnteringMinigame(minigame);
 
