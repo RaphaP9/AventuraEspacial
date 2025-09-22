@@ -91,7 +91,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     private Vector2 GetMouseLocalPoint()
     {
         RectTransform parentRect = transformToDrag.parent as RectTransform;
-        Vector2 screenPos = InputUtilities.GetMousePosition();
+        Vector2 screenPos = InputUtilities.GetPointerPosition();
         Camera cam = null;
 
         if (canvas.renderMode != RenderMode.ScreenSpaceOverlay) cam = canvas.worldCamera;
