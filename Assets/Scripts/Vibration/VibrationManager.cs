@@ -40,6 +40,8 @@ public class VibrationManager : MonoBehaviour
 
     public void Vibrate()
     {
+        if (!VibrationStateManager.Instance.VibrationEnabled) return;
+
         #if UNITY_ANDROID && !UNITY_EDITOR
         vibrator?.Call("vibrate", 100);
         #elif UNITY_IOS && !UNITY_EDITOR
@@ -51,6 +53,8 @@ public class VibrationManager : MonoBehaviour
 
     public void Vibrate(long milliseconds)
     {
+        if (!VibrationStateManager.Instance.VibrationEnabled) return;
+
         #if UNITY_ANDROID && !UNITY_EDITOR
         vibrator?.Call("vibrate", milliseconds);
         #elif UNITY_IOS && !UNITY_EDITOR

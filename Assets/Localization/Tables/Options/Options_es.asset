@@ -34,6 +34,10 @@ MonoBehaviour:
     m_Localized: Efectos
     m_Metadata:
       m_Items: []
+  - m_Id: 3116233199665152
+    m_Localized: "Vibraci\xF3n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
