@@ -142,6 +142,8 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         if (isDragging) return;
         if (isHolding) return;
         if (isFailing) return;
+
+
         if (!SilhouettesMinigameManager.Instance.CanDragSilhouette()) return;
 
         StopAllCoroutines();
@@ -162,6 +164,9 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        if (isFailing) return;
+        if (isMatched) return;
+
         isHolding = false;
         isDragging = false;
 
