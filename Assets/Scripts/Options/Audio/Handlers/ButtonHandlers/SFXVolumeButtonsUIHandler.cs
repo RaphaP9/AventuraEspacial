@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SFXVolumeUIHandler : VolumeUIHandler
+public class SFXVolumeButtonsUIHandler : VolumeButtonsUIHandler
 {
     private void OnEnable()
     {

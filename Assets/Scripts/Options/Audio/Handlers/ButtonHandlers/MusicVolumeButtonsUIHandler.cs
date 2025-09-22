@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicVolumeUIHandler : VolumeUIHandler
+public class MusicVolumeButtonsUIHandler : VolumeButtonsUIHandler
 {
     private void OnEnable()
     {

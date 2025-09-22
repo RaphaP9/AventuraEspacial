@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class VolumeUIHandler : MonoBehaviour
+public abstract class VolumeButtonsUIHandler : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] protected Button increaseVolumeButton;

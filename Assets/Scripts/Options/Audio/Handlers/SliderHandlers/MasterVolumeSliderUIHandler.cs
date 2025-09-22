@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MasterVolumeUIHandler : VolumeUIHandler
+public class MasterVolumeSliderUIHandler : VolumeSliderUIHandler
 {
     private void OnEnable()
     {
@@ -25,6 +23,6 @@ public class MasterVolumeUIHandler : VolumeUIHandler
 
     private void MasterVolumeManager_OnMasterVolumeChanged(object sender, VolumeManager.OnVolumeChangedEventArgs e)
     {
-        UpdateVisual();
+        //UpdateVisual();
     }
 }

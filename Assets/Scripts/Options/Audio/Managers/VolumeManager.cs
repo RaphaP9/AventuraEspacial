@@ -50,12 +50,11 @@ public abstract class VolumeManager : MonoBehaviour
         initialVolume = PlayerPrefs.GetFloat(playerPrefsKey);
     }
 
-    protected void SaveVolumePlayerPrefs(float volume)
+    public void SaveVolumePlayerPrefs(float volume)
     {
         PlayerPrefs.SetFloat(playerPrefsKey, volume);
     }
     #endregion
-
 
     public virtual void ChangeVolume(float volume, bool saveToPlayerPrefs)
     {
