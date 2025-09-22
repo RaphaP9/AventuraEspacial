@@ -19,6 +19,18 @@ MonoBehaviour:
     m_Key: options.title
     m_Metadata:
       m_Items: []
+  - m_Id: 3077677005619200
+    m_Key: options.masterVolumeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077787504558080
+    m_Key: options.musicVolumeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077844886831104
+    m_Key: options.sfxVolumeLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

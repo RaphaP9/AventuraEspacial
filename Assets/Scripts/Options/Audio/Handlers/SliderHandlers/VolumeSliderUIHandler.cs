@@ -7,14 +7,16 @@ public abstract class VolumeSliderUIHandler : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] protected EventDetectorSlider eventDetectorSlider;
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         eventDetectorSlider.OnDragEnd += EventDetectorSlider_OnDragEnd;
+        eventDetectorSlider.OnUpPointer += EventDetectorSlider_OnUpPointer;
     }
 
-    private void OnDisable()
+    protected virtual void OnDisable()
     {
         eventDetectorSlider.OnDragEnd -= EventDetectorSlider_OnDragEnd;
+        eventDetectorSlider.OnUpPointer -= EventDetectorSlider_OnUpPointer;
     }
 
     private void Awake()
@@ -37,9 +39,15 @@ public abstract class VolumeSliderUIHandler : MonoBehaviour
         eventDetectorSlider.SetValueWithoutNotify(currentVolume);
     }
 
-    protected void EventDetectorSlider_OnDragEnd(object sender, EventArgs e) //Only save on handle released
+    #region Subscriptions
+    private void EventDetectorSlider_OnDragEnd(object sender, EventArgs e)
     {
-        Debug.Log("Saving");
         GetVolumeManager().SaveVolumePlayerPrefs(eventDetectorSlider.value);
     }
+
+    private void EventDetectorSlider_OnUpPointer(object sender, EventArgs e)
+    {
+        GetVolumeManager().SaveVolumePlayerPrefs(eventDetectorSlider.value);
+    }
+    #endregion
 }

@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 3077677005619200
+    m_Localized: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077787504558080
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077844886831104
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
