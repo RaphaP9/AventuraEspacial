@@ -12,6 +12,16 @@ public class PasswordNumberTextHandler : MonoBehaviour
 
     public PasswordNumberSO PasswordNumberSO => passwordNumberSO;
 
+    private void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
+    }
+
+    private void OnDisable()
+    {
+        LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
+    }
+
     public void SetNumberText(PasswordNumberSO passwordNumberSO)
     {
         this.passwordNumberSO = passwordNumberSO;
@@ -20,5 +30,20 @@ public class PasswordNumberTextHandler : MonoBehaviour
         SetText(localizedString);
     }
 
-    public void SetText(string text) => numberText.text = text;
+    private void SelfUpdateText()
+    {
+        if (passwordNumberSO == null) return;
+
+        string localizedString = LocalizationSettings.StringDatabase.GetLocalizedString(passwordNumberSO.localizationTable, passwordNumberSO.localizationBinding);
+        SetText(localizedString);
+    }
+
+    private void SetText(string text) => numberText.text = text;
+
+    #region Subscriptions
+    private void LocalizationSettings_SelectedLocaleChanged(UnityEngine.Localization.Locale obj)
+    {
+        SelfUpdateText();
+    }
+    #endregion
 }

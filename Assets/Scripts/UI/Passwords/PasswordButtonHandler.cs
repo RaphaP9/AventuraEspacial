@@ -39,7 +39,7 @@ public class PasswordButtonHandler : MonoBehaviour
     public void SetButton(PasswordNumberSO passwordNumberSO)
     {
         this.passwordNumberSO = passwordNumberSO;
-        SetText(passwordNumberSO.ToString());
+        SetText(passwordNumberSO.number.ToString());
     }
 
     public void SetText(string text) => passwordButtonText.text = text;

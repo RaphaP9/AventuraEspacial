@@ -15,6 +15,8 @@ public class PasswordUI : MonoBehaviour
     private const string HIDE_TRIGGER = "Hide";
     private const string ACCESS_TRIGGER = "Access";
 
+    public event EventHandler OnPasswordUIOpen;
+
     private void Awake()
     {
         InitializeButtonsListeners();
@@ -54,6 +56,7 @@ public class PasswordUI : MonoBehaviour
 
     private void OpenUI()
     {
+        OnPasswordUIOpen?.Invoke(this, EventArgs.Empty);
         ShowUI();
     }
 
