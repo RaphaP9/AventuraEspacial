@@ -56,6 +56,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5fd0d3e9474a0541889199aa8867e44
+    m_Address: Assets/Localization/Tables/Password/PasswordTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: da700a39a176cc34daa7634e0dcc3c87
     m_Address: Assets/Localization/Tables/MinigameFinalScoreStrings/MinigameFinalScoreStrings
       Shared Data.asset

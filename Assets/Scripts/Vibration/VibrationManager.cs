@@ -38,9 +38,9 @@ public class VibrationManager : MonoBehaviour
         }
     }
 
-    public void Vibrate()
+    public void Vibrate(bool forceVibration)
     {
-        if (!VibrationStateManager.Instance.VibrationEnabled) return;
+        if (!forceVibration && !VibrationStateManager.Instance.VibrationEnabled) return;
 
         #if UNITY_ANDROID && !UNITY_EDITOR
         vibrator?.Call("vibrate", 100);
@@ -51,9 +51,9 @@ public class VibrationManager : MonoBehaviour
         #endif
     }
 
-    public void Vibrate(long milliseconds)
+    public void Vibrate(long milliseconds, bool forceVibration)
     {
-        if (!VibrationStateManager.Instance.VibrationEnabled) return;
+        if (!forceVibration && !VibrationStateManager.Instance.VibrationEnabled) return;
 
         #if UNITY_ANDROID && !UNITY_EDITOR
         vibrator?.Call("vibrate", milliseconds);
