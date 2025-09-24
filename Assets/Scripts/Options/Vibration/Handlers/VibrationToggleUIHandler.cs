@@ -22,6 +22,11 @@ public class VibrationToggleUIHandler : MonoBehaviour
         IntializeToggleListeners();
     }
 
+    private void Start()
+    {
+        ChangeStateImmediately(VibrationStateManager.Instance.VibrationEnabled);
+    }
+
     private void IntializeToggleListeners()
     {
         animatedToggle.onValueChanged.AddListener(ChangeState);

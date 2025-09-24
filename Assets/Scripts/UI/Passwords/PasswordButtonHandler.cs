@@ -13,27 +13,13 @@ public class PasswordButtonHandler : MonoBehaviour
     [SerializeField] private PasswordNumberSO passwordNumberSO;
 
     public PasswordNumberSO PasswordNumberSO => passwordNumberSO;
+    public Button PasswordButton => passwordButton;
 
     public event EventHandler OnPasswordButtonClicked;
 
     public class OnPasswordButtonClickedEventArgs : EventArgs
     {
         public PasswordNumberSO passwordNumberSO;
-    }
-
-    private void Awake()
-    {
-        InitializeButtonsListeners();
-    }
-
-    private void InitializeButtonsListeners()
-    {
-        passwordButton.onClick.AddListener(OnPasswordButtonClick);
-    }
-
-    private void OnPasswordButtonClick()
-    {
-        OnPasswordButtonClicked?.Invoke(this, new OnPasswordButtonClickedEventArgs { passwordNumberSO = passwordNumberSO });
     }
 
     public void SetButton(PasswordNumberSO passwordNumberSO)

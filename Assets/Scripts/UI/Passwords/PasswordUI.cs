@@ -54,13 +54,13 @@ public class PasswordUI : MonoBehaviour
     }
     #endregion
 
-    private void OpenUI()
+    public void OpenUI()
     {
         OnPasswordUIOpen?.Invoke(this, EventArgs.Empty);
         ShowUI();
     }
 
-    private void CloseUI()
+    public void CloseUI()
     {
         HideUI();
     }

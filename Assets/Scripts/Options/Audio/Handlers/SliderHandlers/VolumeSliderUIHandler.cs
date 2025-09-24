@@ -24,6 +24,11 @@ public abstract class VolumeSliderUIHandler : MonoBehaviour
         InitializeSliderListeners();
     }
 
+    private void Start()
+    {
+        UpdateVisual();
+    }
+
     private void InitializeSliderListeners()
     {
         eventDetectorSlider.onValueChanged.AddListener(ChangeVolume);
