@@ -39,6 +39,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65f887fd880978046bb9175ddabea5df
+    m_Address: SilhouettesMinigame_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e52fa7093859a64992dd324bcb1f29e
     m_Address: DisclaimerScene_en
     m_ReadOnly: 1
