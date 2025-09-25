@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: a1299fb07e3ab4c4389a11652c42d4f4
   m_SerializeEntries:
+  - m_GUID: 18315ada4519ea542aca8e09b2ae824e
+    m_Address: Assets/Localization/Tables/Minigames/Minigames Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c40667c376b0054ba7959253ad45f88
     m_Address: Assets/Localization/Tables/Options Shared Data.asset
     m_ReadOnly: 1

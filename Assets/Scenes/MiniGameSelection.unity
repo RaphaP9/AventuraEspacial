@@ -418,6 +418,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2139813020}
     m_Modifications:
+    - target: {fileID: 750424600358117749, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: minigame
       value: 0
@@ -430,6 +434,14 @@ PrefabInstance:
       propertyPath: startCinematicScene
       value: NonAssignedScene
       objectReference: {fileID: 0}
+    - target: {fileID: 3625690440898834050, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822715501641787180, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1693532409, guid: 90f738e79ee91e64b9e4b7f0196dc2fe, type: 3}
     - target: {fileID: 7689746432190941960, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_Name
       value: MiniGameSelectionSingleUI (3)
@@ -1005,6 +1017,18 @@ PrefabInstance:
       propertyPath: startCinematicScene
       value: SilhouettesMinigameStartCinematic
       objectReference: {fileID: 0}
+    - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 40892841984
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:18315ada4519ea542aca8e09b2ae824e
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822715501641787180, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 788580242, guid: 90f738e79ee91e64b9e4b7f0196dc2fe, type: 3}
     - target: {fileID: 7689746432190941960, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_Name
       value: MiniGameSelectionSingleUI (2)
@@ -1791,8 +1815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -125}
+  m_SizeDelta: {x: 0, y: -50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846781622
 MonoBehaviour:
@@ -2966,6 +2990,14 @@ PrefabInstance:
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: startCinematicScene
       value: MemoryMinigameStartCinematic
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4465311744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:18315ada4519ea542aca8e09b2ae824e
       objectReference: {fileID: 0}
     - target: {fileID: 7689746432190941960, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_Name
