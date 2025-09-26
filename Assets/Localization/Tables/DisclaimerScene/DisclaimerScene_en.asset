@@ -38,7 +38,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2747631686598656
-    m_Localized: EnglishDisclaimerText
+    m_Localized: "By allowing your child to use this game, you, as the parent/legal
+      guardian, expressly acknowledge and agree:\n1. That this game complies with
+      the Children's Online Privacy Protection Act (COPPA - USA), not collecting
+      personal data from children under 13 without their verifiable consent, and
+      with the General Data Protection Regulation (GDPR-K - EU), which requires parental
+      consent for children under 16 years of age (or a lower age depending on the
+      member country, such as 14 in Spain or 13 in France).\n2. That the content
+      is designed according to the World Health Organization (WHO) guidelines for
+      children under 5 years of age (maximum 1 hour of educational screen time per
+      day) and the American Academy of Pediatrics (AAP) recommendations for children
+      3-8 years of age (structured sessions of 10-15 minutes).\n3. That you assume
+      responsibility for supervising usage time, ensuring that it does not replace
+      non-digital physical, social, or educational activities, as established by
+      the General Law on the Rights of the Child (Mexico) and the Children's Code
+      (UK).\n4. That the game does not include third-party advertising, in-app purchases,
+      or external links, complying with the Audiovisual Media Services Directive
+      (EU 2018/1808) and the California Consumer Privacy Act (CCPA).\n5. That any
+      anonymous data collected (e.g., game progress) is stored locally on the device
+      and is not shared with external servers, in accordance with the Lei Geral de
+      Prote\xE7\xE3o de Dados (LGPD - Brazil) and the Ley de Protecci\xF3n de Datos
+      Personales (Argentina)."
     m_Metadata:
       m_Items: []
   - m_Id: 2749538178121728

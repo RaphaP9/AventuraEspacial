@@ -12,6 +12,7 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private TextMeshProUGUI languageNameText;
+    [SerializeField] private Image languageFlagImage;
 
     [Header("Settings")]
     [SerializeField] private Language language;
@@ -51,6 +52,7 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
     private void Start()
     {
         SetLanguageNameText();
+        SetLanguageFlag();
     }
 
     private void InitializeButtonsListeners()
@@ -75,6 +77,15 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
         if (attributes == null) return;
 
         languageNameText.text = attributes.languageName;
+    }
+
+    private void SetLanguageFlag()
+    {
+        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
+
+        if (attributes == null) return;
+
+        languageFlagImage.sprite = attributes.languageFlag;
     }
 
     #region Animations
