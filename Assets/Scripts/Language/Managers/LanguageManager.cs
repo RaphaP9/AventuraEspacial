@@ -26,6 +26,8 @@ public class LanguageManager : MonoBehaviour
 
     public static event EventHandler<OnLanguageEventArgs> OnLanguageSet;
 
+    public Language CurrentLanguage => currentLanguage;
+
     public class OnLanguageEventArgs : EventArgs
     {
         public Language language;

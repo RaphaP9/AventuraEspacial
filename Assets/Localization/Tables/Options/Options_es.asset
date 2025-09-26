@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: "Vibraci\xF3n"
     m_Metadata:
       m_Items: []
+  - m_Id: 4489632157220864
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

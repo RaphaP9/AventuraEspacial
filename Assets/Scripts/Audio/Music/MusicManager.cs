@@ -15,7 +15,10 @@ public class MusicManager : MonoBehaviour
 
     private AudioSource audioSource;
 
-    private const string MENU_SCENE_NAME = "MainMenu";
+    private const string LANGUAGE_SELECTION_SCENE_NAME = "LanguageSelection";
+    private const string DISCLAIMER_SCENE_NAME = "DisclaimerScene";
+    private const string TIMER_SELECTOR_SCENE_NAME = "MainMenu";
+    private const string MAIN_MENU_SCENE_NAME = "MainMenu";
     private const string CREDITS_SCENE_NAME = "Credits";
     private const string GAMEPLAY_SCENE_NAME = "Gameplay";
 
@@ -77,24 +80,18 @@ public class MusicManager : MonoBehaviour
 
     private void HandleScenesMusicPlay(string sceneName)
     {
-        switch (sceneName)
+        foreach(SceneNameMusic sceneNameMusic in musicPoolSO.sceneNameMusicList)
         {
-            case GAMEPLAY_SCENE_NAME:
-                //Handled By GameplayMusicManager;
-                break;
-            case MENU_SCENE_NAME:
-                PlayMusic(musicPoolSO.menuMusic);
-                Debug.Log("MainMenuMusicPlay");
-                break;
-            case CREDITS_SCENE_NAME:
-                PlayMusic(musicPoolSO.creditsMusic);
-                Debug.Log("CreditsMusicPlay");
-                break;
-            default:
-                StopMusic();
-                Debug.Log("No Music On Scene");
-            break;
+            if(sceneNameMusic.sceneName == sceneName)
+            {
+                PlayMusic(sceneNameMusic.music);
+                Debug.Log($"Music Play: {sceneNameMusic.music.name}");
+                return;
+            }
         }
+
+        StopMusic();
+        Debug.Log("No Music On Scene");
     }
 
     private void ScenesManager_OnSceneLoad(object sender, ScenesManager.OnSceneLoadEventArgs e)

@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: options.vibrationLabel
     m_Metadata:
       m_Items: []
+  - m_Id: 4489632157220864
+    m_Key: options.languageLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

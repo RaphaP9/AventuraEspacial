@@ -5,7 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSFXPoolSO", menuName = "ScriptableObjects/Audio/MusicPool")]
 public class MusicPoolSO : ScriptableObject
 {
-    [Header("Scenes")]
-    public AudioClip menuMusic;
-    public AudioClip creditsMusic;
+    public List<SceneNameMusic> sceneNameMusicList;
+}
+
+[System.Serializable]
+public class SceneNameMusic
+{
+    public string sceneName;
+    public AudioClip music;
 }

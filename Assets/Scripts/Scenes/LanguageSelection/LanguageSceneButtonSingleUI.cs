@@ -1,12 +1,17 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LanguageSceneButtonSingleUI : MonoBehaviour
 {
     [Header("Components")]
+    [SerializeField] private LanguageInfoSO languageInfoSO;
     [SerializeField] private Button button;
     [SerializeField] private Animator animator;
+
+    [Header("UI Components")]
+    [SerializeField] private TextMeshProUGUI languageNameText;
 
     [Header("Settings")]
     [SerializeField] private Language language;
@@ -21,8 +26,6 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
     private const string DESELECTED_ANIMATION_NAME = "Deselected";
 
     public static event EventHandler<OnClickedEventArgs> OnClicked;
-
-    public Language Language => language;
 
     public class OnClickedEventArgs : EventArgs
     {
@@ -45,6 +48,11 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
         InitializeVariables();
     }
 
+    private void Start()
+    {
+        SetLanguageNameText();
+    }
+
     private void InitializeButtonsListeners()
     {
         button.onClick.AddListener(SelectLanguage);
@@ -58,6 +66,15 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
     private void SelectLanguage()
     {
         OnClicked?.Invoke(this, new OnClickedEventArgs { language = language });
+    }
+
+    private void SetLanguageNameText()
+    {
+        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
+
+        if (attributes == null) return;
+
+        languageNameText.text = attributes.languageName;
     }
 
     #region Animations

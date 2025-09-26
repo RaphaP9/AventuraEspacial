@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6600feb73eaff184689d87f2977fe6f6
   - enabled: 1
-    path: Assets/Scenes/MiniGameSelection.unity
+    path: Assets/Scenes/MinigameSelection.unity
     guid: 585a7dadf58029f4889e04bf4577bca8
   - enabled: 1
     path: Assets/Scenes/Minigames/MemoryMinigame.unity
