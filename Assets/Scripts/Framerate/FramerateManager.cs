@@ -7,6 +7,8 @@ public class FramerateManager : MonoBehaviour
     [Header("Settings")]
     [SerializeField,Range(30,120)] private int targetFramerate;
 
+    private const int UNLIMITED_FPS_NUMBER = -1;
+
     private void Awake()
     {
         SetSingleton();
@@ -29,6 +31,10 @@ public class FramerateManager : MonoBehaviour
 
     private void SetTargetFramerate()
     {
+        #if !UNITY_EDITOR
         Application.targetFrameRate = targetFramerate;
+        #else
+        Application.targetFrameRate = UNLIMITED_FPS_NUMBER;
+        #endif
     }
 }

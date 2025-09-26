@@ -15,7 +15,7 @@ MonoBehaviour:
   languageAttributesList:
   - language: 0
     languageName: "Espa\xF1ol"
-    languageFlag: {fileID: 0}
+    languageFlag: {fileID: 21300000, guid: 34cb4cc1aa162424ab3c2107b53c4b9f, type: 3}
   - language: 1
     languageName: English
-    languageFlag: {fileID: 0}
+    languageFlag: {fileID: 21300000, guid: d427b1e5994c15849a7bd5d86544f9e2, type: 3}
