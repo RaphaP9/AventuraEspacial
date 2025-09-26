@@ -21,12 +21,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9767d68c9cf4b3a439cc3c037941effc
-    m_Address: StartCinematic
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ffac317648d03c648a712129c345cd56
     m_Address: Spritesheet_Rocket
     m_ReadOnly: 1

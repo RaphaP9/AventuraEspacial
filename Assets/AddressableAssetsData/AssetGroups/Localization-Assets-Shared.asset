@@ -62,6 +62,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9767d68c9cf4b3a439cc3c037941effc
+    m_Address: StartCinematic
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c74db7a787a68a34e992bd5e1c48a9ae
     m_Address: Assets/Localization/Tables/Videos Shared Data.asset
     m_ReadOnly: 1
