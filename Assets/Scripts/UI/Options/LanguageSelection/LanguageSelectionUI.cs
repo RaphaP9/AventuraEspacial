@@ -6,6 +6,7 @@ public class LanguageSelectionUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
+    [SerializeField] private UIPointerDetector exitUIDetector;
 
     [Header("UI Components")]
     [SerializeField] private Button languageSelectionButton;
@@ -16,11 +17,13 @@ public class LanguageSelectionUI : MonoBehaviour
     private void OnEnable()
     {
         LanguageSelectionButtonUI.OnClicked += LanguageSelectionButtonUI_OnClicked;
+        exitUIDetector.OnPointerClicked += ExitUIDetector_OnPointerClicked;
     }
 
     private void OnDisable()
     {
         LanguageSelectionButtonUI.OnClicked -= LanguageSelectionButtonUI_OnClicked;
+        exitUIDetector.OnPointerClicked -= ExitUIDetector_OnPointerClicked;
     }
 
     private void Awake()
@@ -60,6 +63,11 @@ public class LanguageSelectionUI : MonoBehaviour
     private void LanguageSelectionButtonUI_OnClicked(object sender, LanguageSelectionButtonUI.OnClickedEventArgs e)
     {
         SelectLanguage(e.language);
+    }
+
+    private void ExitUIDetector_OnPointerClicked(object sender, EventArgs e)
+    {
+        HideUI();
     }
     #endregion
 }
