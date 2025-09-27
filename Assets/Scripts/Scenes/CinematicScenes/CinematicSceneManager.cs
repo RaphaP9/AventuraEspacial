@@ -83,6 +83,7 @@ public class CinematicSceneManager : MonoBehaviour
 
         float elapsedTime = 0;
 
+        videoPlayer.Stop();
         videoPlayer.Play();
 
         while (elapsedTime <= clipFixedDuration)
