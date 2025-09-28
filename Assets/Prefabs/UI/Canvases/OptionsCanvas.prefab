@@ -2315,6 +2315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YoutubeButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5745011623555031036, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
+      propertyPath: url
+      value: https://www.youtube.com/@comp%C3%A1s_studios
+      objectReference: {fileID: 0}
     - target: {fileID: 8955176487457328428, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2581,7 +2585,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 11544f05a697638458f9969ae1340fc0, type: 3}
     - target: {fileID: 5163137302118756681, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
       propertyPath: m_Name
-      value: FacbookButton
+      value: FacebookButton
       objectReference: {fileID: 0}
     - target: {fileID: 8955176487457328428, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
       propertyPath: m_Pivot.x
