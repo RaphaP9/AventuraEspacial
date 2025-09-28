@@ -740,11 +740,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6a3cbb7c9b7f540892fec966132ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cinematicSO: {fileID: 11400000, guid: 90814d033d14001409104047c48cca70, type: 2}
   videoPlayer: {fileID: 925346781}
   transitionType: 0
   nextScene: MemoryMinigame
-  localizationTable: Videos
-  localizationBinding: videos.memoryMinigame.startCinematic
   debug: 0
   localizedVideo: {fileID: 0}
 --- !u!1 &696100029

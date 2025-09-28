@@ -11,15 +11,12 @@ public class CinematicSceneManager : MonoBehaviour
     public static CinematicSceneManager Instance { get; private set; }
 
     [Header("Components")]
+    [SerializeField] private CinematicSO cinematicSO;
     [SerializeField] private VideoPlayer videoPlayer;
 
     [Header("Settings")]
     [SerializeField] private TransitionType transitionType;
     [SerializeField] private string nextScene;
-
-    [Header("Localization Settings")]
-    [SerializeField] private string localizationTable;
-    [SerializeField] private string localizationBinding;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
@@ -57,7 +54,7 @@ public class CinematicSceneManager : MonoBehaviour
 
     private async void LoadLocalizedVideo()
     {
-        AsyncOperationHandle<VideoClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<VideoClip>(localizationTable, localizationBinding);
+        AsyncOperationHandle<VideoClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<VideoClip>(cinematicSO.localizationTable, cinematicSO.localizationBinding);
 
         await handle.Task;
 
@@ -68,7 +65,7 @@ public class CinematicSceneManager : MonoBehaviour
         }
         else
         {
-            if(debug) Debug.LogError($"Failed to load localized video [{localizationTable}] from [{localizationBinding}]");
+            if(debug) Debug.LogError($"Failed to load localized video. Table: {cinematicSO.localizationTable}, Video: {cinematicSO.localizationBinding}");
         }
     }
 
