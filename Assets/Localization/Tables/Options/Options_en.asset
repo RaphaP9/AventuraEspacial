@@ -58,6 +58,14 @@ MonoBehaviour:
     m_Localized: Set New Time
     m_Metadata:
       m_Items: []
+  - m_Id: 5105862169804800
+    m_Localized: Terms & Conditions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105961973268480
+    m_Localized: Privacy Policy
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

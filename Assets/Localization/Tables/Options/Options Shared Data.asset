@@ -55,6 +55,14 @@ MonoBehaviour:
     m_Key: options.selectTimeTitle
     m_Metadata:
       m_Items: []
+  - m_Id: 5105862169804800
+    m_Key: options.termsLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105961973268480
+    m_Key: options.privacyLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

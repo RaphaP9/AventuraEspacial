@@ -58,6 +58,14 @@ MonoBehaviour:
     m_Localized: Establecer Nuevo Tiempo
     m_Metadata:
       m_Items: []
+  - m_Id: 5105862169804800
+    m_Localized: "T\xE9rminos y Condiciones"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105961973268480
+    m_Localized: "Pol\xEDtica de Privacidad"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

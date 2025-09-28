@@ -157,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -550}
-  m_SizeDelta: {x: 0, y: 125}
+  m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &4850041571062020195
 MonoBehaviour:
@@ -171,7 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0423f61b8df366642b272df5cabe3c27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  languageInfoSO: {fileID: 11400000, guid: 792645f5931eb7a4781e33b60f6f3246, type: 2}
   languageNameText: {fileID: 1230767464414781286}
   languageFlagImage: {fileID: 4699444887933572845}
 --- !u!1 &1964412810153931512
