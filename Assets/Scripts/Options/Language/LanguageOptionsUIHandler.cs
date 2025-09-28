@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LanguageUIHandler : MonoBehaviour
+public class LanguageOptionsUIHandler : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private LanguageInfoSO languageInfoSO;

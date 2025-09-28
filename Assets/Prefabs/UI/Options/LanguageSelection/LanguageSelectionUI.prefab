@@ -417,7 +417,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 3224507294211492508}
   exitUIDetector: {fileID: 7728313921249407889}
-  languageSelectionButton: {fileID: 0}
+  openButton: {fileID: 0}
+  UIButtons:
+  - {fileID: 7222592086326704408}
+  - {fileID: 5780863759051453543}
 --- !u!1 &9032110046564253956
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +599,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+--- !u!114 &5780863759051453543 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+  m_PrefabInstance: {fileID: 1160309160450795117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8892221432933786631 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7745552882466751082, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
@@ -703,3 +717,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7745552882466751082, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
   m_PrefabInstance: {fileID: 2600884589323954962}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7222592086326704408 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+  m_PrefabInstance: {fileID: 2600884589323954962}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

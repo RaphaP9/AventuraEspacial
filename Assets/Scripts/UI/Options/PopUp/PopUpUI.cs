@@ -1,28 +1,29 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class LanguageSelectionUI : MonoBehaviour
+public class PopUpUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
     [SerializeField] private UIPointerDetector exitUIDetector;
 
     [Header("UI Components")]
-    [SerializeField] private Button languageSelectionButton;
+    [SerializeField] private Button openButton;
+    [Space]
+    [SerializeField] private List<Button> UIButtons;
 
     private const string SHOW_TRIGGER = "Show";
     private const string HIDE_TRIGGER = "Hide";
 
     private void OnEnable()
     {
-        LanguageSelectionButtonUI.OnClicked += LanguageSelectionButtonUI_OnClicked;
         exitUIDetector.OnPointerClicked += ExitUIDetector_OnPointerClicked;
     }
 
     private void OnDisable()
     {
-        LanguageSelectionButtonUI.OnClicked -= LanguageSelectionButtonUI_OnClicked;
         exitUIDetector.OnPointerClicked -= ExitUIDetector_OnPointerClicked;
     }
 
@@ -33,7 +34,12 @@ public class LanguageSelectionUI : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        languageSelectionButton.onClick.AddListener(OpenUI);
+        openButton.onClick.AddListener(OpenUI);
+
+        foreach (Button UIButton in UIButtons)
+        {
+            UIButton.onClick.AddListener(CloseUI);
+        }
     }
 
     public void ShowUI()
@@ -53,18 +59,12 @@ public class LanguageSelectionUI : MonoBehaviour
         ShowUI();
     }
 
-    private void SelectLanguage(Language language)
+    private void CloseUI()
     {
-        LanguageManager.Instance.SetLanguage(language);
         HideUI();
     }
 
     #region Subscriptions
-    private void LanguageSelectionButtonUI_OnClicked(object sender, LanguageSelectionButtonUI.OnClickedEventArgs e)
-    {
-        SelectLanguage(e.language);
-    }
-
     private void ExitUIDetector_OnPointerClicked(object sender, EventArgs e)
     {
         HideUI();

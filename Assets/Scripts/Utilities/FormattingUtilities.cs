@@ -39,6 +39,13 @@ public static class FormattingUtilities
         return mappedTime;
     }
 
+    public static string FormatTime(int totalSeconds)
+    {
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+        return string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
     public static int TranstaleBoolToInt(bool value)
     {
         if (value) return 1;

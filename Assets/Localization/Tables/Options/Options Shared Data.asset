@@ -43,6 +43,14 @@ MonoBehaviour:
     m_Key: options.selectLanguageTitle
     m_Metadata:
       m_Items: []
+  - m_Id: 5025529986498560
+    m_Key: options.timeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5025620684128256
+    m_Key: options.remainingTimeLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

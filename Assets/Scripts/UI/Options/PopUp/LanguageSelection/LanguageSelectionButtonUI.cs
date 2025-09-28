@@ -15,8 +15,6 @@ public class LanguageSelectionButtonUI : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private Language language;
 
-    public static event EventHandler<OnClickedEventArgs> OnClicked;
-
     public class OnClickedEventArgs : EventArgs
     {
         public Language language;
@@ -58,6 +56,6 @@ public class LanguageSelectionButtonUI : MonoBehaviour
 
     private void SelectLanguage()
     {
-        OnClicked?.Invoke(this, new OnClickedEventArgs { language = language });
+        LanguageManager.Instance.SetLanguage(language);
     }
 }

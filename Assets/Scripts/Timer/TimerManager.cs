@@ -11,13 +11,25 @@ public class TimerManager : MonoBehaviour
 
     public static event EventHandler<OnTimeEventArgs> OnTimeSet;
     public static event EventHandler<OnTimeEventArgs> OnTimeEnded;
+    public static event EventHandler<OnTimeChangedEventArgs> OnTimeChanged;
 
     private bool isRunning = false;
     private bool hasBeenSet = false;
 
+    private int previousTimeInt = 0;
+
+    public float RemainingTime => remainingTime;
+    public int RemainingTimeInt => Mathf.CeilToInt(remainingTime);   
+
     public class OnTimeEventArgs : EventArgs
     {
         public float time;
+        public int timeInt;
+    }
+
+    public class OnTimeChangedEventArgs : EventArgs
+    {
+        public int timeInt;
     }
 
     private void Awake()
@@ -62,18 +74,15 @@ public class TimerManager : MonoBehaviour
         hasBeenSet = true;
         isRunning = false;
 
-        OnTimeSet?.Invoke(this, new OnTimeEventArgs { time = initialTime });
+        OnTimeSet?.Invoke(this, new OnTimeEventArgs { time = remainingTime, timeInt = Mathf.CeilToInt(remainingTime)});
     }
 
     private void HandleTimePass()
     {
         if (!CanPassTime()) return;
 
-        if(remainingTime > 0f)
-        {
-            remainingTime-= Time.deltaTime;
-            isRunning = true;
-        }
+        remainingTime -= Time.deltaTime;
+        isRunning = true;
 
         if(remainingTime <= 0f)
         {
@@ -84,15 +93,32 @@ public class TimerManager : MonoBehaviour
             isRunning = false;
             hasBeenSet = false;
         }
+
+        HandleTimeChanged();
+    }
+
+    private void HandleTimeChanged()
+    {
+        if (!hasBeenSet) return;
+        if (remainingTime < 0f) return;
+
+        int remainingTimeInt = Mathf.CeilToInt(remainingTime);
+
+        if (remainingTimeInt != previousTimeInt)
+        {
+            previousTimeInt = remainingTimeInt;
+            OnTimeChanged?.Invoke(this, new OnTimeChangedEventArgs { timeInt = previousTimeInt });
+        }
     }
 
     private bool CanPassTime()
     {
         if (!hasBeenSet) return false;
+        if (remainingTime < 0f) return false;
 
-        if (ScenesManager.Instance != null)
+        if(TimePassingHandler.Instance != null)
         {
-            if(!ScenesManager.Instance.IsSceneOnIdle()) return false;
+            if(!TimePassingHandler.Instance.CanPassTime()) return false; //Each scene may have its own TimePassingHandler
         }
 
         return true;
