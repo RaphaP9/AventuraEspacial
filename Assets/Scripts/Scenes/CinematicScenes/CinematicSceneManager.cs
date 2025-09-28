@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.Localization.Settings;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using System.Threading.Tasks;
 
 public class CinematicSceneManager : MonoBehaviour
 {
@@ -24,19 +25,30 @@ public class CinematicSceneManager : MonoBehaviour
     [Header("Runtime Filled")]
     [SerializeField] private VideoClip localizedVideo;
 
-    private const float SCENE_FADE_OUT_TIME = 0.5f;
+    private const float SCENE_FADE_OUT_TIME = 0.2f;
     private const float MIN_SECURE_CINEMATIC_DURATION = 1f;
 
     private bool shouldSkipCinematic = false;
+    private bool isReloading = false;
+
+    private void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
+    }
+
+    private void OnDisable()
+    {
+        LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
+    }
 
     private void Awake()
     {
         SetSingleton();
     }
 
-    private void Start()
+    private async void Start()
     {
-        LoadLocalizedVideo();
+        await PlayVideoFromStart();
     }
 
     private void SetSingleton()
@@ -52,7 +64,15 @@ public class CinematicSceneManager : MonoBehaviour
         }
     }
 
-    private async void LoadLocalizedVideo()
+    private async Task PlayVideoFromStart()
+    {
+        bool success = await LoadLocalizedVideo();
+        if (!success) return;
+
+        StartCoroutine(CinematicCoroutine(localizedVideo));
+    }
+
+    private async Task<bool> LoadLocalizedVideo() //Returns True if Success, otherwise returns false. It loads automatically to the field "localizedVideo"
     {
         AsyncOperationHandle<VideoClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<VideoClip>(cinematicSO.localizationTable, cinematicSO.localizationBinding);
 
@@ -61,14 +81,14 @@ public class CinematicSceneManager : MonoBehaviour
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
             localizedVideo = handle.Result;
-            StartCoroutine(CinematicCoroutine(localizedVideo));        
+            return true;
         }
         else
         {
             if(debug) Debug.LogError($"Failed to load localized video. Table: {cinematicSO.localizationTable}, Video: {cinematicSO.localizationBinding}");
+            return false;
         }
     }
-
     private IEnumerator CinematicCoroutine(VideoClip videoClip)
     {
         videoPlayer.clip = videoClip;
@@ -87,6 +107,12 @@ public class CinematicSceneManager : MonoBehaviour
         {
             if (shouldSkipCinematic) break;
 
+            if (isReloading)
+            {
+                yield return null;
+                continue;
+            }
+
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -97,4 +123,43 @@ public class CinematicSceneManager : MonoBehaviour
     }
 
     public void SkipCinematic() => shouldSkipCinematic = true;
+
+    private async void ReloadVideo()
+    {
+        if(isReloading) return;
+
+        isReloading = true;
+
+        double currentTime = videoPlayer.time;
+        videoPlayer.Stop();
+
+        bool success = await LoadLocalizedVideo();
+        if (!success) return;
+
+        videoPlayer.clip = localizedVideo;
+
+        StartCoroutine(RestoreTimeWhenReady(currentTime));
+    }
+
+    private IEnumerator RestoreTimeWhenReady(double time)
+    {
+        videoPlayer.Prepare();
+
+        while (!videoPlayer.isPrepared)
+        {
+            yield return null;
+        }
+
+        videoPlayer.time = time;
+        videoPlayer.Play();
+
+        isReloading = false;
+    }
+
+    #region Subscriptions
+    private void LocalizationSettings_SelectedLocaleChanged(UnityEngine.Localization.Locale obj)
+    {
+        ReloadVideo();
+    }
+    #endregion
 }
