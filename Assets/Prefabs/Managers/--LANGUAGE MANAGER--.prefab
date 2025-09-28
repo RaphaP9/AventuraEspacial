@@ -44,12 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9189215ac1e4afc4d81c3a092c4e9263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultLanguage: 0
+  defaultLanguageSetting: {fileID: 11400000, guid: caea01f7c3e92e946ae468cfe3918773, type: 2}
   languageKey: Language
-  languagesIdentified:
-  - code: en
-    language: 1
-  - code: es
-    language: 0
-  currentLanguage: 0
+  languageSettingSOs:
+  - {fileID: 11400000, guid: caea01f7c3e92e946ae468cfe3918773, type: 2}
+  - {fileID: 11400000, guid: 0fca7adca33e7de4892ed5a5bad3090f, type: 2}
+  currentLanguageSetting: {fileID: 0}
   debug: 0

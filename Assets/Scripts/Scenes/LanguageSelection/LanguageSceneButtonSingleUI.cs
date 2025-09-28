@@ -6,16 +6,13 @@ using UnityEngine.UI;
 public class LanguageSceneButtonSingleUI : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private LanguageInfoSO languageInfoSO;
+    [SerializeField] private LanguageSettingSO languageSettingSO;
     [SerializeField] private Button button;
     [SerializeField] private Animator animator;
 
     [Header("UI Components")]
     [SerializeField] private TextMeshProUGUI languageNameText;
     [SerializeField] private Image languageFlagImage;
-
-    [Header("Settings")]
-    [SerializeField] private Language language;
 
     [Header("Runtime Filled")]
     [SerializeField] private bool isSelected;
@@ -30,7 +27,7 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
 
     public class OnClickedEventArgs : EventArgs
     {
-        public Language language;
+        public LanguageSettingSO languageSetting;
     }
 
     private void OnEnable()
@@ -67,25 +64,17 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
 
     private void SelectLanguage()
     {
-        OnClicked?.Invoke(this, new OnClickedEventArgs { language = language });
+        OnClicked?.Invoke(this, new OnClickedEventArgs { languageSetting = languageSettingSO});
     }
 
     private void SetLanguageNameText()
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageNameText.text = attributes.languageName;
+        languageNameText.text = languageSettingSO.languageName;
     }
 
     private void SetLanguageFlag()
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageFlagImage.sprite = attributes.languageFlag;
+        languageFlagImage.sprite = languageSettingSO.languageFlag;
     }
 
     #region Animations
@@ -137,7 +126,7 @@ public class LanguageSceneButtonSingleUI : MonoBehaviour
     #region Subscriptions
     private void LanguageSelectionSceneUI_OnLanguageSelected(object sender, LanguageSelectionSceneUI.OnLanguageSelectedEventArgs e)
     {
-        if(e.language == language)
+        if(e.languageSetting == languageSettingSO)
         {
             if (e.instantly) SelectButtonInstantly();
             else SelectButton();

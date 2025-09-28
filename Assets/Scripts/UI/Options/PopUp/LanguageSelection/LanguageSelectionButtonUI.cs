@@ -2,10 +2,11 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class LanguageSelectionButtonUI : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private LanguageInfoSO languageInfoSO;
+    [SerializeField] private LanguageSettingSO languageSettingSO;
     [SerializeField] private Button button;
 
     [Header("UI Components")]
@@ -38,24 +39,16 @@ public class LanguageSelectionButtonUI : MonoBehaviour
 
     private void SetLanguageNameText()
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageNameText.text = attributes.languageName;
+        languageNameText.text = languageSettingSO.languageName;
     }
 
     private void SetLanguageFlag()
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageFlagImage.sprite = attributes.languageFlag;
+        languageFlagImage.sprite = languageSettingSO.languageFlag;
     }
 
     private void SelectLanguage()
     {
-        LanguageManager.Instance.SetLanguage(language);
+        LanguageManager.Instance.SetLanguage(languageSettingSO);
     }
 }

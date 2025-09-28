@@ -950,6 +950,10 @@ PrefabInstance:
       propertyPath: language
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6162121204879079053, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: languageSettingSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0fca7adca33e7de4892ed5a5bad3090f, type: 2}
     - target: {fileID: 8168681854639052843, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_text
       value: English
@@ -1422,12 +1426,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enableStartingSelectedLanguage: 0
-  startingSelectedLanguage: 0
+  startingSelectedLanguageSetting: {fileID: 0}
   confirmButton: {fileID: 51072423}
   confirmScene: DisclaimerScene
   confirmTransitionType: 0
   languageHasBeenSelected: 0
-  currentSelectedLanguage: 0
+  currentSelectedLanguageSetting: {fileID: 0}
 --- !u!1 &914136886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpanishButtonUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6162121204879079053, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: languageSettingSO
+      value: 
+      objectReference: {fileID: 11400000, guid: caea01f7c3e92e946ae468cfe3918773, type: 2}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

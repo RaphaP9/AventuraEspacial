@@ -5,8 +5,6 @@ using UnityEngine.UI;
 public class LanguageOptionsUIHandler : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private LanguageInfoSO languageInfoSO;
-
     [SerializeField] private TextMeshProUGUI languageNameText;
     [SerializeField] private Image languageFlagImage;
 
@@ -22,33 +20,25 @@ public class LanguageOptionsUIHandler : MonoBehaviour
 
     private void Start()
     {
-        UpdateLanguageNameText(LanguageManager.Instance.CurrentLanguage);
-        UpdateLanguageFlag(LanguageManager.Instance.CurrentLanguage);
+        UpdateLanguageNameText(LanguageManager.Instance.CurrentLanguageSetting);
+        UpdateLanguageFlag(LanguageManager.Instance.CurrentLanguageSetting);
     }
 
-    private void UpdateLanguageNameText(Language language)
+    private void UpdateLanguageNameText(LanguageSettingSO languageSetting)
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageNameText.text = attributes.languageName;
+        languageNameText.text = languageSetting.languageName;
     }
 
-    private void UpdateLanguageFlag(Language language)
+    private void UpdateLanguageFlag(LanguageSettingSO languageSetting)
     {
-        LanguageAttributes attributes = languageInfoSO.GetLanguageAttributesByLanguage(language);
-
-        if (attributes == null) return;
-
-        languageFlagImage.sprite = attributes.languageFlag;
+        languageFlagImage.sprite = languageSetting.languageFlag;
     }
 
     #region Subscriptions
     private void LanguageManager_OnLanguageSet(object sender, LanguageManager.OnLanguageEventArgs e)
     {
-        UpdateLanguageNameText(e.language);
-        UpdateLanguageFlag(e.language);
+        UpdateLanguageNameText(e.languageSetting);
+        UpdateLanguageFlag(e.languageSetting);
     }
     #endregion
 }

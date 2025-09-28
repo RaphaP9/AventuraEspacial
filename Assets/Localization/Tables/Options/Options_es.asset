@@ -54,6 +54,10 @@ MonoBehaviour:
     m_Localized: Tiempo Restante
     m_Metadata:
       m_Items: []
+  - m_Id: 5054650619740160
+    m_Localized: Establecer Nuevo Tiempo
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

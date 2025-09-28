@@ -6,7 +6,7 @@ public class LanguageSelectionSceneUI : MonoBehaviour
 {
     [Header("Language Settings")]
     [SerializeField] private bool enableStartingSelectedLanguage;
-    [SerializeField] private Language startingSelectedLanguage;
+    [SerializeField] private LanguageSettingSO startingSelectedLanguageSetting;
 
     [Header("Confirm Components")]
     [SerializeField] private Button confirmButton;
@@ -17,13 +17,13 @@ public class LanguageSelectionSceneUI : MonoBehaviour
 
     [Header("Runtime Filled")]
     [SerializeField] private bool languageHasBeenSelected;
-    [SerializeField] private Language currentSelectedLanguage;
+    [SerializeField] private LanguageSettingSO currentSelectedLanguageSetting;
 
     public static event EventHandler<OnLanguageSelectedEventArgs> OnLanguageSelected;
 
     public class OnLanguageSelectedEventArgs : EventArgs
     {
-        public Language language;
+        public LanguageSettingSO languageSetting;
         public bool instantly;
     }
 
@@ -63,28 +63,28 @@ public class LanguageSelectionSceneUI : MonoBehaviour
     {
         if (!enableStartingSelectedLanguage) return;
 
-        SelectLanguage(startingSelectedLanguage, true);
+        SelectLanguage(startingSelectedLanguageSetting, true);
     }
 
-    private void HandleLanguageSelection(Language language)
+    private void HandleLanguageSelection(LanguageSettingSO languageSetting)
     {
         if (!languageHasBeenSelected)
         {
-            SelectLanguage(language, false);
+            SelectLanguage(languageSetting, false);
         }
-        else if(language != currentSelectedLanguage) 
+        else if(languageSetting != currentSelectedLanguageSetting) 
         {
-            SelectLanguage(language, false);
+            SelectLanguage(languageSetting, false);
         }
     }
 
-    private void SelectLanguage(Language language, bool instantly)
+    private void SelectLanguage(LanguageSettingSO languageSetting, bool instantly)
     {
         languageHasBeenSelected = true;
-        currentSelectedLanguage = language;
-        LanguageManager.Instance.SetLanguage(language);
+        currentSelectedLanguageSetting = languageSetting;
+        LanguageManager.Instance.SetLanguage(languageSetting);
 
-        OnLanguageSelected?.Invoke(this, new OnLanguageSelectedEventArgs { language = language, instantly = instantly });
+        OnLanguageSelected?.Invoke(this, new OnLanguageSelectedEventArgs { languageSetting = languageSetting, instantly = instantly });
 
         EnableConfirmButton();
     }
@@ -102,7 +102,7 @@ public class LanguageSelectionSceneUI : MonoBehaviour
 
     private void LanguageSceneButtonSingleUI_OnClicked(object sender, LanguageSceneButtonSingleUI.OnClickedEventArgs e)
     {
-        HandleLanguageSelection(e.language);
+        HandleLanguageSelection(e.languageSetting);
     }
 
     #endregion
