@@ -3,12 +3,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
+using System.Collections.Generic;
 
 public class TimerSelectorUI : MonoBehaviour
 {
-    [Header("Components")]
-    [SerializeField] private TimerSelectorSettingsSO timerSelectorSettingsSO;
-
     [Header("UI Components")]
     [SerializeField] private Button previousButton;
     [SerializeField] private Button nextButton;
@@ -17,11 +15,16 @@ public class TimerSelectorUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private TextMeshProUGUI descriptionText;
 
+    [Header("Lists")]
+    [SerializeField] private List<TimerSettingSO> timerSettingList;
+
     [Header("Settings")]
     [SerializeField] private string nextScene;
     [SerializeField] private TransitionType nextSceneTransitionType;
 
     private int currentIndex;
+
+    private const int CONSTANT_60 = 60;
 
     private void OnEnable()
     {
@@ -40,7 +43,8 @@ public class TimerSelectorUI : MonoBehaviour
     private void Start()
     {
         InitializeVariables();
-        UpdateUI();
+        UpdateTimeTextByCurrentIndex();
+        UpdateDescriptionTextByCurrentIndex();
     }
 
     private void InitializeButtonsListeners()
@@ -58,21 +62,22 @@ public class TimerSelectorUI : MonoBehaviour
     private void SelectPreviousTime()
     {
         SelectPreviousIndex();
-        UpdateUI();
+        UpdateTimeTextByCurrentIndex();
+        UpdateDescriptionTextByCurrentIndex();
     }
 
     private void SelectNextTime()
     {
         SelectNextIndex();
-        UpdateUI();
+        UpdateTimeTextByCurrentIndex();
+        UpdateDescriptionTextByCurrentIndex();
     }
 
     private void ConfirmTime()
     {
-        int selectedTimeSeconds = timerSelectorSettingsSO.timerSettings[currentIndex].time;
+        int selectedTimeSeconds = timerSettingList[currentIndex].time;
 
         TimerManager.Instance.SetTime(selectedTimeSeconds);
-
         ScenesManager.Instance.TransitionLoadTargetScene(nextScene, nextSceneTransitionType);
     }
 
@@ -82,29 +87,34 @@ public class TimerSelectorUI : MonoBehaviour
 
         if(currentIndex < 0)
         {
-            currentIndex = timerSelectorSettingsSO.timerSettings.Count - 1;
+            currentIndex = timerSettingList.Count - 1;
         }
     }
     private void SelectNextIndex()
     {
         currentIndex++;
 
-        if(currentIndex >= timerSelectorSettingsSO.timerSettings.Count)
+        if(currentIndex >= timerSettingList.Count)
         {
             currentIndex = 0;
         }
     }
 
-    private void UpdateUI()
+    private void UpdateTimeTextByCurrentIndex()
     {
-        timeText.text = FormattingUtilities.FormatTime(timerSelectorSettingsSO.timerSettings[currentIndex].time);
-        descriptionText.text = LocalizationSettings.StringDatabase.GetLocalizedString(timerSelectorSettingsSO.timeSelectorLocalizationTable, timerSelectorSettingsSO.timerSettings[currentIndex].descriptionLocalizationBinding);
+        timeText.text = FormattingUtilities.FormatTimeByTimerSettingSO(timerSettingList[currentIndex]);
+    }
+
+    private void UpdateDescriptionTextByCurrentIndex()
+    {
+        descriptionText.text = LocalizationSettings.StringDatabase.GetLocalizedString(timerSettingList[currentIndex].descriptionLocalizationTable, timerSettingList[currentIndex].descriptionLocalizationBinding);
     }
 
     #region Subscriptions
     private void LocalizationSettings_SelectedLocaleChanged(Locale obj)
     {
-        UpdateUI();
+        UpdateTimeTextByCurrentIndex();
+        UpdateDescriptionTextByCurrentIndex();
     }
     #endregion
 }

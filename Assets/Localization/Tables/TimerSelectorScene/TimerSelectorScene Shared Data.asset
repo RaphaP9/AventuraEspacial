@@ -24,15 +24,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2739492178313216
-    m_Key: timerSelectorScene.5MinuteDescription
+    m_Key: timerSelectorScene.5MinutesDescription
     m_Metadata:
       m_Items: []
   - m_Id: 2740024003477504
-    m_Key: timerSelectorScene.10MinuteDescription
+    m_Key: timerSelectorScene.10MinutesDescription
     m_Metadata:
       m_Items: []
   - m_Id: 2740376232738816
-    m_Key: timerSelectorScene.15MinuteDescription
+    m_Key: timerSelectorScene.15MinutesDescription
     m_Metadata:
       m_Items: []
   m_Metadata:
