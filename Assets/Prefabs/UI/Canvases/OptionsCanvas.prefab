@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: f308f1e4badd35947a0b8903a0911fb6, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1056,14 +1056,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40000004, g: 0.40000004, b: 0.40000004, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: f308f1e4badd35947a0b8903a0911fb6, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1387,7 +1387,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6928543824747509201}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -2200,6 +2200,10 @@ PrefabInstance:
     - target: {fileID: 5163137302118756681, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
       propertyPath: m_Name
       value: InstagramButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745011623555031036, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
+      propertyPath: url
+      value: https://www.instagram.com/compas_studios/
       objectReference: {fileID: 0}
     - target: {fileID: 8955176487457328428, guid: d6beb0fb84baea54082eeb907f4bfc8f, type: 3}
       propertyPath: m_Pivot.x

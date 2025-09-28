@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 411.5, y: -135}
-  m_SizeDelta: {x: 750, y: 200}
+  m_SizeDelta: {x: 725, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &5553300987466789758
 Animator:
@@ -72,12 +72,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e24ee0fceacdaa74aaa7de0732db0248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  languageInfoSO: {fileID: 11400000, guid: 792645f5931eb7a4781e33b60f6f3246, type: 2}
+  languageSettingSO: {fileID: 0}
   button: {fileID: 1980543996863402250}
   animator: {fileID: 5553300987466789758}
   languageNameText: {fileID: 8168681854639052843}
   languageFlagImage: {fileID: 8813209619356014360}
-  language: 0
   isSelected: 0
 --- !u!1 &1877257779910223595
 GameObject:
