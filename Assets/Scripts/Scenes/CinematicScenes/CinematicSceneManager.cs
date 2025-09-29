@@ -34,16 +34,19 @@ public class CinematicSceneManager : MonoBehaviour
     private void OnEnable()
     {
         LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
+        videoPlayer.loopPointReached += VideoPlayer_loopPointReached;
     }
 
     private void OnDisable()
     {
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
+        videoPlayer.loopPointReached -= VideoPlayer_loopPointReached;
     }
 
     private void Awake()
     {
         SetSingleton();
+        ClearTexture();
     }
 
     private async void Start()
@@ -156,10 +159,21 @@ public class CinematicSceneManager : MonoBehaviour
         isReloading = false;
     }
 
+    private void ClearTexture()
+    {
+        if (videoPlayer.targetTexture == null) return;    
+        videoPlayer.targetTexture.Release();     
+    }
+
     #region Subscriptions
     private void LocalizationSettings_SelectedLocaleChanged(UnityEngine.Localization.Locale obj)
     {
         ReloadVideo();
+    }
+
+    private void VideoPlayer_loopPointReached(VideoPlayer source)
+    {
+        ClearTexture();
     }
     #endregion
 }
