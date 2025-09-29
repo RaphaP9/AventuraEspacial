@@ -117,4 +117,20 @@ public class DataContainer : MonoBehaviour
                 break;
         }
     }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public bool HasUnlockedCinematic(CinematicSO cinematicSO)
+    {
+        if (data.cinematicsUnlockedIDs.Contains(cinematicSO.id)) return true;
+        return false;
+    }
+
+    public bool UnlockCinematic(CinematicSO cinematicSO) // Bool = success
+    {
+        if(HasUnlockedCinematic(cinematicSO)) return false;
+
+        data.cinematicsUnlockedIDs.Add(cinematicSO.id);
+        return true;
+    }
 }

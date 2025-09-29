@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1478771991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dba27a61a1b51ba419d88a6c42b768ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 99dec238c7bc7aa469480204cad7c550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   minSwipeDistance: 100

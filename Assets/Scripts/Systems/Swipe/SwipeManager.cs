@@ -42,6 +42,8 @@ public class SwipeManager : MonoBehaviour
    
     private void UpdateSwipe()
     {
+        if (!CanSwipe()) return;
+
         if (Pointer.current == null) return;
 
         if (Pointer.current.press.wasPressedThisFrame && !isSwiping)
@@ -85,4 +87,6 @@ public class SwipeManager : MonoBehaviour
             }
         }
     }
+
+    protected virtual bool CanSwipe() => true;
 }
