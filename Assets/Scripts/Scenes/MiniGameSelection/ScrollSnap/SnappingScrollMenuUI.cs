@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using UnityEngine.EventSystems;
-using UnityEditor;
 using System.Collections;
 using System;
 
@@ -15,18 +13,18 @@ public class SnappingScrollMenuUI : MonoBehaviour
     [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private ScrollRectDragDetector scrollRectDragDetector;
 
+    [Header("Lists")]
+    [SerializeField] private List<SnappingScrollMenuItemUI> items;
+
     [Header("Settings")]
     [SerializeField, Range(1f,100f)] private float snapSpeed = 10f;
     [SerializeField] private int startIndex;
 
     [Header("Runtime Filled")]
-    [SerializeField] private List<ItemRefferencePosition> items;
-    [SerializeField] private ItemRefferencePosition targetSnapItem;
+    [SerializeField] private SnappingScrollMenuItemUI targetSnapItem;
     [SerializeField] private int currentIndex;
 
     private bool initializationLogicPerformed = false;
-
-    private const float STOP_SNAP_THRESHOLD = 0.1f;
 
     #region Events
     public static event EventHandler<OnItemsInitializedEventArgs> OnItemsInitialized;
@@ -45,15 +43,9 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     #region Custom Classes
     [System.Serializable]
-    public class ItemRefferencePosition
-    {
-        public RectTransform rectTransform;
-        public Vector2 refferencePosition;
-    }
-
     public class OnItemsInitializedEventArgs : EventArgs
     {
-        public List<ItemRefferencePosition> items;
+        public List<SnappingScrollMenuItemUI> items;
     }
 
     public class OnItemSnapEventArgs : EventArgs
@@ -96,13 +88,16 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     private void InitializeItems()
     {
-        foreach(Transform child in content.transform)
-        {
-            RectTransform rectTransform = child.GetComponent<RectTransform>();
-            Vector2 refferencePosition = UIUtilities.GetCanvasPosition(rectTransform, canvas) - UIUtilities.GetCanvasPosition(scrollRect.viewport, canvas);
+        int index = 0;
 
-            ItemRefferencePosition itemRefferencePosition = new ItemRefferencePosition { rectTransform = rectTransform, refferencePosition = refferencePosition};
-            items.Add(itemRefferencePosition);
+        foreach(SnappingScrollMenuItemUI item in items)
+        {
+            Vector2 refferencePosition = UIUtilities.GetCanvasPosition(item.RectTransform, canvas) - UIUtilities.GetCanvasPosition(scrollRect.viewport, canvas);
+
+            item.SetAssignedIndex(index);
+            item.SetRefferencePosition(refferencePosition);
+
+            index++;
         }
 
         OnItemsInitialized?.Invoke(this, new OnItemsInitializedEventArgs { items = items });
@@ -113,7 +108,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
         currentIndex = startIndex;
         UpdateTargetSnapItemToIndex(currentIndex);
 
-        content.anchoredPosition = -targetSnapItem.refferencePosition;
+        content.anchoredPosition = -targetSnapItem.RefferencePosition;
 
         if (currentIndex <= 0) OnFirstItemReachedStart?.Invoke(this, EventArgs.Empty);
         if (currentIndex >= items.Count -1) OnLastItemReachedStart?.Invoke(this, EventArgs.Empty);
@@ -126,9 +121,10 @@ public class SnappingScrollMenuUI : MonoBehaviour
         if (!initializationLogicPerformed) return;
         if (scrollRectDragDetector.IsDragging) return;
 
-        content.anchoredPosition = Vector2.Lerp(content.anchoredPosition, -targetSnapItem.refferencePosition, Time.deltaTime * snapSpeed);
+        content.anchoredPosition = Vector2.Lerp(content.anchoredPosition, -targetSnapItem.RefferencePosition, Time.deltaTime * snapSpeed);
     }
 
+    #region Displacement Commands
     public void DisplaceRightCommand()
     {
         TryIncreaseIndex();
@@ -144,6 +140,7 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
         OnItemSnap?.Invoke(this, new OnItemSnapEventArgs { itemIndex = currentIndex, instantly = false });
     }
+    #endregion
 
     #region Increase Decrease Index
     private void TryIncreaseIndex()
@@ -183,7 +180,19 @@ public class SnappingScrollMenuUI : MonoBehaviour
     }
     #endregion
 
-    private void UpdateTargetSnapItemToIndex(int index) => targetSnapItem = items[index];
+    private void UpdateTargetSnapItemToIndex(int index)
+    {
+        foreach(SnappingScrollMenuItemUI item in items)
+        {
+            if (item.AssignedIndex != index) continue; //If not the same index, continue
+            if (targetSnapItem == item) continue; //If already snapped, continue
+
+            item.TriggerSnapEvents();
+            targetSnapItem = item;
+        }
+
+        //targetSnapItem = items[index]; //Also can be
+    }
 
     #region Subscriptions
     private void SwipeManager_OnSwipeRight(object sender, System.EventArgs e)

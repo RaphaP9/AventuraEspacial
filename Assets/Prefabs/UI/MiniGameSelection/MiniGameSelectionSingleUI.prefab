@@ -306,6 +306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8562543629866280548}
+  - component: {fileID: 4005167093436297482}
   - component: {fileID: 1182901346712657277}
   m_Layer: 5
   m_Name: MiniGameSelectionSingleUI
@@ -336,6 +337,21 @@ RectTransform:
   m_AnchoredPosition: {x: 2550, y: -960}
   m_SizeDelta: {x: 1400, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4005167093436297482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689746432190941960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443f368c3caa327469ba1490667c28eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 8562543629866280548}
+  assignedIndex: 0
+  refferencePosition: {x: 0, y: 0}
 --- !u!114 &1182901346712657277
 MonoBehaviour:
   m_ObjectHideFlags: 0
