@@ -52,70 +52,84 @@ public class DataContainer : MonoBehaviour
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public void IncreaseTimesEnteredMinigame(Minigame minigame)
+    public int GetMinigameTotalScoreByMinigame(Minigame minigame)
     {
-        switch (minigame)
-        {
-            case Minigame.MemoryMinigame:
-                data.memoryMinigameData.timesEntered += 1;
-                break;
-            case Minigame.SilhouettesMinigame:
-                data.silhouettesMinigameData.timesEntered += 1;
-                break;
-        }
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        return minigameData.totalScore;
     }
 
-    public bool IsFirstTimeEnteringMinigame(Minigame minigame)
+    private MinigameData GetMinigameDataByMinigame(Minigame minigame)
     {
         switch (minigame)
         {
             case Minigame.MemoryMinigame:
             default:
-                return data.memoryMinigameData.timesEntered == 0;
+                return data.memoryMinigameData;
             case Minigame.SilhouettesMinigame:
-                return data.silhouettesMinigameData.timesEntered == 0;
+                return data.silhouettesMinigameData;
         }
+    }
+
+    private MinigameLandmarkData GetMinigameLandmarkData(Minigame minigame, MinigameLandmark minigameLandmark)
+    {
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+
+        switch (minigameLandmark)
+        {
+            case MinigameLandmark.FirstLandmark:
+            default:
+                return minigameData.landmarkData1;
+            case MinigameLandmark.SecondLandmark:
+                return minigameData.landmarkData2;
+            case MinigameLandmark.ThirdLandmark:
+                return minigameData.landmarkData3;
+        }
+    }
+
+    public bool GetLandmarkUnlockedByMinigame(Minigame minigame, MinigameLandmark minigameLandmark)
+    {
+        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
+        return minigameLandmarkData.landmarkUnlocked;
+    }
+
+    public bool GetLandmarkCheckedByMinigame(Minigame minigame, MinigameLandmark minigameLandmark)
+    {
+        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
+        return minigameLandmarkData.landmarkChecked;
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public void IncreaseTimesEnteredMinigame(Minigame minigame)
+    {
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        minigameData.timesEntered += 1;
+    }
+
+    public bool IsFirstTimeEnteringMinigame(Minigame minigame)
+    {
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        return minigameData.timesEntered == 0;
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public void IncreaseTimesWonMinigame(Minigame minigame)
     {
-        switch (minigame)
-        {
-            case Minigame.MemoryMinigame:
-                data.memoryMinigameData.timesWon += 1;
-                break;
-            case Minigame.SilhouettesMinigame:
-                data.silhouettesMinigameData.timesWon += 1;
-                break;
-        }
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        minigameData.timesWon += 1;
     }
 
     public void IncreaseTimesLostMinigame(Minigame minigame)
     {
-        switch (minigame)
-        {
-            case Minigame.MemoryMinigame:
-                data.memoryMinigameData.timesLost += 1;
-                break;
-            case Minigame.SilhouettesMinigame:
-                data.silhouettesMinigameData.timesLost += 1;
-                break;
-        }
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        minigameData.timesLost += 1;
     }
 
     public void IncreaseTotalScoreMinigame(Minigame minigame, int score)
     {
-        switch (minigame)
-        {
-            case Minigame.MemoryMinigame:
-                data.memoryMinigameData.totalScore += score;
-                break;
-            case Minigame.SilhouettesMinigame:
-                data.silhouettesMinigameData.totalScore += score;
-                break;
-        }
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        minigameData.totalScore += score;
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -132,5 +146,19 @@ public class DataContainer : MonoBehaviour
 
         data.cinematicsUnlockedIDs.Add(cinematicSO.id);
         return true;
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    public void UnlockLandmark(Minigame minigame, MinigameLandmark minigameLandmark)
+    {
+        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
+        minigameLandmarkData.landmarkUnlocked = true;
+    }
+
+    public void CheckLandmark(Minigame minigame, MinigameLandmark minigameLandmark)
+    {
+        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
+        minigameLandmarkData.landmarkChecked = true;
     }
 }

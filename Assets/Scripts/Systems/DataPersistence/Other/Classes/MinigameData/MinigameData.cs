@@ -9,6 +9,10 @@ public abstract class MinigameData
     public int highscore;
     public int totalScore;
 
+    public MinigameLandmarkData landmarkData1;
+    public MinigameLandmarkData landmarkData2;
+    public MinigameLandmarkData landmarkData3;
+
     public MinigameData()
     {
         timesEntered = 0;
@@ -17,5 +21,9 @@ public abstract class MinigameData
 
         highscore = 0;
         totalScore = 0;
+
+        landmarkData1 = new MinigameLandmarkData();
+        landmarkData2 = new MinigameLandmarkData();
+        landmarkData3 = new MinigameLandmarkData();
     }
 }
