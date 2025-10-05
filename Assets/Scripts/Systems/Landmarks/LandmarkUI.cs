@@ -14,6 +14,9 @@ public class LandmarkUI : MonoBehaviour
     [SerializeField] private bool landmarkChecked;
 
     public MinigameLandmark MinigameLandmark => minigameLandmark;
+    public int TargetScore => targetScore;  
+    public bool LandmarkUnlocked => landmarkUnlocked;
+    public bool LandmarkChecked => landmarkChecked;
 
     public void SetLandmark(Minigame minigame, int targetScore, bool landmarkUnlocked, bool landmarkChecked)
     {

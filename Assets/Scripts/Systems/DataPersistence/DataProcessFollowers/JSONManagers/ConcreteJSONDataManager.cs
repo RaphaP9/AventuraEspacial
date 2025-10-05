@@ -23,5 +23,5 @@ public class ConcreteJSONDataManager : JSONDataManager<Data>
         }
     }
 
-    protected override JSONDataContainerMiddleMan<Data> GetSONDataContainerMiddleMan() => perpetualJSONDataContainerMiddleMan;
+    protected override JSONDataContainerMiddleMan<Data> GetJSONDataContainerMiddleMan() => perpetualJSONDataContainerMiddleMan;
 }

@@ -90,7 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigame: 0
   landmarkSettings: {fileID: 0}
-  progressSlider: {fileID: 1598944946960381853}
+  landmarkProgressSlider: {fileID: 1598944946960381853}
   landmarkUIList:
   - {fileID: 8280183082782413589}
   - {fileID: 3710053170346828762}
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 8611733775704791732}
   - component: {fileID: 1598944946960381853}
   m_Layer: 5
-  m_Name: ProgressSlider
+  m_Name: LandmarkProgressSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

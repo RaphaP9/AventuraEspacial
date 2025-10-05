@@ -43,7 +43,7 @@ public abstract class JSONDataManager<T> : MonoBehaviour, IDataPersistenceManage
     }
 
     protected abstract void SetSingleton();
-    protected abstract JSONDataContainerMiddleMan<T> GetSONDataContainerMiddleMan();
+    protected abstract JSONDataContainerMiddleMan<T> GetJSONDataContainerMiddleMan();
 
     #region Save Data
     public void SaveData()
@@ -53,7 +53,7 @@ public abstract class JSONDataManager<T> : MonoBehaviour, IDataPersistenceManage
         OnDataSaveStartMethod();
 
        
-        GetSONDataContainerMiddleMan().SaveDataFromContainer(ref persistentData);
+        GetJSONDataContainerMiddleMan().SaveDataFromContainer(ref persistentData);
         dataService.SaveData(persistentData); //Save data to file using data handler 
 
         OnDataSaveCompletedMethod();
@@ -65,7 +65,7 @@ public abstract class JSONDataManager<T> : MonoBehaviour, IDataPersistenceManage
 
         OnDataSaveStartMethod();
 
-        GetSONDataContainerMiddleMan().SaveDataFromContainer(ref persistentData);
+        GetJSONDataContainerMiddleMan().SaveDataFromContainer(ref persistentData);
         await dataService.SaveDataAsync(persistentData); //Save data to file using data handler 
 
         OnDataSaveCompletedMethod();
@@ -89,7 +89,7 @@ public abstract class JSONDataManager<T> : MonoBehaviour, IDataPersistenceManage
             NewData();
         }
 
-        GetSONDataContainerMiddleMan().LoadDataToContainer(persistentData);
+        GetJSONDataContainerMiddleMan().LoadDataToContainer(persistentData);
         OnDataLoadCompletedMethod();
     }
 
@@ -108,7 +108,7 @@ public abstract class JSONDataManager<T> : MonoBehaviour, IDataPersistenceManage
             NewData();
         }
 
-        GetSONDataContainerMiddleMan().LoadDataToContainer(persistentData);
+        GetJSONDataContainerMiddleMan().LoadDataToContainer(persistentData);
         OnDataLoadCompletedMethod();
     }
 

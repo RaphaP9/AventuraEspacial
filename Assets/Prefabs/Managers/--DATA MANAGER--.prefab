@@ -46,6 +46,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     timesEnteredGame: 0
+    cinematicsUnlockedIDs: 
+    memoryMinigameData:
+      timesEntered: 0
+      timesWon: 0
+      timesLost: 0
+      highscore: 0
+      totalScore: 0
+    silhouettesMinigameData:
+      timesEntered: 0
+      timesWon: 0
+      timesLost: 0
+      highscore: 0
+      totalScore: 0
 --- !u!1 &1767886404677781757
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +106,7 @@ MonoBehaviour:
   enableDataPersistence: 1
   fileName: data.json
   useEncryption: 0
-  debug: 0
+  debug: 1
   perpetualJSONDataContainerMiddleMan: {fileID: 3890623520621823614}
 --- !u!1 &2918142200972012551
 GameObject:

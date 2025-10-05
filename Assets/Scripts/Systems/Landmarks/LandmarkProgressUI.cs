@@ -10,7 +10,7 @@ public class LandmarkProgressUI : MonoBehaviour
     [SerializeField] private MinigameLandmarkSettingsSO landmarkSettings;
 
     [Header("Components")]
-    [SerializeField] private Slider progressSlider;
+    [SerializeField] private Slider landmarkProgressSlider;
     [Space]
     [SerializeField] private List<LandmarkUI> landmarkUIList;
 
@@ -23,6 +23,8 @@ public class LandmarkProgressUI : MonoBehaviour
     {
         CalculateScores();
         SetLandmarks();
+
+        UpdateLandmarkSlider();
     }
 
     private void CalculateScores()
@@ -59,6 +61,12 @@ public class LandmarkProgressUI : MonoBehaviour
                 break;
         }
 
-        landmarkUI.SetLandmark(minigame, targetScore, landmarkUnlocked, landmarkChecked);   
+        landmarkUI.SetLandmark(minigame, targetScore, landmarkUnlocked, landmarkChecked);
+    }
+
+    private void UpdateLandmarkSlider()
+    {
+        float targetLandmarkFill = Mathf.Clamp01((float)currentMinigameScore / finalMinigameScoreLandmark);      
+        landmarkProgressSlider.value = targetLandmarkFill;
     }
 }
