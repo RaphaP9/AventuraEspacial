@@ -23,8 +23,32 @@ MonoBehaviour:
     m_Key: videos.memoryMinigame.startCinematic
     m_Metadata:
       m_Items: []
+  - m_Id: 9006925855801344
+    m_Key: videos.memoryMinigame.cinematic1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9006958768504832
+    m_Key: videos.memoryMinigame.cinematic2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9006967702372352
+    m_Key: videos.memoryMinigame.cinematic3
+    m_Metadata:
+      m_Items: []
   - m_Id: 3917488683696128
     m_Key: videos.silhouettesMinigame.startCinematic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9007049591963648
+    m_Key: videos.silhouettesMinigame.cinematic1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9007077425364992
+    m_Key: videos.silhouettesMinigame.cinematic2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9007088791928832
+    m_Key: videos.silhouettesMinigame.cinematic3
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -52,6 +76,30 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 3917488683696128
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9006925855801344
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9006958768504832
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9006967702372352
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9007049591963648
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9007077425364992
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 9007088791928832
           m_TableCodes:
           - en
           - es

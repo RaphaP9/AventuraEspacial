@@ -4,6 +4,10 @@ using UnityEngine;
 public class CinematicSO : ScriptableObject
 {
     public int id;
+    [Space]
+    public string nameLocalizationTable;
+    public string nameLocalizationBinding;
+    [Space]
     public string localizationTable;
     public string localizationBinding;
 }
