@@ -17,15 +17,17 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: DisclaimerScene
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: TimerSelectorScene
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: RotationScene
-    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
-  - sceneName: TimerSelectorScene
-    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
-  - sceneName: TimerSelectorScene
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: MainMenu
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: MinigameSelection
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: Album
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: Collection
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: MemoryMinigame
     music: {fileID: 8300000, guid: 39fe4bc035f8af04bbaa57b17c081c54, type: 3}

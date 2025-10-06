@@ -202,6 +202,14 @@ MonoBehaviour:
     targetScene: MinigameSelection
   - originScene: MinigameSelection
     targetScene: MainMenu
+  - originScene: MainMenu
+    targetScene: Album
+  - originScene: Album
+    targetScene: MainMenu
+  - originScene: MainMenu
+    targetScene: Collection
+  - originScene: Collection
+    targetScene: MainMenu
 --- !u!1 &1636284014592437063
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,13 +4,22 @@ using UnityEngine.UI;
 public class MainMenuUI : MonoBehaviour
 {
     [Header("UI Components")]
-    [SerializeField] private Button playButton;
     [SerializeField] private Button quitButton;
-    [SerializeField] private Button settingsButton;
 
-    [Header("Settings")]
+    [Header("Play Settings")]
+    [SerializeField] private Button playButton;
     [SerializeField] private string playScene;
     [SerializeField] private TransitionType playSceneTransitionType;
+
+    [Header("Album Settings")]
+    [SerializeField] private Button albumButton;
+    [SerializeField] private string albumScene;
+    [SerializeField] private TransitionType albumSceneTransitionType;
+
+    [Header("Collection Settings")]
+    [SerializeField] private Button collectionButton;
+    [SerializeField] private string collectionScene;
+    [SerializeField] private TransitionType collectionSceneTransitionType;
 
     private void Awake()
     {
@@ -19,16 +28,15 @@ public class MainMenuUI : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        playButton.onClick.AddListener(LoadPlayScene);
         quitButton.onClick.AddListener(QuitGame);
-        settingsButton.onClick.AddListener(OpenSettings);
+
+        playButton.onClick.AddListener(LoadPlayScene);
+        albumButton.onClick.AddListener(LoadAlbumScene);
+        collectionButton.onClick.AddListener(LoadCollectionScene);
     }
 
     private void LoadPlayScene() => ScenesManager.Instance.TransitionLoadTargetScene(playScene, playSceneTransitionType);
+    private void LoadAlbumScene() => ScenesManager.Instance.TransitionLoadTargetScene(albumScene, albumSceneTransitionType);
+    private void LoadCollectionScene() => ScenesManager.Instance.TransitionLoadTargetScene(collectionScene, collectionSceneTransitionType);
     private void QuitGame() => ScenesManager.Instance.QuitGame();
-
-    private void OpenSettings()
-    {
-
-    }
 }
