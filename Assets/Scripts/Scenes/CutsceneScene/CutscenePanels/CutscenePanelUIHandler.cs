@@ -2,8 +2,6 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Localization;
-using UnityEngine.Localization.Settings;
 using System.Collections;
 
 public class CutscenePanelUIHandler : MonoBehaviour
@@ -14,6 +12,7 @@ public class CutscenePanelUIHandler : MonoBehaviour
     [Space]
     [SerializeField] private CutscenePanelAnimationController animatorController;
     [SerializeField] private CutscenePanelSentenceAnimationController sentenceAnimationController;
+    [SerializeField] private CutscenePanelAudioHandler audioHandler;
 
     [Header("Runtime Filled")]
     [SerializeField] private CutscenePanel cutscenePanel;
@@ -21,44 +20,22 @@ public class CutscenePanelUIHandler : MonoBehaviour
 
     public bool CanSkipPanel => canSkipPanel;
 
-    private void OnEnable()
-    {
-        LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
-    }
-
-    private void OnDisable()
-    {
-        LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
-    }
-
     public void SetPanel(CutscenePanel cutscenePanel)
     {
         this.cutscenePanel = cutscenePanel;
         panelImage.sprite = cutscenePanel.panelSprite;
         canSkipPanel = false;
 
-        LocalizeSentenceByCurrentPanel();
-
         animatorController.Appear(cutscenePanel.transition);
 
-        StartCoroutine(AppearSentenceCoroutine(cutscenePanel));
         StartCoroutine(HandleCanSkipPanelCoroutine(cutscenePanel));
+        StartCoroutine(AppearSentenceCoroutine(cutscenePanel));
+        StartCoroutine(HandleAudioPlayCoroutine(cutscenePanel));
     }
 
-    private void LocalizeSentenceByCurrentPanel()
+    public void DisposePanel()
     {
-        if (cutscenePanel == null) return;
-
-        if (!cutscenePanel.hasSentence) return;
-        sentenceText.text = LocalizationSettings.StringDatabase.GetLocalizedString(cutscenePanel.sentenceLocalizationTable, cutscenePanel.sentenceLocalizationBinding);
-    }
-
-    private IEnumerator AppearSentenceCoroutine(CutscenePanel cutscenePanel)
-    {
-        if (!cutscenePanel.hasSentence) yield break;
-
-        yield return new WaitForSeconds(cutscenePanel.timeToAppearSentence);
-        sentenceAnimationController.ShowSentence();
+        audioHandler.StopAudioClip();
     }
 
     private IEnumerator HandleCanSkipPanelCoroutine(CutscenePanel cutscenePanel)
@@ -67,10 +44,19 @@ public class CutscenePanelUIHandler : MonoBehaviour
         canSkipPanel = true;
     }
 
-    #region Subsctiptions
-    private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
+    private IEnumerator AppearSentenceCoroutine(CutscenePanel cutscenePanel)
     {
-        LocalizeSentenceByCurrentPanel();
+        if (!cutscenePanel.hasSentence) yield break;
+
+        yield return new WaitForSeconds(cutscenePanel.timeToAppearSentence);
+        sentenceAnimationController.ShowSentenceLogic(cutscenePanel);
     }
-    #endregion
+
+    private IEnumerator HandleAudioPlayCoroutine(CutscenePanel cutscenePanel)
+    {
+        if (!cutscenePanel.hasAudio) yield break;
+
+        yield return new WaitForSeconds(cutscenePanel.timeToPlayAudio);
+        audioHandler.PlayAudioLogic(cutscenePanel);
+    }
 }

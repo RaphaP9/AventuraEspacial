@@ -15,8 +15,26 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-English (en)
   m_GUID: e340a2840438587449c01782535d57ad
   m_SerializeEntries:
+  - m_GUID: 48f931c8780dd7d48b5c2569dc927761
+    m_Address: Audio_GameStartCurscene_2_English
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8404ae65464671e49b9a202f7443b903
+    m_Address: Audio_GameStartCurscene_1_English
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba83da70d46dfdc429980870fccc324b
     m_Address: GameLogo2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc9f427b7e1dba442a211556116eeb74
+    m_Address: Audio_GameStartCurscene_3_English
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

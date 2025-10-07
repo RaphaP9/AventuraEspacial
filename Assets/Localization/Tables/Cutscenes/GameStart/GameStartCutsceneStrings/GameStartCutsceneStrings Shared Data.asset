@@ -15,6 +15,10 @@ MonoBehaviour:
   m_TableCollectionName: GameStartCutsceneStrings
   m_TableCollectionNameGuidString: 748d4aa242c4ce543bac2c2eecb38df8
   m_Entries:
+  - m_Id: 23749745655808
+    m_Key: gameStartCutsceneStrings.name
+    m_Metadata:
+      m_Items: []
   - m_Id: 19388645376
     m_Key: gameStartCutsceneStrings.dialogue1
     m_Metadata:

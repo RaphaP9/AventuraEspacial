@@ -91,6 +91,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1e86ed96d9fd3f4eb2d74fb3c01c4f5
+    m_Address: Assets/Localization/Tables/Cutscenes/GameStart/GameStartCutsceneAudios/GameStartCutsceneAudios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e94fb017e1c571742b2fc52d79fcba6b
     m_Address: Assets/Localization/Tables/RotationScene Shared Data.asset
     m_ReadOnly: 1

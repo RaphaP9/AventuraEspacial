@@ -17,4 +17,5 @@ public class CutscenePanel
     [Space]
     [Range(0f,5f)] public float timeToSkipPanel;
     [Range(0f,5f)] public float timeToAppearSentence;
+    [Range(0f, 5f)] public float timeToPlayAudio;
 }

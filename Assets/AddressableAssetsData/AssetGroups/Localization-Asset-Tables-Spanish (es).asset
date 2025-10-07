@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d63b0841d7d80664e99186129cfc47e4
+    m_Address: GameStartCutsceneAudios_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dbff63bac7be592429673d808af66d5b
     m_Address: Videos_es
     m_ReadOnly: 1

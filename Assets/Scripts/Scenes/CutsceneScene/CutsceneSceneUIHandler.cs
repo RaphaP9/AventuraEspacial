@@ -76,8 +76,14 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         EvaluatePanelContainerClearance();
     }
 
+
     private void CreateNextCutscenePanel()
     {
+        if(currentCutscenePanelUI != null)
+        {
+            currentCutscenePanelUI.DisposePanel();
+        }
+
         currentCutscenePanelIndex++;
         CreateCutscenePanel(currentCutscenePanelIndex);
     }
