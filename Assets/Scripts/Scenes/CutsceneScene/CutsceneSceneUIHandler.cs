@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class CutsceneSceneManager : MonoBehaviour
+public class CutsceneSceneUIHandler : MonoBehaviour
 {
-    public static CutsceneSceneManager Instance { get; private set; }
+    public static CutsceneSceneUIHandler Instance { get; private set; }
 
     [Header("Components")]
     [SerializeField] private CutsceneSO cutscene;

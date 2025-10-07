@@ -19,6 +19,6 @@ public class CutsceneSceneUI : MonoBehaviour
         skipCutscenePanelButton.onClick.AddListener(SkipCutscenePanel);
     }
 
-    private void SkipCutscenePanel() => CutsceneSceneManager.Instance.SkipCutscenePanel();
+    private void SkipCutscenePanel() => CutsceneSceneUIHandler.Instance.SkipCutscenePanel();
 
 }

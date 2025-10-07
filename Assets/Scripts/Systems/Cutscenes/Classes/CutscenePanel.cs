@@ -12,4 +12,9 @@ public class CutscenePanel
     public bool hasAudio;
     public string audioLocalizationTable;
     public string audioLocalizationBinding;
+    [Space]
+    public CutscenePanelTransition transition;
+    [Space]
+    [Range(0f,5f)] public float timeToSkipPanel;
+    [Range(0f,5f)] public float timeToAppearSentence;
 }
