@@ -15,10 +15,13 @@ public abstract class CinematicUnlockHandler : MonoBehaviour
 
     protected void HandleCinematicUnlocking()
     {
-        if (DataContainer.Instance.UnlockCinematic(cinematicSO))
+        //Changed Cinematic to Cutscene
+        /*
+        if (DataContainer.Instance.UnlockCutscene(cinematicSO))
         {
             GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
             OnCinematicUnlocked?.Invoke(this, new OnCinematicUnlockedEventArgs { cinematicSO = cinematicSO });
         }
+        */
     }
 }

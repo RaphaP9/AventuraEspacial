@@ -134,17 +134,17 @@ public class DataContainer : MonoBehaviour
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public bool HasUnlockedCinematic(CinematicSO cinematicSO)
+    public bool HasUnlockedCutscene(CutsceneSO cutsceneSO)
     {
-        if (data.cinematicsUnlockedIDs.Contains(cinematicSO.id)) return true;
+        if (data.cutscenesUnlockedIDs.Contains(cutsceneSO.id)) return true;
         return false;
     }
 
-    public bool UnlockCinematic(CinematicSO cinematicSO) // Bool = success
+    public bool UnlockCutscene(CutsceneSO cutsceneSO) // Bool = success
     {
-        if(HasUnlockedCinematic(cinematicSO)) return false;
+        if(HasUnlockedCutscene(cutsceneSO)) return false;
 
-        data.cinematicsUnlockedIDs.Add(cinematicSO.id);
+        data.cutscenesUnlockedIDs.Add(cutsceneSO.id);
         return true;
     }
 

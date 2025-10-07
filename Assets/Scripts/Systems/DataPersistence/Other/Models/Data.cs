@@ -7,7 +7,7 @@ using UnityEngine;
 public class Data : DataModel
 {
     public int timesEnteredGame;
-    public List<int> cinematicsUnlockedIDs;
+    public List<int> cutscenesUnlockedIDs;
 
     public MemoryMinigameData memoryMinigameData;
     public SilhouettesMinigameData silhouettesMinigameData;
@@ -29,7 +29,7 @@ public class Data : DataModel
     public void InitializeGeneralData()
     {
         timesEnteredGame = 0;
-        cinematicsUnlockedIDs = new List<int>();
+        cutscenesUnlockedIDs = new List<int>();
     }
 
     public void InitializeMemoryMinigameData() => memoryMinigameData = new MemoryMinigameData();
