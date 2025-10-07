@@ -19,9 +19,14 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     [Space]
     [SerializeField] private float storedTimeStamp;
 
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+
     private AsyncOperationHandle<AudioClip>? currentHandle;
 
     private const float SAFE_TIME_AFTER_CLIP_END = 0.01f;
+
+    private Coroutine localeChangeCoroutine;
 
     private void OnEnable()
     {
@@ -69,8 +74,6 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     {
         if (cutscenePanel == null) yield break;
 
-        AudioClip audioClip;
-
         StopAudioClip();
         ReleaseAudioClip();
 
@@ -80,10 +83,13 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
         if (currentHandle.Value.Status == AsyncOperationStatus.Succeeded)
         {
-            audioClip = currentHandle.Value.Result;
-
+            audioSource.clip = currentHandle.Value.Result;
             if (isPaused) yield return new WaitUntil(() => !isPaused);
-            PlayAudioClip(audioClip);   
+            PlayAudioClip();   
+        }
+        else
+        {
+            if (debug) Debug.Log("Async Operation Failed");
         }
     }
 
@@ -91,9 +97,6 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     {
         if (cutscenePanel == null) yield break;
         if (audioSource.clip == null) yield break;
-        if (!currentlyPlaying) yield break;
-
-        AudioClip audioClip;
 
         StopAudioClip();
         ReleaseAudioClip();
@@ -104,27 +107,36 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
         if (currentHandle.Value.Status == AsyncOperationStatus.Succeeded)
         {
-            audioClip = currentHandle.Value.Result;
-
+            audioSource.clip = currentHandle.Value.Result;
             if (isPaused) yield return new WaitUntil(() => !isPaused);
-            PlayAudioClipFromTime(audioClip, storedTimeStamp);
+            PlayAudioClipFromTime(storedTimeStamp);
+        }
+        else
+        {
+            if(debug) Debug.Log("Async Operation Failed");
         }
     }
     #endregion
 
     #region Utility Methods
-    private void PlayAudioClip(AudioClip audioClip)
+    private void PlayAudioClip()
     {
-        audioSource.clip = audioClip;
         audioSource.loop = false;
         audioSource.Play();
         currentlyPlaying = true;
     }
 
-    private void PlayAudioClipFromTime(AudioClip audioClip, float time)
+    private void PlayAudioClipFromTime(float time)
     {
-        audioSource.clip = audioClip;
-        audioSource.time = Mathf.Min(time, audioClip.length - SAFE_TIME_AFTER_CLIP_END);
+        if(audioSource.clip == null)
+        {
+            audioSource.time = 0f;
+        }
+        else
+        {
+            audioSource.time = Mathf.Min(time, audioSource.clip.length - SAFE_TIME_AFTER_CLIP_END);
+        }
+
         audioSource.loop = false;
         audioSource.Play();
         currentlyPlaying = true;
@@ -160,9 +172,10 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     #region Subsctiptions
     private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
     {
-        StopAllCoroutines();
-        StartCoroutine(PlayLocalizedAudioClipWithResume());
+        if (localeChangeCoroutine != null) StopCoroutine(localeChangeCoroutine);
+        localeChangeCoroutine = StartCoroutine(PlayLocalizedAudioClipWithResume());
     }
+
     private void PauseManager_OnGamePaused(object sender, System.EventArgs e)
     {
         audioSource.Pause();

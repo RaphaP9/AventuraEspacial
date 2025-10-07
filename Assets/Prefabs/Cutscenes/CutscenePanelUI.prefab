@@ -159,6 +159,10 @@ MonoBehaviour:
     timeToSkipPanel: 0
     timeToAppearSentence: 0
     timeToPlayAudio: 0
+  currentlyPlaying: 0
+  isPaused: 0
+  storedTimeStamp: 0
+  debug: 1
 --- !u!1 &3504579703762279121
 GameObject:
   m_ObjectHideFlags: 0
