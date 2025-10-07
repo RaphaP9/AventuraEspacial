@@ -35,7 +35,7 @@ public class CutscenePanelUIHandler : MonoBehaviour
 
     public void DisposePanel()
     {
-        audioHandler.StopAudioClip();
+        audioHandler.TerminateAudioHandler();
     }
 
     private IEnumerator HandleCanSkipPanelCoroutine(CutscenePanel cutscenePanel)

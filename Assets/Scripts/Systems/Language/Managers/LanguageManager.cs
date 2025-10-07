@@ -89,6 +89,8 @@ public class LanguageManager : MonoBehaviour
 
     public void SetLanguage(LanguageSettingSO languageSettingSO)
     {
+        if(currentLanguageSetting == languageSettingSO) return;
+
         currentLanguageSetting = languageSettingSO;
         SelectLocale(languageSettingSO);
 

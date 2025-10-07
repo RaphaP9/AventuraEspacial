@@ -14,6 +14,7 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
     [Header("Runtime Filled")]
     [SerializeField] private CutscenePanel cutscenePanel;
+    [SerializeField] private bool currentlyActive;
     [SerializeField] private bool currentlyPlaying;
     [SerializeField] private bool isPaused;
     [Space]
@@ -40,8 +41,8 @@ public class CutscenePanelAudioHandler : MonoBehaviour
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
         PauseManager.OnGamePaused -= PauseManager_OnGamePaused;
         PauseManager.OnGameResumed -= PauseManager_OnGameResumed;
-        StopAllCoroutines();
-        ReleaseAudioClip();
+
+        TerminateAudioHandler();
     }
 
     private void Awake()
@@ -51,6 +52,7 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
     private void InitializeVariables()
     {
+        currentlyActive = false;
         currentlyPlaying = false;
         isPaused = false;
     }
@@ -64,8 +66,20 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     public void PlayAudioLogic(CutscenePanel cutscenePanel)
     {
         this.cutscenePanel = cutscenePanel;
+        currentlyActive = true;
+
         StartCoroutine(PlayLocalizedAudioClip());
     }
+
+    public void TerminateAudioHandler()
+    {
+        currentlyActive = false;
+
+        StopAllCoroutines();
+        StopAudioClip();
+        ReleaseAudioClip();
+    }
+
     #endregion
 
     #region Coroutines
@@ -95,6 +109,7 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     private IEnumerator PlayLocalizedAudioClipWithResume()
     {
         if (cutscenePanel == null) yield break;
+
         StopAudioClip();
         ReleaseAudioClip();
 
@@ -116,6 +131,14 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     #endregion
 
     #region Utility Methods
+    public void UpdateTimeStamp()
+    {
+        if (!currentlyPlaying) return;
+        if (isPaused) return;
+
+        storedTimeStamp += Time.deltaTime;
+    }
+
     private void PlayAudioClip()
     {
         audioSource.loop = false;
@@ -139,18 +162,10 @@ public class CutscenePanelAudioHandler : MonoBehaviour
         currentlyPlaying = true;
     }
 
-    public void StopAudioClip()
+    private void StopAudioClip()
     {
         audioSource.Stop();
         currentlyPlaying = false;
-    }
-
-    public void UpdateTimeStamp()
-    {
-        if (!currentlyPlaying) return;
-        if (isPaused) return;
-
-        storedTimeStamp += Time.deltaTime;
     }
 
     public void ReleaseAudioClip()
@@ -169,6 +184,8 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     #region Subsctiptions
     private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
     {
+        if (!currentlyActive) return;
+
         if (localeChangeCoroutine != null) StopCoroutine(localeChangeCoroutine);
         localeChangeCoroutine = StartCoroutine(PlayLocalizedAudioClipWithResume());
     }
