@@ -16,17 +16,53 @@ MonoBehaviour:
   nameLocalizationTable: 
   nameLocalizationBinding: 
   cutscenePanels:
-  - panelSprite: {fileID: 0}
+  - panelSprite: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
-  - panelSprite: {fileID: 0}
+    transition: 1
+    timeToSkipPanel: 1
+    timeToAppearSentence: 1
+  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 1
+    timeToAppearSentence: 1
+  - panelSprite: {fileID: 21300000, guid: 3951949592518d647a0161f50c497477, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: 
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: 
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 1
+    timeToAppearSentence: 1
+  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: 
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: 
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 1
+    timeToAppearSentence: 1
+  - panelSprite: {fileID: 21300000, guid: a53d5dd19a94fc941af537d88ccfd7c8, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: 
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: 
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 1
+    timeToAppearSentence: 1

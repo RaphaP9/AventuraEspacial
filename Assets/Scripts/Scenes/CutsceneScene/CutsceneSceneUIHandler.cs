@@ -4,16 +4,37 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 {
     public static CutsceneSceneUIHandler Instance { get; private set; }
 
+    [Header("Next Scene Settings")]
+    [SerializeField] private string nextScene;
+    [SerializeField] private TransitionType nextSceneTransitionType;
+
     [Header("Components")]
-    [SerializeField] private CutsceneSO cutscene;
+    [SerializeField] private CutsceneSO cutsceneSO;
 
     [Header("UI Components")]
     [SerializeField] private Transform cutscenePanelsContainer;
     [SerializeField] private Transform cutscenePanelPrefab;
 
+    [Header("Settings")]
+    [SerializeField,Range(3,5)] private int maxCutscenePanels;
+
+    [Header("Runtime Filled")]
+    [SerializeField] private CutscenePanelUIHandler currentCutscenePanelUI;
+    [SerializeField] private CutscenePanel currentCutscenePanel;
+    [SerializeField] private int currentCutscenePanelIndex;
+
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+
     private void Awake()
     {
         SetSingleton();
+    }
+
+    private void Start()
+    {
+        InitializeVariables();
+        CreateCutscenePanel(currentCutscenePanelIndex);
     }
 
     private void SetSingleton()
@@ -29,8 +50,57 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         }
     }
 
+    private void InitializeVariables()
+    {
+        currentCutscenePanelIndex = 0;
+    }
+
+    private void CreateCutscenePanel(int index)
+    {
+        Transform cutscenePanelTransform = Instantiate(cutscenePanelPrefab, cutscenePanelsContainer);
+        CutscenePanelUIHandler cutscenePanelUIHandler = cutscenePanelTransform.GetComponentInChildren<CutscenePanelUIHandler>();
+
+        if (cutscenePanelUIHandler == null)
+        {
+            if (debug) Debug.Log("Instantiated CutscenePanelUI does not contain a CutscenePanelUIHandler.");
+            return;
+        }
+
+        CutscenePanel cutscenePanel = cutsceneSO.cutscenePanels[index];
+
+        cutscenePanelUIHandler.SetPanel(cutscenePanel);
+
+        currentCutscenePanelUI = cutscenePanelUIHandler;
+        currentCutscenePanel = cutscenePanel;
+
+        EvaluatePanelContainerClearance();
+    }
+
+    private void CreateNextCutscenePanel()
+    {
+        currentCutscenePanelIndex++;
+        CreateCutscenePanel(currentCutscenePanelIndex);
+    }
+
+    private void EvaluatePanelContainerClearance()
+    {
+        if(cutscenePanelsContainer.childCount > maxCutscenePanels)
+        {
+            Destroy(cutscenePanelsContainer.GetChild(0).gameObject); //Destroy the first child
+        }
+    }
+
     public void SkipCutscenePanel()
     {
-
+        if (cutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
+        {
+            LoadNextScene();
+        }
+        else
+        {
+            CreateNextCutscenePanel();
+        }
     }
+
+    private void LoadNextScene() => ScenesManager.Instance.TransitionLoadTargetScene(nextScene,nextSceneTransitionType);
 }

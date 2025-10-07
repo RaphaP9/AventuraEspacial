@@ -7,7 +7,7 @@ public class LandmarkUI : MonoBehaviour
     [SerializeField] private MinigameLandmark minigameLandmark;
     [SerializeField] private MinigameLandmarkSettingsSO landmarkSettings;
     [Space]
-    [SerializeField] private CinematicSO unlockedCinematic;
+    [SerializeField] private CutsceneSO unlockedCutscene;
 
     [Header("RuntimeFilled")]
     [SerializeField] private bool landmarkUnlocked;

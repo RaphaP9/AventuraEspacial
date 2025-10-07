@@ -10,4 +10,6 @@ public class CutsceneSO : ScriptableObject
     public string nameLocalizationBinding;
     [Space]
     public List<CutscenePanel> cutscenePanels;
+
+    public bool IsLastCutscenePanel(CutscenePanel cutscenePanel) => cutscenePanel == cutscenePanels[^1];
 }

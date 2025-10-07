@@ -1236,9 +1236,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5352edf2267eeab4cb48207348ef956f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutscene: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
+  nextScene: MainMenu
+  nextSceneTransitionType: 0
+  cutsceneSO: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
   cutscenePanelsContainer: {fileID: 1565715140}
   cutscenePanelPrefab: {fileID: 9219269883028718413, guid: 48a4bef4900711543a912d62a5518f44, type: 3}
+  maxCutscenePanels: 3
+  currentCutscenePanelUI: {fileID: 0}
+  currentCutscenePanel:
+    panelSprite: {fileID: 0}
+    hasSentence: 0
+    sentenceLocalizationTable: 
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: 
+    audioLocalizationBinding: 
+    transition: 0
+    timeToSkipPanel: 0
+    timeToAppearSentence: 0
+  currentCutscenePanelIndex: 0
+  debug: 0
 --- !u!1 &914136886
 GameObject:
   m_ObjectHideFlags: 0
