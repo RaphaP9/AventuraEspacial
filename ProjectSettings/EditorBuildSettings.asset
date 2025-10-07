@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cinematics/StartCinematicScene.unity
     guid: 47ad23b74c82e54408ea820bde07a801
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/StartCutsceneScene.unity
+    guid: 467e583f6da401e46b56a6b8782e14c4
+  - enabled: 1
     path: Assets/Scenes/MainScenes/MainMenu.unity
     guid: 6600feb73eaff184689d87f2977fe6f6
   - enabled: 1

@@ -1131,7 +1131,7 @@ MonoBehaviour:
   playScene: MinigameSelection
   playSceneTransitionType: 0
   albumButton: {fileID: 918613712}
-  albumScene: Album
+  albumScene: StartCutsceneScene
   albumSceneTransitionType: 0
   collectionButton: {fileID: 1497498162}
   collectionScene: Collection
