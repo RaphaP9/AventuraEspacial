@@ -74,6 +74,7 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f9a9825659ad45d409b22b9d1a7e5079
     m_Address: PasswordTable_en

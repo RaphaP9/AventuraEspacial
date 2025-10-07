@@ -1254,6 +1254,7 @@ MonoBehaviour:
     transition: 0
     timeToSkipPanel: 0
     timeToAppearSentence: 0
+    timeToPlayAudio: 0
   currentCutscenePanelIndex: 0
   debug: 0
 --- !u!1 &914136886

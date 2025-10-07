@@ -64,7 +64,6 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     public void PlayAudioLogic(CutscenePanel cutscenePanel)
     {
         this.cutscenePanel = cutscenePanel;
-
         StartCoroutine(PlayLocalizedAudioClip());
     }
     #endregion
@@ -96,8 +95,6 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     private IEnumerator PlayLocalizedAudioClipWithResume()
     {
         if (cutscenePanel == null) yield break;
-        if (audioSource.clip == null) yield break;
-
         StopAudioClip();
         ReleaseAudioClip();
 
@@ -113,7 +110,7 @@ public class CutscenePanelAudioHandler : MonoBehaviour
         }
         else
         {
-            if(debug) Debug.Log("Async Operation Failed");
+            if (debug) Debug.Log("Async Operation Failed");
         }
     }
     #endregion
