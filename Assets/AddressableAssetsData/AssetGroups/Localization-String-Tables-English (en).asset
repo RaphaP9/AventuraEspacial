@@ -69,6 +69,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2a8a2949a605724eb3f0d16e367e914
+    m_Address: GameStartCutsceneStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f9a9825659ad45d409b22b9d1a7e5079
     m_Address: PasswordTable_en
     m_ReadOnly: 1

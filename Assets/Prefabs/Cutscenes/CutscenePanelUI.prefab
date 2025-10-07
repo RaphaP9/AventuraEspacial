@@ -387,6 +387,7 @@ MonoBehaviour:
   panelImage: {fileID: 1860541303438344130}
   sentenceText: {fileID: 2198080936841414010}
   animatorController: {fileID: 8561005679078177415}
+  sentenceAnimationController: {fileID: 6289351595903014617}
   cutscenePanel:
     panelSprite: {fileID: 0}
     hasSentence: 0
@@ -396,6 +397,9 @@ MonoBehaviour:
     audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 0
+    timeToSkipPanel: 0
+    timeToAppearSentence: 0
+  canSkipPanel: 0
 --- !u!114 &8561005679078177415
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,52 +17,52 @@ MonoBehaviour:
   nameLocalizationBinding: 
   cutscenePanels:
   - panelSprite: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
-    transition: 1
-    timeToSkipPanel: 1
-    timeToAppearSentence: 1
+    transition: 0
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
   - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue2
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 1
-    timeToSkipPanel: 1
-    timeToAppearSentence: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
   - panelSprite: {fileID: 21300000, guid: 3951949592518d647a0161f50c497477, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue3
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 1
-    timeToSkipPanel: 1
-    timeToAppearSentence: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
   - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue4
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 1
-    timeToSkipPanel: 1
-    timeToAppearSentence: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
   - panelSprite: {fileID: 21300000, guid: a53d5dd19a94fc941af537d88ccfd7c8, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: 
-    sentenceLocalizationBinding: 
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue5
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 1
-    timeToSkipPanel: 1
-    timeToAppearSentence: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5

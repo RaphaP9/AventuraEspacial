@@ -92,6 +92,8 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     public void SkipCutscenePanel()
     {
+        if (!currentCutscenePanelUI.CanSkipPanel) return;
+
         if (cutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
         {
             LoadNextScene();
