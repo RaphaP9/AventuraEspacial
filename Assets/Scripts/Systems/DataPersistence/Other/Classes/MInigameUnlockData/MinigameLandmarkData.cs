@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class MinigameLandmarkData
 {
-    public bool landmarkUnlocked;
-    public bool landmarkChecked;
+    public int landmarkState;
 
     public MinigameLandmarkData()
     {
-        landmarkUnlocked = false;
-        landmarkChecked = false;
+        landmarkState = 0;
     }
+
+    ///NOTE: 
+    ///NotUnlocked = 0;
+    ///Unlocked = 1;
+    ///Claimed = 2;
 }

@@ -91,10 +91,6 @@ MonoBehaviour:
   minigame: 0
   landmarkSettings: {fileID: 0}
   landmarkProgressSlider: {fileID: 1598944946960381853}
-  landmarkUIList:
-  - {fileID: 8280183082782413589}
-  - {fileID: 3710053170346828762}
-  - {fileID: 2702895465588903925}
   currentMinigameScore: 0
   finalMinigameScoreLandmark: 0
 --- !u!1 &5170927554249284183
@@ -550,17 +546,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7925806553584393799, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
   m_PrefabInstance: {fileID: 4532525976447736701}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8280183082782413589 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5480840033526351976, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
-  m_PrefabInstance: {fileID: 4532525976447736701}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b6c869ddfeb0d848832acd54a3f5ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7605814382733608861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -667,17 +652,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7925806553584393799, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
   m_PrefabInstance: {fileID: 7605814382733608861}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2702895465588903925 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5480840033526351976, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
-  m_PrefabInstance: {fileID: 7605814382733608861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b6c869ddfeb0d848832acd54a3f5ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &9183714075706764210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -755,6 +729,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7925806553584393799, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 166.6667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925806553584393799, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -780,14 +758,3 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7925806553584393799, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
   m_PrefabInstance: {fileID: 9183714075706764210}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3710053170346828762 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5480840033526351976, guid: c372f05fb7a554240b519c7b704af69a, type: 3}
-  m_PrefabInstance: {fileID: 9183714075706764210}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b6c869ddfeb0d848832acd54a3f5ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

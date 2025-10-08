@@ -86,16 +86,11 @@ public class DataContainer : MonoBehaviour
         }
     }
 
-    public bool GetLandmarkUnlockedByMinigame(Minigame minigame, MinigameLandmark minigameLandmark)
+    public LandmarkState GetLandmarkState(Minigame minigame, MinigameLandmark minigameLandmark)
     {
         MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
-        return minigameLandmarkData.landmarkUnlocked;
-    }
-
-    public bool GetLandmarkCheckedByMinigame(Minigame minigame, MinigameLandmark minigameLandmark)
-    {
-        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
-        return minigameLandmarkData.landmarkChecked;
+        LandmarkState landmarkState = DataUtilities.TranslateLandmarkDataIntValueToState(minigameLandmarkData.landmarkState);
+        return landmarkState;
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -149,16 +144,12 @@ public class DataContainer : MonoBehaviour
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    public void UnlockLandmark(Minigame minigame, MinigameLandmark minigameLandmark)
-    {
-        MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
-        minigameLandmarkData.landmarkUnlocked = true;
-    }
 
-    public void CheckLandmark(Minigame minigame, MinigameLandmark minigameLandmark)
+    public void SetLandmarkState(Minigame minigame, MinigameLandmark minigameLandmark, LandmarkState landmarkState)
     {
         MinigameLandmarkData minigameLandmarkData = GetMinigameLandmarkData(minigame, minigameLandmark);
-        minigameLandmarkData.landmarkChecked = true;
+        int landmarkDataInt = DataUtilities.TranslateLandmarkStateToDataIntValue(landmarkState);
+
+        minigameLandmarkData.landmarkState = landmarkDataInt;
     }
 }
