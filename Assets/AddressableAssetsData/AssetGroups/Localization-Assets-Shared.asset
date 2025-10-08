@@ -15,6 +15,18 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: a1299fb07e3ab4c4389a11652c42d4f4
   m_SerializeEntries:
+  - m_GUID: 04c9a462fc3afaa4c99de69fd2573c4e
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene3/MemoryMinigameCutscene3Strings/MemoryMinigameCutscene3Strings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1695a499d85c0e34f8152171c7cbcae1
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene2/SilhouettesMinigameCutscene2Audios/SilhouettesMinigameCutscene2Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 18315ada4519ea542aca8e09b2ae824e
     m_Address: Assets/Localization/Tables/Minigames/Minigames Shared Data.asset
     m_ReadOnly: 1
@@ -31,6 +43,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40853f5f27912fb4d8d57c552129bdd8
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene1/SilhouettesMinigameCutscene1Strings/SilhouettesMinigameCutscene1Strings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 425e03bda4809404ebe792ff0fa89c5f
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene2/MemoryMinigameCutscene2Audios/MemoryMinigameCutscene2Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d22119d56765c547ae64ae40632be21
     m_Address: Assets/Localization/Tables/LanguageSelectionScene Shared Data.asset
     m_ReadOnly: 1
@@ -38,6 +62,24 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61078d6f3b237334598a946f8ee6b545
     m_Address: Assets/Localization/Tables/MemoryMinigame Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f102224c3986004fb08ee0b64dee831
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameStart/SilhouettesMinigameStartCutsceneStrings/SilhouettesMinigameStartCutsceneStrings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fcae5f89723ba54f860e0b73a3d9906
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene2/MemoryMinigameCutscene2Strings/MemoryMinigameCutscene2Strings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7012e20f3dde6d14aa29dc1005212459
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameStart/SilhouettesMinigameStartCutsceneAudios/SilhouettesMinigameStartCutsceneAudios
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -57,6 +99,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d294dc45606b4440a96ecc419422a9f
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene1/SilhouettesMinigameCutscene1Audios/SilhouettesMinigameCutscene1Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7fc1f563a988cbc4b86c2658df7daa8f
     m_Address: Assets/Localization/Tables/MinigameFinalScoreAssets/MinigameFinalScoreAssets
       Shared Data.asset
@@ -68,6 +116,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8640e55fc19bbd2478a33df0750d15c4
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameStart/MemoryMinigameStartCutsceneStrings/MemoryMinigameStartCutsceneStrings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 870ddbcb4fc0eda499122a15f03c7054
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene3/MemoryMinigameCutscene3Audios/MemoryMinigameCutscene3Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9767d68c9cf4b3a439cc3c037941effc
     m_Address: StartCinematic
     m_ReadOnly: 1
@@ -75,8 +135,32 @@ MonoBehaviour:
     - Locale-en
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9789a9460c542a64dbef618d5335b5ec
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene1/MemoryMinigameCutscene1Strings/MemoryMinigameCutscene1Strings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4261700245139945a9dd6ad278c327b
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene3/SilhouettesMinigameCutscene3Audios/SilhouettesMinigameCutscene3Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5137a8331589d043b4a2638ab5c1634
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene1/MemoryMinigameCutscene1Audios/MemoryMinigameCutscene1Audios
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c74db7a787a68a34e992bd5e1c48a9ae
     m_Address: Assets/Localization/Tables/Videos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1262e78e8bce19418e1258cf2304245
+    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameStart/MemoryMinigameStartCutsceneAudios/MemoryMinigameStartCutsceneAudios
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -102,8 +186,20 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaf70a602c57fe2438670d0dbb5c1def
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene3/SilhouettesMinigameCutscene3Strings/SilhouettesMinigameCutscene3Strings
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ebb4b313acddf1446b787446b28c602d
     m_Address: Assets/Localization/Tables/TimerSelectorSceneTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f41428d45dc8c9b41a54abd409cc8c04
+    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameCutscene2/SilhouettesMinigameCutscene2Strings/SilhouettesMinigameCutscene2Strings
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

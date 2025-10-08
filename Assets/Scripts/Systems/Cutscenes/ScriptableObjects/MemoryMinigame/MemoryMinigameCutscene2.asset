@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3f3b22b4c4f364ab228a58103f1611, type: 3}
+  m_Name: MemoryMinigameCutscene2
+  m_EditorClassIdentifier: 
+  id: 4
+  nameLocalizationTable: MemoryMinigameCutscene2Strings
+  nameLocalizationBinding: memoryMinigameCutscene2Strings.name
+  cutscenePanels:
+  - panelSprite: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: MemoryMinigameCutscene2Strings
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: MemoryMinigameCutscene2Audios
+    audioLocalizationBinding: 
+    transition: 0
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: MemoryMinigameCutscene2Strings
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: MemoryMinigameCutscene2Audios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: MemoryMinigameCutscene2Strings
+    sentenceLocalizationBinding: 
+    hasAudio: 0
+    audioLocalizationTable: MemoryMinigameCutscene2Audios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2

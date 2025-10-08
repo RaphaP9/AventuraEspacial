@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: 3dd40d2433d67064f85f75b913a4be06
   m_SerializeEntries:
+  - m_GUID: 11af79f5d1b608b4b8a2d823b9703cf1
+    m_Address: SilhouettesMinigameCutscene3Strings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2b0516f7503a7e74591bac295bc3c53a
     m_Address: Options_en
     m_ReadOnly: 1
@@ -29,6 +35,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4d4c852fe6a24d942a256aaaf5de9107
     m_Address: TimerSelectorScene_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57fdbb988b731d74f9aed587b11411c3
+    m_Address: MemoryMinigameCutscene2Strings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -51,8 +63,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76c1da9977a81da44a288f1d6017fbdc
+    m_Address: MemoryMinigameStartCutsceneStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 873dc1d8a77990f498ffa70b8ba43d64
     m_Address: General_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c5d889538b3c0740a418637906e4ac0
+    m_Address: SilhouettesMinigameCutscene1Strings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a19ba8f7b934e654e96ca832c7bcaf11
+    m_Address: SilhouettesMinigameCutscene2Strings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b94edda167de8d8478238cef3c887e67
+    m_Address: MemoryMinigameCutscene1Strings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -69,12 +105,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de52fdbf540ff9e428b17f95be150481
+    m_Address: MemoryMinigameCutscene3Strings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2a8a2949a605724eb3f0d16e367e914
     m_Address: GameStartCutsceneStrings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f81c42c5ce6e54e408ba94d1a9032dda
+    m_Address: SilhouettesMinigameStartCutsceneStrings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f9a9825659ad45d409b22b9d1a7e5079
     m_Address: PasswordTable_en

@@ -4,8 +4,6 @@ using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.AddressableAssets;
-using System;
-using UnityEngine.Audio;
 
 public class CutscenePanelAudioHandler : MonoBehaviour
 {
@@ -90,7 +88,8 @@ public class CutscenePanelAudioHandler : MonoBehaviour
         StopAudioClip();
         ReleaseAudioClip();
 
-        currentHandle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        currentHandle = handle;
 
         yield return currentHandle.Value;
 
@@ -113,7 +112,8 @@ public class CutscenePanelAudioHandler : MonoBehaviour
         StopAudioClip();
         ReleaseAudioClip();
 
-        currentHandle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        currentHandle = handle;
 
         yield return currentHandle.Value;
 
