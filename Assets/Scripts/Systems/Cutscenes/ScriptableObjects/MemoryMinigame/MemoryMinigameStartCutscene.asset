@@ -38,7 +38,7 @@ MonoBehaviour:
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5
     timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
+  - panelSprite: {fileID: 21300000, guid: 9ea87e0f6c9d9bf419f9aeb741837d3a, type: 3}
     hasSentence: 0
     sentenceLocalizationTable: MemoryMinigameStartCutsceneStrings
     sentenceLocalizationBinding: 

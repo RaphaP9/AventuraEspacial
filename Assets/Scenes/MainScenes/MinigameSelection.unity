@@ -927,6 +927,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f1895ce2d5a31d441b93c340df1a2f55, type: 2}
     - target: {fileID: 884501776056977204, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: 9becde650e735724085f937f104b591e, type: 2}
+    - target: {fileID: 884501776056977204, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
       objectReference: {fileID: 11400000, guid: ea49c590399e75e4195c2a304a2372fc, type: 2}
@@ -940,7 +944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: startCinematicScene
-      value: SilhouettesMinigameStartCinematic
+      value: SilhouettesMinigameStartCutsceneScene
       objectReference: {fileID: 0}
     - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
@@ -991,6 +995,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f1895ce2d5a31d441b93c340df1a2f55, type: 2}
     - target: {fileID: 5608035670522099707, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: d1d8659839e9e8f4f8b44eec8b1df6d2, type: 2}
+    - target: {fileID: 5608035670522099707, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
       objectReference: {fileID: 11400000, guid: a91c2855abdfa034f89fe6a06b863da3, type: 2}
@@ -1002,6 +1010,10 @@ PrefabInstance:
       propertyPath: landmarkSettings
       value: 
       objectReference: {fileID: 11400000, guid: f1895ce2d5a31d441b93c340df1a2f55, type: 2}
+    - target: {fileID: 6570156005086534612, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: 692fef4057aad5d4594e434014001a2c, type: 2}
     - target: {fileID: 6570156005086534612, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
@@ -4046,6 +4058,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 075ce338ff7ef8a42926fb08775d543c, type: 2}
     - target: {fileID: 884501776056977204, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: 5dea184624215b344969999a9bce1752, type: 2}
+    - target: {fileID: 884501776056977204, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
       objectReference: {fileID: 11400000, guid: a70eca48b33511c468c04df4c7b1a40a, type: 2}
@@ -4055,7 +4071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: startCinematicScene
-      value: MemoryMinigameStartCinematic
+      value: MemoryMinigameStartCutsceneScene
       objectReference: {fileID: 0}
     - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
@@ -4094,6 +4110,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 075ce338ff7ef8a42926fb08775d543c, type: 2}
     - target: {fileID: 5608035670522099707, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: eb3efdfde12211f4280645af66824313, type: 2}
+    - target: {fileID: 5608035670522099707, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
       objectReference: {fileID: 11400000, guid: aba30af2b6a756143af2508001b7c4a0, type: 2}
@@ -4101,6 +4121,10 @@ PrefabInstance:
       propertyPath: landmarkSettings
       value: 
       objectReference: {fileID: 11400000, guid: 075ce338ff7ef8a42926fb08775d543c, type: 2}
+    - target: {fileID: 6570156005086534612, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: unlockedCutscene
+      value: 
+      objectReference: {fileID: 11400000, guid: 0f00e71e13085844b9066b0812250ec2, type: 2}
     - target: {fileID: 6570156005086534612, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: unlockedCinematic
       value: 
