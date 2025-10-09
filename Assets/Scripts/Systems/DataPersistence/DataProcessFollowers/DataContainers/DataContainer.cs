@@ -144,6 +144,22 @@ public class DataContainer : MonoBehaviour
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    public bool HasCollectedCollectable(CollectableSO collectableSO)
+    {
+        if (data.collectablesCollectedIDs.Contains(collectableSO.id)) return true;
+        return false;
+    }
+
+    public bool CollectCollectable(CollectableSO collectableSO) // Bool = success
+    {
+        if (HasCollectedCollectable(collectableSO)) return false;
+
+        data.collectablesCollectedIDs.Add(collectableSO.id);
+        return true;
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public void SetLandmarkState(Minigame minigame, MinigameLandmark minigameLandmark, LandmarkState landmarkState)
     {

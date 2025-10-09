@@ -8,6 +8,7 @@ public class Data : DataModel
 {
     public int timesEnteredGame;
     public List<int> cutscenesUnlockedIDs;
+    public List<int> collectablesCollectedIDs;
 
     public MemoryMinigameData memoryMinigameData;
     public SilhouettesMinigameData silhouettesMinigameData;
@@ -30,6 +31,7 @@ public class Data : DataModel
     {
         timesEnteredGame = 0;
         cutscenesUnlockedIDs = new List<int>();
+        collectablesCollectedIDs = new List<int>();
     }
 
     public void InitializeMemoryMinigameData() => memoryMinigameData = new MemoryMinigameData();
