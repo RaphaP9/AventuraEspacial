@@ -57,6 +57,8 @@ public class PauseManager : MonoBehaviour
 
     public void PauseGame()
     {
+        if (gamePaused) return;
+
         OnGamePaused?.Invoke(this, EventArgs.Empty);
         SetPauseTimeScale();
         SetGamePaused(true);
@@ -65,6 +67,8 @@ public class PauseManager : MonoBehaviour
 
     public void ResumeGame()
     {
+        if (!gamePaused) return;
+
         OnGameResumed?.Invoke(this, EventArgs.Empty);
         SetResumeTimeScale();
         SetGamePaused(false);
