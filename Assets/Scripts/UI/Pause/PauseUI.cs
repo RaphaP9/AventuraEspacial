@@ -67,7 +67,6 @@ public class PauseUI : UILayer
 
     protected override void CloseFromUI() => CloseUI();
 
-
     public void ShowPauseUI()
     {
         pauseUIAnimator.ResetTrigger(HIDE_TRIGGER);

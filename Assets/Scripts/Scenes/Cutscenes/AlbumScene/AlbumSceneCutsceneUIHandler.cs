@@ -1,30 +1,31 @@
 using UnityEngine;
 
-public class CutsceneSceneUIHandler : MonoBehaviour
+public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 {
-    public static CutsceneSceneUIHandler Instance { get; private set; }
-
-    [Header("Next Scene Settings")]
-    [SerializeField] private string nextScene;
-    [SerializeField] private TransitionType nextSceneTransitionType;
+    public static AlbumSceneCutsceneUIHandler Instance { get; private set; }
 
     [Header("Components")]
-    [SerializeField] private CutsceneSO cutsceneSO;
+    [SerializeField] private Animator animator;
 
     [Header("UI Components")]
     [SerializeField] private Transform cutscenePanelsContainer;
     [SerializeField] private Transform cutscenePanelPrefab;
 
     [Header("Settings")]
-    [SerializeField,Range(3,5)] private int maxCutscenePanels;
+    [SerializeField, Range(3, 5)] private int maxCutscenePanels;
 
     [Header("Runtime Filled")]
+    [SerializeField] private bool cutsceneActive; //Also manipulated via Animation Events
+    [SerializeField] private CutsceneSO currentCutsceneSO;
     [SerializeField] private CutscenePanelUIHandler currentCutscenePanelUI;
     [SerializeField] private CutscenePanel currentCutscenePanel;
     [SerializeField] private int currentCutscenePanelIndex;
 
     [Header("Debug")]
     [SerializeField] private bool debug;
+
+    private const string SHOW_TRIGGER = "Show";
+    private const string HIDE_TRIGGER = "Hide";
 
     private void Awake()
     {
@@ -34,7 +35,6 @@ public class CutsceneSceneUIHandler : MonoBehaviour
     private void Start()
     {
         InitializeVariables();
-        CreateCutscenePanel(currentCutscenePanelIndex);
     }
 
     private void SetSingleton()
@@ -45,7 +45,7 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("There is more than one CutsceneSceneManager instance, proceding to destroy duplicate");
+            Debug.LogWarning("There is more than one AlbumSceneCutsceneUIHandler instance, proceding to destroy duplicate");
             Destroy(gameObject);
         }
     }
@@ -55,6 +55,7 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         currentCutscenePanelIndex = 0;
     }
 
+    #region Panels
     private void CreateCutscenePanel(int index)
     {
         Transform cutscenePanelTransform = Instantiate(cutscenePanelPrefab, cutscenePanelsContainer);
@@ -66,7 +67,7 @@ public class CutsceneSceneUIHandler : MonoBehaviour
             return;
         }
 
-        CutscenePanel cutscenePanel = cutsceneSO.cutscenePanels[index];
+        CutscenePanel cutscenePanel = currentCutsceneSO.cutscenePanels[index];
 
         cutscenePanelUIHandler.SetPanel(cutscenePanel);
 
@@ -76,10 +77,9 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         EvaluatePanelContainerClearance();
     }
 
-
     private void CreateNextCutscenePanel()
     {
-        if(currentCutscenePanelUI != null)
+        if (currentCutscenePanelUI != null)
         {
             currentCutscenePanelUI.DisposePanel();
         }
@@ -90,19 +90,78 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     private void EvaluatePanelContainerClearance()
     {
-        if(cutscenePanelsContainer.childCount > maxCutscenePanels)
+        if (cutscenePanelsContainer.childCount > maxCutscenePanels)
         {
             Destroy(cutscenePanelsContainer.GetChild(0).gameObject); //Destroy the first child
         }
     }
 
+    private void ClearPanelContainer()
+    {
+        foreach(Transform child in cutscenePanelsContainer)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+    #endregion
+
+    #region Animations
+
+    private void ShowUI()
+    {
+        animator.ResetTrigger(HIDE_TRIGGER);
+        animator.SetTrigger(SHOW_TRIGGER);
+    }
+
+    private void HideUI()
+    {
+        animator.ResetTrigger(SHOW_TRIGGER);
+        animator.SetTrigger(HIDE_TRIGGER);
+    }
+
+    #endregion
+
+    #region Public Methods
+    public void SetCutsceneActive()
+    {
+        cutsceneActive = true;
+    }
+
+    public void SetCutsceneInactive()
+    {
+        currentCutsceneSO = null;
+        currentCutscenePanel = null;
+        currentCutscenePanelUI = null;
+        currentCutscenePanelIndex = 0;
+
+        ClearPanelContainer();
+
+        cutsceneActive = false;
+    }
+
+    public void PlayCutscene(CutsceneSO cutsceneSO)
+    {
+        if (cutsceneActive) return;
+
+        ClearPanelContainer();
+
+        currentCutsceneSO = cutsceneSO;
+        currentCutscenePanelIndex = 0;
+
+        SetCutsceneActive();
+        CreateCutscenePanel(0); //0 is first index
+
+        ShowUI();
+    }
+
     public void SkipCutscenePanel()
     {
+        if (!cutsceneActive) return;
         if (!currentCutscenePanelUI.CanSkipPanel) return;
 
-        if (cutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
+        if (currentCutsceneSO.IsLastCutscenePanel(currentCutscenePanel))
         {
-            LoadNextScene();
+            SkipCutscene();
         }
         else
         {
@@ -110,5 +169,9 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         }
     }
 
-    private void LoadNextScene() => ScenesManager.Instance.TransitionLoadTargetScene(nextScene,nextSceneTransitionType);
+    public void SkipCutscene()
+    {
+        HideUI();
+    }
+    #endregion
 }

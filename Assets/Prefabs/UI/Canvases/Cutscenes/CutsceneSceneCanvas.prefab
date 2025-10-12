@@ -185,6 +185,94 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3231527843426715700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3985943108114941744}
+  - component: {fileID: 549985240785940993}
+  - component: {fileID: 3202360913149637361}
+  - component: {fileID: 3667567114277052549}
+  m_Layer: 5
+  m_Name: SkipRaycasterDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3985943108114941744
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231527843426715700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3885718047049320120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &549985240785940993
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231527843426715700}
+  m_CullTransparentMesh: 1
+--- !u!114 &3202360913149637361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231527843426715700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3667567114277052549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231527843426715700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9ccca8b40544b47a35bf48af855fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3255984393780154823
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +380,7 @@ RectTransform:
   m_Children:
   - {fileID: 8965819938328718948}
   - {fileID: 6738924819327506456}
+  - {fileID: 3985943108114941744}
   - {fileID: 7265259988755231597}
   - {fileID: 6405841191407888928}
   m_Father: {fileID: 8543582148587385293}
@@ -313,7 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 040e99d72254d4640a74154c5169ad15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skipCutscenePanelButton: {fileID: 1647053687350983684}
+  skipCutsceneButton: {fileID: 1647053687350983684}
+  skipCutscenePanelDetector: {fileID: 3667567114277052549}
 --- !u!114 &2747031609616252428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +594,7 @@ GameObject:
   - component: {fileID: 4656128490358210806}
   - component: {fileID: 8671636779921100322}
   m_Layer: 5
-  m_Name: CutsceneCanvas
+  m_Name: CutsceneSceneCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,7 +697,7 @@ GameObject:
   - component: {fileID: 1647053687350983684}
   - component: {fileID: 3022811749838758094}
   m_Layer: 5
-  m_Name: SkipPanelButton
+  m_Name: SkipCutsceneButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
