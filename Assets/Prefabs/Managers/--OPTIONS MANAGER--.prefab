@@ -203,4 +203,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   masterAudioMixer: {fileID: 24100000, guid: 42b9a11a03eb0f94db8182625120543c, type: 2}
   initialVolume: 1
-  playerPrefsKey: CinematicsVolume
+  playerPrefsKey: CutscenesVolume

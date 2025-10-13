@@ -9,8 +9,7 @@ AudioMixerGroupController:
   m_Name: ' MusicFade'
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 442829f796c267349ba670b49162c296
-  m_Children:
-  - {fileID: 3882407926335594704}
+  m_Children: []
   m_Volume: d2593b1fd3b31f94bb53d7687d735755
   m_Pitch: 0f755ea6f606aba46b25c2f64b848aa2
   m_Send: 00000000000000000000000000000000
@@ -26,11 +25,10 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CinematicsFade
+  m_Name: CutscenesFade
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: c484e1d02aa971e4592d4d3b035f5d6f
-  m_Children:
-  - {fileID: 4195541577963932895}
+  m_Children: []
   m_Volume: e3983253357f8df4ca776a772ca39892
   m_Pitch: 46002fabfd3fc78478c6cb632ecee3bc
   m_Send: 00000000000000000000000000000000
@@ -127,13 +125,13 @@ AudioMixerController:
   - guid: d2593b1fd3b31f94bb53d7687d735755
     name: MusicFadeVolume
   - guid: 09f229c248f69064e9a51c46f2068212
-    name: CinematicsPitch
+    name: CutscenesPitch
   - guid: 80f1f2689b5ad8c48b69f7bd7b671f66
-    name: CinematicsVolume
+    name: CutscenesVolume
   - guid: 46002fabfd3fc78478c6cb632ecee3bc
-    name: CinematicsFadePitch
+    name: CutscenesFadePitch
   - guid: e3983253357f8df4ca776a772ca39892
-    name: CinematicsFadeVolume
+    name: CutscenesFadeVolume
   - guid: 04942374c4ab05743b8ff7854e194bdc
     name: DialoguesPitch
   - guid: 5eb83f3d40e60cd498c9d40789b4829e
@@ -174,8 +172,7 @@ AudioMixerGroupController:
   m_Children:
   - {fileID: -6626164375531935395}
   - {fileID: -1673273106386584035}
-  - {fileID: -8565777362247691399}
-  - {fileID: -7606514275678734013}
+  - {fileID: 3882407926335594704}
   m_Volume: bda9ca506974ce1409b851b9ad2ede25
   m_Pitch: bb8a873aaa765dd438086c3a1b33e554
   m_Send: 00000000000000000000000000000000
@@ -233,7 +230,9 @@ AudioMixerGroupController:
   m_Name: Music
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 399833122b8132e43a7ab95878f1b02a
-  m_Children: []
+  m_Children:
+  - {fileID: -8565777362247691399}
+  - {fileID: 4195541577963932895}
   m_Volume: aefad0b0c06d84d498129936c40b40ed
   m_Pitch: 5cb4fa6a97970414abab9b7d14a2d771
   m_Send: 00000000000000000000000000000000
@@ -249,10 +248,11 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cinematics
+  m_Name: Cutscenes
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: ed203178687db8d469c874c121731d17
-  m_Children: []
+  m_Children:
+  - {fileID: -7606514275678734013}
   m_Volume: 80f1f2689b5ad8c48b69f7bd7b671f66
   m_Pitch: 09f229c248f69064e9a51c46f2068212
   m_Send: 00000000000000000000000000000000

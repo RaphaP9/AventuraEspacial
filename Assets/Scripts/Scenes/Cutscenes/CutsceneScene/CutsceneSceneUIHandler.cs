@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class CutsceneSceneUIHandler : MonoBehaviour
 {
@@ -26,6 +27,14 @@ public class CutsceneSceneUIHandler : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool debug;
 
+    public static event EventHandler<OnCutsceneEventArgs> OnCutscenePlay;
+    public static event EventHandler<OnCutsceneEventArgs> OnCutsceneConclude;
+
+    public class OnCutsceneEventArgs : EventArgs
+    {
+        public CutsceneSO cutsceneSO;
+    }
+
     private void Awake()
     {
         SetSingleton();
@@ -35,6 +44,8 @@ public class CutsceneSceneUIHandler : MonoBehaviour
     {
         InitializeVariables();
         CreateCutscenePanel(currentCutscenePanelIndex);
+
+        OnCutscenePlay?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = cutsceneSO });
     }
 
     private void SetSingleton()
@@ -114,6 +125,10 @@ public class CutsceneSceneUIHandler : MonoBehaviour
         }
     }
 
-    public void SkipCutscene() => ScenesManager.Instance.TransitionLoadTargetScene(nextScene,nextSceneTransitionType);
+    public void SkipCutscene()
+    {
+        ScenesManager.Instance.TransitionLoadTargetScene(nextScene, nextSceneTransitionType);
+        OnCutsceneConclude?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = cutsceneSO });
+    }
     #endregion
 }

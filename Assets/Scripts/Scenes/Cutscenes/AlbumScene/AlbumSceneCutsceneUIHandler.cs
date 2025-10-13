@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class AlbumSceneCutsceneUIHandler : MonoBehaviour
@@ -26,6 +27,14 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
     private const string SHOW_TRIGGER = "Show";
     private const string HIDE_TRIGGER = "Hide";
+
+    public static event EventHandler<OnCutsceneEventArgs> OnCutscenePlay;
+    public static event EventHandler<OnCutsceneEventArgs> OnCutsceneConclude;
+
+    public class OnCutsceneEventArgs : EventArgs
+    {
+        public CutsceneSO cutsceneSO;
+    }
 
     private void Awake()
     {
@@ -152,6 +161,8 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
         CreateCutscenePanel(0); //0 is first index
 
         ShowUI();
+
+        OnCutscenePlay?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
     }
 
     public void SkipCutscenePanel()
@@ -172,6 +183,8 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
     public void SkipCutscene()
     {
         HideUI();
+
+        OnCutsceneConclude?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
     }
     #endregion
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1
-    hasAudio: 1
+    hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: gameStartCutsceneAudios.audio1
     transition: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue2
-    hasAudio: 1
+    hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: gameStartCutsceneAudios.audio2
     transition: 1
@@ -42,7 +42,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue3
-    hasAudio: 1
+    hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: gameStartCutsceneAudios.audio3
     transition: 1
@@ -64,10 +64,11 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue5
-    hasAudio: 1
+    hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: gameStartCutsceneAudios.audio1
     transition: 1
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5
     timeToPlayAudio: 2
+  cutsceneBGM: {fileID: 8300000, guid: 76da8bebb96f8cf498054bfbee13f601, type: 3}
