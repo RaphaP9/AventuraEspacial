@@ -31,7 +31,6 @@ public class AlbumSceneCutsceneBGMHandler : MonoBehaviour
         cutsceneBGMAudioSource.Play();
     }
 
-
     #region Subscriptions
     private void AlbumSceneCutsceneUIHandler_OnCutscenePlay(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {

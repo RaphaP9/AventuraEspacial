@@ -206,6 +206,14 @@ MonoBehaviour:
     targetScene: Collection
   - originScene: Collection
     targetScene: MainMenu
+  fadeInExceptionTransitions:
+  - originScene: MainMenu
+    targetScene: Album
+  fadeOutExceptionTransitions:
+  - originScene: MainMenu
+    targetScene: Album
+  - originScene: Album
+    targetScene: MainMenu
 --- !u!1 &1636284014592437063
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +326,10 @@ MonoBehaviour:
   volumeFadeInTime: 0.3
   volumeFadeOutTime: 0.3
   exceptionTransitions: []
+  fadeInExceptionTransitions:
+  - originScene: MainMenu
+    targetScene: Album
+  fadeOutExceptionTransitions: []
 --- !u!1 &2339726621385923253
 GameObject:
   m_ObjectHideFlags: 0
