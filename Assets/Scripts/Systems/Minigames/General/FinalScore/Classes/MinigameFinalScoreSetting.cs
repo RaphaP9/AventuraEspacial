@@ -4,6 +4,6 @@ using UnityEngine;
 public class MinigameFinalScoreSetting
 {
     [Range(0, 1000)] public int minimunScore;
+    public Sprite sprite;
     public string messageLocalizationBinding;
-    public string spriteLocalizationBinding;
 }

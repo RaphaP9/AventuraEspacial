@@ -89,20 +89,9 @@ public class FinalScoreUI : MonoBehaviour
         relatedMessageText.text = LocalizationSettings.StringDatabase.GetLocalizedString(minigameFinalScoreSettingsSO.stringLocalizationTable, setting.messageLocalizationBinding);
     }
 
-    private async void SetRelatedImageSpriteBySetting(MinigameFinalScoreSetting setting)
+    private void SetRelatedImageSpriteBySetting(MinigameFinalScoreSetting setting)
     {
-        AsyncOperationHandle<Sprite> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<Sprite>(minigameFinalScoreSettingsSO.assetLocalizationTable, setting.spriteLocalizationBinding);
-
-        await handle.Task;
-
-        if (handle.Status == AsyncOperationStatus.Succeeded)
-        {
-            relatedImage.sprite = handle.Result;
-        }
-        else
-        {
-            if (debug) Debug.LogError($"Failed to load localized sprite [{minigameFinalScoreSettingsSO.assetLocalizationTable}] from [{setting.spriteLocalizationBinding}]");
-        }
+        relatedImage.sprite = setting.sprite;
     }
     #endregion
 

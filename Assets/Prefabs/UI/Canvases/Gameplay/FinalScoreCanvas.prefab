@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigameScoreManager: {fileID: 0}
-  minigameFinalScoreSettingsSO: {fileID: 11400000, guid: f88138018f87b494186ee7fa5632ac22, type: 2}
+  minigameFinalScoreSettingsSO: {fileID: 0}
   animator: {fileID: 4424169270061902986}
   scoreText: {fileID: 7051630170090570141}
   relatedMessageText: {fileID: 7781415046608795609}

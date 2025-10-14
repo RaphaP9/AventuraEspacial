@@ -6,7 +6,6 @@ public class MinigameFinalScoreSettingsSO : ScriptableObject
 {
     [Header("General Settings")]
     public string stringLocalizationTable;
-    public string assetLocalizationTable;
 
     [Header("Lists")]
     public List<MinigameFinalScoreSetting> minigameFinalScoreSettingsList;
