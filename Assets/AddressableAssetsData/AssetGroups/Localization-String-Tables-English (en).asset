@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: 3dd40d2433d67064f85f75b913a4be06
   m_SerializeEntries:
+  - m_GUID: 00335ff3f89ff4e4b870609aa35f122b
+    m_Address: Collectables_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 11af79f5d1b608b4b8a2d823b9703cf1
     m_Address: SilhouettesMinigameCutscene3Strings_en
     m_ReadOnly: 1

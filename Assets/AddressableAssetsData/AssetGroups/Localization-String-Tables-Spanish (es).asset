@@ -64,6 +64,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fed3ba6189c79c448143d39da238047
+    m_Address: Collectables_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 954a3597e365f13408fef391f151b0aa
     m_Address: MemoryMinigameCutscene1Strings_es
     m_ReadOnly: 1
