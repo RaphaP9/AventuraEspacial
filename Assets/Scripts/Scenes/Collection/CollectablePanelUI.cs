@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class CollectablePanelUI : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class CollectablePanelUI : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] private Button closeButton;
     [SerializeField] private UIPointerDetector exitUIDetector;
+
+    [Header("Test")]
+    [SerializeField] private CollectableSO testCollectable;
 
     private void OnEnable()
     {
@@ -23,6 +27,19 @@ public class CollectablePanelUI : MonoBehaviour
     {
         SetSingleton();
         InitializeButtonsListeners();
+    }
+
+    private void Update()
+    {
+        if (Keyboard.current.oKey.wasPressedThisFrame)
+        {
+            OpenCollectablePanel(testCollectable,true);
+        }
+
+        if (Keyboard.current.pKey.wasPressedThisFrame)
+        {
+            OpenCollectablePanel(testCollectable,false);
+        }
     }
 
     private void SetSingleton()
