@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,15 +13,15 @@ public class BackpackHandler : MonoBehaviour
     [Header("Runtime Filled")]
     [SerializeField] private bool isFull;
 
-    #region Setters
-    public void SetBackpack(Sprite sprite)
+    private void Start()
     {
-        isFull = false;
-        SetBackpackImage(sprite);
+        InitializeVariables();
     }
 
-    private void SetBackpackImage(Sprite sprite) => backpackImage.sprite = sprite;
-    #endregion
+    private void InitializeVariables()
+    {
+        isFull = false;
+    }
 
     #region Public Methods
     public void AddItem()

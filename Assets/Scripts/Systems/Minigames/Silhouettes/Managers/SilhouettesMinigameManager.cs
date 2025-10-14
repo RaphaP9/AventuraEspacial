@@ -12,7 +12,6 @@ public class SilhouettesMinigameManager : MinigameManager
     [SerializeField] private SilhouettesMinigameSettings settings;
     [Space]
     [Space]
-    [SerializeField] private Transform backpackPrefab;
     [SerializeField] private Transform figurePrefab;
     [SerializeField] private Transform silhouettePrefab;
 
@@ -254,7 +253,7 @@ public class SilhouettesMinigameManager : MinigameManager
     #region Setters
     private void CreateBackpack(SilhouettesRound silhouetteRound, SilhouetteMinigameRoundGameAreaHandler gameAreaHandler)
     {
-        Transform createdBackpack = Instantiate(backpackPrefab, gameAreaHandler.BackpackHolder);
+        Transform createdBackpack = Instantiate(silhouetteRound.backpackPrefab, gameAreaHandler.BackpackHolder);
         BackpackHandler backpackHandler = createdBackpack.GetComponentInChildren<BackpackHandler>();
 
         if (backpackHandler == null)
@@ -264,7 +263,6 @@ public class SilhouettesMinigameManager : MinigameManager
         }
 
         currentBackpack = backpackHandler;
-        currentBackpack.SetBackpack(silhouetteRound.backpackSprite);
     }
 
     private void CreateFigures(List<SilhouetteSO> chosenSilhouettes, SilhouetteMinigameRoundGameAreaHandler gameAreaHandler)

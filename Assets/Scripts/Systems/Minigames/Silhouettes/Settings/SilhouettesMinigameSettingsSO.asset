@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: SilhouettesMinigameSettingsSO
   m_EditorClassIdentifier: 
   rounds:
-  - backpackSprite: {fileID: 21300000, guid: 3d012836c3d1ef4459190289388f7f1d, type: 3}
-    silhouettesCount: 2
+  - silhouettesCount: 2
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
     - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
@@ -29,8 +28,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-  - backpackSprite: {fileID: 21300000, guid: 2684dccd013db6e4685162e6991d2005, type: 3}
-    silhouettesCount: 3
+    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+  - silhouettesCount: 3
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
     - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
@@ -45,8 +44,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-  - backpackSprite: {fileID: 21300000, guid: af89aa92976a4a8469a9a862125ce6ff, type: 3}
-    silhouettesCount: 4
+    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+  - silhouettesCount: 4
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
     - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
@@ -61,8 +60,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-  - backpackSprite: {fileID: 21300000, guid: 605941b46dc2dd246819a1ad8128b121, type: 3}
-    silhouettesCount: 5
+    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+  - silhouettesCount: 5
     silhouettesPool:
     - {fileID: 11400000, guid: 3533ff0af62e4d94392252653457c3a9, type: 2}
     - {fileID: 11400000, guid: 621f49ac40a39c244bf2c3cfd052ab68, type: 2}
@@ -71,8 +70,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7a719c2e05d161d4f9b4141d370866d5, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
     - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
-  - backpackSprite: {fileID: 21300000, guid: 62cffded27113c14b974f4a824c2dcbe, type: 3}
-    silhouettesCount: 5
+    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+  - silhouettesCount: 5
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
     - {fileID: 11400000, guid: 21550f41dc040964c9c94f53160ecaa6, type: 2}
@@ -87,6 +86,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
+    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
   baseScorePerSilhouetteMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 2
