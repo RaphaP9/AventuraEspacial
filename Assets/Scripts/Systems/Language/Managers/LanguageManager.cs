@@ -39,6 +39,7 @@ public class LanguageManager : MonoBehaviour
         InitializeLanguage();
     }
 
+    /*
     private void Update()
     {
         if (Keyboard.current.lKey.wasPressedThisFrame)
@@ -53,6 +54,7 @@ public class LanguageManager : MonoBehaviour
             }
         }
     }
+    */
 
     private void SetSingleton()
     {
