@@ -29,6 +29,7 @@ public class CollectablePanelUI : MonoBehaviour
         InitializeButtonsListeners();
     }
 
+    /*
     private void Update()
     {
         if (Keyboard.current.oKey.wasPressedThisFrame)
@@ -41,6 +42,7 @@ public class CollectablePanelUI : MonoBehaviour
             OpenCollectablePanel(testCollectable,false);
         }
     }
+    */
 
     private void SetSingleton()
     {

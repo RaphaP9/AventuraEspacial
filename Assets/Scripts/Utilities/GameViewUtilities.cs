@@ -54,6 +54,7 @@ public static class GameViewUtilities
         SetSize(LANDSCAPE_RESOLUTION_INDEX);
         SetScale(LANDSCAPE_SCREEN_SCALE);
     }
+
     public static void SwitchToPortrait()
     {
         SetSize(PORTRAIT_RESOLUTION_INDEX);
