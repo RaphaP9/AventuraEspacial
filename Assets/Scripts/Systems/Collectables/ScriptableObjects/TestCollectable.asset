@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe3e15ccd3da79419b7caf9274cf5f1, type: 3}
   m_Name: TestCollectable
   m_EditorClassIdentifier: 
-  id: 0
+  id: 1
   collectableSprite: {fileID: 0}
-  notCollectedMaterial: {fileID: 2100000, guid: 410a02a13f2640e42abc40c9e39f5578, type: 2}
+  collectedColor: {r: 1, g: 1, b: 1, a: 1}
+  notCollectedColor: {r: 0, g: 0, b: 0, a: 1}
   localizationTable: Collectables
   nameLocalizationBinding: collectables.name.testCollectable
   descriptionLocalizationBinding: collectables.description.testCollectable

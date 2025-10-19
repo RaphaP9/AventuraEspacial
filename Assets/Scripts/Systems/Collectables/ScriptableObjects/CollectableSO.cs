@@ -5,7 +5,8 @@ public class CollectableSO : ScriptableObject
 {
     public int id;
     public Sprite collectableSprite;
-    public Material notCollectedMaterial;
+    public Color collectedColor;
+    public Color notCollectedColor;
 
     [Header("Strings")]
     public string localizationTable;
