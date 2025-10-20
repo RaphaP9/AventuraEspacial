@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class LandmarkProgressUI : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class LandmarkProgressUI : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Slider landmarkProgressSlider;
+    [SerializeField] private TextMeshProUGUI totalScoreText;
 
     [Header("RuntimeFilled")]
     [SerializeField] private int currentMinigameScore;
@@ -20,6 +22,7 @@ public class LandmarkProgressUI : MonoBehaviour
     {
         CalculateScores();
         UpdateLandmarkSlider();
+        UpdateTotalScoreText();
     }
 
     private void CalculateScores()
@@ -32,5 +35,10 @@ public class LandmarkProgressUI : MonoBehaviour
     {
         float targetLandmarkFill = Mathf.Clamp01((float)currentMinigameScore / finalMinigameScoreLandmark);      
         landmarkProgressSlider.value = targetLandmarkFill;
+    }
+
+    private void UpdateTotalScoreText()
+    {
+        totalScoreText.text = currentMinigameScore.ToString();
     }
 }
