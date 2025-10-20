@@ -12,6 +12,9 @@ public class CollectableInfoContainerHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI collectableDescriptionText;
 
     [Header("Settings")]
+    [SerializeField] private bool selectFirstCollectableOnContainerPopulation; 
+
+    [Header("Localization Settings")]
     [SerializeField] private string stringLocalizationTable;
     [SerializeField] private string notCollectedNameLocalizationBinding;
 
@@ -20,19 +23,27 @@ public class CollectableInfoContainerHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        CollectableUI.OnCollectableSelected += CollectableUI_OnCollectableSelected;
+        CollectableContainerPopulatorHandler.OnCollectablesPopulated += CollectableContainerPopulatorHandler_OnCollectablesPopulated;
+        CollectableUI.OnCollectableUIClicked += CollectableUI_OnCollectableUIClicked;
         LocalizationSettings.SelectedLocaleChanged += LocalizationSettings_SelectedLocaleChanged;
     }
 
     private void OnDisable()
     {
-        CollectableUI.OnCollectableSelected -= CollectableUI_OnCollectableSelected;
+        CollectableContainerPopulatorHandler.OnCollectablesPopulated -= CollectableContainerPopulatorHandler_OnCollectablesPopulated;
+        CollectableUI.OnCollectableUIClicked -= CollectableUI_OnCollectableUIClicked;
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
     }
 
-    private void UpdateUI(CollectableUI collectableUI)
+    private void UpdateSelectedCollectable(CollectableUI collectableUI, bool instant)
     {
+        if (currentCollectableUI == collectableUI) return; //AlreadySelected
+
+        if (currentCollectableUI != null) currentCollectableUI.DeselectCollectable(instant);
+
         currentCollectableUI = collectableUI;
+
+        currentCollectableUI.SelectCollectable(instant);
 
         SetImageByCurrentCollectable();
         SetNameTextByCurrentCollectable();
@@ -60,14 +71,22 @@ public class CollectableInfoContainerHandler : MonoBehaviour
 
         collectableImage.sprite = currentCollectableUI.CollectableSO.collectableSprite;
 
-        if (currentCollectableUI.IsCollected) collectableImage.color = currentCollectableUI.CollectableSO.collectedColor;
-        else collectableImage.color = currentCollectableUI.CollectableSO.notCollectedColor;
+        if (currentCollectableUI.IsCollected) collectableImage.material = null;
+        else collectableImage.material = currentCollectableUI.CollectableSO.notCollectedMaterial;
     }
 
     #region Subscriptions
-    private void CollectableUI_OnCollectableSelected(object sender, CollectableUI.OnCollectableUIEventArgs e)
+    private void CollectableContainerPopulatorHandler_OnCollectablesPopulated(object sender, CollectableContainerPopulatorHandler.OnCollectablesPopulatedEventArgs e)
     {
-        UpdateUI(e.collectableUI);
+        if (!selectFirstCollectableOnContainerPopulation) return;
+        if (e.collectableUIList.Count <= 0) return;
+
+        UpdateSelectedCollectable(e.collectableUIList[0], true);
+    }
+
+    private void CollectableUI_OnCollectableUIClicked(object sender, CollectableUI.OnCollectableUIEventArgs e)
+    {
+        UpdateSelectedCollectable(e.collectableUI, false);
     }
 
     private void LocalizationSettings_SelectedLocaleChanged(Locale locale)

@@ -109,8 +109,8 @@ public class CollectablePanelUIHandler : MonoBehaviour
 
         collectableImage.sprite = currentCollectable.collectableSprite;
 
-        if (currentCollectableCollected) collectableImage.color = currentCollectable.collectedColor;
-        else collectableImage.color = currentCollectable.notCollectedColor;
+        if (currentCollectableCollected) collectableImage.material = null;
+        else collectableImage.material = currentCollectable.notCollectedMaterial;
     }
 
     #region Subscriptions

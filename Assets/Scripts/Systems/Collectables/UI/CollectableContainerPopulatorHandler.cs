@@ -11,8 +11,18 @@ public class CollectableContainerPopulatorHandler : MonoBehaviour
     [Header("Lists")]
     [SerializeField] private List<CollectableSO> collectableList;
 
+    [Header("Runtime Filled")]
+    [SerializeField] private List<CollectableUI> collectableUIList;
+
     [Header("Debug")]
     [SerializeField] private bool debug;
+
+    public static event EventHandler<OnCollectablesPopulatedEventArgs> OnCollectablesPopulated;
+
+    public class OnCollectablesPopulatedEventArgs : EventArgs
+    {
+        public List<CollectableUI> collectableUIList;
+    }
 
     private void Start()
     {
@@ -34,6 +44,8 @@ public class CollectableContainerPopulatorHandler : MonoBehaviour
         {
             CreateCollectableUI(collectableSO);
         }
+
+        OnCollectablesPopulated?.Invoke(this, new OnCollectablesPopulatedEventArgs { collectableUIList = collectableUIList });
     }
 
     private void CreateCollectableUI(CollectableSO collectableSO)
@@ -49,5 +61,6 @@ public class CollectableContainerPopulatorHandler : MonoBehaviour
         }
 
         collectableUI.SetCollectable(collectableSO);
+        collectableUIList.Add(collectableUI);
     }
 }

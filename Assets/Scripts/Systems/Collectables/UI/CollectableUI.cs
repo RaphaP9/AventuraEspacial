@@ -16,11 +16,19 @@ public class CollectableUI : MonoBehaviour
     public bool IsCollected => isCollected;
     
     public static event EventHandler<OnCollectableUIEventArgs> OnCollectableUISet;
-    public static event EventHandler<OnCollectableUIEventArgs> OnCollectableSelected;
+    public static event EventHandler<OnCollectableUIEventArgs> OnCollectableUIClicked;
+
+    public event EventHandler<OnCollectableSelectEventArgs> OnCollectableUISelected;
+    public event EventHandler<OnCollectableSelectEventArgs> OnCollectableUIDeselected;
 
     public class OnCollectableUIEventArgs : EventArgs
     {
         public CollectableUI collectableUI;
+    }
+
+    public class OnCollectableSelectEventArgs: EventArgs
+    {
+        public bool instant;
     }
 
     public void SetCollectable(CollectableSO collectableSO)
@@ -40,18 +48,27 @@ public class CollectableUI : MonoBehaviour
 
         collectableImage.sprite = collectableSO.collectableSprite;
 
-        if (isCollected) collectableImage.color = collectableSO.collectedColor;
-        else collectableImage.color = collectableSO.notCollectedColor;
+        if (isCollected) collectableImage.material = null;
+        else collectableImage.material = collectableSO.notCollectedMaterial;
     }
 
     private void InitializeButtonListener()
     {
         collectableButton.onClick.RemoveAllListeners();
-        collectableButton.onClick.AddListener(SelectCollectable);
+        collectableButton.onClick.AddListener(OnCollectableUIClick);
     }
 
-    private void SelectCollectable()
+    private void OnCollectableUIClick()
     {
-        OnCollectableSelected?.Invoke(this, new OnCollectableUIEventArgs { collectableUI = this });
+        OnCollectableUIClicked?.Invoke(this, new OnCollectableUIEventArgs { collectableUI = this });
+    }
+
+    public void SelectCollectable(bool instant)
+    {
+        OnCollectableUISelected?.Invoke(this, new OnCollectableSelectEventArgs { instant = instant});
+    }
+    public void DeselectCollectable(bool instant)
+    {
+        OnCollectableUIDeselected?.Invoke(this, new OnCollectableSelectEventArgs { instant = instant });
     }
 }
