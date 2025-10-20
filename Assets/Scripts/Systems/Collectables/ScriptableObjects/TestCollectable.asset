@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   collectableSprite: {fileID: 1973108838, guid: 0d1564ddb73c83e42bfbab88c0a1b70b, type: 3}
-  notCollectedMaterial: {fileID: 2100000, guid: 410a02a13f2640e42abc40c9e39f5578, type: 2}
+  notCollectedMaterial: {fileID: 2100000, guid: 71e7a4dde60e97540b46dbacd0bc2b72, type: 2}
   localizationTable: Collectables
   nameLocalizationBinding: collectables.name.testCollectable
   descriptionLocalizationBinding: collectables.description.testCollectable
