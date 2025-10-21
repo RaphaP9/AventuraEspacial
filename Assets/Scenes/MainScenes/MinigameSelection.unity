@@ -977,7 +977,7 @@ PrefabInstance:
     - target: {fileID: 4822715501641787180, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 788580242, guid: 90f738e79ee91e64b9e4b7f0196dc2fe, type: 3}
+      objectReference: {fileID: 21300000, guid: 31caeee005b8cb947ab3df29b41a5446, type: 3}
     - target: {fileID: 4942159623501485212, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: minigame
       value: 1
@@ -2001,7 +2001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 866716895209211304, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: 212.5
       objectReference: {fileID: 0}
     - target: {fileID: 921278569580829093, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4072,6 +4072,14 @@ PrefabInstance:
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: startCinematicScene
       value: MemoryMinigameStartCutsceneScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264270971575979531, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4285267554
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745351969155058193, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
