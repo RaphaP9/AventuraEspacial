@@ -8,4 +8,5 @@ public class MemoryRound
     [Range(1f, 10f)] public float revealTime;
     [Space]
     [Range(2, 10)] public int gridColumnCount;
+    [Range(150, 250)] public int cardSize;
 }

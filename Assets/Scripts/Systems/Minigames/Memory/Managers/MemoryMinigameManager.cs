@@ -261,8 +261,11 @@ public class MemoryMinigameManager : MinigameManager
     private void SetUpGridLayout(MemoryRound memoryRound)
     {
         int columns = memoryRound.gridColumnCount;
+
         gridLayoutGroup.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
         gridLayoutGroup.constraintCount = columns;
+
+        gridLayoutGroup.cellSize = new Vector2 (memoryRound.cardSize, memoryRound.cardSize);
     }
 
     private void CreateCards(List<MemoryCardSO> chosenPairs, MemoryRound memoryRound)
