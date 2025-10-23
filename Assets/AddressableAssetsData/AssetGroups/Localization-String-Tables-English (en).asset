@@ -122,7 +122,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f81c42c5ce6e54e408ba94d1a9032dda
     m_Address: SilhouettesMinigameStartCutsceneStrings_en

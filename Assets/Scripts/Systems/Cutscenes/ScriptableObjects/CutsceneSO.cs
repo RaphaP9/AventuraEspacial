@@ -12,6 +12,7 @@ public class CutsceneSO : ScriptableObject
     public List<CutscenePanel> cutscenePanels;
     [Space]
     public AudioClip cutsceneBGM;
+    public Sprite cutsceneThumbnail;
 
     public bool IsLastCutscenePanel(CutscenePanel cutscenePanel) => cutscenePanel == cutscenePanels[^1];
 }

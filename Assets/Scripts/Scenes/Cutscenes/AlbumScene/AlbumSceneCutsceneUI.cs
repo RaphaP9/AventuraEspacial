@@ -11,10 +11,6 @@ public class AlbumSceneCutsceneUI : MonoBehaviour
     [SerializeField] private Button skipCutsceneButton;
     [SerializeField] private UIPointerDetector skipCutscenePanelDetector;
 
-    [Header("Test")]
-    [SerializeField] private CutsceneSO cutsceneA;
-    [SerializeField] private CutsceneSO cutsceneB;
-
     private void OnEnable()
     {
         skipCutscenePanelDetector.OnPointerPressed += SkipCutscenePanelDetector_OnPointerPressed;
@@ -29,19 +25,6 @@ public class AlbumSceneCutsceneUI : MonoBehaviour
     {
         IntializeButtonsListeners();
         SetSingleton();
-    }
-
-    private void Update()
-    {
-        if (Keyboard.current.oKey.wasPressedThisFrame)
-        {
-            PlayCutscene(cutsceneA);
-        }
-
-        if (Keyboard.current.pKey.wasPressedThisFrame)
-        {
-            PlayCutscene(cutsceneB);
-        }
     }
 
     private void SetSingleton()
