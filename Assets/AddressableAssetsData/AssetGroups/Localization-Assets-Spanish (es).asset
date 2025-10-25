@@ -21,20 +21,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3ab53236cab37fb41abf3a7e0c9565d9
-    m_Address: Audio_GameStartCurscene_2_Spanish
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a7fec9c05602654eac401b032abc20f
     m_Address: GameLogo
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dacd79d0be56f294eba3332c0afa344d
-    m_Address: Audio_GameStartCurscene_3_Spanish
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

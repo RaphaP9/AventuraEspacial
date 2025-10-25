@@ -19,27 +19,40 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 19388645376
-    m_Localized: Dialogo1
+    m_Localized: "En un descanso entre misiones, el escuadr\xF3n de rescate encuentra
+      algo inesperado\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 110090469376
-    m_Localized: Dialogo2
+    m_Localized: Algo parece estar mal
     m_Metadata:
       m_Items: []
-  - m_Id: 146576719872
-    m_Localized: Dialogo3
+  - m_Id: 6507430429540352
+    m_Localized: "La estrella estar\xE1 bien"
     m_Metadata:
       m_Items: []
-  - m_Id: 186305167360
-    m_Localized: Dialogo4
+  - m_Id: 6506713870450688
+    m_Localized: Calma
     m_Metadata:
       m_Items: []
   - m_Id: 227958800384
-    m_Localized: Dialogo5
+    m_Localized: "\xA1Gran Abuelo, Gran Abuelo! \xA1Ayuda!"
     m_Metadata:
       m_Items: []
   - m_Id: 23749745655808
     m_Localized: Cutscene1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507548645998592
+    m_Localized: Busquen fragmentos estelares para ayudarla a recuperar su brillo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507603364888576
+    m_Localized: "Tendr\xE1n que pasar muchas pruebas, pero s\xE9 que ustedes podr\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6508109818707968
+    m_Localized: "Una estrella grande y brillante, sin embargo\u2026"
     m_Metadata:
       m_Items: []
   references:

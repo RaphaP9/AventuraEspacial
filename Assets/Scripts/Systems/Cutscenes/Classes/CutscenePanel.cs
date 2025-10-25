@@ -8,6 +8,7 @@ public class CutscenePanel
     public bool hasSentence;
     public string sentenceLocalizationTable;
     public string sentenceLocalizationBinding;
+    [ColorUsage(true,true)] public Color sentenceColor;
     [Space]
     public bool hasAudio;
     public string audioLocalizationTable;

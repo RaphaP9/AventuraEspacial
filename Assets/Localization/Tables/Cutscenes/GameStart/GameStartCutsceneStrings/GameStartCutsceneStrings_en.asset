@@ -19,27 +19,40 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 19388645376
-    m_Localized: Dialogue1
+    m_Localized: "During a break between missions, the rescue squad finds something
+      unexpected\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 110090469376
-    m_Localized: Dialogue2
+    m_Localized: Something seems to be wrong
     m_Metadata:
       m_Items: []
-  - m_Id: 146576719872
-    m_Localized: Dialogue3
+  - m_Id: 6507430429540352
+    m_Localized: The start will be fine
     m_Metadata:
       m_Items: []
-  - m_Id: 186305167360
-    m_Localized: Dialogue4
+  - m_Id: 6506713870450688
+    m_Localized: Calm down
     m_Metadata:
       m_Items: []
   - m_Id: 227958800384
-    m_Localized: Dialogue5
+    m_Localized: Great Grandpa, Great Grandpa! Help!
     m_Metadata:
       m_Items: []
   - m_Id: 23749745655808
     m_Localized: Cutscene1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507548645998592
+    m_Localized: "\rLook for star fragments to help it recover its shine"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6507603364888576
+    m_Localized: "\rYou will have to pass many tests, but I know you can do it"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6508109818707968
+    m_Localized: "\rA big, bright star, however\u2026"
     m_Metadata:
       m_Items: []
   references:

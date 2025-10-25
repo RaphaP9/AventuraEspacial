@@ -28,6 +28,7 @@ public class CutscenePanelSentenceAnimationController : MonoBehaviour
     {
         this.cutscenePanel = cutscenePanel;
 
+        SetSentenceColorByCurrentPanel();
         LocalizeSentenceByCurrentPanel();
         ShowSentence();
     }
@@ -35,6 +36,11 @@ public class CutscenePanelSentenceAnimationController : MonoBehaviour
     private void ShowSentence()
     {
         animator.SetTrigger(SHOW_TRIGGER);
+    }
+
+    private void SetSentenceColorByCurrentPanel()
+    {
+        sentenceText.color = cutscenePanel.sentenceColor;
     }
 
     private void LocalizeSentenceByCurrentPanel()

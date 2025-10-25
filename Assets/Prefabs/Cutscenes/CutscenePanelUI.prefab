@@ -152,6 +152,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
@@ -159,6 +160,7 @@ MonoBehaviour:
     timeToSkipPanel: 0
     timeToAppearSentence: 0
     timeToPlayAudio: 0
+  currentlyActive: 0
   currentlyPlaying: 0
   isPaused: 0
   storedTimeStamp: 0
@@ -255,13 +257,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 1024
   m_textAlignment: 65535
@@ -336,7 +338,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: -200, y: 200}
+  m_SizeDelta: {x: -600, y: 200}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!225 &1692173077232403513
 CanvasGroup:
@@ -391,6 +393,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
@@ -571,6 +574,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 

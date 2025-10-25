@@ -16,57 +16,134 @@ MonoBehaviour:
   nameLocalizationTable: GameStartCutsceneStrings
   nameLocalizationBinding: gameStartCutsceneStrings.name
   cutscenePanels:
-  - panelSprite: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
+  - panelSprite: {fileID: 21300000, guid: 2e0222309c51acf498cebed54ec62f69, type: 3}
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
-    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1A
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
-    audioLocalizationBinding: gameStartCutsceneAudios.audio1
+    audioLocalizationBinding: 
     transition: 0
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5
     timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
+  - panelSprite: {fileID: 21300000, guid: 2e0222309c51acf498cebed54ec62f69, type: 3}
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
-    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue2
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1B
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
-    audioLocalizationBinding: gameStartCutsceneAudios.audio2
-    transition: 1
-    timeToSkipPanel: 3
-    timeToAppearSentence: 1.5
-    timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 3951949592518d647a0161f50c497477, type: 3}
-    hasSentence: 1
-    sentenceLocalizationTable: GameStartCutsceneStrings
-    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue3
-    hasAudio: 0
-    audioLocalizationTable: GameStartCutsceneAudios
-    audioLocalizationBinding: gameStartCutsceneAudios.audio3
-    transition: 1
-    timeToSkipPanel: 3
-    timeToAppearSentence: 1.5
-    timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
-    hasSentence: 1
-    sentenceLocalizationTable: GameStartCutsceneStrings
-    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue4
-    hasAudio: 0
-    audioLocalizationTable: 
     audioLocalizationBinding: 
     transition: 1
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5
     timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: a53d5dd19a94fc941af537d88ccfd7c8, type: 3}
+  - panelSprite: {fileID: 21300000, guid: 52006ae09388779439296073d0d3ca8d, type: 3}
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
-    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue5
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue2A
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
-    audioLocalizationBinding: gameStartCutsceneAudios.audio1
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: b49b51917828cf147b8c2e575f5d5d28, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 7be9d0c0aa54412499fba0ad48890714, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: gameStartCutsceneAudios.audio4A
+    transition: 0
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 8129a9dc19c038944b635ef7ca13aa36, type: 3}
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue5A
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 0
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 1e7c3fbbbda25394c9f95f4c6088fb97, type: 3}
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue6A
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 0
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 1e7c3fbbbda25394c9f95f4c6088fb97, type: 3}
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue6B
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 99d6c113f44bfb9438b1ba388de49fbc, type: 3}
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue7A
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: 99d6c113f44bfb9438b1ba388de49fbc, type: 3}
+    hasSentence: 1
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue7B
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
+    transition: 1
+    timeToSkipPanel: 3
+    timeToAppearSentence: 1.5
+    timeToPlayAudio: 2
+  - panelSprite: {fileID: 21300000, guid: af1eab486f5e1234b8344a878e2fc24e, type: 3}
+    hasSentence: 0
+    sentenceLocalizationTable: GameStartCutsceneStrings
+    sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 1}
+    hasAudio: 0
+    audioLocalizationTable: GameStartCutsceneAudios
+    audioLocalizationBinding: 
     transition: 1
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5

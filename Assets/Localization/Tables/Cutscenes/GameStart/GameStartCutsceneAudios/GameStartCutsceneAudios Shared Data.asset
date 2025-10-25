@@ -16,15 +16,7 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: e1e86ed96d9fd3f4eb2d74fb3c01c4f5
   m_Entries:
   - m_Id: 5094457344
-    m_Key: gameStartCutsceneAudios.audio1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 170320674816
-    m_Key: gameStartCutsceneAudios.audio2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 221839310848
-    m_Key: gameStartCutsceneAudios.audio3
+    m_Key: gameStartCutsceneAudios.audio4A
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -44,14 +36,6 @@ MonoBehaviour:
       data:
         m_Entries:
         - m_KeyId: 5094457344
-          m_TableCodes:
-          - en
-          - es
-        - m_KeyId: 170320674816
-          m_TableCodes:
-          - en
-          - es
-        - m_KeyId: 221839310848
           m_TableCodes:
           - en
           - es
