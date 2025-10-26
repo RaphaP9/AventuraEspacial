@@ -39,12 +39,13 @@ public class SFXManager : MonoBehaviour
         AudioClip audioClip = audioClipArray[Random.Range(0, audioClipArray.Length)];
         PlaySound(audioClip);
     }
-    protected void PlaySound(AudioClip audioClip)
+
+    public void PlaySound(AudioClip audioClip)
     {
         audioSource.PlayOneShot(audioClip);
     }
 
-    protected void PlaySoundAtPoint(AudioClip[] audioClipArray, Vector2 position)
+    public void PlaySoundAtPoint(AudioClip[] audioClipArray, Vector2 position)
     {
         if (audioClipArray.Length == 0)
         {
