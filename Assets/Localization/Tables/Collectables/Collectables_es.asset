@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Descripcion de Testeo
     m_Metadata:
       m_Items: []
+  - m_Id: 4120828591947776
+    m_Localized: Colleccionable Encontrado
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

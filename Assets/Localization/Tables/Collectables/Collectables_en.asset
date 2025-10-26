@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: TestDescription
     m_Metadata:
       m_Items: []
+  - m_Id: 4120828591947776
+    m_Localized: Collectable Found
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

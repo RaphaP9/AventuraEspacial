@@ -15,6 +15,10 @@ MonoBehaviour:
   m_TableCollectionName: Collectables
   m_TableCollectionNameGuidString: b404dce2824544845841df755edd7fb6
   m_Entries:
+  - m_Id: 4120828591947776
+    m_Key: collectables.collectableCollected
+    m_Metadata:
+      m_Items: []
   - m_Id: 15825765875712
     m_Key: collectables.notCollectedName
     m_Metadata:

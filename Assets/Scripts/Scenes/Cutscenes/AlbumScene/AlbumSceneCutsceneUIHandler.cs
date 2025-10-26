@@ -112,6 +112,16 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
             Destroy(child.gameObject);
         }
     }
+
+    private void ClearPanelContainerButLast()
+    {
+        if (cutscenePanelsContainer.childCount <= 1) return;
+
+        for (int i = 0; i < cutscenePanelsContainer.childCount -1 ; i++)
+        {
+            Destroy(cutscenePanelsContainer.GetChild(i).gameObject);
+        }
+    }
     #endregion
 
     #region Animations
@@ -182,6 +192,7 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
     public void SkipCutscene()
     {
+        ClearPanelContainerButLast();
         HideUI();
 
         OnCutsceneConclude?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = currentCutsceneSO });
