@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CollectablesSFXHandler : SceneSFXHandler
+public class MemoryMinigameVibrationHandler : SceneVibrationHandler
 {
     private void OnEnable()
     {
