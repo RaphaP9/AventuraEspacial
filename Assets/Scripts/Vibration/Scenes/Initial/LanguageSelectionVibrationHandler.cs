@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class LanguageSelectionVibrationHandler : MonoBehaviour
+public class LanguageSelectionVibrationHandler : SceneSFXHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnEnable()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+
     }
 }
