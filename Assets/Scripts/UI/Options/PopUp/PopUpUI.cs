@@ -17,6 +17,8 @@ public class PopUpUI : MonoBehaviour
     private const string SHOW_TRIGGER = "Show";
     private const string HIDE_TRIGGER = "Hide";
 
+    public event EventHandler OnPopUpUIClosedByButtonClick;
+
     private void OnEnable()
     {
         exitUIDetector.OnPointerClicked += ExitUIDetector_OnPointerClicked;
@@ -38,7 +40,7 @@ public class PopUpUI : MonoBehaviour
 
         foreach (Button UIButton in UIButtons)
         {
-            UIButton.onClick.AddListener(CloseUI);
+            UIButton.onClick.AddListener(CloseUIByButtonClick);
         }
     }
 
@@ -62,6 +64,12 @@ public class PopUpUI : MonoBehaviour
     private void CloseUI()
     {
         HideUI();
+    }
+
+    protected virtual void CloseUIByButtonClick()
+    {
+        CloseUI();
+        OnPopUpUIClosedByButtonClick?.Invoke(this, EventArgs.Empty);
     }
 
     #region Subscriptions

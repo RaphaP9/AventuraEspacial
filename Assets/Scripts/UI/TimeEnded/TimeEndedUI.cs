@@ -6,7 +6,7 @@ public class TimeEndedUI : PauseUIBase
 {
     [Header("Components")]
     [SerializeField] private Animator animator;
-
+    [SerializeField] private TimeSelectionUI timeSelectionUI;
 
     public static event EventHandler OnTimeEndedUIOpen;
     public static event EventHandler OnTimeEndedUIClose;
@@ -17,10 +17,13 @@ public class TimeEndedUI : PauseUIBase
     private void OnEnable()
     {
         TimerManager.OnTimeEnded += TimerManager_OnTimeEnded;
+        timeSelectionUI.OnTimeSelectionUIClosedByButtonClick += TimeSelectionUI_OnPopUpUIClosedByButtonClick;
     }
+
     private void OnDisable()
     {
         TimerManager.OnTimeEnded -= TimerManager_OnTimeEnded;
+        timeSelectionUI.OnTimeSelectionUIClosedByButtonClick -= TimeSelectionUI_OnPopUpUIClosedByButtonClick;
     }
 
     public void OpenUI()
@@ -54,5 +57,11 @@ public class TimeEndedUI : PauseUIBase
     {
         OpenUI();
     }
+
+    private void TimeSelectionUI_OnPopUpUIClosedByButtonClick(object sender, EventArgs e)
+    {
+        CloseUI();
+    }
+
     #endregion
 }

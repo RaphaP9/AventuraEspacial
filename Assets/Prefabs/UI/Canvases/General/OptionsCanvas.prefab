@@ -2977,6 +2977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2128359571945520159, guid: 71d0ade04ffc81947b09d789b82e3235, type: 3}
+      propertyPath: openButton
+      value: 
+      objectReference: {fileID: 1946110792575650061}
     - target: {fileID: 3668301222590392170, guid: 71d0ade04ffc81947b09d789b82e3235, type: 3}
       propertyPath: openButton
       value: 
@@ -3035,6 +3039,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3473998288461477557}
     m_Modifications:
+    - target: {fileID: 47917782817493880, guid: 3c8191d651642934f925bb86b4dabb92, type: 3}
+      propertyPath: openButton
+      value: 
+      objectReference: {fileID: 4659617840687467377}
     - target: {fileID: 466513051985946434, guid: 3c8191d651642934f925bb86b4dabb92, type: 3}
       propertyPath: openButton
       value: 
