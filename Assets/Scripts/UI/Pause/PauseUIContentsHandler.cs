@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PsuseUIContentsHandler : MonoBehaviour
+public class PauseUIContentsHandler : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] private Button homeButton;

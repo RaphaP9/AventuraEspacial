@@ -218,7 +218,11 @@ public class ScenesManager : MonoBehaviour
 
     public bool IsSceneOnIdle() => state == State.Idle;
     public void DefaultLoadScene(string targetScene) => SceneManager.LoadScene(targetScene);
-    public void QuitGame() => Application.Quit();
+    public void QuitGame()
+    {
+        Debug.Log("Game Quit");
+        Application.Quit();
+    }
 
     #region TransitionUIHandler Subscriptions
     private void TransitionUIHandler_OnTransitionOutEnd(object sender, SceneTransitionUIHandler.OnTransitionUIEventArgs e)
