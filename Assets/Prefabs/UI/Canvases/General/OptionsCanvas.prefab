@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsUIAnimator: {fileID: 8284051664067848172}
   scrollRect: {fileID: 3087290014489540146}
-  optionsButton: {fileID: 0}
+  optionsButtons: []
   closeButton: {fileID: 8557898440467350583}
 --- !u!1 &7066276245775200993
 GameObject:

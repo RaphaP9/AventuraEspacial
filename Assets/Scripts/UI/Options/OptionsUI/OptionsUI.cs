@@ -11,7 +11,7 @@ public class OptionsUI : MonoBehaviour
     [SerializeField] private ScrollRect scrollRect;
 
     [Header("UI Components")]
-    [SerializeField] private Button optionsButton;
+    [SerializeField] private List<Button> optionsButtons;
     [SerializeField] private Button closeButton;
 
     public static event EventHandler OnOptionsUIOpen;
@@ -30,7 +30,11 @@ public class OptionsUI : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        optionsButton.onClick.AddListener(OpenUI);
+        foreach (Button button in optionsButtons)
+        {
+            button.onClick.AddListener(OpenUI);
+        }
+
         closeButton.onClick.AddListener(CloseUI);
     }
 

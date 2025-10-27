@@ -288,7 +288,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1965116674}
   - {fileID: 1567444942}
   m_Father: {fileID: 197455049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -813,6 +812,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: optionsButton
+      value: 
+      objectReference: {fileID: 1363383561}
+    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: optionsButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: 'optionsButtons.Array.data[0]'
       value: 
       objectReference: {fileID: 1363383561}
     - target: {fileID: 2547848133449155496, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
@@ -1860,6 +1867,14 @@ PrefabInstance:
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 1564684700}
+    - target: {fileID: 1769988743439363038, guid: ca040317d728f854f9b45379675ddc11, type: 3}
+      propertyPath: pauseButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769988743439363038, guid: ca040317d728f854f9b45379675ddc11, type: 3}
+      propertyPath: 'pauseButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1564684700}
     - target: {fileID: 2464854837161938849, guid: ca040317d728f854f9b45379675ddc11, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2559,51 +2574,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935654245}
   m_CullTransparentMesh: 1
---- !u!1 &1965116673
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1965116674}
-  - component: {fileID: 1965116675}
-  m_Layer: 0
-  m_Name: UILayersManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1965116674
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965116673}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 206520831}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1965116675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965116673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a002e6c19cc0184d9560be968a64a8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _UILayers: []
 --- !u!1 &2065280437
 GameObject:
   m_ObjectHideFlags: 0

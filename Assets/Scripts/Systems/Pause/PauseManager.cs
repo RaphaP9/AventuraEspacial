@@ -8,6 +8,7 @@ public class PauseManager : MonoBehaviour
     public static PauseManager Instance { get; private set; }
 
     [Header("Runtime Filled")]
+    [SerializeField] private List<PauseUIBase> pauseUIBaseList;
     [SerializeField] private bool gamePaused;
 
     public static event EventHandler OnGamePaused;
@@ -17,14 +18,14 @@ public class PauseManager : MonoBehaviour
 
     private void OnEnable()
     {
-        PauseUI.OnPauseUIOpen += PauseUI_OnPauseUIOpen;
-        PauseUI.OnPauseUIClose += PauseUI_OnPauseUIClose;
+        PauseUIBase.OnPauseUIBaseOpen += PauseUIBase_OnPauseUIBaseOpen;
+        PauseUIBase.OnPauseUIBaseClose += PauseUIBase_OnPauseUIBaseClose;
     }
 
     private void OnDisable()
     {
-        PauseUI.OnPauseUIOpen -= PauseUI_OnPauseUIOpen;
-        PauseUI.OnPauseUIClose -= PauseUI_OnPauseUIClose;
+        PauseUIBase.OnPauseUIBaseOpen -= PauseUIBase_OnPauseUIBaseOpen;
+        PauseUIBase.OnPauseUIBaseClose -= PauseUIBase_OnPauseUIBaseClose;
     }
 
     private void Awake()
@@ -55,6 +56,24 @@ public class PauseManager : MonoBehaviour
         AudioListener.pause = false;
     }
 
+    #region PauseUIBase List Logic
+    private void AddPauseUIToListLogic(PauseUIBase pauseUIBase)
+    {
+        pauseUIBaseList.Add(pauseUIBase);
+
+        if (!gamePaused) PauseGame();
+    }
+
+    private void RemovePauseUIToListLogic(PauseUIBase pauseUIBase)
+    {
+        pauseUIBaseList.Remove(pauseUIBase);
+
+        if (pauseUIBaseList.Count <= 0 && gamePaused) ResumeGame();
+    }
+    #endregion
+
+    #region Pause & Resume
+
     public void PauseGame()
     {
         if (gamePaused) return;
@@ -74,19 +93,22 @@ public class PauseManager : MonoBehaviour
         SetGamePaused(false);
         AudioListener.pause = false;
     }
+    #endregion
 
+    #region Setters
     private void SetGamePaused(bool gamePaused) => this.gamePaused = gamePaused;
     private void SetPauseTimeScale() => Time.timeScale = 0f;
     private void SetResumeTimeScale() => Time.timeScale = 1f;
+    #endregion
 
     #region Subscriptions
-    private void PauseUI_OnPauseUIOpen(object sender, EventArgs e)
+    private void PauseUIBase_OnPauseUIBaseOpen(object sender, PauseUIBase.OnPauseUIEventArgs e)
     {
-        PauseGame();
+        AddPauseUIToListLogic(e.pauseUIBase);
     }
-    private void PauseUI_OnPauseUIClose(object sender, EventArgs e)
+    private void PauseUIBase_OnPauseUIBaseClose(object sender, PauseUIBase.OnPauseUIEventArgs e)
     {
-        ResumeGame();
+        RemovePauseUIToListLogic(e.pauseUIBase);
     }
     #endregion
 }
