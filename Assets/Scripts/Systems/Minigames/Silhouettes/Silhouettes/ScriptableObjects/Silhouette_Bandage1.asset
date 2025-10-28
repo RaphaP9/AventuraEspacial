@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Silhouette_Bandage1
   m_EditorClassIdentifier: 
   id: 3
-  sprite: {fileID: -2032150445, guid: 98bb4f248008a21428a3610a82bbbcfc, type: 3}
+  sprite: {fileID: 21300000, guid: 76f7677ab0a1df44f8ab851d4ff2b578, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}

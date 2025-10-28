@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Silhouette_Cotton
   m_EditorClassIdentifier: 
   id: 2
-  sprite: {fileID: 129461946, guid: 98bb4f248008a21428a3610a82bbbcfc, type: 3}
+  sprite: {fileID: 21300000, guid: b21039255be7b6e4f9920dd139393352, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}
