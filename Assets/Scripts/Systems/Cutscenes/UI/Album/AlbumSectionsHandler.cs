@@ -82,6 +82,7 @@ public class AlbumSectionsHandler : MonoBehaviour
         {
             relationship.albumSectionButton.Select();
             relationship.albumSectionUI.Select();
+            relationship.albumSectionUI.transform.SetAsLastSibling();
         }
     }
 
