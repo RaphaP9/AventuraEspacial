@@ -148,5 +148,5 @@ MonoBehaviour:
     timeToSkipPanel: 1.5
     timeToAppearSentence: 1
     timeToPlayAudio: 1
-  cutsceneBGM: {fileID: 8300000, guid: 39fe4bc035f8af04bbaa57b17c081c54, type: 3}
-  cutsceneThumbnail: {fileID: 21300000, guid: 9ea87e0f6c9d9bf419f9aeb741837d3a, type: 3}
+  cutsceneBGM: {fileID: 0}
+  cutsceneThumbnail: {fileID: 21300000, guid: 7be9d0c0aa54412499fba0ad48890714, type: 3}
