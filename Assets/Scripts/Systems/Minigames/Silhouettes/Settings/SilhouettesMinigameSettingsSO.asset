@@ -44,7 +44,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+    backpackPrefab: {fileID: 6768098758964416568, guid: 5c7fb9bf77dd2844ba1df8553160d634, type: 3}
   - silhouettesCount: 4
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
@@ -60,7 +60,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+    backpackPrefab: {fileID: 6768098758964416568, guid: 0935294d497acbf47a871b1392a4df1f, type: 3}
   - silhouettesCount: 5
     silhouettesPool:
     - {fileID: 11400000, guid: 3533ff0af62e4d94392252653457c3a9, type: 2}
@@ -70,7 +70,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7a719c2e05d161d4f9b4141d370866d5, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
     - {fileID: 11400000, guid: eca64360b7c70134287096d0df762bbd, type: 2}
-    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+    backpackPrefab: {fileID: 6768098758964416568, guid: a512e3bd71c496f45b683dadbfc3a94c, type: 3}
   - silhouettesCount: 5
     silhouettesPool:
     - {fileID: 11400000, guid: df82c4ec3b9c67343b4b834e39388589, type: 2}
@@ -86,7 +86,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fcf02935b654926438da555c63734e17, type: 2}
     - {fileID: 11400000, guid: f4514f637e2751944a50739d6d688eea, type: 2}
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
-    backpackPrefab: {fileID: 6768098758964416568, guid: 82c54adff37de2643b0297a06c87c1d4, type: 3}
+    backpackPrefab: {fileID: 6768098758964416568, guid: 55f74b527c9b75f439e814b70100435d, type: 3}
   baseScorePerSilhouetteMatch: 2
   maxCombo: 5
   bonusScorePerCombo: 2
