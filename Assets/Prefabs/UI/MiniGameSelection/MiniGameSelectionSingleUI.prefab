@@ -68,14 +68,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: Memoria
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
-  m_sharedMaterial: {fileID: -7176163894937619852, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
+  m_sharedMaterial: {fileID: 3414862159261818884, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281007745
+    rgba: 4285267554
   m_fontColor: {r: 0.38431376, g: 0.9960785, b: 0.41960788, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -369,6 +369,7 @@ MonoBehaviour:
   minigameButton: {fileID: 3625690440898834050}
   startCinematicScene: NonAssignedScene
   startCinematicTransitionType: 0
+  ignoreStartCinematic: 0
   minigameScene: NonAssignedScene
   minigameTransitionType: 0
 --- !u!1 &8515699237701278544
@@ -557,10 +558,6 @@ PrefabInstance:
     - target: {fileID: 6964282970605549433, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7454991713344254257, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

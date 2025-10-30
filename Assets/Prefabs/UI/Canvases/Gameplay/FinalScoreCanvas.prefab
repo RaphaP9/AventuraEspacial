@@ -217,15 +217,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 999
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89463b15d24900c47995606972839e91, type: 2}
-  m_sharedMaterial: {fileID: -2409221056181660941, guid: 89463b15d24900c47995606972839e91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
+  m_sharedMaterial: {fileID: 3414862159261818884, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280679679
+  m_fontColor: {r: 1, g: 0.98707545, b: 0.1462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -428,15 +428,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Well Done!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
-  m_sharedMaterial: {fileID: -7176163894937619852, guid: c5f6e4243e8851e4eb9ff54dbdce26e9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9fcd1f95ddee9df42b62985bf868fd7b, type: 2}
+  m_sharedMaterial: {fileID: 5482665913505120388, guid: 9fcd1f95ddee9df42b62985bf868fd7b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4285589865
+  m_fontColor: {r: 0.41176474, g: 0.91372555, b: 0.43921572, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -765,7 +765,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7894752247108533933}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -804,7 +804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigameScoreManager: {fileID: 0}
-  minigameFinalScoreSettingsSO: {fileID: 0}
+  winSettingSO: {fileID: 0}
+  loseSettingSO: {fileID: 0}
   animator: {fileID: 4424169270061902986}
   scoreText: {fileID: 7051630170090570141}
   relatedMessageText: {fileID: 7781415046608795609}
@@ -1114,15 +1115,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pedacitos de Estrella
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 89463b15d24900c47995606972839e91, type: 2}
-  m_sharedMaterial: {fileID: -2409221056181660941, guid: 89463b15d24900c47995606972839e91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
+  m_sharedMaterial: {fileID: 3414862159261818884, guid: 82a74d542a5b65b4db73ea30ec8f0e74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280679679
+  m_fontColor: {r: 1, g: 0.98707545, b: 0.1462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

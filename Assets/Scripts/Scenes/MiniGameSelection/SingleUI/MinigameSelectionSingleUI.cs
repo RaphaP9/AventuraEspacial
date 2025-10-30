@@ -10,9 +10,10 @@ public class MinigameSelectionSingleUI : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] private Button minigameButton;
 
-    [Header("StartCinematic Scene")]
+    [Header("Start Cinematic Scene")]
     [SerializeField] private string startCinematicScene;
     [SerializeField] private TransitionType startCinematicTransitionType;
+    [SerializeField] private bool ignoreStartCinematic;
 
     [Header("Minigame Scene")]
     [SerializeField] private string minigameScene;
@@ -32,7 +33,7 @@ public class MinigameSelectionSingleUI : MonoBehaviour
     {
         bool isFirstTimeEntering = DataContainer.Instance.IsFirstTimeEnteringMinigame(minigame);
 
-        if (isFirstTimeEntering) LoadStartCinematicScene();
+        if (isFirstTimeEntering && !ignoreStartCinematic) LoadStartCinematicScene();
         else LoadMinigameScene();
     }
 
