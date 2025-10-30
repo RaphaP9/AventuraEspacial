@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Telescope
   m_EditorClassIdentifier: 
   id: 20
-  sprite: {fileID: -863579110, guid: 043a2d9532dfedb42882486438a28836, type: 3}
+  sprite: {fileID: 21300000, guid: 0dd9628b325e3124f8a7386663525469, type: 3}

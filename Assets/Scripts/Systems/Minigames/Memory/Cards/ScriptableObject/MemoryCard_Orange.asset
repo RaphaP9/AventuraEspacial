@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Orange
   m_EditorClassIdentifier: 
   id: 10
-  sprite: {fileID: 804528303, guid: 3f15a53eda630ee47a2bf5c43634578c, type: 3}
+  sprite: {fileID: 21300000, guid: 7171c5561c015cc4eaf1f1d9ac82ab77, type: 3}

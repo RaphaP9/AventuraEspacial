@@ -5117,6 +5117,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1950192686830961066, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
+      propertyPath: winSettingSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 44042a9f2a2030649a25d70bd4895642, type: 2}
+    - target: {fileID: 1950192686830961066, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
+      propertyPath: loseSettingSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a5b36daae5450e42850bfa5a1d57e53, type: 2}
+    - target: {fileID: 1950192686830961066, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
       propertyPath: minigameScoreManager
       value: 
       objectReference: {fileID: 1240012630}

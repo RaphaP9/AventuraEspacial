@@ -11,7 +11,8 @@ public class FinalScoreUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private MinigameScoreManager minigameScoreManager;
-    [SerializeField] private MinigameFinalScoreSettingsSO minigameFinalScoreSettingsSO;
+    [SerializeField] private MinigameFinalScoreSettingsSO winSettingSO;
+    [SerializeField] private MinigameFinalScoreSettingsSO loseSettingSO;
     [Space]
     [SerializeField] private Animator animator;
 
@@ -28,6 +29,7 @@ public class FinalScoreUI : MonoBehaviour
 
     private MinigameFinalScoreSetting setting;
     private bool hasBeenSet = false;
+
     private void OnEnable()
     {
         MinigameManager.OnGameWinning += MinigameManager_OnGameWinning;
@@ -65,9 +67,9 @@ public class FinalScoreUI : MonoBehaviour
     #endregion
 
     #region Setters
-    private void SetUIByScore(int score)
+    private void SetUIByScore(int score, MinigameFinalScoreSettingsSO minigameFinalScoreSettingsSO)
     {
-        setting = GetMinigameFinalScoreSettingByScore(score);
+        setting = GetMinigameFinalScoreSettingByScore(score, minigameFinalScoreSettingsSO);
         hasBeenSet = true;
 
         SetScoreText(score);
@@ -86,7 +88,7 @@ public class FinalScoreUI : MonoBehaviour
 
     private void SetRelatedMessageTextBySetting(MinigameFinalScoreSetting setting)
     {
-        relatedMessageText.text = LocalizationSettings.StringDatabase.GetLocalizedString(minigameFinalScoreSettingsSO.stringLocalizationTable, setting.messageLocalizationBinding);
+        relatedMessageText.text = LocalizationSettings.StringDatabase.GetLocalizedString(setting.messageLocalizationTable, setting.messageLocalizationBinding);
     }
 
     private void SetRelatedImageSpriteBySetting(MinigameFinalScoreSetting setting)
@@ -97,7 +99,7 @@ public class FinalScoreUI : MonoBehaviour
 
     #region Utility Methods
 
-    private MinigameFinalScoreSetting GetMinigameFinalScoreSettingByScore(int score)
+    private MinigameFinalScoreSetting GetMinigameFinalScoreSettingByScore(int score, MinigameFinalScoreSettingsSO minigameFinalScoreSettingsSO)
     {
         foreach(MinigameFinalScoreSetting scoreSetting in minigameFinalScoreSettingsSO.minigameFinalScoreSettingsList)
         {
@@ -113,12 +115,12 @@ public class FinalScoreUI : MonoBehaviour
 
     private void MinigameManager_OnGameWinning(object sender, EventArgs e)
     {
-        SetUIByScore(minigameScoreManager.CurrentScore);
+        SetUIByScore(minigameScoreManager.CurrentScore, winSettingSO);
     }
 
     private void MinigameManager_OnGameLosing(object sender, EventArgs e)
     {
-        SetUIByScore(minigameScoreManager.CurrentScore);
+        SetUIByScore(minigameScoreManager.CurrentScore, loseSettingSO);
     }
 
     private void MinigameManager_OnGameWon(object sender, System.EventArgs e)

@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: ce40e2347dd5a71428ae5d1150ee7811
+guid: 85f2d39d2c7cc9d4280a3e2a3a51944f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4041400305856078120
-    second: Girar_Pantalla_0
+      213: -4697607771688681324
+    second: ProgressRocket_0
   - first:
-      213: 4475278498178139680
-    second: Girar_Pantalla_1
-  - first:
-      213: 1568976669736667681
-    second: Girar_Pantalla_2
+      213: -170838151947327904
+    second: ProgressRocket_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,17 +99,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Girar_Pantalla_0
+      name: ProgressRocket_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 50
-        width: 608
-        height: 611
+        x: 0
+        y: 25
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8de1b4685df0ae7c0800000000000000
-      internalID: -4041400305856078120
+      spriteID: 490c162ee9ebeceb0800000000000000
+      internalID: -4697607771688681324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girar_Pantalla_1
+      name: ProgressRocket_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 35
-        width: 285
-        height: 351
+        x: 30
+        y: 0
+        width: 105
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,30 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0260ad245126b1e30800000000000000
-      internalID: 4475278498178139680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Girar_Pantalla_2
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 315
-        width: 275
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12a8784e7ff16c510800000000000000
-      internalID: 1568976669736667681
+      spriteID: 066681f1b9f01adf0800000000000000
+      internalID: -170838151947327904
       vertices: []
       indices: 
       edges: []
@@ -185,9 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Girar_Pantalla_0: -4041400305856078120
-      Girar_Pantalla_1: 4475278498178139680
-      Girar_Pantalla_2: 1568976669736667681
+      ProgressRocket_0: -4697607771688681324
+      ProgressRocket_1: -170838151947327904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: minigameFinalScoreStrings.relatedMessage1
     m_Metadata:
       m_Items: []
+  - m_Id: 15745384758853632
+    m_Key: minigameFinalScoreStrings.relatedMessage2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
