@@ -23,11 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 167634522292224
-    m_Localized: Well Done!
+    m_Localized: Good Start!
     m_Metadata:
       m_Items: []
   - m_Id: 15745384758853632
-    m_Localized: Excellent!
+    m_Localized: You Made It!
     m_Metadata:
       m_Items: []
   references:

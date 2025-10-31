@@ -832,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100.00006, y: -100}
+  m_AnchoredPosition: {x: -100, y: -100}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 1}
 --- !u!95 &274987761
@@ -5128,10 +5128,10 @@ PrefabInstance:
       propertyPath: minigameScoreManager
       value: 
       objectReference: {fileID: 1240012630}
-    - target: {fileID: 1950192686830961066, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
-      propertyPath: minigameFinalScoreSettingsSO
-      value: 
-      objectReference: {fileID: 11400000, guid: 16289ab8591d9c24dbb9ad0e669c8511, type: 2}
+    - target: {fileID: 4011751061938135451, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7556760972867777093, guid: 8e3a23ebd7ccc0b4aaa35c067fc0d488, type: 3}
       propertyPath: m_Name
       value: FinalScoreCanvas

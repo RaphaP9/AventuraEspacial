@@ -23,11 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 167634522292224
-    m_Localized: "\xA1Buen Trabajo!"
+    m_Localized: "\xA1Buen Comienzo!"
     m_Metadata:
       m_Items: []
   - m_Id: 15745384758853632
-    m_Localized: "\xA1Excelente!"
+    m_Localized: "\xA1Lo Lograste!"
     m_Metadata:
       m_Items: []
   references:
