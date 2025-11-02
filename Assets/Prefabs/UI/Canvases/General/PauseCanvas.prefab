@@ -678,11 +678,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef067a10539ff8e49bbda99c7870131e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
   pauseUIAnimator: {fileID: 4876737787149490542}
-  pauseButton: {fileID: 0}
+  pauseButtons: []
   resumeButton: {fileID: 3209924942984885974}
-  pauseState: 0
 --- !u!114 &5449070331250709228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,7 +900,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &6487888179930979019
 MonoBehaviour:
