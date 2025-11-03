@@ -44,21 +44,17 @@ public class MemoryMinigameManager : MinigameManager
     public static event EventHandler<OnRevealTimeEventArgs> OnRevealTimeStart;
     public static event EventHandler<OnRevealTimeEventArgs> OnRevealTimeEnd;
 
-    public static event EventHandler<OnRoundEventArgs> OnRoundStart;
-    public static event EventHandler<OnRoundEventArgs> OnRoundEnd;
+    public static event EventHandler<OnMemoryRoundEventArgs> OnMemoryRoundStart;
+    public static event EventHandler<OnMemoryRoundEventArgs> OnMemoryRoundEnd;
 
     public static event EventHandler OnPairMatch;
     public static event EventHandler OnPairFailed;
-
-    public static event EventHandler OnGameInitialized;
     #endregion
 
     #region Custom Classes
-    public class OnRoundEventArgs : EventArgs
+    public class OnMemoryRoundEventArgs : OnRoundEventArgs
     {
         public MemoryRound memoryRound;
-        public int roundIndex;
-        public int totalRounds;
     }
 
     public class OnRevealTimeEventArgs : EventArgs
@@ -108,7 +104,7 @@ public class MemoryMinigameManager : MinigameManager
         gameEnded = false;
         currentRoundIndex = 0;
 
-        OnGameInitialized?.Invoke(this, EventArgs.Empty);   
+        OnGameInitializedMethod();
     }
 
     #region Coroutines
@@ -146,7 +142,8 @@ public class MemoryMinigameManager : MinigameManager
         List<MemoryCardSO> chosenPairs = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(settings.cardPool, memoryRound.pairCount);
         CreateCards(chosenPairs, memoryRound);
 
-        OnRoundStart?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count }); 
+        OnRoundStartMethod(roundIndex, settings.rounds.Count);  
+        OnMemoryRoundStart?.Invoke(this, new OnMemoryRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count }); 
 
         SetMinigameState(MiniGameState.RevealingCards);
 
@@ -203,7 +200,8 @@ public class MemoryMinigameManager : MinigameManager
 
                 yield return new WaitForSeconds(settings.allPairsMatchTime);
 
-                OnRoundEnd?.Invoke(this, new OnRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
+                OnRoundEndMethod(roundIndex, settings.rounds.Count);
+                OnMemoryRoundEnd?.Invoke(this, new OnMemoryRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
                 DisappearCards(currentRoundCards);
 

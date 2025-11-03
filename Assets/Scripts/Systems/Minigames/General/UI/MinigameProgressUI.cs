@@ -15,6 +15,23 @@ public class MinigameProgressUI : MonoBehaviour
 
     private const float TARGET_REACHED_THRESHOLD = 0.001f;
 
+    private void OnEnable()
+    {
+        MinigameManager.OnGameInitialized += MinigameManager_OnGameInitialized;
+
+        MinigameManager.OnRoundStart += MinigameManager_OnRoundStart;
+        MinigameManager.OnRoundEnd += MinigameManager_OnRoundEnd;
+    }
+
+    private void OnDisable()
+    {
+        MinigameManager.OnGameInitialized -= MinigameManager_OnGameInitialized;
+
+        MinigameManager.OnRoundStart -= MinigameManager_OnRoundStart;
+        MinigameManager.OnRoundEnd -= MinigameManager_OnRoundEnd;
+    }
+
+    #region Logic
     protected void Update()
     {
         HandleProgressLerping();
@@ -37,4 +54,22 @@ public class MinigameProgressUI : MonoBehaviour
 
         targetValue = progressPercentage;
     }
+    #endregion
+
+    #region Subscriptions
+    private void MinigameManager_OnGameInitialized(object sender, EventArgs e)
+    {
+        SetProgressInstantly(0f);
+    }
+
+    private void MinigameManager_OnRoundStart(object sender, MinigameManager.OnRoundEventArgs e)
+    {
+        SetTargetValue(e.roundIndex, e.totalRounds, false);
+    }
+
+    private void MinigameManager_OnRoundEnd(object sender, MinigameManager.OnRoundEventArgs e)
+    {
+        SetTargetValue(e.roundIndex, e.totalRounds, true);
+    }
+    #endregion
 }

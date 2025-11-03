@@ -43,22 +43,18 @@ public class SilhouettesMinigameManager : MinigameManager
     private bool draggingFigure = false;
 
     #region Events
-    public static event EventHandler<OnRoundEventArgs> OnRoundStart;
-    public static event EventHandler<OnRoundEventArgs> OnRoundEnd;
+    public static event EventHandler<OnSilhouettesRoundEventArgs> OnSilhouettesRoundStart;
+    public static event EventHandler<OnSilhouettesRoundEventArgs> OnSilhouettesRoundEnd;
 
     public static event EventHandler OnSilhouetteMatch;
     public static event EventHandler OnSilhouetteFailed;
     public static event EventHandler OnFigureReturnToOriginalPosition;
-
-    public static event EventHandler OnGameInitialized;
     #endregion
 
     #region Custom Classes
-    public class OnRoundEventArgs : EventArgs
+    public class OnSilhouettesRoundEventArgs : OnRoundEventArgs
     {
         public SilhouettesRound silhouettesRound;
-        public int roundIndex;
-        public int totalRounds;
     }
     #endregion
 
@@ -113,7 +109,7 @@ public class SilhouettesMinigameManager : MinigameManager
         gameEnded = false;
         currentRoundIndex = 0;
 
-        OnGameInitialized?.Invoke(this, EventArgs.Empty);
+        OnGameInitializedMethod();
     }
 
     #region Coroutines
@@ -151,7 +147,8 @@ public class SilhouettesMinigameManager : MinigameManager
         CreateFigures(chosenSilhouettes, roundGameAreaHandler);
         CreateSilhouettes(chosenSilhouettes, roundGameAreaHandler);
 
-        OnRoundStart?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
+        OnRoundStartMethod(roundIndex, settings.rounds.Count);
+        OnSilhouettesRoundStart?.Invoke(this, new OnSilhouettesRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
         bool roundEnded = false;
 
@@ -191,7 +188,8 @@ public class SilhouettesMinigameManager : MinigameManager
 
                 yield return new WaitForSeconds(settings.allSilhouettesMatchTime);
 
-                OnRoundEnd?.Invoke(this, new OnRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
+                OnRoundEndMethod(roundIndex, settings.rounds.Count);
+                OnSilhouettesRoundEnd?.Invoke(this, new OnSilhouettesRoundEventArgs { silhouettesRound = silhouetteRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
                 currentBackpack.Full();
 
