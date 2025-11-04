@@ -206,6 +206,10 @@ MonoBehaviour:
     targetScene: Collection
   - originScene: Collection
     targetScene: MainMenu
+  - originScene: MainMenu
+    targetScene: TestScene
+  - originScene: TestScene
+    targetScene: MainMenu
   fadeInExceptionTransitions:
   - originScene: MainMenu
     targetScene: Album

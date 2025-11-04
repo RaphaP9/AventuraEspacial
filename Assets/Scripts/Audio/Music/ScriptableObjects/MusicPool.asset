@@ -33,3 +33,5 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 39fe4bc035f8af04bbaa57b17c081c54, type: 3}
   - sceneName: SilhouettesMinigame
     music: {fileID: 8300000, guid: 76da8bebb96f8cf498054bfbee13f601, type: 3}
+  - sceneName: TestScene
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}

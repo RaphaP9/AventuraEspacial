@@ -1,9 +1,17 @@
 using UnityEngine;
+using System;
 
 public class VibrationToggleUIHandler : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] protected AnimatedToggle animatedToggle;
+
+    public static event EventHandler<OnVibrationToggledEventArgs> OnVibrationToggled; 
+
+    public class OnVibrationToggledEventArgs : EventArgs
+    {
+        public bool isOn;
+    }
 
     private void OnEnable()
     {
@@ -37,6 +45,8 @@ public class VibrationToggleUIHandler : MonoBehaviour
         animatedToggle.isOn = newState;
         VibrationStateManager.Instance.ChangeState(newState, true);
 
+        OnVibrationToggled?.Invoke(this, new OnVibrationToggledEventArgs { isOn = newState });
+
         if (newState) animatedToggle.TurnOn();
         else animatedToggle.TurnOff();
     }
@@ -45,6 +55,8 @@ public class VibrationToggleUIHandler : MonoBehaviour
     {
         animatedToggle.isOn = newState;
         VibrationStateManager.Instance.ChangeState(newState, true);
+
+        OnVibrationToggled?.Invoke(this, new OnVibrationToggledEventArgs { isOn = newState });
 
         if (newState) animatedToggle.TurnOnInmediately();
         else animatedToggle.TurnOffInmediately();
