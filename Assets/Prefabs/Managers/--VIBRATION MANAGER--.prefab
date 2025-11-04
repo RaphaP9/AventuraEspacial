@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a39c1687db581241a5b7a9dc8edd8dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vibrationLevelSettingsSO: {fileID: 11400000, guid: 444c4aa712b4ac342beb97563190b3d6, type: 2}
+  vibrateOneShotDurationMs: 100

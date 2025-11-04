@@ -3,6 +3,9 @@ using UnityEngine;
 
 public abstract class MinigameTimerManager : MonoBehaviour
 {
+    [Header("Settings")]
+    [SerializeField, Range(5,30)] protected float warningTime;
+
     [Header("Runtime Filled")]
     [SerializeField] protected float totalTime;
     [SerializeField] protected float currentTime;
@@ -13,6 +16,7 @@ public abstract class MinigameTimerManager : MonoBehaviour
     public static event EventHandler<OnTimeSetEventArgs> OnTimeSet;
     public static event EventHandler<OnTimeIncreasedEventArgs> OnTimeIncrease;
     public static event EventHandler<OnTimeDecreasedEventArgs> OnTimeDecrease;
+    public static event EventHandler OnTimeWarning;
     public static event EventHandler OnTimeEnd;
 
     public float TotalTime => totalTime;
@@ -46,7 +50,11 @@ public abstract class MinigameTimerManager : MonoBehaviour
         if (!totalTimeSet) return;
         if (!CanPassTime()) return;
 
+        float previousTime = currentTime;
+
         currentTime -= Time.deltaTime;
+
+        CheckTimeWarning(previousTime, currentTime);
         CheckTimeEnd();
     }
 
@@ -65,6 +73,17 @@ public abstract class MinigameTimerManager : MonoBehaviour
 
         CheckTimeEnd();
     }
+
+    protected void CheckTimeWarning(float previousTime, float currentTime)
+    {
+        if (previousTime == currentTime) return;
+
+        if (previousTime > warningTime && currentTime< warningTime)
+        {
+            OnTimeWarning?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
     protected void CheckTimeEnd()
     {
         if (currentTime > 0) return;

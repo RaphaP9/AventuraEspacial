@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class DisclaimerSceneVibrationHandler : SceneSFXHandler
+public class DisclaimerSceneVibrationHandler : SceneVibrationHandler
 {
-    private void OnEnable()
+    protected override void OnEnable()
     {
-
+        base.OnEnable();
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
-
+        base.OnDisable();
     }
 }

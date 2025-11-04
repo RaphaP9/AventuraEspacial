@@ -6,7 +6,7 @@ public abstract class CinematicUnlockHandler : MonoBehaviour
     [Header("Components")]
     [SerializeField] private CinematicSO cinematicSO;
 
-    public static event EventHandler<OnCinematicUnlockedEventArgs> OnCinematicUnlocked;
+    //public static event EventHandler<OnCinematicUnlockedEventArgs> OnCinematicUnlocked;
 
     public class OnCinematicUnlockedEventArgs : EventArgs
     {

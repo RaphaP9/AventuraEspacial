@@ -1350,6 +1350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 777133985bc7b8a47b1afafe8a92fa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  warningTime: 15
   totalTime: 0
   currentTime: 0
   settings: {fileID: 11400000, guid: 591d614d3257bd848944f8899e15977e, type: 2}
