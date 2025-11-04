@@ -44,15 +44,22 @@ public abstract class VolumeSliderUIHandler : MonoBehaviour
         eventDetectorSlider.SetValueWithoutNotify(currentVolume);
     }
 
+    protected abstract void OnDragEndMethod();
+    protected abstract void OnPointerUpMethod();
+
     #region Subscriptions
     private void EventDetectorSlider_OnDragEnd(object sender, EventArgs e)
     {
         GetVolumeManager().SaveVolumePlayerPrefs(eventDetectorSlider.value);
+        OnDragEndMethod();
     }
 
-    private void EventDetectorSlider_OnUpPointer(object sender, EventArgs e)
+    private void EventDetectorSlider_OnUpPointer(object sender, EventDetectorSlider.OnPointerUpEventArgs e)
     {
+        if (e.isDraggingWhilePointerUp) return; //If was dragging while pointer up, OnDragEnd will be executed and this method (EventDetectorSlider_OnUpPointer) is redundant
+
         GetVolumeManager().SaveVolumePlayerPrefs(eventDetectorSlider.value);
+        OnPointerUpMethod();
     }
     #endregion
 }

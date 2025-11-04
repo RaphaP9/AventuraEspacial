@@ -1,7 +1,11 @@
 using UnityEngine;
+using System;
 
 public class MusicVolumeSliderUIHandler : VolumeSliderUIHandler
 {
+    public static event EventHandler OnMusicSliderDragEnd;
+    public static event EventHandler OnMusicSliderPointerUp;
+
     protected override void OnEnable()
     {
         base.OnEnable();
@@ -17,6 +21,8 @@ public class MusicVolumeSliderUIHandler : VolumeSliderUIHandler
     }
 
     protected override VolumeManager GetVolumeManager() => MusicVolumeManager.Instance;
+    protected override void OnDragEndMethod() => OnMusicSliderDragEnd?.Invoke(this, EventArgs.Empty);
+    protected override void OnPointerUpMethod() => OnMusicSliderPointerUp?.Invoke(this, EventArgs.Empty);
 
     private void MusicVolumeManager_OnMusicVolumeManagerInitialized(object sender, System.EventArgs e)
     {

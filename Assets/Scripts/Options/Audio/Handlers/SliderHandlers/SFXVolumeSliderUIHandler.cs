@@ -1,7 +1,11 @@
+using System;
 using UnityEngine;
 
 public class SFXVolumeSliderUIHandler : VolumeSliderUIHandler
 {
+    public static event EventHandler OnSFXSliderDragEnd;
+    public static event EventHandler OnSFXSliderPointerUp;
+
     protected override void OnEnable()
     {
         base.OnEnable();
@@ -17,6 +21,8 @@ public class SFXVolumeSliderUIHandler : VolumeSliderUIHandler
     }
 
     protected override VolumeManager GetVolumeManager() => SFXVolumeManager.Instance;
+    protected override void OnDragEndMethod() => OnSFXSliderDragEnd?.Invoke(this, EventArgs.Empty); 
+    protected override void OnPointerUpMethod() => OnSFXSliderPointerUp?.Invoke(this, EventArgs.Empty);
 
     private void SFXVolumeManager_OnSFXVolumeManagerInitialized(object sender, System.EventArgs e)
     {
