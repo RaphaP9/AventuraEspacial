@@ -25,8 +25,9 @@ public class HapticManager : MonoBehaviour
         }
     }
 
-    public void PlayHaptic(HapticPatterns.PresetType hapticPreset)
+    public void PlayHaptic(HapticPatterns.PresetType hapticPreset, bool forceHaptic)
     {
+        if (!forceHaptic && !VibrationStateManager.Instance.VibrationEnabled) return;
         HapticPatterns.PlayPreset(hapticPreset);
     }
 }
