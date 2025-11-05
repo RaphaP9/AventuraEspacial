@@ -455,6 +455,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8562543629866280548}
     m_Modifications:
+    - target: {fileID: 320697800897108442, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4486922130529118661, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
       propertyPath: m_Name
       value: LandmarkProgressUI
@@ -478,6 +482,10 @@ PrefabInstance:
     - target: {fileID: 5519646158111895463, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5987776828913845562, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -466.67
       objectReference: {fileID: 0}
     - target: {fileID: 6964282970605549433, guid: 72ab23b7e0667a8498399a7ae8a21c9f, type: 3}
       propertyPath: m_Pivot.x

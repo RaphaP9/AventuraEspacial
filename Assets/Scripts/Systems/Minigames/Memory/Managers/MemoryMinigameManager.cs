@@ -257,7 +257,6 @@ public class MemoryMinigameManager : MinigameManager
 
     private IEnumerator SetInputLockCooldownCoroutine()
     {
-        inputLocked = true;
         yield return new WaitForSeconds(settings.cardRevealInputCooldown);
 
         inputLocked = false;
@@ -387,6 +386,8 @@ public class MemoryMinigameManager : MinigameManager
     public void SetInputLockCooldown()
     {
         if(inputLocked) return;
+
+        inputLocked = true;
         StartCoroutine(SetInputLockCooldownCoroutine());
     }
 

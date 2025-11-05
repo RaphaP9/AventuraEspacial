@@ -252,7 +252,6 @@ public class SilhouettesMinigameManager : MinigameManager
 
     private IEnumerator SetInputLockCooldownCoroutine()
     {
-        inputLocked = true;
         yield return new WaitForSeconds(settings.silhouetteDragInputCooldown);
 
         inputLocked = false;
@@ -438,6 +437,8 @@ public class SilhouettesMinigameManager : MinigameManager
     public void SetInputLockCooldown()
     {
         if (inputLocked) return;
+
+        inputLocked = true;
         StartCoroutine(SetInputLockCooldownCoroutine());
     }
 
