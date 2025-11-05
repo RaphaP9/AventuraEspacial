@@ -994,10 +994,6 @@ PrefabInstance:
       propertyPath: startCinematicScene
       value: SilhouettesMinigameStartCutsceneScene
       objectReference: {fileID: 0}
-    - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
-      propertyPath: ignoreStartCinematic
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2910268673368259501, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
       value: 40892841984
@@ -1966,7 +1962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &855352258
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4388,10 +4384,6 @@ PrefabInstance:
     - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: startCinematicScene
       value: MemoryMinigameStartCutsceneScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 1182901346712657277, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
-      propertyPath: ignoreStartCinematic
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1264270971575979531, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_fontColor32.rgba

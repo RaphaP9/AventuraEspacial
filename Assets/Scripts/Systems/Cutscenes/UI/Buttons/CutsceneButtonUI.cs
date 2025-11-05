@@ -10,7 +10,9 @@ public class CutsceneButtonUI : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] private Button cutsceneButton;
     [SerializeField] private Image cutsceneThumbnailImage;
-    [SerializeField] private Transform notUnlockedCover;
+    [Space]
+    [SerializeField] private Transform buttonUI;
+    [SerializeField] private Transform notUnlockedCoverUI;
 
     private void Awake()
     {
@@ -36,8 +38,16 @@ public class CutsceneButtonUI : MonoBehaviour
     {
         bool unlocked = DataContainer.Instance.HasUnlockedCutscene(cutsceneSO);
 
-        if (unlocked) notUnlockedCover.gameObject.SetActive(false);
-        else notUnlockedCover.gameObject.SetActive(true);
+        if (unlocked)
+        {
+            buttonUI.gameObject.SetActive(true);
+            notUnlockedCoverUI.gameObject.SetActive(false);
+        }
+        else
+        {
+            buttonUI.gameObject.SetActive(false);
+            notUnlockedCoverUI.gameObject.SetActive(true);
+        }
     }
 
     private void PlayCutscene() => AlbumSceneCutsceneUI.Instance.PlayCutscene(cutsceneSO);

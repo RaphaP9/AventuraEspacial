@@ -272,7 +272,8 @@ MonoBehaviour:
   cutsceneSO: {fileID: 0}
   cutsceneButton: {fileID: 6573825993659917188}
   cutsceneThumbnailImage: {fileID: 6011020788975466638}
-  notUnlockedCover: {fileID: 2195124378722042614}
+  notUnlockedCoverUI: {fileID: 2195124378722042614}
+  buttonUI: {fileID: 1215768692804588487}
 --- !u!1 &8980151670313430089
 GameObject:
   m_ObjectHideFlags: 0

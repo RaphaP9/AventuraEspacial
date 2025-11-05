@@ -67,7 +67,8 @@ MonoBehaviour:
   timeBonusOnMatch: 5
   timePenaltyOnFail: 3
   startingGameTime: 3
-  timeBetweenPairs: 0
+  cardRevealInputCooldown: 0.25
+  timeBetweenPairs: 0.25
   allPairsMatchTime: 3
   switchRoundTimer: 2
   endLastRoundTimer: 2

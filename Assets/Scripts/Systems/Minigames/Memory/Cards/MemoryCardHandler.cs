@@ -46,6 +46,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
         if (!MemoryMinigameManager.Instance.CanFlipCard()) return;
 
         RevealCard();
+        MemoryMinigameManager.Instance.SetInputLockCooldown();
     }
 
     public void RevealCard()

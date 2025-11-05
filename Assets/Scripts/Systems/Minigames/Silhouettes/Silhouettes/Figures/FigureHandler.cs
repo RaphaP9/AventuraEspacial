@@ -143,8 +143,9 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         if (isHolding) return;
         if (isFailing) return;
 
-
         if (!SilhouettesMinigameManager.Instance.CanDragSilhouette()) return;
+
+        SilhouettesMinigameManager.Instance.SetInputLockCooldown();
 
         StopAllCoroutines();
         isHolding = true;

@@ -34,6 +34,8 @@ public class SilhouettesMinigameManager : MinigameManager
 
     [Header("Debug")]
     [SerializeField] private bool debug;
+    [SerializeField] private bool inputLocked;
+
     private enum MiniGameState { StartingMinigame, WaitForFigureDragging, DraggingFigure, ProcessingSilhouette, EndingRound, SwitchingRound, Winning, Win, Losing, Lose }
     private enum SilhouetteProcessResult {NotDraggedOntoSilhouette, Match, Fail }
 
@@ -108,6 +110,7 @@ public class SilhouettesMinigameManager : MinigameManager
     {
         gameEnded = false;
         currentRoundIndex = 0;
+        inputLocked = false;
 
         OnGameInitializedMethod();
     }
@@ -245,6 +248,14 @@ public class SilhouettesMinigameManager : MinigameManager
 
         SetMinigameState(MiniGameState.Lose);
         OnGameLostMethod();
+    }
+
+    private IEnumerator SetInputLockCooldownCoroutine()
+    {
+        inputLocked = true;
+        yield return new WaitForSeconds(settings.silhouetteDragInputCooldown);
+
+        inputLocked = false;
     }
     #endregion
 
@@ -416,8 +427,19 @@ public class SilhouettesMinigameManager : MinigameManager
     #endregion
 
     #region Public Methods
-    public bool CanDragSilhouette() => miniGameState == MiniGameState.WaitForFigureDragging;
+    public bool CanDragSilhouette()
+    {
+        if (inputLocked) return false;
+        return miniGameState == MiniGameState.WaitForFigureDragging;
+    }
+
     public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFigureDragging || miniGameState == MiniGameState.DraggingFigure;
+   
+    public void SetInputLockCooldown()
+    {
+        if (inputLocked) return;
+        StartCoroutine(SetInputLockCooldownCoroutine());
+    }
 
     public void LoseMinigameByTime()
     {

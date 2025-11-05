@@ -29,6 +29,7 @@ public class MemoryMinigameManager : MinigameManager
 
     [Header("Debug")]
     [SerializeField] private bool debug;
+    [SerializeField] private bool inputLocked;
 
     private enum MiniGameState { StartingMinigame, RevealingCards, WaitForFirstCard, WaitForSecondCard, ProcessingPair, EndingRound, SwitchingRound, Winning, Win, Losing, Lose}
 
@@ -103,6 +104,7 @@ public class MemoryMinigameManager : MinigameManager
     {
         gameEnded = false;
         currentRoundIndex = 0;
+        inputLocked = false;
 
         OnGameInitializedMethod();
     }
@@ -253,6 +255,13 @@ public class MemoryMinigameManager : MinigameManager
         OnGameLostMethod();
     }
 
+    private IEnumerator SetInputLockCooldownCoroutine()
+    {
+        inputLocked = true;
+        yield return new WaitForSeconds(settings.cardRevealInputCooldown);
+
+        inputLocked = false;
+    }
     #endregion
 
     #region Setters
@@ -367,8 +376,19 @@ public class MemoryMinigameManager : MinigameManager
     #endregion
 
     #region Public Methods
-    public bool CanFlipCard() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+    public bool CanFlipCard()
+    {
+        if (inputLocked) return false;
+        return miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+    }
+
     public override bool CanPassTime() => miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
+
+    public void SetInputLockCooldown()
+    {
+        if(inputLocked) return;
+        StartCoroutine(SetInputLockCooldownCoroutine());
+    }
 
     public void LoseMinigameByTime()
     {
