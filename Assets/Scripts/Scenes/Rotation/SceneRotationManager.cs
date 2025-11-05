@@ -51,12 +51,12 @@ public class SceneRotationManager : MonoBehaviour
         #if UNITY_EDITOR
             GameViewUtilities.SwitchToPortrait();
         #else
-            Screen.orientation = ScreenOrientation.Portrait;
-
             Screen.autorotateToPortrait = false;
             Screen.autorotateToLandscapeRight = false;
             Screen.autorotateToLandscapeLeft = false;
             Screen.autorotateToPortraitUpsideDown = false;
+
+            Screen.orientation = ScreenOrientation.Portrait;
         #endif
     }
 
@@ -65,12 +65,12 @@ public class SceneRotationManager : MonoBehaviour
         #if UNITY_EDITOR
             GameViewUtilities.SwitchToLandscape();
         #else
-            Screen.orientation = ScreenOrientation.LandscapeLeft;
-
             Screen.autorotateToPortrait = false;
             Screen.autorotateToLandscapeRight = false;
             Screen.autorotateToLandscapeLeft = false;
             Screen.autorotateToPortraitUpsideDown = false;
+
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
         #endif
     }
 

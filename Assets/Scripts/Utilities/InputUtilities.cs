@@ -29,6 +29,6 @@ public static class InputUtilities
         Vector3 accel = GetAccelerommeterValue();
         bool isLandscape = Mathf.Abs(accel.x) > Mathf.Abs(accel.y);
 
-        return isLandscape && accel.x < -LANDSCAPE_THRESHOLD;
+        return isLandscape && Mathf.Abs(accel.x) > LANDSCAPE_THRESHOLD;
     }
 }
