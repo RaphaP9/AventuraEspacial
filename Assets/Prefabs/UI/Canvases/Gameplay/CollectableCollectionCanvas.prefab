@@ -147,6 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8742489830269862423}
   - component: {fileID: 7394989245466700652}
+  - component: {fileID: 8578640499665582190}
   m_Layer: 5
   m_Name: CollectableCollectionUI
   m_TagString: Untagged
@@ -189,3 +190,16 @@ MonoBehaviour:
   notificationsContainer: {fileID: 2289957371678172039}
   collectableNotificationPrefab: {fileID: 6170951873893826346, guid: d6b4922b513097b43aaba857fe1c76da, type: 3}
   debug: 1
+--- !u!114 &8578640499665582190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554644133513053154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c6434e572656c49beb20ae655dac15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectableCollectedHapticPreset: 1

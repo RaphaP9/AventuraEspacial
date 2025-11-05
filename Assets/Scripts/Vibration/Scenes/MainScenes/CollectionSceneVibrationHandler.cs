@@ -1,7 +1,7 @@
 using Lofelt.NiceVibrations;
 using UnityEngine;
 
-public class CollectionVibrationHandler : SceneVibrationHandler
+public class CollectionSceneVibrationHandler : SceneVibrationHandler
 {
     [Header("Settings")]
     [SerializeField] private HapticPatterns.PresetType collectableCollectedTapHapticPreset;
