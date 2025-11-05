@@ -51,7 +51,7 @@ public class RotationDetectorManager : MonoBehaviour
     {
         if (hasRotated) return;
 
-        if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+        if (InputUtilities.IsLandscapeLeft())
         {
             ForceRotationAndNextScene();
         }

@@ -30,6 +30,8 @@ public class TestSceneVibrationHandler : SceneVibrationHandler
     {
         HapticPatterns.PresetType presetType = FindHapticPresetTypeByIndex(index);
         HapticManager.Instance.PlayHaptic(presetType, false);
+
+        Debug.Log($"Haptic Play {index}");
     }
 
     private HapticPatterns.PresetType FindHapticPresetTypeByIndex(int index)

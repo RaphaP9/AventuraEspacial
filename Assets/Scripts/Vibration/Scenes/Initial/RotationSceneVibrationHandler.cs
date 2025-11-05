@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RotationSceneVibrationHandler : SceneSFXHandler
+public class RotationSceneVibrationHandler : SceneVibrationHandler
 {
     protected override void OnEnable()
     {
