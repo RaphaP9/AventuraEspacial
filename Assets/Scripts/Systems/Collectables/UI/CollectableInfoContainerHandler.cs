@@ -81,7 +81,7 @@ public class CollectableInfoContainerHandler : MonoBehaviour
         if (!selectFirstCollectableOnContainerPopulation) return;
         if (e.collectableUIList.Count <= 0) return;
 
-        UpdateSelectedCollectable(e.collectableUIList[0], true);
+        UpdateSelectedCollectable(e.collectableUIList[0], true); //Index = 0, First from list
     }
 
     private void CollectableUI_OnCollectableUIClicked(object sender, CollectableUI.OnCollectableUIEventArgs e)

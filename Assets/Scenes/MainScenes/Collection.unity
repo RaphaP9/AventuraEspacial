@@ -2276,6 +2276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18da2607386cc75468228d0c487fcc22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableCollectedTapHapticPreset: 8
+  collectableNotCollectedTapHapticPreset: 0
 --- !u!1 &1166470811
 GameObject:
   m_ObjectHideFlags: 0
