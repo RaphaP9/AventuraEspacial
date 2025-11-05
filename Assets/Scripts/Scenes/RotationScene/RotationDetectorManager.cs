@@ -53,15 +53,11 @@ public class RotationDetectorManager : MonoBehaviour
 
         if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
         {
-            ForceRotationAndNextScene();
+            //ForceRotationAndNextScene();
+            EmergencyMethod();
         }
 
-        /*
-        if (InputUtilities.IsLandscapeLeft())
-        {
-            ForceRotationAndNextScene();
-        }
-        */
+        
     }
 
     public void ForceRotationAndNextScene()
@@ -72,6 +68,26 @@ public class RotationDetectorManager : MonoBehaviour
         {
             SetBackgroundImage(landscapeSprite);
             SceneRotationManager.Instance.RotateToLandscape();
+        }
+
+        hasRotated = true;
+
+        StartCoroutine(LoadNextSceneAfterTimeCoroutine());
+    }
+
+    public void EmergencyMethod()
+    {
+        if (hasRotated) return;
+
+        if (forceLandscapeAfterRotation)
+        {
+            SetBackgroundImage(landscapeSprite);
+            Screen.autorotateToPortrait = false;
+            Screen.autorotateToLandscapeRight = false;
+            Screen.autorotateToLandscapeLeft = false;
+            Screen.autorotateToPortraitUpsideDown = false;
+
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
         }
 
         hasRotated = true;

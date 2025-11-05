@@ -394,8 +394,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSceneRotation: 1
-  rotateToDefaultOnStart: 1
-  rotateToDefaultOnQuit: 1
+  rotateToDefaultOnStart: 0
+  rotateToDefaultOnQuit: 0
 --- !u!1001 &166386868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -736,7 +736,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 400, y: 275}
+  m_SizeDelta: {x: 400, y: 350}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &285898835
 MonoBehaviour:
@@ -2523,7 +2523,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -700, y: -300}
+  m_SizeDelta: {x: -700, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1176083118
 MonoBehaviour:
@@ -2590,7 +2590,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 780}
+  m_SizeDelta: {x: 0, y: 875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1239488077
 MonoBehaviour:
@@ -3073,7 +3073,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 780}
+  m_SizeDelta: {x: 0, y: 875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678664870
 MonoBehaviour:
@@ -3157,6 +3157,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
   - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
   - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
   collectableUIList: []
   debug: 1
 --- !u!1 &1733529288
@@ -3193,7 +3200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -25}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 325, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1733529290
@@ -3329,7 +3336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -125}
   m_SizeDelta: {x: 325, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1780626186
@@ -3976,7 +3983,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 152, y: 152}
-  m_Spacing: {x: 25, y: 25}
+  m_Spacing: {x: 15, y: 15}
   m_Constraint: 0
   m_ConstraintCount: 3
 --- !u!114 &2091750469
@@ -3992,7 +3999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useFixedColummCount: 0
-  columnCount: 5
+  columnCount: 4
   useSquareCells: 1
   minCellWidth: 130
   maxCellWidth: 150

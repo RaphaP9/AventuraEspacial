@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MinigameSceneDataModifier : MonoBehaviour
 {
@@ -7,6 +9,13 @@ public class MinigameSceneDataModifier : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private MinigameScoreManager minigameScoreManager;
+
+    public static event EventHandler<OnTotalScoreAddedEventArgs> OnTotalScoreAdded;
+
+    public class OnTotalScoreAddedEventArgs : EventArgs
+    {
+        public int newTotalScore;
+    }
 
     private void OnEnable()
     {
@@ -30,21 +39,25 @@ public class MinigameSceneDataModifier : MonoBehaviour
         GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
     }
 
-    #region Subscriptions
-    private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
+    private void HandleTotalScoreAdd()
     {
         DataContainer.Instance.IncreaseTimesWonMinigame(minigame);
         DataContainer.Instance.IncreaseTotalScoreMinigame(minigame, minigameScoreManager.CurrentScore);
 
         GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+
+        OnTotalScoreAdded?.Invoke(this, new OnTotalScoreAddedEventArgs { newTotalScore = DataContainer.Instance.GetMinigameTotalScoreByMinigame(minigame) });
+    }
+
+    #region Subscriptions
+    private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
+    {
+        HandleTotalScoreAdd();
     }
 
     private void MinigameManager_OnGameLost(object sender, System.EventArgs e)
     {
-        DataContainer.Instance.IncreaseTimesLostMinigame(minigame);
-        DataContainer.Instance.IncreaseTotalScoreMinigame(minigame, minigameScoreManager.CurrentScore);
-
-        GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+        HandleTotalScoreAdd();
     }
     #endregion
 }
