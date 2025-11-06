@@ -14,6 +14,7 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField, Range(3f,10f)] private float timeShowing;
+    [SerializeField] private bool useRealtime;
 
     [Header("Runtime Filled")]
     [SerializeField] private CollectableSO collectableSO;
@@ -37,7 +38,8 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
 
     private IEnumerator ShowCoroutine()
     {
-        yield return new WaitForSeconds(timeShowing);
+        if (useRealtime) yield return new WaitForSecondsRealtime(timeShowing);
+        else yield return new WaitForSeconds(timeShowing);
 
         animator.SetTrigger(HIDE_TRIGGER);
     }

@@ -6,6 +6,7 @@ public class GameObjectLifetimeHandler : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField, Range(0f, 10f)] private float lifetime;
+    [SerializeField] private bool useRealtime;
 
     private void Start()
     {
@@ -14,7 +15,8 @@ public class GameObjectLifetimeHandler : MonoBehaviour
 
     private IEnumerator LifetimeCoroutine()
     {
-        yield return new WaitForSeconds(lifetime);
+        if (useRealtime) yield return new WaitForSecondsRealtime(lifetime);
+        else yield return new WaitForSeconds(lifetime);
         Destroy(gameObject);
     }
 }

@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class Collectable3CollectionHandler : MonoBehaviour
+public class Collectable3CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //This collectable checks the first time user plays a cutscene in the Album
+    private void OnEnable()
     {
-        
+        AlbumSceneCutsceneUIHandler.OnCutscenePlay += AlbumSceneCutsceneUIHandler_OnCutscenePlay;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        AlbumSceneCutsceneUIHandler.OnCutscenePlay -= AlbumSceneCutsceneUIHandler_OnCutscenePlay;
+    }
+
+
+    private void AlbumSceneCutsceneUIHandler_OnCutscenePlay(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
+    {
+        CollectCollectable(false);
     }
 }

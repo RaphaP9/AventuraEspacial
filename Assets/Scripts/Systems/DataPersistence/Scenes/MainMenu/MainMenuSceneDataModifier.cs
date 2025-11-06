@@ -18,6 +18,6 @@ public class MainMenuSceneDataModifier : MonoBehaviour
         hasEnteredGame = true;
 
         DataContainer.Instance.IncreaseTimesEnteredGame();
-        GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+        GeneralDataManager.Instance.SaveJSONData(); //Do not use Async
     }
 }

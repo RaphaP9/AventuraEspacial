@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class MinigameSceneDataModifier : MonoBehaviour
 {
@@ -36,7 +35,7 @@ public class MinigameSceneDataModifier : MonoBehaviour
     private void HandleEnteringMinigameDataModification()
     {
         DataContainer.Instance.IncreaseTimesEnteredMinigame(minigame);
-        GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+        GeneralDataManager.Instance.SaveJSONData(); //Do not use Async
     }
 
     private void HandleTotalScoreAdd()
@@ -44,7 +43,7 @@ public class MinigameSceneDataModifier : MonoBehaviour
         DataContainer.Instance.IncreaseTimesWonMinigame(minigame);
         DataContainer.Instance.IncreaseTotalScoreMinigame(minigame, minigameScoreManager.CurrentScore);
 
-        GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+        GeneralDataManager.Instance.SaveJSONData(); //Do not use Async
 
         OnTotalScoreAdded?.Invoke(this, new OnTotalScoreAddedEventArgs { newTotalScore = DataContainer.Instance.GetMinigameTotalScoreByMinigame(minigame) });
     }

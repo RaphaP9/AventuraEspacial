@@ -3310,6 +3310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bbbc241ecc4e1e44ac6b4d00d85ca8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: 1d21699dd055c7e49aca242faa4eaa80, type: 2}
+  minigameList: 0000000001000000
 --- !u!1 &1704669242
 GameObject:
   m_ObjectHideFlags: 0

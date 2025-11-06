@@ -593,7 +593,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: dc37aa3e19c0daf48aa24a507ee3ed03, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -619,6 +619,7 @@ MonoBehaviour:
   collectableNameText: {fileID: 3461739411187958824}
   animator: {fileID: 8066208661093235464}
   timeShowing: 5
+  useRealtime: 1
   collectableSO: {fileID: 0}
 --- !u!114 &5665639474375523250
 MonoBehaviour:
@@ -633,3 +634,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 8
+  useRealtime: 1

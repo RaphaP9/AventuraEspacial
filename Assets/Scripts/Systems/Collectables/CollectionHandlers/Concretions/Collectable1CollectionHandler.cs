@@ -1,16 +1,10 @@
 using UnityEngine;
 
-public class Collectable1CollectionHandler : MonoBehaviour
+public class Collectable1CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //This collectable checks the first time user enters Minigame Selection
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CollectCollectable(false); //Do not use Async
     }
 }

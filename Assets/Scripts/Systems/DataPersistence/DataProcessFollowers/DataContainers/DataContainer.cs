@@ -107,6 +107,12 @@ public class DataContainer : MonoBehaviour
         return minigameData.timesEntered == 0;
     }
 
+    public bool HasEnteredMinigame(Minigame minigame)
+    {
+        MinigameData minigameData = GetMinigameDataByMinigame(minigame);
+        return minigameData.timesEntered > 0;
+    }
+
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public void IncreaseTimesWonMinigame(Minigame minigame)
