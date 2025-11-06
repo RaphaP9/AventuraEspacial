@@ -95,8 +95,8 @@ MonoBehaviour:
   timeBonusOnMatch: 5
   timePenaltyOnFail: 3
   startingGameTime: 3
-  silhouetteDragInputCooldown: 0.25
-  timeBetweenSilhouettes: 0.25
+  silhouetteDragInputCooldown: 0.1
+  timeBetweenSilhouettes: 0
   allSilhouettesMatchTime: 2
   switchRoundTimer: 3
   endLastRoundTimer: 2

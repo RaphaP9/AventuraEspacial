@@ -1004,6 +1004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f95ac3811c8d534ab3645628813e1f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: 6e58ddade6e30ac4f9548feef49f30bd, type: 2}
+  minigameTimerManager: {fileID: 919419378}
+  targetTime: 5
 --- !u!114 &605037508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,6 +1019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba53a13eb69de0e4bbadb990afb8cbd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: 84b52c324c7bec64dbe503138ccf385c, type: 2}
+  targetScore: 120
 --- !u!114 &605037509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51dabf845dffedb4c8517f40e051636c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: a12ce0bfd468b7343819ab7c95695237, type: 2}
 --- !u!114 &605037510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1040,6 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 883a138738efe85458ecf4d5e4de5e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: df343b61e42bcb94092d2b39cc8860e4, type: 2}
 --- !u!114 &605037511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,6 +1059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f813a46b73864443b80405ddd8f9e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: 43756a8c1b7e6574babbcc0286ea1862, type: 2}
+  targetCombo: 5
 --- !u!114 &605037512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,6 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789cbdddfadee5a41996d574246f8052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableSO: {fileID: 11400000, guid: edaffc1d06ac74948bd84cc6e2a78a0f, type: 2}
 --- !u!114 &605037513
 MonoBehaviour:
   m_ObjectHideFlags: 0

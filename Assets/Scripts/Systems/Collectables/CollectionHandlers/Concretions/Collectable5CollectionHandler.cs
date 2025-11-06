@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class Collectable5CollectionHandler : MonoBehaviour
+public class Collectable5CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //This collectable checks first round completed on Memory Minigame (make sure to put this script on MemoryMinigame scene)
+
+    private void OnEnable()
     {
-        
+        MemoryMinigameManager.OnMemoryRoundEnd += MemoryMinigameManager_OnMemoryRoundEnd;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        MemoryMinigameManager.OnMemoryRoundEnd -= MemoryMinigameManager_OnMemoryRoundEnd;
+    }
+
+    private void MemoryMinigameManager_OnMemoryRoundEnd(object sender, MemoryMinigameManager.OnMemoryRoundEventArgs e)
+    {
+        CollectCollectable(false);
     }
 }

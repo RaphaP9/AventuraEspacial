@@ -48,6 +48,10 @@ public class MemoryMinigameManager : MinigameManager
     public static event EventHandler<OnMemoryRoundEventArgs> OnMemoryRoundStart;
     public static event EventHandler<OnMemoryRoundEventArgs> OnMemoryRoundEnd;
 
+    //Event for scripts that require pair match event but respond before the OnPairMatch subscriptors
+    //Ex. Collectable where you check if a pair has matched when the timer was 5s or less
+    //If Time is added because OnPairMatch, the seconds might be added before the 5s or less condition is checked
+    public static event EventHandler OnPairMatchPreliminar; 
     public static event EventHandler OnPairMatch;
     public static event EventHandler OnPairFailed;
 
@@ -332,6 +336,7 @@ public class MemoryMinigameManager : MinigameManager
         if (PairMatches(firstCard, secondCard))
         {
             MatchCards(evaluatedCards);
+            OnPairMatchPreliminar?.Invoke(this, EventArgs.Empty);
             OnPairMatch?.Invoke(this, EventArgs.Empty);
         }
         else

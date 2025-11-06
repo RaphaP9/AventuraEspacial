@@ -1,16 +1,22 @@
+using System;
 using UnityEngine;
 
-public class Collectable8CollectionHandler : MonoBehaviour
+public class Collectable8CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //Collectable that checks if you won the Memory Minigame
+
+    private void OnEnable()
     {
-        
+        MinigameManager.OnGameWinning += MinigameManager_OnGameWinning;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        MinigameManager.OnGameWinning -= MinigameManager_OnGameWinning;
+    }
+
+    private void MinigameManager_OnGameWinning(object sender, EventArgs e)
+    {
+        CollectCollectable(false);
     }
 }

@@ -48,6 +48,7 @@ public class SilhouettesMinigameManager : MinigameManager
     public static event EventHandler<OnSilhouettesRoundEventArgs> OnSilhouettesRoundStart;
     public static event EventHandler<OnSilhouettesRoundEventArgs> OnSilhouettesRoundEnd;
 
+    public static event EventHandler OnSilhouetteMatchPreliminar; //See explanation for the existance of this event on MemoryMinigameManager
     public static event EventHandler OnSilhouetteMatch;
     public static event EventHandler OnSilhouetteFailed;
     public static event EventHandler OnFigureReturnToOriginalPosition;
@@ -400,6 +401,7 @@ public class SilhouettesMinigameManager : MinigameManager
                 figure.MoveToBackpack(gameAreaHandler.BackpackHolder);
                 silhouette.MatchSilhouette();
                 currentBackpack.AddItem();
+                OnSilhouetteMatchPreliminar?.Invoke(this, EventArgs.Empty);
                 OnSilhouetteMatch?.Invoke(this, EventArgs.Empty);
                 break;
             case SilhouetteProcessResult.Fail:
