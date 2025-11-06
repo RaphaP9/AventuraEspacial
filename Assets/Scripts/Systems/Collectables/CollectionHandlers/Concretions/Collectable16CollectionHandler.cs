@@ -1,16 +1,32 @@
 using UnityEngine;
 
-public class Collectable16CollectionHandler : MonoBehaviour
+public class Collectable16CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //Collectable that checks if you match a silhouette (Memory Minigame) having X time or less on the timer
+    [Header("Specific Components")]
+    [SerializeField] private MinigameTimerManager minigameTimerManager;
+
+    [Header("Settings")]
+    [SerializeField, Range(1f, 20f)] private float targetTime;
+
+    private void OnEnable()
     {
-        
+        SilhouettesMinigameManager.OnSilhouetteMatchPreliminar += SilhouettesMinigameManager_OnSilhouetteMatchPreliminar;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        SilhouettesMinigameManager.OnSilhouetteMatchPreliminar -= SilhouettesMinigameManager_OnSilhouetteMatchPreliminar;
+    }
+
+    private void CheckCollectableCollected(float currentTime)
+    {
+        if (currentTime > targetTime) return;
+        CollectCollectable(false);
+    }
+
+    private void SilhouettesMinigameManager_OnSilhouetteMatchPreliminar(object sender, System.EventArgs e)
+    {
+        CheckCollectableCollected(minigameTimerManager.CurrentTime);
     }
 }

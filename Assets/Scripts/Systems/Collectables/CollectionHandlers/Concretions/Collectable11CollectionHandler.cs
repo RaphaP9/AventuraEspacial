@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class Collectable11CollectionHandler : MonoBehaviour
+public class Collectable11CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //This collectable checks first round completed on Silhouettes Minigame (make sure to put this script on SilhouettesMinigame scene)
+
+    private void OnEnable()
     {
-        
+        SilhouettesMinigameManager.OnSilhouettesRoundEnd += SilhouettesMinigameManager_OnSilhouettesRoundEnd;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        SilhouettesMinigameManager.OnSilhouettesRoundEnd -= SilhouettesMinigameManager_OnSilhouettesRoundEnd;
+    }
+
+    private void SilhouettesMinigameManager_OnSilhouettesRoundEnd(object sender, SilhouettesMinigameManager.OnSilhouettesRoundEventArgs e)
+    {
+        CollectCollectable(false);
     }
 }

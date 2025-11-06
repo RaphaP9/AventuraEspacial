@@ -1,16 +1,28 @@
 using UnityEngine;
 
-public class Collectable13CollectionHandler : MonoBehaviour
+public class Collectable13CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //Collectable that checks if you concluded the Silhouettes Minigame (won or lost)
+
+    private void OnEnable()
     {
-        
+        MinigameManager.OnGameWon += MinigameManager_OnGameWon;
+        MinigameManager.OnGameLost += MinigameManager_OnGameLost;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        MinigameManager.OnGameWon -= MinigameManager_OnGameWon;
+        MinigameManager.OnGameLost -= MinigameManager_OnGameLost;
+    }
+
+    private void MinigameManager_OnGameWon(object sender, System.EventArgs e)
+    {
+        CollectCollectable(false);
+    }
+
+    private void MinigameManager_OnGameLost(object sender, System.EventArgs e)
+    {
+        CollectCollectable(false);
     }
 }

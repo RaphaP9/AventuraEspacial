@@ -1,16 +1,29 @@
 using UnityEngine;
 
-public class Collectable15CollectionHandler : MonoBehaviour
+public class Collectable15CollectionHandler : CollectableCollectionHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    //Collectable that checks if your score is higher or equal to X in the Silhouettes Minigame
+    [Header("Settings")]
+    [SerializeField, Range(100, 200)] private int targetScore;
+
+    private void OnEnable()
     {
-        
+        MinigameScoreManager.OnScoreIncreased += MinigameScoreManager_OnScoreIncreased;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        MinigameScoreManager.OnScoreIncreased -= MinigameScoreManager_OnScoreIncreased;
+    }
+
+    private void CheckCollectableCollected(int score)
+    {
+        if (score < targetScore) return;
+        CollectCollectable(false);
+    }
+
+    private void MinigameScoreManager_OnScoreIncreased(object sender, MinigameScoreManager.OnScoreIncreasedEventArgs e)
+    {
+        CheckCollectableCollected(e.currentScore);
     }
 }
