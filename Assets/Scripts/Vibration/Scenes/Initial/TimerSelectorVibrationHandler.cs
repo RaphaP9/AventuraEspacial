@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TimerSelectorVibrationHandler : SceneSFXHandler
+public class TimerSelectorVibrationHandler : SceneVibrationHandler
 {
     protected override void OnEnable()
     {

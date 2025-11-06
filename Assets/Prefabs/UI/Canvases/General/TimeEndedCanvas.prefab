@@ -346,7 +346,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112782188226027213}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7337275934963052742}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &7841065855540574971
 Animator:
   serializedVersion: 7
@@ -667,7 +679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8371360137589175010}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7337275934963052742}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &3507653792986484063
 Animator:
   serializedVersion: 7

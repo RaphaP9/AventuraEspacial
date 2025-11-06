@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1670304359716758098}
   - component: {fileID: 7122110042635899800}
   - component: {fileID: 5745011623555031036}
+  - component: {fileID: 8184094250925291254}
   m_Layer: 5
   m_Name: SocialNetworkButton
   m_TagString: Untagged
@@ -120,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1670304359716758098}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8184094250925291254}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5745011623555031036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,3 +148,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 7122110042635899800}
   url: https://google.com
+--- !u!114 &8184094250925291254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163137302118756681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

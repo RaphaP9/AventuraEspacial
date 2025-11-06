@@ -1,10 +1,10 @@
 using UnityEngine;
 using Lofelt.NiceVibrations;
 
-public class CollectableCollectionUIVibrationHandler : MonoBehaviour
+public class CollectableCollectionUIVibrationHandler : UIVibrationHandler
 {
     [Header("Settings")]
-    [SerializeField] private HapticPatterns.PresetType collectableCollectedHapticPreset;
+    [SerializeField] private HapticPreset collectableCollectedHapticPreset;
 
     private void OnEnable()
     {
@@ -16,10 +16,8 @@ public class CollectableCollectionUIVibrationHandler : MonoBehaviour
         CollectableCollectionHandler.OnCollectableCollected -= CollectableCollectionHandler_OnCollectableCollected;
     }
 
-    private void PlayCollectableCollectedHaptic() => HapticManager.Instance.PlayHaptic(collectableCollectedHapticPreset, false);
-
     private void CollectableCollectionHandler_OnCollectableCollected(object sender, CollectableCollectionHandler.OnCollectableCollectedEventArgs e)
     {
-        PlayCollectableCollectedHaptic();
+        PlayHaptic_Unforced(collectableCollectedHapticPreset);
     }
 }

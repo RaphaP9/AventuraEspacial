@@ -1,13 +1,13 @@
 using UnityEngine;
 using Lofelt.NiceVibrations;
 
-public class OptionsUIVibrationHandler : MonoBehaviour
+public class OptionsUIVibrationHandler : UIVibrationHandler
 {
     [Header("Settings")]
-    [SerializeField] private HapticPatterns.PresetType musicSliderHapticPreset;
-    [SerializeField] private HapticPatterns.PresetType SFXSliderHapticPreset;
+    [SerializeField] private HapticPreset musicSliderHapticPreset;
+    [SerializeField] private HapticPreset SFXSliderHapticPreset;
     [Space]
-    [SerializeField] private HapticPatterns.PresetType vibrationToggleHapticPreset;
+    [SerializeField] private HapticPreset vibrationToggleHapticPreset;
 
     private void OnEnable()
     {
@@ -30,34 +30,32 @@ public class OptionsUIVibrationHandler : MonoBehaviour
         VibrationToggleUIHandler.OnVibrationToggled -= VibrationToggleUIHandler_OnVibrationToggled;
     }
 
-    private void PlayMusicSliderHaptic() => HapticManager.Instance.PlayHaptic(musicSliderHapticPreset, false);
-    private void PlaySFXSliderHaptic() => HapticManager.Instance.PlayHaptic(SFXSliderHapticPreset, false);
-    private void PlayVibrationToggleHaptic() => HapticManager.Instance.PlayHaptic(vibrationToggleHapticPreset, false);
-
     #region Subscriptions
     private void MusicVolumeSliderUIHandler_OnMusicSliderPointerUp(object sender, System.EventArgs e)
     {
-        PlayMusicSliderHaptic();
+        PlayHaptic_Unforced(musicSliderHapticPreset);
     }
 
     private void MusicVolumeSliderUIHandler_OnMusicSliderDragEnd(object sender, System.EventArgs e)
     {
-        PlayMusicSliderHaptic();
+        PlayHaptic_Unforced(musicSliderHapticPreset);
+
     }
 
     private void SFXVolumeSliderUIHandler_OnSFXSliderPointerUp(object sender, System.EventArgs e)
     {
-        PlaySFXSliderHaptic();
+        PlayHaptic_Unforced(SFXSliderHapticPreset);
+
     }
 
     private void SFXVolumeSliderUIHandler_OnSFXSliderDragEnd(object sender, System.EventArgs e)
     {
-        PlaySFXSliderHaptic();
+        PlayHaptic_Unforced(SFXSliderHapticPreset);
     }
 
     private void VibrationToggleUIHandler_OnVibrationToggled(object sender, VibrationToggleUIHandler.OnVibrationToggledEventArgs e)
     {
-        if(e.isOn) PlayVibrationToggleHaptic();
+        if(e.isOn) PlayHaptic_Unforced(vibrationToggleHapticPreset);
     }
     #endregion
 }

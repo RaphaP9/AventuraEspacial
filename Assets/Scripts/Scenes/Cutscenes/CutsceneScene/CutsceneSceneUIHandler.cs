@@ -29,6 +29,7 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     public static event EventHandler<OnCutsceneEventArgs> OnCutscenePlay;
     public static event EventHandler<OnCutsceneEventArgs> OnCutsceneConclude;
+    public static event EventHandler<OnCutsceneEventArgs> OnNextCutscenePanelCreated;
 
     public class OnCutsceneEventArgs : EventArgs
     {
@@ -99,6 +100,8 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
         currentCutscenePanelIndex++;
         CreateCutscenePanel(currentCutscenePanelIndex);
+
+        OnNextCutscenePanelCreated?.Invoke(this, new OnCutsceneEventArgs { cutsceneSO = cutsceneSO });
     }
 
     private void EvaluatePanelContainerClearance()

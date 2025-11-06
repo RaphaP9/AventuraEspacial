@@ -1084,7 +1084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1124,11 +1124,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1230,7 +1230,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 613056687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425055192}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &613056687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,7 +1822,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 821008522}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425055192}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &821008522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,7 +3213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1425055190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fea9fdcfcf003441a6e42e6d8ed0338, type: 3}
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1444931839
@@ -3671,7 +3695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1880999507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425055192}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1880999507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4250,7 +4286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_AnchorMin.x
@@ -4258,7 +4294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4298,11 +4334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 5000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2799985433764908282, guid: 88ce8ffde967c3c4f9e896f48f45ee04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4463,7 +4499,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6927106089137309990}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425055192}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &8226521582219724577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4574,7 +4622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMin.x
@@ -4582,7 +4630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4614,11 +4662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8562543629866280548, guid: 0c61a7e285c636849b4ffcdbfe6910d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

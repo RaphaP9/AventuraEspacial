@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LanguageSelectionVibrationHandler : SceneSFXHandler
+public class LanguageSelectionVibrationHandler : SceneVibrationHandler
 {
     protected override void OnEnable()
     {

@@ -2349,6 +2349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076360503}
   - component: {fileID: 1076360504}
+  - component: {fileID: 1076360505}
   m_Layer: 0
   m_Name: Vibration
   m_TagString: Untagged
@@ -2385,6 +2386,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectableCollectedTapHapticPreset: 8
   collectableNotCollectedTapHapticPreset: 0
+--- !u!114 &1076360505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076360502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166470811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,7 +3665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1880999507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1076360505}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1880999507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4452,7 +4477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6927106089137309990}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1076360505}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &8407188391465126704
 RectTransform:
   m_ObjectHideFlags: 0

@@ -331,6 +331,7 @@ GameObject:
   - component: {fileID: 1028024404587237728}
   - component: {fileID: 1742558719032740532}
   - component: {fileID: 47917782817493880}
+  - component: {fileID: 1946870569190125509}
   m_Layer: 5
   m_Name: TimeSelectionUI
   m_TagString: Untagged
@@ -412,6 +413,18 @@ MonoBehaviour:
   - {fileID: 5812672247031789872}
   - {fileID: 1806385936375660823}
   - {fileID: 7775303396834351358}
+--- !u!114 &1946870569190125509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295918631311216026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7826158484202873485
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +609,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimeButtonUI (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1946870569190125509}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -713,6 +758,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimeButtonUI
       objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1946870569190125509}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -829,6 +906,38 @@ PrefabInstance:
     - target: {fileID: 7959864178806257972, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
       propertyPath: m_Name
       value: TimeButtonUI (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1946870569190125509}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158151647304943789, guid: d9570f341c96c3e4bb910600c7f0eef7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

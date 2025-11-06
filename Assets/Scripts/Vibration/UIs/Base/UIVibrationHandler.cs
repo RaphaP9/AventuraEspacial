@@ -1,18 +1,7 @@
-using Lofelt.NiceVibrations;
 using UnityEngine;
 
-public class SceneVibrationHandler : MonoBehaviour
+public class UIVibrationHandler : MonoBehaviour
 {
-    protected virtual void OnEnable()
-    {
-
-    }
-
-    protected virtual void OnDisable()
-    {
-
-    }
-
     public void PlayHaptic_Unforced(HapticPreset hapticPreset) => HapticManager.Instance.PlayHaptic(hapticPreset, false);
     public void PlayHaptic_Forced(HapticPreset hapticPreset) => HapticManager.Instance.PlayHaptic(hapticPreset, true);
 }

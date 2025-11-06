@@ -341,6 +341,7 @@ GameObject:
   - component: {fileID: 4239375022282494280}
   - component: {fileID: 3224507294211492508}
   - component: {fileID: 2128359571945520159}
+  - component: {fileID: 4093227762017790835}
   m_Layer: 5
   m_Name: LanguageSelectionUI
   m_TagString: Untagged
@@ -421,6 +422,18 @@ MonoBehaviour:
   UIButtons:
   - {fileID: 7222592086326704408}
   - {fileID: 5780863759051453543}
+--- !u!114 &4093227762017790835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191851697269149106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9032110046564253956
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +527,38 @@ PrefabInstance:
       propertyPath: languageSettingSO
       value: 
       objectReference: {fileID: 11400000, guid: 0fca7adca33e7de4892ed5a5bad3090f, type: 2}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4093227762017790835}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5108241046569151870, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4281158400
@@ -635,6 +680,38 @@ PrefabInstance:
       propertyPath: languageSettingSO
       value: 
       objectReference: {fileID: 11400000, guid: caea01f7c3e92e946ae468cfe3918773, type: 2}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4093227762017790835}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621819106037715466, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5108241046569151870, guid: cf778ba4a4e03744a910ec8d0a6e8131, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4281158400

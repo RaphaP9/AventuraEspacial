@@ -4,8 +4,8 @@ using UnityEngine;
 public class CollectionSceneVibrationHandler : SceneVibrationHandler
 {
     [Header("Settings")]
-    [SerializeField] private HapticPatterns.PresetType collectableCollectedTapHapticPreset;
-    [SerializeField] private HapticPatterns.PresetType collectableNotCollectedTapHapticPreset;
+    [SerializeField] private HapticPreset collectableCollectedTapHapticPreset;
+    [SerializeField] private HapticPreset collectableNotCollectedTapHapticPreset;
 
     protected override void OnEnable()
     {
@@ -19,14 +19,11 @@ public class CollectionSceneVibrationHandler : SceneVibrationHandler
         CollectableUI.OnCollectableUIClicked -= CollectableUI_OnCollectableUIClicked;
     }
 
-    private void PlayCollectableCollectedTapHaptic() => HapticManager.Instance.PlayHaptic(collectableCollectedTapHapticPreset, false);
-    private void PlayCollectableNotCollectedTapHaptic() => HapticManager.Instance.PlayHaptic(collectableNotCollectedTapHapticPreset, false);
-
     #region Subscriptions
     private void CollectableUI_OnCollectableUIClicked(object sender, CollectableUI.OnCollectableUIEventArgs e)
     {
-        if (e.collectableUI.IsCollected) PlayCollectableCollectedTapHaptic();
-        else PlayCollectableNotCollectedTapHaptic();
+        if (e.collectableUI.IsCollected) PlayHaptic_Unforced(collectableCollectedTapHapticPreset);
+        else PlayHaptic_Unforced(collectableNotCollectedTapHapticPreset);
     }
     #endregion
 }

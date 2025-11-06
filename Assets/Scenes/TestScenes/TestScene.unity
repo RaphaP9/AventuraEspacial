@@ -260,7 +260,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 14499550}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HeavyImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &14499550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47060746}
-  - component: {fileID: 47060747}
+  - component: {fileID: 47060748}
   m_Layer: 0
   m_Name: Vibration
   m_TagString: Untagged
@@ -485,7 +497,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 197455049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &47060747
+--- !u!114 &47060748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -494,28 +506,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 47060745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c460da3fb9c7194c8a36e62412c8a7d, type: 3}
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indexHapticPresetRelationshipList:
-  - index: 1
-    presetType: 0
-  - index: 2
-    presetType: 8
-  - index: 3
-    presetType: 4
-  - index: 4
-    presetType: 5
-  - index: 5
-    presetType: 7
-  - index: 6
-    presetType: 6
-  - index: 7
-    presetType: 1
-  - index: 8
-    presetType: 2
-  - index: 9
-    presetType: 3
 --- !u!1 &161041151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1472,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 609928053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Success
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &609928053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2189,7 +2194,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 875019744}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LightImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &875019744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3021,7 +3038,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1043790368}
-  - component: {fileID: 1043790369}
   m_Layer: 5
   m_Name: TestUI
   m_TagString: Untagged
@@ -3049,37 +3065,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1043790369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043790367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a546170765ee447a3963611a4b9446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonIndexRelationshipList:
-  - button: {fileID: 1457704037}
-    assignedIndex: 1
-  - button: {fileID: 2126469637}
-    assignedIndex: 2
-  - button: {fileID: 875019743}
-    assignedIndex: 3
-  - button: {fileID: 1624383888}
-    assignedIndex: 4
-  - button: {fileID: 1318657985}
-    assignedIndex: 5
-  - button: {fileID: 14499549}
-    assignedIndex: 6
-  - button: {fileID: 609928052}
-    assignedIndex: 7
-  - button: {fileID: 1793270867}
-    assignedIndex: 8
-  - button: {fileID: 1918028870}
-    assignedIndex: 9
 --- !u!1 &1166556316
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,7 +3206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1318657986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: RigidImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1318657986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3440,7 +3437,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1457704038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1457704038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3727,7 +3736,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1624383889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MediumImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1624383889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3907,7 +3928,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1793270868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Warning
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1793270868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,7 +4084,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1880999507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1880999507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4195,7 +4240,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1918028871}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Failure
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1918028871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4691,7 +4748,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2126469638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2126469638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5070,7 +5139,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6927106089137309990}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 47060748}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &8407188391465126704
 RectTransform:
   m_ObjectHideFlags: 0

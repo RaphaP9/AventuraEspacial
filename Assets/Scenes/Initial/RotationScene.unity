@@ -759,10 +759,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 535972296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7564245d6d9d98b4192034283e7a9b90, type: 3}
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXPool: {fileID: 0}
 --- !u!1001 &625046034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -903,7 +902,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 696100032}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 535972298}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696100032
 MonoBehaviour:
   m_ObjectHideFlags: 0

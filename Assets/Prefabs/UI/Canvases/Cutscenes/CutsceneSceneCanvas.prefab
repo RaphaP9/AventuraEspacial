@@ -359,6 +359,8 @@ GameObject:
   - component: {fileID: 3885718047049320120}
   - component: {fileID: 309796413940639972}
   - component: {fileID: 2747031609616252428}
+  - component: {fileID: 6473728190062948610}
+  - component: {fileID: 7322774974079387127}
   m_Layer: 5
   m_Name: CutsceneUI
   m_TagString: Untagged
@@ -429,6 +431,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: 
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: 
     audioLocalizationBinding: 
@@ -438,6 +441,30 @@ MonoBehaviour:
     timeToPlayAudio: 0
   currentCutscenePanelIndex: 0
   debug: 0
+--- !u!114 &6473728190062948610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457390615854074955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7322774974079387127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457390615854074955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e04f9715189db4694941bd9378e55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6121423665308567408
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4796856153919229477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6473728190062948610}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &396746080666075462
 Animator:
   serializedVersion: 7
@@ -805,7 +844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2771087582401093693}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6473728190062948610}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &3022811749838758094
 Animator:
   serializedVersion: 7

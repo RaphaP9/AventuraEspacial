@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 51072424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 611252989}
+        m_TargetAssemblyTypeName: HapticWrapper, Assembly-CSharp
+        m_MethodName: PlayHaptic_Unforced
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51072424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,10 +749,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 611252987}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfe95f36f0587b4aa2d48d0f6b00160, type: 3}
+  m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXPool: {fileID: 0}
 --- !u!1 &617800230
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1002,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnglishButtonUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 611252989}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6162121204879079053, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: language
       value: 1
@@ -1017,7 +1060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1025,7 +1068,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1053,11 +1096,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 362.5
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1331,8 +1374,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1340122300}
   m_HandleRect: {fileID: 1340122299}
   m_Direction: 2
-  m_Value: 0.5132275
-  m_Size: 0
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2314,7 +2357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -15, y: 460}
+  m_AnchoredPosition: {x: -15, y: -0.00001335144}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1867148024
@@ -2495,6 +2538,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpanishButtonUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 611252989}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayHaptic_Unforced
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HapticWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980543996863402250, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6162121204879079053, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: languageSettingSO
       value: 
@@ -2513,7 +2588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -2521,7 +2596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2549,11 +2624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 362.5
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -135
       objectReference: {fileID: 0}
     - target: {fileID: 8939426188407646793, guid: 3877a6d1cff14914d97827d715f0260d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
