@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe3e15ccd3da79419b7caf9274cf5f1, type: 3}
+  m_Name: 11_Collectable
+  m_EditorClassIdentifier: 
+  id: 11
+  collectableSprite: {fileID: 21300000, guid: 43ce2eec442a1614f846761577f3b2be, type: 3}
+  notCollectedMaterial: {fileID: 2100000, guid: 71e7a4dde60e97540b46dbacd0bc2b72, type: 2}
+  localizationTable: Collectables
+  nameLocalizationBinding: collectables.name.collectable11
+  descriptionLocalizationBinding: collectables.description.collectable11

@@ -23,15 +23,141 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15881977937920
-    m_Localized: Nombre de Testeo
+    m_Localized: "Primer Paso Gal\xE1ctico"
     m_Metadata:
       m_Items: []
   - m_Id: 15996490825728
-    m_Localized: Descripcion de Testeo
+    m_Localized: "Entra al men\xFA principal por primera vez."
     m_Metadata:
       m_Items: []
   - m_Id: 4120828591947776
     m_Localized: Colleccionable Encontrado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115315932610560
+    m_Localized: Piloto de Misiones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115334668566528
+    m_Localized: "Entra al men\xFA de selecci\xF3n de minijuegos por primera vez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115348904034304
+    m_Localized: Explorador de Aventuras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115363235971072
+    m_Localized: "Observa una escena en el \xC1lbum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115374229241856
+    m_Localized: Coleccionista de Juegos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115385293815808
+    m_Localized: Juega a todos los minijuegos disponibles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115397625069568
+    m_Localized: Rompe-Meteoritos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115414926573568
+    m_Localized: Completa tu primera ronda en el minijuego de memoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115424124682240
+    m_Localized: "\xA1Combo Gal\xE1ctico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115440604102656
+    m_Localized: Encuentra 5 pares correctos seguidos sin fallar en el minijuego
+      de memoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115450456522752
+    m_Localized: "Aventurero Gal\xE1ctico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115469934870528
+    m_Localized: Termina tu primera partida en el minijuego de memoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115481439846400
+    m_Localized: "H\xE9roe de la Memoria"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115507490668544
+    m_Localized: Completa las 5 rondas del minijuego de memoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115519729647616
+    m_Localized: Cosechador Estelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115522405613568
+    m_Localized: "Obt\xE9n 120 fragmentos de estrellas en una sola partida del minijuego
+      de memoria."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115564231213056
+    m_Localized: "Rescate C\xF3smico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115565669859328
+    m_Localized: Acierta un par a 5 segundos o menos de terminarse el tiempo en el
+      minijuego de memoria.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115905156825088
+    m_Localized: Aprendiz de Formas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115916829573120
+    m_Localized: Completa tu primera ronda en el minijuego de siluetas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115927797678080
+    m_Localized: "\xA1Encaje Estelar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115937608155136
+    m_Localized: Coloca 5 figuras correctas seguidas sin fallar en el minijuego de
+      siluetas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115949427703808
+    m_Localized: "Aventurero Geom\xE9trico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115959506616320
+    m_Localized: Termina tu primera partida en el minijuego de siluetas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115959980572672
+    m_Localized: Maestro de la Silueta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8115988468285440
+    m_Localized: Completa las 5 rondas del minijuego de siluetas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8116004570218496
+    m_Localized: Recolector de Figuras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8116021548761088
+    m_Localized: "Obt\xE9n 140 fragmentos de estrellas en una sola partida del minijuego
+      de siluetas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8116030700732416
+    m_Localized: "Rescate Geom\xE9trico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8116043086512128
+    m_Localized: Acierta una silueta a 5 segundos o menos de terminarse el tiempo
+      en el minijuego de siluetas.
     m_Metadata:
       m_Items: []
   references:
