@@ -3,19 +3,13 @@ using UnityEngine.UI;
 
 public class AnimatedToggle : Toggle
 {
-    private Animator toggleAnimator;
+    //An extern manager is the one that handles animations, as it decides whether they play immediately or not
 
     private const string ON_TRIGGER = "On";
     private const string OFF_TRIGGER = "Off";
 
     private const string ON_ANIMATION_NAME = "On";
     private const string OFF_ANIMATION_NAME = "Off";
-
-    protected override void Awake()
-    {
-        base.Awake();
-        toggleAnimator = GetComponent<Animator>();
-    }
 
     public void TurnOnInmediately()
     {

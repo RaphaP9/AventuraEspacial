@@ -8,8 +8,6 @@ public class VibrationToggleUIHandler : MonoBehaviour
 
     public static event EventHandler<OnVibrationToggledEventArgs> OnVibrationToggled;
 
-    private bool canPerformChangeStateMethod = false;
-
     public class OnVibrationToggledEventArgs : EventArgs
     {
         public bool isOn;
@@ -34,22 +32,25 @@ public class VibrationToggleUIHandler : MonoBehaviour
 
     private void Start()
     {
-        ChangeStateImmediately(VibrationStateManager.Instance.VibrationEnabled, false);
+        InitializationLogic();
     }
 
     private void IntializeToggleListeners()
     {
-        animatedToggle.onValueChanged.AddListener((value) => ChangeState(value, true));
+        animatedToggle.onValueChanged.AddListener((value) => ChangeState(value, true, false));
     }
 
-    private void ChangeState(bool newState, bool changeManagerState)
+    private void InitializationLogic()
     {
-        //When manager is initialized, ChangeStateImmediately method is executed, and the onValue event is triggered, triggering this event.
-        //The next assertion prevents the method from being executed past the assertion, using VibrationStateManager.Instance.VibrationManagerInitialized property
+        if (!VibrationStateManager.Instance.VibrationManagerInitialized) return; //Only trigger this method if the VibrationStateManager was already initialized
 
-        if (!VibrationStateManager.Instance.VibrationManagerInitialized) return;
+        ChangeStateImmediately(VibrationStateManager.Instance.VibrationEnabled, false, false);
+    }
 
-        animatedToggle.isOn = newState;
+    private void ChangeState(bool newState, bool changeManagerState, bool notify)
+    {
+        if (notify) animatedToggle.isOn = newState;
+        else animatedToggle.SetIsOnWithoutNotify(newState);
 
         if (changeManagerState)
         {
@@ -61,9 +62,10 @@ public class VibrationToggleUIHandler : MonoBehaviour
         else animatedToggle.TurnOff();
     }
 
-    private void ChangeStateImmediately(bool newState, bool changeManagerState)
+    private void ChangeStateImmediately(bool newState, bool changeManagerState, bool notify)
     {
-        animatedToggle.isOn = newState;
+        if (notify) animatedToggle.isOn = newState;
+        else animatedToggle.SetIsOnWithoutNotify(newState);
 
         if (changeManagerState)
         {
@@ -78,7 +80,7 @@ public class VibrationToggleUIHandler : MonoBehaviour
     #region Subscriptions
     private void VibrationStateManager_OnVibrationStateManagerInitialized(object sender, System.EventArgs e)
     {
-        ChangeStateImmediately(VibrationStateManager.Instance.VibrationEnabled, false);
+        ChangeStateImmediately(VibrationStateManager.Instance.VibrationEnabled, false, false);
     }
 
     private void VibrationStateManager_OnVibrationStateChanged(object sender, VibrationStateManager.OnVibrationChangedEventArgs e)

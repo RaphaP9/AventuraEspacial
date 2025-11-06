@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MemoryMinigameVibrationHandler : MinigameSceneVibrationHandler
+public class MinigameSceneVibrationHandler : SceneVibrationHandler
 {
     protected override void OnEnable()
     {
