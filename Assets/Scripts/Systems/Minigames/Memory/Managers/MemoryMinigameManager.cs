@@ -16,6 +16,7 @@ public class MemoryMinigameManager : MinigameManager
     [Space]
     [SerializeField] private Transform cardPrefab;
 
+
     [Header("RuntimeFilled")]
     [SerializeField] private MiniGameState miniGameState;
     [Space]
@@ -331,7 +332,7 @@ public class MemoryMinigameManager : MinigameManager
     {
         List<MemoryCardHandler> evaluatedCards = new List<MemoryCardHandler> { firstCard, secondCard};
 
-        yield return new WaitForSeconds(PAIR_PROCESSING_TIME);
+        yield return new WaitForSeconds(PAIR_PROCESSING_TIME); //PAIR_PROCESSING_TIME is the same duration as FlipRevealAnimation (or at least that value)
 
         if (PairMatches(firstCard, secondCard))
         {
@@ -384,12 +385,35 @@ public class MemoryMinigameManager : MinigameManager
         }
     }
 
+    private bool CardIsBeingFlippedRevealed()
+    {
+        foreach (MemoryCardHandler memoryCardHandler in currentRoundCards)
+        {
+            if (memoryCardHandler.IsBeingFlippedReveal) return true;
+        }
+
+        return false;
+    }
+
+    private bool CardIsFailing()
+    {
+        foreach(MemoryCardHandler memoryCardHandler in currentRoundCards)
+        {
+            if (memoryCardHandler.IsFailing) return true;
+        }
+
+        return false;
+    }
+
     #endregion
 
     #region Public Methods
     public bool CanFlipCard()
     {
         if (inputLocked) return false;
+        if (settings.waitForPairFail && CardIsFailing()) return false;
+        if (settings.wairForCardReveal && CardIsBeingFlippedRevealed()) return false;
+
         return miniGameState == MiniGameState.WaitForFirstCard || miniGameState == MiniGameState.WaitForSecondCard;
     }
 

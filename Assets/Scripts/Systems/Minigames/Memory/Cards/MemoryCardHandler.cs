@@ -15,9 +15,16 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     [Header("Runtime Filled")]
     [SerializeField] private MemoryCardSO memoryCardSO;
     [SerializeField] private bool isRevealed; //NOTE: isRevealed is also manipulated by Animation Events
+    [SerializeField] private bool isBeingFlippedReveal; //NOTE: isRevealed is also manipulated by Animation Events
     [SerializeField] private bool isMatched;
+    [SerializeField] private bool isFailing; //Manipulated by Animation Events
 
     public static event EventHandler<OnCardRevealedEventArgs> OnCardRevealed;
+
+    public bool IsRevealed => isRevealed; //As soon as it is being show isRevealed is TRUE
+    public bool IsMatched => isMatched;
+    public bool IsFailing => isFailing;
+    public bool IsBeingFlippedReveal => isBeingFlippedReveal;
 
     public MemoryCardSO MemoryCardSO => memoryCardSO;
 
@@ -32,6 +39,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
 
         isRevealed = false;
         isMatched = false;
+        isFailing = false;
 
         SetMemoryCardImage(memoryCardSO.sprite);
     }
@@ -80,4 +88,10 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
 
     public void OnRevealBegin() => isRevealed = true;
     public void OnCoverCompleted() => isRevealed = false;
+
+    public void OnFlipRevealBegin() => isBeingFlippedReveal = true;
+    public void OnFlipRevealCompleted() => isBeingFlippedReveal = false;
+
+    public void OnFailBegin() => isFailing = true;
+    public void OnFailCompleted() => isFailing = false;
 }

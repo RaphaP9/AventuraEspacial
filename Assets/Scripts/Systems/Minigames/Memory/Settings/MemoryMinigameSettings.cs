@@ -28,6 +28,10 @@ public class MemoryMinigameSettings : ScriptableObject
     [Range(0f, 5f)] public float switchRoundTimer;
     [Range(0f, 5f)] public float endLastRoundTimer;
     [Range(0f, 5f)] public float endingGameTime;
+
+    [Header("Other Settings")]
+    public bool wairForCardReveal; //Makes cards can't be revealed while a card is being fliped Reveal
+    public bool waitForPairFail; //Makes cards can't be revealed while a pair is failing
 }
 
 
