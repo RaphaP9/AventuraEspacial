@@ -20,6 +20,8 @@ public class VibrationStateManager : MonoBehaviour
     public static event EventHandler OnVibrationStateManagerInitialized;
     public static event EventHandler<OnVibrationChangedEventArgs> OnVibrationStateChanged;
 
+    public bool VibrationManagerInitialized { get; private set; } = false;
+
     public class OnVibrationChangedEventArgs : EventArgs
     {
         public bool newState;
@@ -51,8 +53,10 @@ public class VibrationStateManager : MonoBehaviour
 
     protected virtual void InitializeVibration()
     {
-        ChangeState(initialState, true);
+        ChangeState(initialState, false);
         OnVibrationStateManagerInitialized?.Invoke(this, EventArgs.Empty);
+
+        VibrationManagerInitialized = true;
     }
 
     #region PlayerPrefs

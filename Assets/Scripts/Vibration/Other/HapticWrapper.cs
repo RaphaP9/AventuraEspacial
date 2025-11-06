@@ -6,7 +6,7 @@ public class HapticWrapper : MonoBehaviour
     private const string HAPTIC_PRESSET_NONE = "None";
     private const string HAPTIC_PRESSET_SELECTION = "Selection";
     private const string HAPTIC_PRESSET_SOFT_IMPACT = "SoftImpact";
-    private const string HAPTIC_PRESSET_LIGHT_IMPACT = "LigthImpact";
+    private const string HAPTIC_PRESSET_LIGHT_IMPACT = "LightImpact";
     private const string HAPTIC_PRESSET_MEDIUM_IMPACT = "MediumImpact";
     private const string HAPTIC_PRESSET_RIGID_IMPACT = "RigidImpact";
     private const string HAPTIC_PRESSET_HEAVY_IMPACT = "HeavyImpact";
@@ -17,7 +17,6 @@ public class HapticWrapper : MonoBehaviour
     public void PlayHaptic_Unforced(HapticPreset hapticPreset) => HapticManager.Instance.PlayHaptic(hapticPreset, false);
     public void PlayHaptic_Forced(HapticPreset hapticPreset) => HapticManager.Instance.PlayHaptic(hapticPreset, true);
     
-
     public void PlayHaptic_Unforced(string hapticPreset)
     {
         switch (hapticPreset)

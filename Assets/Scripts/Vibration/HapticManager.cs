@@ -6,6 +6,8 @@ public class HapticManager : MonoBehaviour
 {
     public static HapticManager Instance { get; private set; }
 
+    [Header("Settings")]
+    [SerializeField] private bool debug;
     private void Awake()
     {
         SetSingleton();
@@ -30,6 +32,7 @@ public class HapticManager : MonoBehaviour
         if (!forceHaptic && !VibrationStateManager.Instance.VibrationEnabled) return;
 
         HapticPatterns.PlayPreset(GetLofeltHapticPreset(hapticPreset));
+        if(debug) Debug.Log($"Play Haptic: {GetLofeltHapticPreset(hapticPreset)}");
     }
 
     public HapticPatterns.PresetType GetLofeltHapticPreset(HapticPreset hapticPreset)
