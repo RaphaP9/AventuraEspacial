@@ -2406,7 +2406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSceneRotation: 0
-  rotateToDefaultOnStart: 1
+  rotateToDefaultOnAwake: 1
   rotateToDefaultOnQuit: 1
 --- !u!1 &2013342759
 GameObject:

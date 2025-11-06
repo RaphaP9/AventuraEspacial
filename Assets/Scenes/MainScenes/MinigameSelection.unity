@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSceneRotation: 1
-  rotateToDefaultOnStart: 1
+  rotateToDefaultOnAwake: 1
   rotateToDefaultOnQuit: 1
 --- !u!1001 &166386868
 PrefabInstance:

@@ -7,17 +7,13 @@ public class SceneRotationManager : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private SceneRotation defaultSceneRotation;
     [Space]
-    [SerializeField] private bool rotateToDefaultOnStart;
+    [SerializeField] private bool rotateToDefaultOnAwake;
     [SerializeField] private bool rotateToDefaultOnQuit;
 
     private void Awake()
     {
         SetSingleton();
-    }
-
-    private void Start()
-    {
-        HandleRotationOnStart();
+        HandleRotationOnAwake();
     }
 
     private void SetSingleton()
@@ -44,6 +40,18 @@ public class SceneRotationManager : MonoBehaviour
                 RotateToLandscape();
                 break;
         }
+    }
+
+    public void EnableAutorotation()
+    {
+        #if UNITY_EDITOR
+            //Do nothing
+        #else
+            Screen.autorotateToPortrait = true;
+            Screen.autorotateToLandscapeRight = true;
+            Screen.autorotateToLandscapeLeft = true;
+            Screen.autorotateToPortraitUpsideDown = true;
+        #endif
     }
 
     public void RotateToPortrait()
@@ -74,9 +82,9 @@ public class SceneRotationManager : MonoBehaviour
         #endif
     }
 
-    private void HandleRotationOnStart()
+    private void HandleRotationOnAwake()
     {
-        if (!rotateToDefaultOnStart) return;
+        if (!rotateToDefaultOnAwake) return;
         RotateToDefault();
     }
 
