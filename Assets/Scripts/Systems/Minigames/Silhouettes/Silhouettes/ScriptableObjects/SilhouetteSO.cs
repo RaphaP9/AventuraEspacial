@@ -1,10 +1,11 @@
 using UnityEngine;
+using NaughtyAttributes;
 
 [CreateAssetMenu(fileName = "SilhouetteSO", menuName = "ScriptableObjects/Minigames/Silhouettes/Silhouette")]
 public class SilhouetteSO : ScriptableObject
 {
     public int id;
-    public Sprite sprite;
+    [ShowAssetPreview] public Sprite sprite;
     [Space]
     public Material silhouetteMaterial;
 }

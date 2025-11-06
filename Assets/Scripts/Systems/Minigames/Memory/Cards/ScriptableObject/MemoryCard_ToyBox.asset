@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_ToyBox
   m_EditorClassIdentifier: 
   id: 5
-  sprite: {fileID: -1143213108, guid: c958723ebc3ca414faa8bf470a402522, type: 3}
+  sprite: {fileID: 21300000, guid: daf365593f3b1784a86f1fdc645a7cb5, type: 3}
