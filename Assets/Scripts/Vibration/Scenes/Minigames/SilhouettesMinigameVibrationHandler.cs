@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SilhouettesMinigameVibrationHandler : MinigameSceneVibrationHandler
+public class SilhouettesMinigameVibrationHandler : MinigameVibrationHandler
 {
     [Header("Memory Specifics")]
     [SerializeField] private HapticPreset figureDragStartHapticPreset;

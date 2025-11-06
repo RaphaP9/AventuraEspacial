@@ -9,6 +9,7 @@ public class SilhouettesMinigameSettings : ScriptableObject
 
     [Header("Score Settings")]
     [Range(1, 10)] public int baseScorePerSilhouetteMatch;
+    [Range(2, 10)] public int minCombo;
     [Range(2, 10)] public int maxCombo;
     [Range(1, 10)] public int bonusScorePerCombo;
 

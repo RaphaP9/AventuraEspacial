@@ -19,6 +19,7 @@ public class SilhouettesMinigameScoreManager : MinigameScoreManager
 
     protected override int GetBaseScorePerHit() => settings.baseScorePerSilhouetteMatch;
     protected override int GetBonusScorePerCombo() => settings.bonusScorePerCombo;
+    protected override int GetMinCombo() => settings.minCombo;
     protected override int GetMaxCombo() => settings.maxCombo;
 
     #region Subscriptions

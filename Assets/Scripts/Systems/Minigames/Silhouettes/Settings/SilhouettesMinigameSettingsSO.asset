@@ -88,6 +88,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 0ea4a97b2c62e084a9961d10bbb2e83e, type: 2}
     backpackPrefab: {fileID: 6768098758964416568, guid: 55f74b527c9b75f439e814b70100435d, type: 3}
   baseScorePerSilhouetteMatch: 2
+  minCombo: 2
   maxCombo: 5
   bonusScorePerCombo: 2
   gameTime: 60

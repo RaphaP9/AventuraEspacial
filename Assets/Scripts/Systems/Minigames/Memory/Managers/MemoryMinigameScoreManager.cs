@@ -20,6 +20,7 @@ public class MemoryMinigameScoreManager : MinigameScoreManager
 
     protected override int GetBaseScorePerHit() => settings.baseScorePerPairMatch;
     protected override int GetBonusScorePerCombo() => settings.bonusScorePerCombo;
+    protected override int GetMinCombo() => settings.minCombo;
     protected override int GetMaxCombo() => settings.maxCombo;
 
     #region Subscriptions

@@ -1,12 +1,13 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public class MinigameSceneVibrationHandler : SceneVibrationHandler
+public class MinigameVibrationHandler : SceneVibrationHandler
 {
-    [Header("Combo")]
-    [SerializeField] private HapticPreset comboX2HapticPreset;
-    [SerializeField] private HapticPreset comboX3HapticPreset;
-    [SerializeField] private HapticPreset comboX4HapticPreset;
-    [SerializeField] private HapticPreset comboX5HapticPreset;
+    [Header("Hits")]
+    [SerializeField] private HapticPreset regularHitHapticPreset;
+    [SerializeField] private HapticPreset maxComboHitHapticPreset;
+    [Space]
+    [SerializeField] private List<ComboValueHapticRelationship> comboValueHapticRelationships;
 
     [Header("Minigame End")]
     [SerializeField] private HapticPreset minigameWonHapticPreset;
@@ -18,12 +19,21 @@ public class MinigameSceneVibrationHandler : SceneVibrationHandler
     [Header("Time")]
     [SerializeField] private HapticPreset timeWarningHapticPreset;
 
+    [System.Serializable]
+    public class ComboValueHapticRelationship
+    {
+        [Range(2, 10)] public int comboValue;
+        public HapticPreset hapticPreset;
+    }
+
     protected override void OnEnable()
     {
         base.OnEnable();
 
+        MinigameScoreManager.OnRegularHit += MinigameScoreManager_OnRegularHit;
         MinigameScoreManager.OnComboGained += MinigameScoreManager_OnComboGained;
         MinigameScoreManager.OnComboUpdated += MinigameScoreManager_OnComboUpdated;
+        MinigameScoreManager.OnMaxComboHit += MinigameScoreManager_OnMaxComboHit;
 
         MinigameManager.OnGameWon += MinigameManager_OnGameWon;
         MinigameManager.OnGameLost += MinigameManager_OnGameLost;
@@ -37,8 +47,10 @@ public class MinigameSceneVibrationHandler : SceneVibrationHandler
     {
         base.OnDisable();
 
+        MinigameScoreManager.OnRegularHit -= MinigameScoreManager_OnRegularHit;
         MinigameScoreManager.OnComboGained -= MinigameScoreManager_OnComboGained;
         MinigameScoreManager.OnComboUpdated -= MinigameScoreManager_OnComboUpdated;
+        MinigameScoreManager.OnMaxComboHit -= MinigameScoreManager_OnMaxComboHit;
 
         MinigameManager.OnGameWon -= MinigameManager_OnGameWon;
         MinigameManager.OnGameLost -= MinigameManager_OnGameLost;
@@ -50,26 +62,23 @@ public class MinigameSceneVibrationHandler : SceneVibrationHandler
 
     private void PlayComboHaptic(int combo)
     {
-        switch (combo)
+        foreach(ComboValueHapticRelationship relationship in comboValueHapticRelationships)
         {
-            case 2:
-                PlayHaptic_Unforced(comboX2HapticPreset);
-                break;
-            case 3:
-                PlayHaptic_Unforced(comboX3HapticPreset);
-                break;
-            case 4:
-                PlayHaptic_Unforced(comboX4HapticPreset);
-                break;
-            case 5:
-                PlayHaptic_Unforced(comboX5HapticPreset);
-                break;
-            default:
-                break;
+            if(combo == relationship.comboValue)
+            {
+                PlayHaptic_Unforced(relationship.hapticPreset);
+                return;
+            }
         }
     }
 
     #region Subscriptions
+
+    private void MinigameScoreManager_OnRegularHit(object sender, System.EventArgs e)
+    {
+        PlayHaptic_Unforced(regularHitHapticPreset);
+    }
+
     private void MinigameScoreManager_OnComboUpdated(object sender, MinigameScoreManager.OnComboGainedEventArgs e)
     {
         PlayComboHaptic(e.comboGained);
@@ -78,6 +87,11 @@ public class MinigameSceneVibrationHandler : SceneVibrationHandler
     private void MinigameScoreManager_OnComboGained(object sender, MinigameScoreManager.OnComboGainedEventArgs e)
     {
         PlayComboHaptic(e.comboGained);
+    }
+
+    private void MinigameScoreManager_OnMaxComboHit(object sender, System.EventArgs e)
+    {
+        PlayHaptic_Unforced(maxComboHitHapticPreset);
     }
 
     private void MinigameManager_OnGameWon(object sender, System.EventArgs e)

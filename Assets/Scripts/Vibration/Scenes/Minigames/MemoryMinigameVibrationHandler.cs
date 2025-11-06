@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MemoryMinigameVibrationHandler : MinigameSceneVibrationHandler
+public class MemoryMinigameVibrationHandler : MinigameVibrationHandler
 {
     [Header("Memory Specifics")]
     [SerializeField] private HapticPreset firstCardRevealedHapticPreset;

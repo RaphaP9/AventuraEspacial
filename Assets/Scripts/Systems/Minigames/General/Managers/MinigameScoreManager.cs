@@ -15,7 +15,12 @@ public abstract class MinigameScoreManager : MonoBehaviour
 
     public static event EventHandler<OnComboGainedEventArgs> OnComboGained;
     public static event EventHandler<OnComboGainedEventArgs> OnComboUpdated;
+
+    public static event EventHandler OnRegularHit;
+    public static event EventHandler OnMaxComboHit;
     public static event EventHandler OnComboLost;
+
+    private const int NO_COMBO_VALUE = 0;
 
     public class OnScoreInitializedEventArgs : EventArgs
     {
@@ -54,10 +59,18 @@ public abstract class MinigameScoreManager : MonoBehaviour
 
         int newCombo = EvaluateCombo(currentConsecutiveHits);
 
-        if (newCombo > currentCombo)
+        if(newCombo == NO_COMBO_VALUE)
         {
-            if (!HasCombo()) OnComboGained?.Invoke(this, new OnComboGainedEventArgs { comboGained = newCombo });    
-            else OnComboUpdated?.Invoke(this, new OnComboGainedEventArgs { comboGained = newCombo});
+            OnRegularHit?.Invoke(this, EventArgs.Empty);
+        }
+        else if (newCombo > currentCombo)
+        {
+            if (!HasCombo()) OnComboGained?.Invoke(this, new OnComboGainedEventArgs { comboGained = newCombo }); //Had no combo and now has combo    
+            else OnComboUpdated?.Invoke(this, new OnComboGainedEventArgs { comboGained = newCombo}); //Higher combo value gained (had combo previously). Also triggered on max combo hits
+        }
+        else if(currentCombo >= GetMaxCombo())
+        {
+            OnMaxComboHit?.Invoke(this, EventArgs.Empty);
         }
 
         currentCombo = newCombo;
@@ -83,7 +96,7 @@ public abstract class MinigameScoreManager : MonoBehaviour
     #region Utility Methods
     protected int EvaluateCombo(int consecutiveMatches)
     {
-        if (consecutiveMatches <= 1) return 0; //No combo on 0 or 1 consecutive match
+        if (consecutiveMatches < GetMinCombo()) return NO_COMBO_VALUE; //No combo on 0 or 1 consecutive match, 0 (NO_COMBO_VALUE) is considered as no combo
         if (consecutiveMatches >= GetMaxCombo()) return GetMaxCombo();
 
         return consecutiveMatches;
@@ -108,5 +121,6 @@ public abstract class MinigameScoreManager : MonoBehaviour
 
     protected abstract int GetBaseScorePerHit();
     protected abstract int GetBonusScorePerCombo();
+    protected abstract int GetMinCombo();
     protected abstract int GetMaxCombo();
 }

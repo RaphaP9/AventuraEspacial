@@ -3271,21 +3271,21 @@ MonoBehaviour:
   collectableUIPrefab: {fileID: 1578567902670985680, guid: 1af708ef2a6388747b55d13a1a397daa, type: 3}
   collectableList:
   - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
-  - {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  - {fileID: 11400000, guid: 9ec93d286920da54082f40affb20861c, type: 2}
+  - {fileID: 11400000, guid: 04c9067b7bd15154eb0d982a25711dc1, type: 2}
+  - {fileID: 11400000, guid: 1d21699dd055c7e49aca242faa4eaa80, type: 2}
+  - {fileID: 11400000, guid: edaffc1d06ac74948bd84cc6e2a78a0f, type: 2}
+  - {fileID: 11400000, guid: 43756a8c1b7e6574babbcc0286ea1862, type: 2}
+  - {fileID: 11400000, guid: df343b61e42bcb94092d2b39cc8860e4, type: 2}
+  - {fileID: 11400000, guid: a12ce0bfd468b7343819ab7c95695237, type: 2}
+  - {fileID: 11400000, guid: 84b52c324c7bec64dbe503138ccf385c, type: 2}
+  - {fileID: 11400000, guid: 6e58ddade6e30ac4f9548feef49f30bd, type: 2}
+  - {fileID: 11400000, guid: d921dfc2b56f0c94b802866dfee4d505, type: 2}
+  - {fileID: 11400000, guid: e464db96e68e6a044ae2452e18f09bb5, type: 2}
+  - {fileID: 11400000, guid: 4932ce1e6bf79d544a7dfe9156c813ac, type: 2}
+  - {fileID: 11400000, guid: 36214a533c0251c4baceea4dcae76b27, type: 2}
+  - {fileID: 11400000, guid: b86922a7f3979074ba6796ba35430c48, type: 2}
+  - {fileID: 11400000, guid: 04948aca7e4f9a1489e23bcf797e085e, type: 2}
   collectableUIList: []
   debug: 1
 --- !u!1 &1733529288

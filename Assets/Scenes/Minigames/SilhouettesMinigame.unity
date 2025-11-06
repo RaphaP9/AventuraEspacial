@@ -3821,19 +3821,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4229f774eff7a54fb17b5d9635c9193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comboX2HapticPreset: 0
-  comboX3HapticPreset: 8
-  comboX4HapticPreset: 4
-  comboX5HapticPreset: 5
+  regularHitHapticPreset: 0
+  maxComboHitHapticPreset: 7
+  comboValueHapticRelationships:
+  - comboValue: 2
+    hapticPreset: 8
+  - comboValue: 3
+    hapticPreset: 4
+  - comboValue: 4
+    hapticPreset: 5
+  - comboValue: 5
+    hapticPreset: 7
   minigameWonHapticPreset: 1
   minigameLostHapticPreset: 2
   progressChangedHapticPreset: 9
   timeWarningHapticPreset: 2
-  figureDragStartHapticPreset: 8
+  figureDragStartHapticPreset: 0
   figureDragEndHapticPreset: 9
-  silhouetteMatchHapticPreset: 1
+  silhouetteMatchHapticPreset: 9
   silhouetteFailedHapticPreset: 2
-  figureReturnHapticPreset: 8
+  figureReturnHapticPreset: 0
   silhouettesRoundEndHapticPreset: 1
 --- !u!114 &2070317351
 MonoBehaviour:

@@ -11,6 +11,7 @@ public class MemoryMinigameSettings : ScriptableObject
 
     [Header("Score Settings")]
     [Range(1,10)] public int baseScorePerPairMatch;
+    [Range(2,10)] public int minCombo;
     [Range(2,10)] public int maxCombo;
     [Range(1,10)] public int bonusScorePerCombo;
 

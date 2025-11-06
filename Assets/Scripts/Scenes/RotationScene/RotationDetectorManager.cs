@@ -56,8 +56,6 @@ public class RotationDetectorManager : MonoBehaviour
             //ForceRotationAndNextScene();
             EmergencyMethod();
         }
-
-        
     }
 
     public void ForceRotationAndNextScene()
