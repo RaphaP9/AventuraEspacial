@@ -51,6 +51,9 @@ public class SilhouettesMinigameManager : MinigameManager
     public static event EventHandler OnSilhouetteMatch;
     public static event EventHandler OnSilhouetteFailed;
     public static event EventHandler OnFigureReturnToOriginalPosition;
+
+    public static event EventHandler OnFigureDragStart;
+    public static event EventHandler OnFigureDragEnd;
     #endregion
 
     #region Custom Classes
@@ -161,12 +164,17 @@ public class SilhouettesMinigameManager : MinigameManager
             SetMinigameState(MiniGameState.WaitForFigureDragging);
 
             yield return new WaitUntil(() => draggingFigure);
+
+            OnFigureDragStart?.Invoke(this, EventArgs.Empty);
+
             FigureHandler draggedFigure = lastDraggedFigure;
             #endregion
 
             #region Figure Dragging
             SetMinigameState(MiniGameState.DraggingFigure);
             yield return new WaitUntil(() => !draggingFigure);
+
+            OnFigureDragEnd?.Invoke(this, EventArgs.Empty);
             #endregion
 
             #region Silhouette Processing - 3 cases

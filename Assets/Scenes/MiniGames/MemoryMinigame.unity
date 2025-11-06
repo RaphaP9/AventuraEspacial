@@ -1983,8 +1983,13 @@ MonoBehaviour:
   comboX5HapticPreset: 5
   minigameWonHapticPreset: 1
   minigameLostHapticPreset: 2
-  progressChangedHapticPreset: 8
+  progressChangedHapticPreset: 9
   timeWarningHapticPreset: 2
+  firstCardRevealedHapticPreset: 8
+  secondCardRevealedHapticPreset: 8
+  pairMatchHapticPreset: 1
+  pairFailedHapticPreset: 2
+  memoryRoundEndHapticPreset: 1
 --- !u!114 &1416769793
 MonoBehaviour:
   m_ObjectHideFlags: 0

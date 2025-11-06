@@ -32,7 +32,12 @@ public class HapticManager : MonoBehaviour
         if (!forceHaptic && !VibrationStateManager.Instance.VibrationEnabled) return;
 
         HapticPatterns.PlayPreset(GetLofeltHapticPreset(hapticPreset));
-        if(debug) Debug.Log($"Play Haptic: {GetLofeltHapticPreset(hapticPreset)}");
+
+        if (debug)
+        {
+            if (GetLofeltHapticPreset(hapticPreset) == HapticPatterns.PresetType.None) return;
+            Debug.Log($"Play Haptic: {GetLofeltHapticPreset(hapticPreset)}");
+        }
     }
 
     public HapticPatterns.PresetType GetLofeltHapticPreset(HapticPreset hapticPreset)

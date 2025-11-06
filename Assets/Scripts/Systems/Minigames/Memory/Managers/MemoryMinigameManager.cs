@@ -50,6 +50,9 @@ public class MemoryMinigameManager : MinigameManager
 
     public static event EventHandler OnPairMatch;
     public static event EventHandler OnPairFailed;
+
+    public static event EventHandler OnFirstCardRevealed;
+    public static event EventHandler OnSecondCardRevealed;
     #endregion
 
     #region Custom Classes
@@ -169,6 +172,8 @@ public class MemoryMinigameManager : MinigameManager
             yield return new WaitUntil(() => cardRevealed);
             cardRevealed = false;
 
+            OnFirstCardRevealed?.Invoke(this, EventArgs.Empty);
+
             MemoryCardHandler firstCard = lastRevealedCard;
             #endregion
 
@@ -177,6 +182,8 @@ public class MemoryMinigameManager : MinigameManager
 
             yield return new WaitUntil(() => cardRevealed);
             cardRevealed = false;
+
+            OnSecondCardRevealed?.Invoke(this, EventArgs.Empty);
 
             MemoryCardHandler secondCard = lastRevealedCard;
             #endregion

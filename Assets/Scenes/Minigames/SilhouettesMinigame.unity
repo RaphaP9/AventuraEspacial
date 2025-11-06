@@ -3736,8 +3736,14 @@ MonoBehaviour:
   comboX5HapticPreset: 5
   minigameWonHapticPreset: 1
   minigameLostHapticPreset: 2
-  progressChangedHapticPreset: 8
+  progressChangedHapticPreset: 9
   timeWarningHapticPreset: 2
+  figureDragStartHapticPreset: 8
+  figureDragEndHapticPreset: 9
+  silhouetteMatchHapticPreset: 1
+  silhouetteFailedHapticPreset: 2
+  figureReturnHapticPreset: 8
+  silhouettesRoundEndHapticPreset: 1
 --- !u!114 &2070317351
 MonoBehaviour:
   m_ObjectHideFlags: 0
