@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Balloon
   m_EditorClassIdentifier: 
   id: 19
-  sprite: {fileID: 1073678738, guid: 91ffad8a20caae9438821ccd28fd679c, type: 3}
+  sprite: {fileID: 21300000, guid: e514b7b38e142dc41b61a30448122865, type: 3}

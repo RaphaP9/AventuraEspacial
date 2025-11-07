@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Glasses
   m_EditorClassIdentifier: 
   id: 18
-  sprite: {fileID: -1832975551, guid: d0a007a3736494b418793d1046162262, type: 3}
+  sprite: {fileID: 21300000, guid: fa4c71671e0ff9d44b7dcaef409db494, type: 3}

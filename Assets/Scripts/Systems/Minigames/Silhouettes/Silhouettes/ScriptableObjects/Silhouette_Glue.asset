@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: caf65118dcbbe2444b1b44af622900b9, type: 3}
-  m_Name: Silhouette_Jar3
+  m_Name: Silhouette_Glue
   m_EditorClassIdentifier: 
   id: 14
-  sprite: {fileID: -226181128, guid: 98bb4f248008a21428a3610a82bbbcfc, type: 3}
+  sprite: {fileID: 21300000, guid: 237c3f3591c2a6a4ca56788bc2f044be, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}
