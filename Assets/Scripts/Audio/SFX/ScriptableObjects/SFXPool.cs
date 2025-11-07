@@ -34,6 +34,8 @@ public class SFXPool : ScriptableObject
     public AudioClip[] cutsceneUnlocked;
 
     [Header("General Feedback")]
+    public AudioClip[] regularHit;
+    public AudioClip[] maxComboHit;
     public AudioClip[] comboX2;
     public AudioClip[] comboX3;
     public AudioClip[] comboX4;
@@ -50,7 +52,9 @@ public class SFXPool : ScriptableObject
     public AudioClip[] pairMatch;
     public AudioClip[] pairFail;
     [Space]
+    public AudioClip[] memoryRoundBegin;
     public AudioClip[] memoryRoundCompleted;
+    public AudioClip[] cardsRevealTimeEnd;
 
     [Header("Silhouettes Minigame")]
     public AudioClip[] figureDragStart;
@@ -59,5 +63,6 @@ public class SFXPool : ScriptableObject
     public AudioClip[] silhouetteMatch;
     public AudioClip[] silhouetteFail;
     [Space]
+    public AudioClip[] silhouettesRoundBegin;
     public AudioClip[] silhouettesRoundCompleted;
 }

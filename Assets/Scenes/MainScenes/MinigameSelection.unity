@@ -2557,7 +2557,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 913130902}
-  - component: {fileID: 913130903}
   - component: {fileID: 913130904}
   m_Layer: 0
   m_Name: Audio
@@ -2581,19 +2580,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 197455049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &913130903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913130901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 059d1ef8b3f4b6640a8f11241be1a812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
 --- !u!114 &913130904
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2113,7 +2113,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1421238391}
-  - component: {fileID: 1421238392}
   - component: {fileID: 1421238393}
   m_Layer: 0
   m_Name: Vibration
@@ -2137,18 +2136,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 197455049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1421238392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421238390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f03712b44648c47a57a369c91fa1cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1421238393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3333,7 +3320,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1980427604}
-  - component: {fileID: 1980427605}
   - component: {fileID: 1980427606}
   m_Layer: 0
   m_Name: Audio
@@ -3357,19 +3343,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 197455049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1980427605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980427603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29f22f055ba18d4b81cf6f469b5e045, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
 --- !u!114 &1980427606
 MonoBehaviour:
   m_ObjectHideFlags: 0

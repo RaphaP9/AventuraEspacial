@@ -126,7 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSourcesToPause: []
-  enable: 1
   debug: 1
 --- !u!1 &1111268651849949988
 GameObject:
