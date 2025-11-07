@@ -23,12 +23,24 @@ public class SFXManager : MonoBehaviour
 
     protected AudioSource audioSource;
 
+    protected virtual void OnEnable()
+    {
+        PauseManager.OnGamePaused += PauseManager_OnGamePaused;
+        PauseManager.OnGameResumed += PauseManager_OnGameResumed;
+    }
+
+    protected virtual void OnDisable()
+    {
+        PauseManager.OnGamePaused -= PauseManager_OnGamePaused;
+        PauseManager.OnGameResumed -= PauseManager_OnGameResumed;
+    }
+
     protected virtual void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
 
-    protected void PlaySound(AudioClip[] audioClipArray)
+    public void PlaySound(AudioClip[] audioClipArray)
     {
         if (audioClipArray.Length == 0)
         {
@@ -79,4 +91,30 @@ public class SFXManager : MonoBehaviour
 
         Destroy(sfxGameObject, audioClip.length);
     }
+
+    private void CheckPauseAudio()
+    {
+        if (!pauseOnPause) return;
+
+        audioSource.Pause();
+    }
+
+    private void CheckResumeAudio()
+    {
+        if (!pauseOnPause) return;
+
+        audioSource.UnPause();
+    }
+
+    #region Subscriptions
+    private void PauseManager_OnGamePaused(object sender, System.EventArgs e)
+    {
+        CheckPauseAudio();
+    }
+
+    private void PauseManager_OnGameResumed(object sender, System.EventArgs e)
+    {
+        CheckResumeAudio();
+    }
+    #endregion
 }

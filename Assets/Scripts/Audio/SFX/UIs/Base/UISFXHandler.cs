@@ -1,19 +1,9 @@
 using UnityEngine;
 
-public abstract class SceneSFXHandler : MonoBehaviour
+public class UISFXHandler : MonoBehaviour
 {
-    [Header("SFX Pool")]
+    [Header("Settings")]
     [SerializeField] protected SFXPool SFXPool;
-
-    protected virtual void OnEnable()
-    {
-
-    }
-
-    protected virtual void OnDisable()
-    {
-
-    }
 
     public void PlaySFX_Pausable(AudioClip[] audioclips) => PausableSFXManager.Instance.PlaySound(audioclips);
     public void PlaySFX_Unpausable(AudioClip[] audioclips) => UnpausableSFXManager.Instance.PlaySound(audioclips);

@@ -1217,6 +1217,18 @@ MonoBehaviour:
           m_StringArgument: MediumImpact
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980427606}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_PlayButton
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696100032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,6 +1805,18 @@ MonoBehaviour:
           m_StringArgument: SoftImpact
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980427606}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_AlbumButton
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &918613713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2233,6 +2257,18 @@ MonoBehaviour:
           m_StringArgument: SoftImpact
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1980427606}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_CollectionButton
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1497498163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2441,6 +2477,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980427606}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1575582225
@@ -3286,6 +3334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980427604}
   - component: {fileID: 1980427605}
+  - component: {fileID: 1980427606}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -3318,6 +3367,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e29f22f055ba18d4b81cf6f469b5e045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
+--- !u!114 &1980427606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980427603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353824d80ec0264689840d2551b7794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
@@ -4038,6 +4100,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980427606}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1001 &6685457075073383965

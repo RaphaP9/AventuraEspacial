@@ -7,14 +7,14 @@ public class PausableSFXManager : SFXManager
 {
     public static PausableSFXManager Instance { get; private set; }
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
-
+        base.OnEnable();
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
-
+        base.OnDisable();
     }
 
     #region Singleton Settings

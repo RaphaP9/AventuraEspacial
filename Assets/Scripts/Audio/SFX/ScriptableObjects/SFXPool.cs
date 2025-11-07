@@ -5,10 +5,59 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSFXPoolSO", menuName = "ScriptableObjects/Audio/SFXPool")]
 public class SFXPool : ScriptableObject
 {
-    [Header("Player")]
-    public AudioClip[] playerJump;
+    [Header("General")]
+    public AudioClip[] genericButtonA;
+    public AudioClip[] genericButtonB;
+    public AudioClip[] genericButtonC;
+    public AudioClip[] genericButtonD;
     [Space]
-    public AudioClip[] playerDash;
+    public AudioClip[] sliderRelease;
+    public AudioClip[] toggleRelease;
+
+    [Header("MainMenu")]
+    public AudioClip[] playButton;
+    public AudioClip[] albumButton;
+    public AudioClip[] collectionButton;
+
+    [Header("Collectables")]
+    public AudioClip[] collectableCollected;
+    public AudioClip[] collectableNotCollectedSelected;
+    public AudioClip[] collectableCollectedSelected;
+
+    [Header("Album")]
+    public AudioClip[] albumPageSelected;
+    public AudioClip[] albumCutscenePlay;
+
+    [Header("Minigame Selection")]
+    public AudioClip[] memoryMinigameSelected;
+    public AudioClip[] silhouettesMinigameSelected;
+    public AudioClip[] cutsceneUnlocked;
+
+    [Header("General Feedback")]
+    public AudioClip[] comboX2;
+    public AudioClip[] comboX3;
+    public AudioClip[] comboX4;
+    public AudioClip[] comboX5;
     [Space]
-    public AudioClip[] playerLand;
+    public AudioClip[] winMinigame;
+    public AudioClip[] loseMinigame;
+    public AudioClip[] timeWarning;
+
+    [Header("Memory Minigame")]
+    public AudioClip[] firstCardSelected;
+    public AudioClip[] secondCardSelected;
+    [Space]
+    public AudioClip[] pairMatch;
+    public AudioClip[] pairFail;
+    [Space]
+    public AudioClip[] memoryRoundCompleted;
+
+    [Header("Silhouettes Minigame")]
+    public AudioClip[] figureDragStart;
+    [Space]
+    public AudioClip[] figureReturn;
+    public AudioClip[] silhouetteMatch;
+    public AudioClip[] silhouetteFail;
+    [Space]
+    public AudioClip[] silhouettesRoundCompleted;
 }

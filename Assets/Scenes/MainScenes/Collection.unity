@@ -2166,6 +2166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921349838}
   - component: {fileID: 921349839}
+  - component: {fileID: 921349840}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -2198,6 +2199,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4881d0a9f801e14d88f7b21d4a57996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
+--- !u!114 &921349840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921349837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353824d80ec0264689840d2551b7794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
@@ -3678,6 +3692,18 @@ MonoBehaviour:
           m_StringArgument: Selection
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 921349840}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1880999507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4488,6 +4514,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 921349840}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &8407188391465126704

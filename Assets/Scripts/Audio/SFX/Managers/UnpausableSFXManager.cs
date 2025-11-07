@@ -7,14 +7,14 @@ public class UnpausableSFXManager : SFXManager
 {
     public static UnpausableSFXManager Instance { get; private set; }
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
-
+        base.OnEnable();
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
-
+        base.OnDisable();
     }
 
     protected override void Awake()

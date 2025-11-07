@@ -1,14 +1,7 @@
 using UnityEngine;
-using Lofelt.NiceVibrations;
 
-public class OptionsUIVibrationHandler : UIVibrationHandler
+public class OptionsUISFXHandler : UISFXHandler
 {
-    [Header("Settings")]
-    [SerializeField] private HapticPreset musicSliderHapticPreset;
-    [SerializeField] private HapticPreset SFXSliderHapticPreset;
-    [Space]
-    [SerializeField] private HapticPreset vibrationToggleHapticPreset;
-
     private void OnEnable()
     {
         SFXVolumeSliderUIHandler.OnSFXSliderDragEnd += SFXVolumeSliderUIHandler_OnSFXSliderDragEnd;
@@ -34,29 +27,27 @@ public class OptionsUIVibrationHandler : UIVibrationHandler
     #region Subscriptions
     private void MusicVolumeSliderUIHandler_OnMusicSliderPointerUp(object sender, System.EventArgs e)
     {
-        PlayHaptic_Unforced(musicSliderHapticPreset);
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
     }
 
     private void MusicVolumeSliderUIHandler_OnMusicSliderDragEnd(object sender, System.EventArgs e)
     {
-        PlayHaptic_Unforced(musicSliderHapticPreset);
-
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
     }
 
     private void SFXVolumeSliderUIHandler_OnSFXSliderPointerUp(object sender, System.EventArgs e)
     {
-        PlayHaptic_Unforced(SFXSliderHapticPreset);
-
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
     }
 
     private void SFXVolumeSliderUIHandler_OnSFXSliderDragEnd(object sender, System.EventArgs e)
     {
-        PlayHaptic_Unforced(SFXSliderHapticPreset);
+        PlaySFX_Unpausable(SFXPool.sliderRelease);
     }
 
     private void VibrationToggleUIHandler_OnVibrationToggled(object sender, VibrationToggleUIHandler.OnVibrationToggledEventArgs e)
     {
-        if(e.isOn) PlayHaptic_Unforced(vibrationToggleHapticPreset);
+        PlaySFX_Unpausable(SFXPool.toggleRelease);
     }
     #endregion
 }

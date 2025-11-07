@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 2747031609616252428}
   - component: {fileID: 6473728190062948610}
   - component: {fileID: 7322774974079387127}
+  - component: {fileID: 8829122129865140993}
   m_Layer: 5
   m_Name: CutsceneUI
   m_TagString: Untagged
@@ -465,6 +466,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e04f9715189db4694941bd9378e55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextCutscenePanelHapticPreset: 0
+--- !u!114 &8829122129865140993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457390615854074955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353824d80ec0264689840d2551b7794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
 --- !u!1 &6121423665308567408
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +612,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8829122129865140993}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &396746080666075462
@@ -855,6 +882,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8829122129865140993}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonB
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &3022811749838758094

@@ -134,6 +134,18 @@ MonoBehaviour:
           m_StringArgument: Selection
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1848635175538329692}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &1680978382570049108
 Animator:
   serializedVersion: 7
@@ -288,6 +300,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SoftImpact
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1848635175538329692}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonB
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &6765918916038027256
@@ -626,6 +650,7 @@ GameObject:
   - component: {fileID: 1769988743439363038}
   - component: {fileID: 5449070331250709228}
   - component: {fileID: 2618350036132719130}
+  - component: {fileID: 1848635175538329692}
   m_Layer: 5
   m_Name: PauseUI
   m_TagString: Untagged
@@ -733,6 +758,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1848635175538329692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388011574666124858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353824d80ec0264689840d2551b7794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXPool: {fileID: 11400000, guid: 83e88a443b9f1954aa9e5a6269f6a8c1, type: 2}
 --- !u!1 &6698169852095486169
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +903,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Selection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1848635175538329692}
+        m_TargetAssemblyTypeName: SFXWrapper, Assembly-CSharp
+        m_MethodName: PlaySFX_ButtonA
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &8354273977806467442
