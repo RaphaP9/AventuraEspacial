@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: caf65118dcbbe2444b1b44af622900b9, type: 3}
-  m_Name: Silhouette_Book
+  m_Name: Silhouette_RollBandage
   m_EditorClassIdentifier: 
-  id: 34
-  sprite: {fileID: 21300000, guid: ca6b5c3874b05ec4db29bfed2905fafd, type: 3}
+  id: 18
+  sprite: {fileID: 21300000, guid: 96d31ae90ad93584195b19293a2ea385, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}

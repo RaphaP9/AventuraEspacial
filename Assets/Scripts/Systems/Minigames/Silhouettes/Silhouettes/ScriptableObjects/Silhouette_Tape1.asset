@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: caf65118dcbbe2444b1b44af622900b9, type: 3}
-  m_Name: Silhouette_Bandage1
+  m_Name: Silhouette_Tape1
   m_EditorClassIdentifier: 
-  id: 3
-  sprite: {fileID: 21300000, guid: 76f7677ab0a1df44f8ab851d4ff2b578, type: 3}
+  id: 4
+  sprite: {fileID: 21300000, guid: 520e765ce81c5334fa1f789d6d0a6387, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}
