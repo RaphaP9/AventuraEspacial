@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Silhouette_Gauze
   m_EditorClassIdentifier: 
   id: 4
-  sprite: {fileID: -480913835, guid: 98bb4f248008a21428a3610a82bbbcfc, type: 3}
+  sprite: {fileID: 21300000, guid: 520e765ce81c5334fa1f789d6d0a6387, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}

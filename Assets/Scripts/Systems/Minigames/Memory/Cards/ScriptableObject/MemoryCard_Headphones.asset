@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Headphones
   m_EditorClassIdentifier: 
   id: 17
-  sprite: {fileID: 966768141, guid: 9977e4bd39ebb2a498cc5f7a7fe0c7d4, type: 3}
+  sprite: {fileID: 21300000, guid: 63cc04a8ff37cd54ea9f80b86f79ef97, type: 3}
