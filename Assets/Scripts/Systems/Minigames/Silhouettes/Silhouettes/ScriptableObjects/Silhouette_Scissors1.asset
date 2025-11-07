@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Silhouette_Scissors1
   m_EditorClassIdentifier: 
   id: 16
-  sprite: {fileID: 1514742965, guid: 98bb4f248008a21428a3610a82bbbcfc, type: 3}
+  sprite: {fileID: 21300000, guid: d9ed40eb012a57e4f9a72db78eb18f44, type: 3}
   silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}
