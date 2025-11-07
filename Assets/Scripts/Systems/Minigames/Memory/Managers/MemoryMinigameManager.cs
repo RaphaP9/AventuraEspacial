@@ -39,8 +39,6 @@ public class MemoryMinigameManager : MinigameManager
 
     private bool cardRevealed = false;
 
-    private const float PAIR_PROCESSING_TIME = 0.5f;
-
     #region Events
 
     public static event EventHandler<OnRevealTimeEventArgs> OnRevealTimeStart;
@@ -332,7 +330,7 @@ public class MemoryMinigameManager : MinigameManager
     {
         List<MemoryCardHandler> evaluatedCards = new List<MemoryCardHandler> { firstCard, secondCard};
 
-        yield return new WaitForSeconds(PAIR_PROCESSING_TIME); //PAIR_PROCESSING_TIME is the same duration as FlipRevealAnimation (or at least that value)
+        yield return new WaitForSeconds(settings.pairProcessingTime); //pairProcessing is the same duration as FlipRevealAnimation (or at least that value)
 
         if (PairMatches(firstCard, secondCard))
         {
