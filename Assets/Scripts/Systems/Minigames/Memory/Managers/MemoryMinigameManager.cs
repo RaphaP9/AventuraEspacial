@@ -215,7 +215,7 @@ public class MemoryMinigameManager : MinigameManager
                 OnRoundEndMethod(roundIndex, settings.rounds.Count);
                 OnMemoryRoundEnd?.Invoke(this, new OnMemoryRoundEventArgs { memoryRound = memoryRound, roundIndex = roundIndex, totalRounds = settings.rounds.Count });
 
-                DisappearCards(currentRoundCards);
+                //DisappearCards(currentRoundCards); //Only If cards do not dissapear after match
 
                 if (IsLastRound(roundIndex))
                 {
