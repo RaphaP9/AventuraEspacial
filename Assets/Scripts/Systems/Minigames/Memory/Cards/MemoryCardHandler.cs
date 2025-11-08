@@ -21,6 +21,8 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
 
     public static event EventHandler<OnCardRevealedEventArgs> OnCardRevealed;
 
+    public event EventHandler OnCardMatch;
+
     public bool IsRevealed => isRevealed; //As soon as it is being show isRevealed is TRUE
     public bool IsMatched => isMatched;
     public bool IsFailing => isFailing;
@@ -74,6 +76,8 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     {
         animatorController.PlayMatchAnimation();
         isMatched = true;   
+
+        OnCardMatch?.Invoke(this, EventArgs.Empty);
     }
 
     public void FailMatch()

@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 7521363620311196303}
   - component: {fileID: 8470994882149298931}
   - component: {fileID: 3326164075055764042}
+  - component: {fileID: 6860572335965342695}
   m_Layer: 5
   m_Name: MemoryCard
   m_TagString: Untagged
@@ -396,3 +397,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7521363620311196303}
+--- !u!114 &6860572335965342695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809269593350329594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350b1a13a77b233499eeb5ad6715d366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 4702093851788566535}
+  memoryCardHandler: {fileID: 8470994882149298931}
+  cardMatchVFXPrefab: {fileID: 8190030899171088249, guid: 0423c4eaff813a44e91ad600ca7afb95, type: 3}
+  defaultScaleReferenceSize: 225
