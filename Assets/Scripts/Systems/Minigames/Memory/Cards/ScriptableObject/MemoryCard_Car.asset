@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_Car
   m_EditorClassIdentifier: 
   id: 6
-  sprite: {fileID: -498895819, guid: e2666e4443a09514394f8959bd55bb97, type: 3}
+  sprite: {fileID: 21300000, guid: 7b5c16f72e9fb8144b433e2aef57e97b, type: 3}

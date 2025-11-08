@@ -47,7 +47,8 @@ public class OptionsUISFXHandler : UISFXHandler
 
     private void VibrationToggleUIHandler_OnVibrationToggled(object sender, VibrationToggleUIHandler.OnVibrationToggledEventArgs e)
     {
-        PlaySFX_Unpausable(SFXPool.toggleRelease);
+        if(e.isOn) PlaySFX_Unpausable(SFXPool.toggleReleaseOn);
+        else PlaySFX_Unpausable(SFXPool.toggleReleaseOff);
     }
     #endregion
 }

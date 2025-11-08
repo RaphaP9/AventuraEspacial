@@ -12,7 +12,8 @@ public class SFXPool : ScriptableObject
     public AudioClip[] genericButtonD;
     [Space]
     public AudioClip[] sliderRelease;
-    public AudioClip[] toggleRelease;
+    public AudioClip[] toggleReleaseOn;
+    public AudioClip[] toggleReleaseOff;
 
     [Header("MainMenu")]
     public AudioClip[] playButton;
