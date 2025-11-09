@@ -6,6 +6,7 @@ public class MinigameTimerUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private MinigameTimerManager minigameTimerManager;
+    [SerializeField] private Animator animator;
 
     [Header("UI Components")]
     [SerializeField] private Image timerImage;
@@ -18,14 +19,18 @@ public class MinigameTimerUI : MonoBehaviour
 
     private const float FILL_AMOUNT_REACHED_THRESHOLD = 0.001f;
 
+    private const string WARNING_TRIGGER = "Warning";
+
     private void OnEnable()
     {
         MinigameTimerManager.OnTimeSet += MinigameTimerManager_OnTimeSet;
+        MinigameTimerManager.OnTimeWarning += MinigameTimerManager_OnTimeWarning;
     }
 
     private void OnDisable()
     {
         MinigameTimerManager.OnTimeSet -= MinigameTimerManager_OnTimeSet;
+        MinigameTimerManager.OnTimeWarning -= MinigameTimerManager_OnTimeWarning;
     }
 
     private void Update()
@@ -51,6 +56,11 @@ public class MinigameTimerUI : MonoBehaviour
     {
         float fill = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
         SetFillInstantly(fill);
+    }
+
+    private void MinigameTimerManager_OnTimeWarning(object sender, EventArgs e)
+    {
+        animator.SetTrigger(WARNING_TRIGGER);
     }
     #endregion
 }
