@@ -37,6 +37,10 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     public static event EventHandler<OnFigureEventArgs> OnFigureDragStart;
     public static event EventHandler<OnFigureEventArgs> OnFigureDragEnd;
 
+    public event EventHandler OnThisFigureDragStart;
+    public event EventHandler OnThisFigureDragEnd;
+    public event EventHandler OnFigureMatch;
+
     private Canvas canvas;
     private CanvasGroup canvasGroup;
 
@@ -153,6 +157,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         animatorController.PlayDragAnimation(); //Drag animation does not block raycasts
 
         OnFigureDragStart?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
+        OnThisFigureDragStart?.Invoke(this, EventArgs.Empty);
     }
 
     public void HandleDrag()
@@ -174,6 +179,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         animatorController.PlayIdleAnimation(); //Idle animation blocks raycasts
 
         OnFigureDragEnd?.Invoke(this, new OnFigureEventArgs { figureHandler = this });
+        OnThisFigureDragEnd?.Invoke(this, EventArgs.Empty);
     }
     #endregion
 
@@ -182,6 +188,7 @@ public class FigureHandler : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     {
         isMatched = true;
         animatorController.PlayMatchAnimation();
+        OnFigureMatch?.Invoke(this, EventArgs.Empty);
     }
 
     public void FailMatch()
