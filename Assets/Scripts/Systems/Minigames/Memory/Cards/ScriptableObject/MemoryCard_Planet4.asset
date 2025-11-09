@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 864231909803e5c41b8140e8ce1144a1, type: 3}
-  m_Name: MemoryCard_Purple
+  m_Name: MemoryCard_Planet4
   m_EditorClassIdentifier: 
-  id: 9
-  sprite: {fileID: 21300000, guid: 2c9d9cf9a71e5ac4da6143121ffc1b62, type: 3}
+  id: 28
+  sprite: {fileID: 21300000, guid: 0252b87f5e020b141baebb332686aa30, type: 3}

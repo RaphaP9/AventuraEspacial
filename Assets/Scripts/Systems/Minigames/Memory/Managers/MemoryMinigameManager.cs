@@ -147,7 +147,7 @@ public class MemoryMinigameManager : MinigameManager
     {
         SetUpGridLayout(memoryRound);
 
-        List<MemoryCardSO> chosenPairs = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(settings.cardPool, memoryRound.pairCount);
+        List<MemoryCardSO> chosenPairs = GeneralUtilities.ChooseNRandomDifferentItemsFromPoolFisherYates(memoryRound.cardPool, memoryRound.pairCount);
         CreateCards(chosenPairs, memoryRound);
 
         OnRoundStartMethod(roundIndex, settings.rounds.Count);  

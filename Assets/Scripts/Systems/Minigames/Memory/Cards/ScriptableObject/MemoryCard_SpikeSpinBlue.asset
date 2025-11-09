@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MemoryCard_SpikeSpinBlue
   m_EditorClassIdentifier: 
   id: 14
-  sprite: {fileID: 442559463, guid: 8744eae1192d1da4b8267b346d6dd39b, type: 3}
+  sprite: {fileID: 21300000, guid: c7a4e6b2d8dbd6e4db8c6694d13060e6, type: 3}

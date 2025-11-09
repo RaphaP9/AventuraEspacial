@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -9,4 +10,6 @@ public class MemoryRound
     [Space]
     [Range(2, 10)] public int gridColumnCount;
     [Range(150, 250)] public int cardSize;
+    [Space]
+    public List<MemoryCardSO> cardPool;
 }

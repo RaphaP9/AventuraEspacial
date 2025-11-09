@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 864231909803e5c41b8140e8ce1144a1, type: 3}
-  m_Name: MemoryCard_Nulito1
+  m_Script: {fileID: 11500000, guid: caf65118dcbbe2444b1b44af622900b9, type: 3}
+  m_Name: Silhouette_Plushie
   m_EditorClassIdentifier: 
-  id: 1
-  sprite: {fileID: 270509791, guid: 435acf795329b0e44a5ef84a2e9ead60, type: 3}
+  id: 41
+  sprite: {fileID: 21300000, guid: 1717e92fb31a11548a27ade7b868e119, type: 3}
+  silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}

@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 864231909803e5c41b8140e8ce1144a1, type: 3}
-  m_Name: MemoryCard_Satellite
+  m_Script: {fileID: 11500000, guid: caf65118dcbbe2444b1b44af622900b9, type: 3}
+  m_Name: Silhouette_Pillow
   m_EditorClassIdentifier: 
-  id: 16
-  sprite: {fileID: 1665071042, guid: 52c0226a00f7b4645bb89dd15aeedd07, type: 3}
+  id: 37
+  sprite: {fileID: 21300000, guid: 659feaad476722540bdadc98bff994f9, type: 3}
+  silhouetteMaterial: {fileID: 2100000, guid: 900eff9c6f9b9e143906997b72f839a7, type: 2}
