@@ -4,6 +4,7 @@ public class CardMatchVFXTrigger : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private RectTransform rectTransform;
+    [SerializeField] private Transform VFXContainer;
     [SerializeField] private MemoryCardHandler memoryCardHandler;
     [SerializeField] private Transform cardMatchVFXPrefab;
 
@@ -22,7 +23,7 @@ public class CardMatchVFXTrigger : MonoBehaviour
 
     private void CreateVFX()
     {
-        Transform prefabTransform = Instantiate(cardMatchVFXPrefab, transform);
+        Transform prefabTransform = Instantiate(cardMatchVFXPrefab, VFXContainer);
 
         CardMatchVFXHandler cardMatchVFXHandler = prefabTransform.GetComponent<CardMatchVFXHandler>();
 
