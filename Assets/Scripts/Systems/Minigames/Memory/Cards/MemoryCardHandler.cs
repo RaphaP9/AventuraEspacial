@@ -22,6 +22,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
     public static event EventHandler<OnCardRevealedEventArgs> OnCardRevealed;
 
     public event EventHandler OnCardMatch;
+    public event EventHandler OnThisCardRevealed;
 
     public bool IsRevealed => isRevealed; //As soon as it is being show isRevealed is TRUE
     public bool IsMatched => isMatched;
@@ -65,6 +66,7 @@ public class MemoryCardHandler : MonoBehaviour, IPointerClickHandler
         isRevealed = true;
 
         OnCardRevealed?.Invoke(this, new OnCardRevealedEventArgs { memoryCardHandler = this });
+        OnThisCardRevealed?.Invoke(this, EventArgs.Empty);
     }
 
     public void CoverCard()

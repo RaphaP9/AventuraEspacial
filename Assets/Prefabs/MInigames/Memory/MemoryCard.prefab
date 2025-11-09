@@ -23,12 +23,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815245490360618962}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4702093851788566535}
+  m_Father: {fileID: 7270316550670576009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -123,6 +123,78 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!1 &4552842526738086252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7270316550670576009}
+  - component: {fileID: 1505501275281166381}
+  - component: {fileID: 8535300161782454294}
+  m_Layer: 5
+  m_Name: VFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7270316550670576009
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4552842526738086252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2396662265435433959}
+  m_Father: {fileID: 4702093851788566535}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1505501275281166381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4552842526738086252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350b1a13a77b233499eeb5ad6715d366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 4702093851788566535}
+  VFXContainer: {fileID: 2396662265435433959}
+  memoryCardHandler: {fileID: 8470994882149298931}
+  cardMatchVFXPrefab: {fileID: 8190030899171088249, guid: 0423c4eaff813a44e91ad600ca7afb95, type: 3}
+  defaultScaleReferenceSize: 225
+--- !u!114 &8535300161782454294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4552842526738086252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c837fbad9a4552b428f88c7290b03475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 4702093851788566535}
+  VFXContainer: {fileID: 2396662265435433959}
+  memoryCardHandler: {fileID: 8470994882149298931}
+  cardSelectedVFXPrefab: {fileID: 2811654056774397917, guid: 2983cb99a41240c4c8e2d0330f5f7e6f, type: 3}
+  defaultScaleReferenceSize: 225
 --- !u!1 &6266078600537340975
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +408,6 @@ GameObject:
   - component: {fileID: 7521363620311196303}
   - component: {fileID: 8470994882149298931}
   - component: {fileID: 3326164075055764042}
-  - component: {fileID: 6860572335965342695}
   m_Layer: 5
   m_Name: MemoryCard
   m_TagString: Untagged
@@ -357,8 +428,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2289677506273173311}
-  - {fileID: 2396662265435433959}
   - {fileID: 6303324090268153631}
+  - {fileID: 7270316550670576009}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -433,20 +504,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7521363620311196303}
---- !u!114 &6860572335965342695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8809269593350329594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 350b1a13a77b233499eeb5ad6715d366, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rectTransform: {fileID: 4702093851788566535}
-  VFXContainer: {fileID: 2396662265435433959}
-  memoryCardHandler: {fileID: 8470994882149298931}
-  cardMatchVFXPrefab: {fileID: 8190030899171088249, guid: 0423c4eaff813a44e91ad600ca7afb95, type: 3}
-  defaultScaleReferenceSize: 225

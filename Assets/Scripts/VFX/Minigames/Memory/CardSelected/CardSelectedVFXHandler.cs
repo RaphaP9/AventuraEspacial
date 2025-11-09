@@ -2,15 +2,8 @@ using UnityEngine;
 
 public class CardSelectedVFXHandler : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void SetScaleByFactor(float factor)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.localScale = transform.localScale * factor;
     }
 }

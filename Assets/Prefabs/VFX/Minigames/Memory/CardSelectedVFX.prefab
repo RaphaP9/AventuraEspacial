@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2811654056774397917}
+  - component: {fileID: 1623641731077088097}
+  - component: {fileID: 5878448048326865473}
   m_Layer: 5
   m_Name: CardSelectedVFX
   m_TagString: Untagged
@@ -34,8 +36,34 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1623641731077088097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215356334714354631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43ae16e732cfb44dbe2de9a29b65dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5878448048326865473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215356334714354631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5484bfa12c81d144285cdd44d662514a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3
+  useRealtime: 0
 --- !u!1 &3436301356003964562
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 3436301356003964562}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -120, z: -9.999756}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96,10 +124,10 @@ VisualEffect:
       - m_Value: 40
         m_Name: SpawnDistanceToOrigin
         m_Overridden: 1
-      - m_Value: 0.2
+      - m_Value: 0.125
         m_Name: ParticleSize
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 1.25
         m_Name: ParticleSizeMult
         m_Overridden: 1
       - m_Value: 0.25
@@ -124,7 +152,7 @@ VisualEffect:
       m_Array: []
     m_Int:
       m_Array:
-      - m_Value: 50
+      - m_Value: 20
         m_Name: ParticleCount
         m_Overridden: 1
     m_Matrix4x4f:
