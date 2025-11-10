@@ -17,7 +17,7 @@ public class CardSelectedVFXHandler_ParticleSizeVariator : CardSelectedVFXHandle
     {
         if (!visualEffect.HasFloat(particleSizePropertyName))
         {
-            if(debug) Debug.Log($"Visual Effect doed not have a {particleSizePropertyName} property");
+            if(debug) Debug.Log($"Visual Effect does not have a {particleSizePropertyName} property");
             return;
         }
 
