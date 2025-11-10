@@ -82,13 +82,13 @@ public class ComboVFXHandler_Particles : MonoBehaviour
 
     private void SetParticleRate(int particleRate)
     {
-        if (!visualEffect.HasFloat(particleRatePropertyName))
+        if (!visualEffect.HasInt(particleRatePropertyName))
         {
             if (debug) Debug.Log($"Visual Effect does not have a {particleRatePropertyName} property");
             return;
         }
 
-        visualEffect.SetFloat(particleRatePropertyName, particleRate);
+        visualEffect.SetInt(particleRatePropertyName, particleRate);
     }
 
     private void PlayVFX() => visualEffect.Play();

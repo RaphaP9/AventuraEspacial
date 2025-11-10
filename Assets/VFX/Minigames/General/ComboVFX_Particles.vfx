@@ -230,8 +230,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: ParticleRate
-    path: ParticleRate
+  - name: ParticleRateNormalized
+    path: ParticleRateNormalized
     tooltip: 
     space: -1
     spaceable: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614982}
-  m_ExposedName: ParticleRate
+  m_ExposedName: ParticleRateNormalized
   m_Exposed: 1
   m_Order: 3
   m_Category: 

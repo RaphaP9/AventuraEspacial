@@ -54,7 +54,7 @@ public class MinigameComboUI : MonoBehaviour
 
     private void HandleScaleLerping()
     {
-        if(Mathf.Abs(comboScaleHolder.localScale.x - targetScale) <= SCALE_THRESHOLD) return;
+        if(Mathf.Abs(comboScaleHolder.localScale.x - targetScale) <= SCALE_THRESHOLD) return; //Use localScale.x as refference, can use any Axis
 
         Vector3 targetScaleVector = targetScale * Vector3.one;
 
