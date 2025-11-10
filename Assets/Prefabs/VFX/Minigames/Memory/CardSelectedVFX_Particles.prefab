@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2811654056774397917}
-  - component: {fileID: 1623641731077088097}
+  - component: {fileID: 2362916457400880516}
   - component: {fileID: 5878448048326865473}
   m_Layer: 5
-  m_Name: CardSelectedVFX
+  m_Name: CardSelectedVFX_Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,7 +38,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1623641731077088097
+--- !u!114 &2362916457400880516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2215356334714354631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b43ae16e732cfb44dbe2de9a29b65dee, type: 3}
+  m_Script: {fileID: 11500000, guid: f9d1e823d9d8add40a14cd91bfbaac81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5878448048326865473
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 8262336339625276481}
   - component: {fileID: 3500925118226884414}
   m_Layer: 0
-  m_Name: CardSelectedVFX
+  m_Name: CardSelectedVFX_Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

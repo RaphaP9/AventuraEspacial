@@ -1,9 +1,6 @@
 using UnityEngine;
 
-public class CardSelectedVFXHandler : MonoBehaviour
+public abstract class CardSelectedVFXHandler : MonoBehaviour
 {
-    public void SetScaleByFactor(float factor)
-    {
-        transform.localScale = transform.localScale * factor;
-    }
+    public abstract void SetSizeByFactor(float factor);
 }

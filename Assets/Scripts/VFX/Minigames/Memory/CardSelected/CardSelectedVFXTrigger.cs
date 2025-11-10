@@ -29,7 +29,7 @@ public class CardSelectedVFXTrigger : MonoBehaviour
 
         if (cardSelectedVFXHandler == null) return;
 
-        cardSelectedVFXHandler.SetScaleByFactor(GetFactorByRectWidth());
+        cardSelectedVFXHandler.SetSizeByFactor(GetFactorByRectWidth());
     }
 
     private float GetFactorByRectWidth()
