@@ -166,7 +166,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1922469003158598599}
+  m_Father: {fileID: 6259662002414383782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -203,22 +203,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: X2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 38d2fef07fc12cd49913aeae34d27f9e, type: 2}
-  m_sharedMaterial: {fileID: 5482665913505120388, guid: 38d2fef07fc12cd49913aeae34d27f9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3a109afdc7d2ffd41b222c19dfc87128, type: 2}
+  m_sharedMaterial: {fileID: 5482665913505120388, guid: 3a109afdc7d2ffd41b222c19dfc87128, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278249471
-  m_fontColor: {r: 1, g: 0.9058824, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 0.90588236, b: 0, a: 1}
   m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0, b: 0, a: 1}
+    topRight: {r: 1, g: 0, b: 0, a: 1}
+    bottomLeft: {r: 1, g: 0, b: 0, a: 1}
+    bottomRight: {r: 1, g: 0, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -394,6 +394,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2679749104732578138}
   comboValueText: {fileID: 2462302881822007936}
+  comboScaleHolder: {fileID: 6259662002414383782}
+  minComboValue: 2
+  maxComboValue: 5
+  minComboScale: 0.9
+  maxComboScale: 1.25
+  scaleSmoothFactor: 5
 --- !u!1 &4619704806099544600
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,7 +574,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1922469003158598599}
+  m_Father: {fileID: 6259662002414383782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -605,22 +611,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: Combo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 38d2fef07fc12cd49913aeae34d27f9e, type: 2}
-  m_sharedMaterial: {fileID: 5482665913505120388, guid: 38d2fef07fc12cd49913aeae34d27f9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3a109afdc7d2ffd41b222c19dfc87128, type: 2}
+  m_sharedMaterial: {fileID: 5482665913505120388, guid: 3a109afdc7d2ffd41b222c19dfc87128, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278249471
-  m_fontColor: {r: 1, g: 0.9058824, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 0.90588236, b: 0, a: 1}
   m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0, b: 0, a: 1}
+    topRight: {r: 1, g: 0, b: 0, a: 1}
+    bottomLeft: {r: 1, g: 0, b: 0, a: 1}
+    bottomRight: {r: 1, g: 0, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -723,7 +729,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1922469003158598599}
-  - component: {fileID: 7626291495688231836}
   m_Layer: 5
   m_Name: ComboHolder
   m_TagString: Untagged
@@ -743,8 +748,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 6600174116862488375}
-  - {fileID: 506927273048795070}
+  - {fileID: 6259662002414383782}
   m_Father: {fileID: 9112722112226943634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10}
   m_AnchorMin: {x: 0, y: 0}
@@ -752,13 +756,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7626291495688231836
+--- !u!1 &8372075670157832995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6259662002414383782}
+  - component: {fileID: 3641187445308558031}
+  m_Layer: 5
+  m_Name: ComboScaleHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6259662002414383782
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8372075670157832995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 6600174116862488375}
+  - {fileID: 506927273048795070}
+  m_Father: {fileID: 1922469003158598599}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3641187445308558031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6641597192413843675}
+  m_GameObject: {fileID: 8372075670157832995}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}

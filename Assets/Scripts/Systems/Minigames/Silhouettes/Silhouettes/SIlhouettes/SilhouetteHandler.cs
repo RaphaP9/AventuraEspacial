@@ -69,8 +69,9 @@ public class SilhouetteHandler : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     public void FailMatch()
     {
-        isFailing = true;
-        animatorController.PlayFailAnimation();
+        //FailMatchAnimation not set (seen as unnecessary)
+        //isFailing = true;
+        //animatorController.PlayFailAnimation();
     }
     #endregion
 
