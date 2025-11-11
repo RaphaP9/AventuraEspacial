@@ -56,7 +56,7 @@ public class ComboVFXHandler_Particles : MonoBehaviour
 
     private void InitializeDistances()
     {
-        //We want to get half the rect transform refference width and height
+        //We want to get the rect transform refference width and height
         height = screenRectTransformRefference.rect.height;
         width = screenRectTransformRefference.rect.width;
     }
