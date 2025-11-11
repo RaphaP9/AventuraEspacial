@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 79822e3b709656f4282596c71da46f99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9072560267364521654
+    second: logo rescate espacial_00017_0
+  - first:
+      213: 5904546342012931957
+    second: logo rescate espacial_00017_1
+  - first:
+      213: 837484354230086850
+    second: logo rescate espacial_00017_2
+  - first:
+      213: -2781560985775400433
+    second: logo rescate espacial_00017_3
+  - first:
+      213: 1627874503487075791
+    second: logo rescate espacial_00017_4
+  - first:
+      213: -4697274422858030406
+    second: logo rescate espacial_00017_5
+  - first:
+      213: 4729163743444721445
+    second: logo rescate espacial_00017_6
+  - first:
+      213: 747499510997878778
+    second: logo rescate espacial_00017_7
+  - first:
+      213: -9140431961261059451
+    second: logo rescate espacial_00017_8
+  - first:
+      213: -5835332336252813946
+    second: logo rescate espacial_00017_9
+  - first:
+      213: -7350737170116761908
+    second: logo rescate espacial_00017_10
+  - first:
+      213: 8544425789019746009
+    second: logo rescate espacial_00017_11
+  - first:
+      213: -9011168378100063971
+    second: logo rescate espacial_00017_12
+  - first:
+      213: -209141048896091923
+    second: logo rescate espacial_00017_13
+  - first:
+      213: 8340079269482549051
+    second: logo rescate espacial_00017_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 101
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6d593ae7538ed70800000000000000
+      internalID: 9072560267364521654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 102
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f438b4d9921f150800000000000000
+      internalID: 5904546342012931957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 102
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cce4de35975f9b00800000000000000
+      internalID: 837484354230086850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 103
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a95c15509e569d0800000000000000
+      internalID: -2781560985775400433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5334f6c3f579610800000000000000
+      internalID: 1627874503487075791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 101
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2e405bccdefceb0800000000000000
+      internalID: -4697274422858030406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 29
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fdda45e5d51a140800000000000000
+      internalID: 4729163743444721445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 27
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af78ec648d6af5a00800000000000000
+      internalID: 747499510997878778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 23
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582586f2f89a62180800000000000000
+      internalID: -9140431961261059451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 28
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dfc47382cb40fa0800000000000000
+      internalID: -5835332336252813946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 27
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc62ee95d7fecf990800000000000000
+      internalID: -7350737170116761908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 28
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de653c1cf5e39670800000000000000
+      internalID: 8544425789019746009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 74
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11ec147a16e1f280800000000000000
+      internalID: -9011168378100063971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 28
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88898f25bf81df0800000000000000
+      internalID: -209141048896091923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo rescate espacial_00017_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 28
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f4b1078e9edb370800000000000000
+      internalID: 8340079269482549051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logo rescate espacial_00017_0: 9072560267364521654
+      logo rescate espacial_00017_1: 5904546342012931957
+      logo rescate espacial_00017_10: -7350737170116761908
+      logo rescate espacial_00017_11: 8544425789019746009
+      logo rescate espacial_00017_12: -9011168378100063971
+      logo rescate espacial_00017_13: -209141048896091923
+      logo rescate espacial_00017_14: 8340079269482549051
+      logo rescate espacial_00017_2: 837484354230086850
+      logo rescate espacial_00017_3: -2781560985775400433
+      logo rescate espacial_00017_4: 1627874503487075791
+      logo rescate espacial_00017_5: -4697274422858030406
+      logo rescate espacial_00017_6: 4729163743444721445
+      logo rescate espacial_00017_7: 747499510997878778
+      logo rescate espacial_00017_8: -9140431961261059451
+      logo rescate espacial_00017_9: -5835332336252813946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -193,7 +193,7 @@ MonoBehaviour:
   rectTransform: {fileID: 4702093851788566535}
   VFXContainer: {fileID: 2396662265435433959}
   memoryCardHandler: {fileID: 8470994882149298931}
-  cardSelectedVFXPrefab: {fileID: 2811654056774397917, guid: 2983cb99a41240c4c8e2d0330f5f7e6f, type: 3}
+  cardSelectedVFXPrefab: {fileID: 6123103836856494106, guid: 013bfd3ffb0d3a44b899d7d66189d617, type: 3}
   defaultScaleReferenceSize: 225
 --- !u!1 &6266078600537340975
 GameObject:
