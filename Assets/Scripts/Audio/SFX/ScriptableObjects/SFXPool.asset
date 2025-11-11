@@ -19,7 +19,8 @@ MonoBehaviour:
   genericButtonC:
   - {fileID: 8300000, guid: bbdf734d8d4eab146adeae2289f42583, type: 3}
   genericButtonD: []
-  sliderRelease: []
+  sliderRelease:
+  - {fileID: 8300000, guid: ac5502d658b8c2140a8ba4e78196126b, type: 3}
   toggleReleaseOn:
   - {fileID: 8300000, guid: 146d45b4c706b3d4da8903e19a8c270c, type: 3}
   toggleReleaseOff:
