@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class LandmarkUIAnimationController : MonoBehaviour
@@ -12,6 +13,8 @@ public class LandmarkUIAnimationController : MonoBehaviour
 
     private const string CLAIM_TRIGGER = "Claim";
 
+    public event EventHandler OnAnimationRest;
+
     private void OnEnable()
     {
         landmarkUI.OnLandmarkInitialized += LandmarkUI_OnLandmarkInitialized;
@@ -24,7 +27,7 @@ public class LandmarkUIAnimationController : MonoBehaviour
         landmarkUI.OnLandmarkClaimed -= LandmarkUI_OnLandmarkClaimed;
     }
 
-    private void InstantnNotUnlock()
+    private void InstantNotUnlock()
     {
         animator.ResetTrigger(CLAIM_TRIGGER);
         animator.Play(NOT_UNLOCKED_ANIMATION_NAME);
@@ -47,13 +50,19 @@ public class LandmarkUIAnimationController : MonoBehaviour
         animator.SetTrigger(CLAIM_TRIGGER);
     }
 
+    public void TriggerRest()
+    {
+        OnAnimationRest?.Invoke(this, EventArgs.Empty);
+    }
+
+
     #region Subsscriptions
     private void LandmarkUI_OnLandmarkInitialized(object sender, LandmarkUI.OnLandmarkStateEventArgs e)
     {
         switch (e.landmarkState)
         {
             case LandmarkState.NotUnlocked:
-                InstantnNotUnlock();
+                InstantNotUnlock();
                 break;
             case LandmarkState.Unlocked:
                 InstantUnlock();
