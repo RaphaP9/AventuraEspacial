@@ -9,15 +9,15 @@ public class MinigameTimerUI : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [Header("UI Components")]
-    [SerializeField] private Image timerImage;
+    [SerializeField] private Slider timerSlider;
 
     [Header("Settings")]
     [SerializeField, Range(0.1f, 10f)] private float smoothLerpFactor;
 
     [Header("Runtime Filled")]
-    [SerializeField] private float targetFill;
+    [SerializeField] private float targetValue;
 
-    private const float FILL_AMOUNT_REACHED_THRESHOLD = 0.001f;
+    private const float VALUE_REACHED_THRESHOLD = 0.001f;
 
     private const string WARNING_TRIGGER = "Warning";
 
@@ -38,24 +38,24 @@ public class MinigameTimerUI : MonoBehaviour
         HandleUI();
     }
 
-    private void SetFillInstantly(float fillAmount) => timerImage.fillAmount = fillAmount;
+    private void SetValueInstantly(float value) => timerSlider.value = value;
 
     private void HandleUI()
     {
-        targetFill = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
+        targetValue = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
 
         if (TargetReached()) return;
 
-        timerImage.fillAmount = Mathf.Lerp(timerImage.fillAmount, targetFill, smoothLerpFactor * Time.deltaTime);
+        timerSlider.value = Mathf.Lerp(timerSlider.value, targetValue, smoothLerpFactor * Time.deltaTime);
     }
 
-    private bool TargetReached() => Math.Abs(timerImage.fillAmount - targetFill) < FILL_AMOUNT_REACHED_THRESHOLD;
+    private bool TargetReached() => Math.Abs(timerSlider.value - targetValue) < VALUE_REACHED_THRESHOLD;
 
     #region Subscriptions
     private void MinigameTimerManager_OnTimeSet(object sender, MemoryMinigameTimerManager.OnTimeSetEventArgs e)
     {
-        float fill = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
-        SetFillInstantly(fill);
+        float value = minigameTimerManager.CurrentTime / minigameTimerManager.TotalTime;
+        SetValueInstantly(value);
     }
 
     private void MinigameTimerManager_OnTimeWarning(object sender, EventArgs e)

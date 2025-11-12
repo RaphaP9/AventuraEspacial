@@ -1261,7 +1261,7 @@ MonoBehaviour:
   screenHeightPropertyName: ScreenHeight
   width: 0
   height: 0
-  debug: 0
+  debug: 1
 --- !u!1 &486672341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   screenHeightPropertyName: ScreenHeight
   width: 0
   height: 0
-  debug: 0
+  debug: 1
 --- !u!1 &507270061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   screenHeightPropertyName: ScreenHeight
   width: 0
   height: 0
-  debug: 0
+  debug: 1
 --- !u!1 &1169842404
 GameObject:
   m_ObjectHideFlags: 0

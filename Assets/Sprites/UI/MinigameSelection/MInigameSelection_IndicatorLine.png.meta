@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b9496e5446154cd4694a32aeddced00c
+guid: 3b8672ef39a8f8446b894f6efe866aaa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4970103440600691444
-    second: TimerBoxFill_Yellow_0
+      213: 362876944056889920
+    second: MInigameSelection_IndicatorLine_0
+  - first:
+      213: 2339366373110554756
+    second: MInigameSelection_IndicatorLine_1
+  - first:
+      213: -9074550337781245843
+    second: MInigameSelection_IndicatorLine_2
+  - first:
+      213: 4951134487298204132
+    second: MInigameSelection_IndicatorLine_3
+  - first:
+      213: 3687398009051063623
+    second: MInigameSelection_IndicatorLine_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +64,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 20, y: 0, z: 50, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,23 +138,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TimerBoxFill_Yellow_0
+      name: MInigameSelection_IndicatorLine_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1148
-        height: 72
+        y: 121
+        width: 9
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f273f91fba59f440800000000000000
-      internalID: 4970103440600691444
+      spriteID: 042b0b378a2390500800000000000000
+      internalID: 362876944056889920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MInigameSelection_IndicatorLine_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480afb46259177020800000000000000
+      internalID: 2339366373110554756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MInigameSelection_IndicatorLine_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68d52cfb88b01280800000000000000
+      internalID: -9074550337781245843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MInigameSelection_IndicatorLine_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1689e7596f5b440800000000000000
+      internalID: 4951134487298204132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MInigameSelection_IndicatorLine_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745a8fad3f44c2330800000000000000
+      internalID: 3687398009051063623
       vertices: []
       indices: 
       edges: []
@@ -152,7 +252,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TimerBoxFill_Yellow_0: 4970103440600691444
+      MInigameSelection_IndicatorLine_0: 362876944056889920
+      MInigameSelection_IndicatorLine_1: 2339366373110554756
+      MInigameSelection_IndicatorLine_2: -9074550337781245843
+      MInigameSelection_IndicatorLine_3: 4951134487298204132
+      MInigameSelection_IndicatorLine_4: 3687398009051063623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

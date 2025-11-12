@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9496e5446154cd4694a32aeddced00c
+guid: 2311f95e73323394a89edf5e3eae2443
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4970103440600691444
-    second: TimerBoxFill_Yellow_0
+      213: -4682120127416034044
+    second: MInigameSelection_ProgressBar_Gradient_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,13 +46,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 20, y: 0, z: 50, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TimerBoxFill_Yellow_0
+      name: MInigameSelection_ProgressBar_Gradient_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1148
-        height: 72
+        width: 870
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 20, y: 0, z: 20, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f273f91fba59f440800000000000000
-      internalID: 4970103440600691444
+      spriteID: 40d19a11d84c50fb0800000000000000
+      internalID: -4682120127416034044
       vertices: []
       indices: 
       edges: []
@@ -151,8 +151,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 3e56dc0f4119b3b4894b57e7691cbe13
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TimerBoxFill_Yellow_0: 4970103440600691444
+      MInigameSelection_ProgressBar_Gradient_0: -4682120127416034044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

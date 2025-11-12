@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9496e5446154cd4694a32aeddced00c
+guid: 19e84660c34f74b4797b3a5edae1162d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4970103440600691444
-    second: TimerBoxFill_Yellow_0
+      213: 6006090333339007188
+    second: MInigameSelection_ProgressBG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 20, y: 0, z: 50, w: 0}
+  spriteBorder: {x: 50, y: 0, z: 50, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TimerBoxFill_Yellow_0
+      name: MInigameSelection_ProgressBG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1148
+        width: 921
         height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f273f91fba59f440800000000000000
-      internalID: 4970103440600691444
+      spriteID: 4d83497265be95350800000000000000
+      internalID: 6006090333339007188
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TimerBoxFill_Yellow_0: 4970103440600691444
+      MInigameSelection_ProgressBG_0: 6006090333339007188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
