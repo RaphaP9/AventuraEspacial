@@ -8,6 +8,7 @@ public class CollectableInfoContainerHandler : MonoBehaviour
 {
     [Header("UI Components")]
     [SerializeField] private Image collectableImage;
+    [SerializeField] private Image collectableBackground;
     [SerializeField] private TextMeshProUGUI collectableNameText;
     [SerializeField] private TextMeshProUGUI collectableDescriptionText;
 
@@ -71,8 +72,16 @@ public class CollectableInfoContainerHandler : MonoBehaviour
 
         collectableImage.sprite = currentCollectableUI.CollectableSO.collectableSprite;
 
-        if (currentCollectableUI.IsCollected) collectableImage.material = null;
-        else collectableImage.material = currentCollectableUI.CollectableSO.notCollectedMaterial;
+        if (currentCollectableUI.IsCollected)
+        {
+            collectableImage.material = null;
+            collectableBackground.color = currentCollectableUI.CollectableSO.collectedBackgroundColor;
+        }
+        else
+        {
+            collectableImage.material = currentCollectableUI.CollectableSO.notCollectedMaterial;
+            collectableBackground.color = currentCollectableUI.CollectableSO.notCollectedBackgroundColor;
+        }
     }
 
     #region Subscriptions

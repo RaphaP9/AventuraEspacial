@@ -9,6 +9,7 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Image collectableImage;
+    [SerializeField] private Image collectableBackground;
     [SerializeField] private TextMeshProUGUI collectableNameText;
     [SerializeField] private Animator animator;
 
@@ -49,6 +50,8 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
         this.collectableSO = collectableSO;
 
         SetCollectableImage();
+        SetCollectableBackground();
+
         LocalizeCollectableNameText();
     }
 
@@ -57,6 +60,13 @@ public class CollectableCollectionNotificationUI : MonoBehaviour
         if (collectableSO == null) return;
 
         collectableImage.sprite = collectableSO.collectableSprite;
+    }
+
+    private void SetCollectableBackground()
+    {
+        if (collectableSO == null) return;
+
+        collectableBackground.color = collectableSO.collectedBackgroundColor;
     }
 
 

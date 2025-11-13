@@ -7,6 +7,7 @@ public class CollectableUI : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] private Button collectableButton;
     [SerializeField] private Image collectableImage;
+    [SerializeField] private Image collectableBackground;
 
     [Header("Runtime Filled")]
     [SerializeField] private CollectableSO collectableSO;
@@ -48,8 +49,16 @@ public class CollectableUI : MonoBehaviour
 
         collectableImage.sprite = collectableSO.collectableSprite;
 
-        if (isCollected) collectableImage.material = null;
-        else collectableImage.material = collectableSO.notCollectedMaterial;
+        if (isCollected)
+        {
+            collectableImage.material = null;
+            collectableBackground.color = collectableSO.collectedBackgroundColor;
+        }
+        else
+        {
+            collectableImage.material = collectableSO.notCollectedMaterial;
+            collectableBackground.color = collectableSO.notCollectedBackgroundColor;
+        }
     }
 
     private void InitializeButtonListener()
