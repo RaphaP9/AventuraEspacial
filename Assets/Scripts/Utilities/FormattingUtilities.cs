@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 
@@ -34,6 +35,9 @@ public static class FormattingUtilities
         int seconds = totalSeconds % 60;
         return string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    public static string GetCurrentTime24HS() => DateTime.Now.ToString("HH:mm:ss");
+    public static string GetCurrentTime12HS() => DateTime.Now.ToString("hh:mm:ss tt");
 
     public static int TranstaleBoolToInt(bool value)
     {

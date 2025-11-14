@@ -126,7 +126,7 @@ VisualEffect:
       - m_Value: 1.3
         m_Name: ParticleLifetime
         m_Overridden: 1
-      - m_Value: 0.6
+      - m_Value: 0.5
         m_Name: TimeBetweenParticles
         m_Overridden: 1
     m_Vector2f:
