@@ -129,7 +129,10 @@ VisualEffect:
         m_Name: AngularVelocity
         m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0}
+        m_Name: ParticlesSpeed
+        m_Overridden: 1
     m_Vector3f:
       m_Array: []
     m_Vector4f:
