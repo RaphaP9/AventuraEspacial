@@ -838,7 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1f8a1a3ce954c4d9aa5ea71b516c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstTimeEnteringGameScene: LanguageSelectionScene
+  unconfiguredGameScene: LanguageSelectionScene
   regularSceneScene: TimerSelectorScene
   timeToLoadNextScene: 0
 --- !u!1 &1064401214

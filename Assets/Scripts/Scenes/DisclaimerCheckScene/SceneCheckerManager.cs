@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneCheckerManager : MonoBehaviour
 {
     [Header("Settings")]
-    [SerializeField] private string firstTimeEnteringGameScene;
+    [SerializeField] private string unconfiguredGameScene;
     [SerializeField] private string regularSceneScene;
 
     [Header("Other Settings")]
@@ -13,16 +13,16 @@ public class SceneCheckerManager : MonoBehaviour
 
     private void Start()
     {
-        CheckFirstTimeEnteringGame();
+        PerformSceneCheck();
     }
 
-    private void CheckFirstTimeEnteringGame()
+    private void PerformSceneCheck()
     {
         string targetScene = regularSceneScene;
 
-        if (DataContainer.Instance.IsFirstTimeEnteringGame())
+        if (DataContainer.Instance.HasConfiguredGame())
         {
-            targetScene = firstTimeEnteringGameScene;
+            targetScene = unconfiguredGameScene;
         }
 
         StartCoroutine(LoadNextSceneAfterTime(targetScene));
