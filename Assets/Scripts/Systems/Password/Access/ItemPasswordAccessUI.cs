@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class PasswordUI : MonoBehaviour
+public class ItemPasswordAccessUI : PasswordAccessUI
 {
     [Header("Components")]
     [SerializeField] private Animator animator;

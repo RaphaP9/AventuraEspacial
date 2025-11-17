@@ -28,14 +28,20 @@ MonoBehaviour:
   playButton: []
   albumButton: []
   collectionButton: []
-  collectableCollected: []
+  collectableCollected:
+  - {fileID: 8300000, guid: 472073264fa9b3f4d8a08a33065d0d7b, type: 3}
   collectableNotCollectedSelected: []
   collectableCollectedSelected: []
-  albumPageSelected: []
-  albumCutscenePlay: []
-  memoryMinigameSelected: []
-  silhouettesMinigameSelected: []
-  cutsceneUnlocked: []
+  albumPageSelected:
+  - {fileID: 8300000, guid: 2819097cfc538ac4e857d38a34f6d7f5, type: 3}
+  albumCutscenePlay:
+  - {fileID: 8300000, guid: 71f22ea225a57ea4ba360f5ac12fe4a9, type: 3}
+  memoryMinigameSelected:
+  - {fileID: 8300000, guid: 50b63954a412fdc449b7879586c2712e, type: 3}
+  silhouettesMinigameSelected:
+  - {fileID: 8300000, guid: 50b63954a412fdc449b7879586c2712e, type: 3}
+  cutsceneUnlocked:
+  - {fileID: 8300000, guid: 663a8e17f91df994880107b96429e1e5, type: 3}
   regularHit: []
   maxComboHit: []
   comboX2: []

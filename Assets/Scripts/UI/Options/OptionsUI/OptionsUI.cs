@@ -12,6 +12,7 @@ public class OptionsUI : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private List<Button> optionsButtons;
+    [SerializeField] private List<PasswordAccessUI> passwordAccessUIs;
     [SerializeField] private Button closeButton;
 
     public static event EventHandler OnOptionsUIOpen;
@@ -22,6 +23,21 @@ public class OptionsUI : MonoBehaviour
 
     private const float TOP_SCROLL_RECT_VERTICAL_NORMALIZED_POSITION = 1f;
 
+    private void OnEnable()
+    {
+        foreach(PasswordAccessUI passwordAccessUI in passwordAccessUIs)
+        {
+            passwordAccessUI.OnPasswordUIUnlock += PasswordAccessUI_OnPasswordUIUnlock;
+        }
+    }
+
+    private void OnDisable()
+    {
+        foreach (PasswordAccessUI passwordAccessUI in passwordAccessUIs)
+        {
+            passwordAccessUI.OnPasswordUIUnlock -= PasswordAccessUI_OnPasswordUIUnlock;
+        }
+    }
 
     private void Awake()
     {
@@ -68,6 +84,13 @@ public class OptionsUI : MonoBehaviour
     {
         optionsUIAnimator.ResetTrigger(SHOW_TRIGGER);
         optionsUIAnimator.SetTrigger(HIDE_TRIGGER);
+    }
+    #endregion
+
+    #region Subscriptions
+    private void PasswordAccessUI_OnPasswordUIUnlock(object sender, EventArgs e)
+    {
+        OpenUI();
     }
     #endregion
 }
