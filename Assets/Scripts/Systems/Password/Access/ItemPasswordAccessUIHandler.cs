@@ -166,7 +166,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
             OnCompletePasswordTypedWrongPre?.Invoke(this, EventArgs.Empty);
         }
 
-        yield return new WaitForSeconds(checkTime);
+        yield return new WaitForSecondsRealtime(checkTime);
 
         if (correctPassword)
         {

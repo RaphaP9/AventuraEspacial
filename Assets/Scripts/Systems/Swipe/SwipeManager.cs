@@ -42,7 +42,11 @@ public class SwipeManager : MonoBehaviour
    
     private void UpdateSwipe()
     {
-        if (!CanSwipe()) return;
+        if (!CanSwipe())
+        {
+            isSwiping = false;
+            return;
+        }
 
         if (Pointer.current == null) return;
 

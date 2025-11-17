@@ -71,6 +71,7 @@ public class PasswordAccessUI : MonoBehaviour
         if (currentPasswordAccessedUI == null) return;
 
         HidePasswordUI();
+        OnPasswordAccessUIClose?.Invoke(this, EventArgs.Empty);
         OnPasswordAccessUIUnlock?.Invoke(this, EventArgs.Empty);
 
         currentPasswordAccessedUI.AccessUI();

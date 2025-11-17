@@ -1,32 +1,19 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MinigameSelectionSwipeManager : SwipeManager
 {
-    private bool optionsOpen = false;
+    [Header("Lists")]
+    [SerializeField] private List<CanvasGroup> blockingCanvasGroups;
 
-    private void OnEnable()
+    protected override bool CanSwipe()
     {
-        OptionsUI.OnOptionsUIOpen += OptionsUI_OnOptionsUIOpen;
-        OptionsUI.OnOptionsUIClose += OptionsUI_OnOptionsUIClose;
-    }
+        foreach(CanvasGroup canvasGroup in blockingCanvasGroups)
+        {
+            if(canvasGroup.blocksRaycasts == true) return false;
+        }
 
-    private void OnDisable()
-    {
-        OptionsUI.OnOptionsUIOpen -= OptionsUI_OnOptionsUIOpen;
-        OptionsUI.OnOptionsUIClose -= OptionsUI_OnOptionsUIClose;
+        return true;
     }
-
-    protected override bool CanSwipe() => !optionsOpen;
-
-    #region Subscriptions
-    private void OptionsUI_OnOptionsUIOpen(object sender, System.EventArgs e)
-    {
-        optionsOpen = true;
-    }
-
-    private void OptionsUI_OnOptionsUIClose(object sender, System.EventArgs e)
-    {
-        optionsOpen = false;
-    }
-    #endregion
 }
