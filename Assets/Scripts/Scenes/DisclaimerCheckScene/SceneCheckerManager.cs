@@ -20,7 +20,7 @@ public class SceneCheckerManager : MonoBehaviour
     {
         string targetScene = regularSceneScene;
 
-        if (DataContainer.Instance.HasConfiguredGame())
+        if (!DataContainer.Instance.HasConfiguredGame())
         {
             targetScene = unconfiguredGameScene;
         }

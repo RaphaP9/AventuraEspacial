@@ -1,14 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PasswordConfigurationIndicatorHandler : MonoBehaviour
 {
     [Header("Componets")]
     [SerializeField] private Animator animator;
 
-    [Header("Runtime Filled")]
-    [SerializeField] private bool isFilled;
+    [Header("UI Components")]
+    [SerializeField] private Image itemImage;
 
-    public bool IsFilled => isFilled;
+    [Header("Runtime Filled")]
+    [SerializeField] private PasswordConfigurationUIHandler passwordConfigurationUIHandler;
+    [SerializeField] private int assignedIndex;
+    [SerializeField] private PasswordItemSO currentPasswordItem;
 
     private const string FILL_TRIGGER = "Fill";
     private const string UNFILL_TRIGGER = "Unfill";
@@ -16,9 +20,30 @@ public class PasswordConfigurationIndicatorHandler : MonoBehaviour
     private const string FILLED_ANIMATION_NAME = "Filled";
     private const string UNFILLED_ANIMATION_NAME = "Unfilled";
 
-    public void Fill()
+    public void SetIndicator(int assignedIndex, PasswordConfigurationUIHandler passwordConfigurationUIHandler)
     {
-        isFilled = true;
+        this.assignedIndex = assignedIndex;
+        this.passwordConfigurationUIHandler = passwordConfigurationUIHandler;
+
+        passwordConfigurationUIHandler.OnPasswordItemTyped += PasswordConfigurationUIHandler_OnPasswordItemTyped;
+        passwordConfigurationUIHandler.OnPasswordItemDeleted += PasswordConfigurationUIHandler_OnPasswordItemDeleted;
+
+        UnfillImmediately();
+    }
+
+    private void OnDisable()
+    {
+        if (passwordConfigurationUIHandler == null) return;
+
+        passwordConfigurationUIHandler.OnPasswordItemTyped -= PasswordConfigurationUIHandler_OnPasswordItemTyped;
+        passwordConfigurationUIHandler.OnPasswordItemDeleted -= PasswordConfigurationUIHandler_OnPasswordItemDeleted;
+    }
+
+    private void SetItemImage(PasswordItemSO passwordItemSO) => itemImage.sprite = passwordItemSO.sprite;
+
+    public void Fill(PasswordItemSO passwordItemSO)
+    {
+        currentPasswordItem = passwordItemSO;
 
         animator.ResetTrigger(UNFILL_TRIGGER);
         animator.SetTrigger(FILL_TRIGGER);
@@ -26,15 +51,15 @@ public class PasswordConfigurationIndicatorHandler : MonoBehaviour
 
     public void Unfill()
     {
-        isFilled = false;
+        currentPasswordItem = null;
 
         animator.ResetTrigger(FILL_TRIGGER);
         animator.SetTrigger(UNFILL_TRIGGER);
     }
 
-    public void FillImmediately()
+    public void FillImmediately(PasswordItemSO passwordItemSO)
     {
-        isFilled = true;
+        currentPasswordItem = passwordItemSO;
 
         animator.ResetTrigger(FILL_TRIGGER);
         animator.ResetTrigger(UNFILL_TRIGGER);
@@ -44,11 +69,31 @@ public class PasswordConfigurationIndicatorHandler : MonoBehaviour
 
     public void UnfillImmediately()
     {
-        isFilled = false;
+        currentPasswordItem = null;
 
         animator.ResetTrigger(FILL_TRIGGER);
         animator.ResetTrigger(UNFILL_TRIGGER);
 
         animator.Play(UNFILLED_ANIMATION_NAME);
     }
+
+    #region Subscriptions
+    private void PasswordConfigurationUIHandler_OnPasswordItemTyped(object sender, PasswordConfigurationUIHandler.OnPasswordItemEventArgs e)
+    {
+        if (e.index != assignedIndex) return;
+
+        SetItemImage(e.passwordItemSO);
+
+        if (e.immediately) FillImmediately(e.passwordItemSO);
+        else Fill(e.passwordItemSO);
+    }
+
+    private void PasswordConfigurationUIHandler_OnPasswordItemDeleted(object sender, PasswordConfigurationUIHandler.OnPasswordItemEventArgs e)
+    {
+        if(e.index != assignedIndex) return;
+
+        if (e.immediately) UnfillImmediately();
+        else Unfill();
+    }
+    #endregion
 }

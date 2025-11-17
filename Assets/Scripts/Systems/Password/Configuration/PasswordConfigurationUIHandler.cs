@@ -13,6 +13,7 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Button deletePasswordButton;
+    [SerializeField] private Button confirmButton;
 
     [Header("Settings")]
     [SerializeField] private bool randomizeButtons;
@@ -26,6 +27,8 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
     public event EventHandler<OnPasswordItemEventArgs> OnPasswordItemDeleted;
 
     public event EventHandler OnCompletePasswordTyped;
+
+    public List<PasswordItemSO> TypedPassword => typedPassword;
 
     public class OnPasswordItemEventArgs : EventArgs
     {
@@ -89,11 +92,6 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
         typedPassword.Add(passwordItemSO);
 
         OnPasswordItemTyped?.Invoke(this, new OnPasswordItemEventArgs { index = targetIndex, passwordItemSO = passwordItemSO, immediately = immediately });
-        
-        if (HasTypedACompletePassword())
-        {
-            OnCompletePasswordTyped?.Invoke(this, EventArgs.Empty);
-        }
     }
 
     private void DeleteLastTypedItem(bool immediately)
@@ -132,7 +130,7 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
         }
     }
 
-    private bool HasTypedACompletePassword() => typedPassword.Count == PasswordUtilities.GetPasswordItemCount();
+    public bool CompletePasswordTyped() => typedPassword.Count >= PasswordUtilities.GetPasswordItemCount();
     #endregion
 
     #region Subscriptions

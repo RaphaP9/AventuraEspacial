@@ -90,8 +90,8 @@ public class LanguageSelectionSceneUI : MonoBehaviour
     }
 
 
-    private void DisableConfirmButton() => confirmButton.interactable = false;
     private void EnableConfirmButton() => confirmButton.interactable = true;
+    private void DisableConfirmButton() => confirmButton.interactable = false;
 
     private void LoadConfirmScene()
     {

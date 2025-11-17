@@ -7,7 +7,8 @@ public class PasswordConfigurationIndicatorsContainerHandler : MonoBehaviour
     [SerializeField] private Transform indicatorsContainer;
     [SerializeField] private Transform indicatorPrefab;
 
-    private const string SHAKE_TRIGGER = "Shake";
+    [Header("Debug")]
+    [SerializeField] private bool debug;
 
     private void OnEnable()
     {
@@ -23,15 +24,23 @@ public class PasswordConfigurationIndicatorsContainerHandler : MonoBehaviour
     {
         for(int i = 0; i < quantity; i++)
         {
-            CreateIndicator();
+            CreateIndicator(i);
         }
     }
 
-    private void CreateIndicator()
+    private void CreateIndicator(int index)
     {
         Transform indicatorTransform = Instantiate(indicatorPrefab, indicatorsContainer);
 
-        
+        PasswordConfigurationIndicatorHandler indicatorHandler = indicatorTransform.GetComponent<PasswordConfigurationIndicatorHandler>();
+
+        if(indicatorHandler == null)
+        {
+            if (debug) Debug.Log("Instantiated prefab does not contain a PasswordConfigurationIndicatorHandler component");
+            return;
+        }
+
+        indicatorHandler.SetIndicator(index, passwordConfigurationUIHandler);
     }
 
     private void ClearContainer()
@@ -45,6 +54,7 @@ public class PasswordConfigurationIndicatorsContainerHandler : MonoBehaviour
     #region Subscriptions
     private void PasswordConfigurationUIHandler_OnPasswordHandlerInitialized(object sender, PasswordConfigurationUIHandler.OnHandlerInitializedEventArgs e)
     {
+        ClearContainer();
         CreateIndicators(e.passwordItemsCount);
     }
     #endregion 

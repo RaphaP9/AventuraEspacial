@@ -6,6 +6,8 @@ using UnityEngine;
 [System.Serializable]
 public class Data : DataModel
 {
+    public List<int> passwordItemsIDs;
+
     public int timesEnteredGame;
     public List<int> cutscenesUnlockedIDs;
     public List<int> collectablesCollectedIDs;
@@ -29,6 +31,8 @@ public class Data : DataModel
 
     public void InitializeGeneralData()
     {
+        passwordItemsIDs = new List<int>();
+
         timesEnteredGame = 0;
         cutscenesUnlockedIDs = new List<int>();
         collectablesCollectedIDs = new List<int>();

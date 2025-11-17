@@ -52,7 +52,10 @@ public class DataContainer : MonoBehaviour
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public bool HasConfiguredGame() => true;
+    public bool HasConfiguredGame()
+    {
+        return data.passwordItemsIDs.Count >= PasswordUtilities.GetPasswordItemCount();
+    }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -177,5 +180,17 @@ public class DataContainer : MonoBehaviour
         int landmarkDataInt = DataUtilities.TranslateLandmarkStateToDataIntValue(landmarkState);
 
         minigameLandmarkData.landmarkState = landmarkDataInt;
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public void SetPasswordItemIDs(List<PasswordItemSO> passwordItemSOs)
+    {
+        data.passwordItemsIDs.Clear();
+
+        foreach(PasswordItemSO passwordItemSO in passwordItemSOs)
+        {
+            data.passwordItemsIDs.Add(passwordItemSO.id);
+        }
     }
 }

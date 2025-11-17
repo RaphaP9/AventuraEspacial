@@ -100,7 +100,7 @@ public class LandmarkUI : MonoBehaviour
         SetLandmarkState(LandmarkState.Claimed);
         DataContainer.Instance.UnlockCutscene(unlockedCutscene);
 
-        GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+        GeneralDataManager.Instance.SaveJSONData();
 
         OnLandmarkClaimed?.Invoke(this, EventArgs.Empty);
     }

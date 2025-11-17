@@ -190,8 +190,8 @@ MonoBehaviour:
   volumeFadeOutTime: 0.3
   exceptionTransitions:
   - originScene: LanguageSelectionScene
-    targetScene: DisclaimerScene
-  - originScene: DisclaimerScene
+    targetScene: PasswordConfigurationScene
+  - originScene: PasswordConfigurationScene
     targetScene: TimerSelectorScene
   - originScene: TimerSelectorScene
     targetScene: RotationScene

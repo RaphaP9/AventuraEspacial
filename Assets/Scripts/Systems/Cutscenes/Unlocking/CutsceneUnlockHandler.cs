@@ -17,7 +17,7 @@ public class CutsceneUnlockHandler : MonoBehaviour
     {
         if (DataContainer.Instance.UnlockCutscene(cutsceneSO))
         {
-            GeneralDataManager.Instance.SaveJSONDataAsyncWrapper();
+            GeneralDataManager.Instance.SaveJSONData();
             OnCutsceneUnlocked?.Invoke(this, new OnCutsceneUnlockedEventArgs { cutsceneSO = cutsceneSO });
         }
     }
