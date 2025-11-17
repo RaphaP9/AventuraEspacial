@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 4
   collectableSprite: {fileID: 21300000, guid: cb8efdfde9dd80648895b7390160e44f, type: 3}
   notCollectedMaterial: {fileID: 2100000, guid: 0dbb20c69d421234fadce74a567ad633, type: 2}
-  collectedBackgroundColor: {r: 0.6649858, g: 0.5350659, b: 0.6792453, a: 1}
-  notCollectedBackgroundColor: {r: 0.20000002, g: 0.20392159, b: 0.20000002, a: 1}
+  collectedBackgroundColor: {r: 0.26231202, g: 0.14582591, b: 0.2735849, a: 1}
+  notCollectedBackgroundColor: {r: 0.2, g: 0.20392157, b: 0.2, a: 1}
   localizationTable: Collectables
   nameLocalizationBinding: collectables.name.collectable4
   descriptionLocalizationBinding: collectables.description.collectable4
