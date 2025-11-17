@@ -92,6 +92,11 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
         typedPassword.Add(passwordItemSO);
 
         OnPasswordItemTyped?.Invoke(this, new OnPasswordItemEventArgs { index = targetIndex, passwordItemSO = passwordItemSO, immediately = immediately });
+
+        if (CompletePasswordTyped())
+        {
+            OnCompletePasswordTyped?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     private void DeleteLastTypedItem(bool immediately)

@@ -19,6 +19,9 @@ public class PasswordAccessUI : MonoBehaviour
     public static event EventHandler OnPasswordAccessUIClose;
     public static event EventHandler OnPasswordAccessUIUnlock;
 
+    public event EventHandler OnThisPasswordAccessUIOpen;
+    public event EventHandler OnThisPasswordAccessUICloseCompletely;
+
     private const string SHOW_TRIGGER = "Show";
     private const string HIDE_TRIGGER = "Hide";
 
@@ -58,6 +61,7 @@ public class PasswordAccessUI : MonoBehaviour
     {
         ShowPasswordUI();
         OnPasswordAccessUIOpen?.Invoke(this, EventArgs.Empty);
+        OnThisPasswordAccessUIOpen?.Invoke(this, EventArgs.Empty);
 
         currentPasswordAccessedUI = passwordAccessedUI;
     }
@@ -90,6 +94,13 @@ public class PasswordAccessUI : MonoBehaviour
     {
         animator.ResetTrigger(SHOW_TRIGGER);
         animator.SetTrigger(HIDE_TRIGGER);
+    }
+    #endregion
+
+    #region AnimationEvent Methods
+    public void OnUIClosedCompletelyMethod()
+    {
+        OnThisPasswordAccessUICloseCompletely?.Invoke(this, EventArgs.Empty);
     }
     #endregion
 }

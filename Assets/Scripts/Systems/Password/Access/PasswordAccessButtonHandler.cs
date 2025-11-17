@@ -3,10 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PasswordConfigurationButtonHandler : MonoBehaviour
+public class PasswordAccessButtonHandler : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private PasswordConfigurationUIHandler passwordConfigurationUIHandler;
+    [SerializeField] private ItemPasswordAccessUIHandler itemPasswordAccessUIHandler;
     [SerializeField] private Button passwordButton;
     [SerializeField] private Animator animator;
     [SerializeField] private Image image;
@@ -32,18 +32,20 @@ public class PasswordConfigurationButtonHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        passwordConfigurationUIHandler.OnPasswordItemTyped += PasswordConfigurationUIHandler_OnPasswordItemTyped;
-        passwordConfigurationUIHandler.OnPasswordItemDeleted += PasswordConfigurationUIHandler_OnPasswordItemDeleted;
+        itemPasswordAccessUIHandler.OnPasswordItemTyped += ItemPasswordAccessUIHandler_OnPasswordItemTyped;
+        itemPasswordAccessUIHandler.OnPasswordItemDeleted += ItemPasswordAccessUIHandler_OnPasswordItemDeleted;
 
-        passwordConfigurationUIHandler.OnCompletePasswordTyped += PasswordConfigurationUIHandler_OnCompletePasswordTyped;
+        itemPasswordAccessUIHandler.OnCompletePasswordTyped += ItemPasswordAccessUIHandler_OnCompletePasswordTyped;
+        itemPasswordAccessUIHandler.OnPasswordCleared += ItemPasswordAccessUIHandler_OnPasswordCleared;
     }
 
     private void OnDisable()
     {
-        passwordConfigurationUIHandler.OnPasswordItemTyped -= PasswordConfigurationUIHandler_OnPasswordItemTyped;
-        passwordConfigurationUIHandler.OnPasswordItemDeleted -= PasswordConfigurationUIHandler_OnPasswordItemDeleted;
+        itemPasswordAccessUIHandler.OnPasswordItemTyped -= ItemPasswordAccessUIHandler_OnPasswordItemTyped;
+        itemPasswordAccessUIHandler.OnPasswordItemDeleted -= ItemPasswordAccessUIHandler_OnPasswordItemDeleted;
 
-        passwordConfigurationUIHandler.OnCompletePasswordTyped -= PasswordConfigurationUIHandler_OnCompletePasswordTyped;
+        itemPasswordAccessUIHandler.OnCompletePasswordTyped -= ItemPasswordAccessUIHandler_OnCompletePasswordTyped;
+        itemPasswordAccessUIHandler.OnPasswordCleared -= ItemPasswordAccessUIHandler_OnPasswordCleared;
     }
 
     private void Awake()
@@ -115,7 +117,7 @@ public class PasswordConfigurationButtonHandler : MonoBehaviour
     #endregion
 
     #region Subscriptions
-    private void PasswordConfigurationUIHandler_OnPasswordItemTyped(object sender, PasswordConfigurationUIHandler.OnPasswordItemEventArgs e)
+    private void ItemPasswordAccessUIHandler_OnPasswordItemTyped(object sender, ItemPasswordAccessUIHandler.OnPasswordItemEventArgs e)
     {
         if (e.passwordItemSO == passwordItemSO)
         {
@@ -124,7 +126,7 @@ public class PasswordConfigurationButtonHandler : MonoBehaviour
         }
     }
 
-    private void PasswordConfigurationUIHandler_OnPasswordItemDeleted(object sender, PasswordConfigurationUIHandler.OnPasswordItemEventArgs e)
+    private void ItemPasswordAccessUIHandler_OnPasswordItemDeleted(object sender, ItemPasswordAccessUIHandler.OnPasswordItemEventArgs e)
     {
         if (e.passwordItemSO == passwordItemSO)
         {
@@ -137,10 +139,14 @@ public class PasswordConfigurationButtonHandler : MonoBehaviour
         }
     }
 
-    private void PasswordConfigurationUIHandler_OnCompletePasswordTyped(object sender, EventArgs e)
+    private void ItemPasswordAccessUIHandler_OnCompletePasswordTyped(object sender, EventArgs e)
     {
         DisableButton();
     }
 
+    private void ItemPasswordAccessUIHandler_OnPasswordCleared(object sender, EventArgs e)
+    {
+        EnableButton();
+    }
     #endregion
 }

@@ -193,4 +193,15 @@ public class DataContainer : MonoBehaviour
             data.passwordItemsIDs.Add(passwordItemSO.id);
         }
     }
+
+    //Checks if data.dasswordItemIDs contains all item IDs from passwordItemSOs
+    public bool PasswordMatches(List<PasswordItemSO> passwordItemSOs)
+    {
+        foreach (PasswordItemSO passwordItemSO in passwordItemSOs)
+        {
+            if (!data.passwordItemsIDs.Contains(passwordItemSO.id)) return false;
+        }
+
+        return true;
+    }
 }
