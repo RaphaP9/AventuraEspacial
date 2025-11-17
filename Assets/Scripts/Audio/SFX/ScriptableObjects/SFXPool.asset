@@ -42,15 +42,22 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 50b63954a412fdc449b7879586c2712e, type: 3}
   cutsceneUnlocked:
   - {fileID: 8300000, guid: 663a8e17f91df994880107b96429e1e5, type: 3}
-  regularHit: []
-  maxComboHit: []
-  comboX2: []
-  comboX3: []
-  comboX4: []
-  comboX5: []
+  regularHit:
+  - {fileID: 8300000, guid: 8aa5c35c557ccb443bd917c28ed21bd3, type: 3}
+  maxComboHit:
+  - {fileID: 8300000, guid: de834cff15fc31147ae2ca98c326da68, type: 3}
+  comboX2:
+  - {fileID: 8300000, guid: 7c1010a38b0199d449d1a817f93dde8f, type: 3}
+  comboX3:
+  - {fileID: 8300000, guid: 3389e91fe67e5d145a6aad6566dca612, type: 3}
+  comboX4:
+  - {fileID: 8300000, guid: b4b6c79b9f8c53c44a6091ab72a4e9cf, type: 3}
+  comboX5:
+  - {fileID: 8300000, guid: b212cadb5a0dfa1458b1873f58217858, type: 3}
   winMinigame: []
   loseMinigame: []
-  timeWarning: []
+  timeWarning:
+  - {fileID: 8300000, guid: 2cbdc2f3490e12a4cac784b263e564e4, type: 3}
   firstCardSelected: []
   secondCardSelected: []
   pairMatch: []
