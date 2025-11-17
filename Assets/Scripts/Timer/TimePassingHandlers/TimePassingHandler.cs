@@ -5,8 +5,9 @@ public abstract class TimePassingHandler : MonoBehaviour
 {
     public static TimePassingHandler Instance { get; private set; }
 
-    private bool optionsOpen = false;
     private bool gamePaused = false;
+    private bool optionsUIOpen = false;
+    private bool passwordUIOpen = false;
 
     private void OnEnable()
     {
@@ -15,6 +16,9 @@ public abstract class TimePassingHandler : MonoBehaviour
 
         OptionsUI.OnOptionsUIOpen += OptionsUI_OnOptionsUIOpen;
         OptionsUI.OnOptionsUIClose += OptionsUI_OnOptionsUIClose;
+
+        PasswordAccessUI.OnPasswordAccessUIOpen += PasswordAccessUI_OnPasswordAccessUIOpen;
+        PasswordAccessUI.OnPasswordAccessUIClose += PasswordAccessUI_OnPasswordAccessUIClose;
     }
 
     private void OnDisable()
@@ -24,6 +28,9 @@ public abstract class TimePassingHandler : MonoBehaviour
 
         OptionsUI.OnOptionsUIOpen -= OptionsUI_OnOptionsUIOpen;
         OptionsUI.OnOptionsUIClose -= OptionsUI_OnOptionsUIClose;
+
+        PasswordAccessUI.OnPasswordAccessUIOpen -= PasswordAccessUI_OnPasswordAccessUIOpen;
+        PasswordAccessUI.OnPasswordAccessUIClose -= PasswordAccessUI_OnPasswordAccessUIClose;
     }
 
     private void Awake()
@@ -52,7 +59,8 @@ public abstract class TimePassingHandler : MonoBehaviour
         }
 
         if (gamePaused) return false;
-        if (optionsOpen) return false;
+        if (optionsUIOpen) return false;
+        if (passwordUIOpen) return false;
 
         return true;
     }
@@ -70,12 +78,21 @@ public abstract class TimePassingHandler : MonoBehaviour
 
     private void OptionsUI_OnOptionsUIOpen(object sender, EventArgs e)
     {
-        optionsOpen = true;
+        optionsUIOpen = true;
     }
 
     private void OptionsUI_OnOptionsUIClose(object sender, EventArgs e)
     {
-        optionsOpen = false;
+        optionsUIOpen = false;
+    }
+    private void PasswordAccessUI_OnPasswordAccessUIOpen(object sender, EventArgs e)
+    {
+        passwordUIOpen = true;
+    }
+
+    private void PasswordAccessUI_OnPasswordAccessUIClose(object sender, EventArgs e)
+    {
+        passwordUIOpen = false;
     }
     #endregion
 }

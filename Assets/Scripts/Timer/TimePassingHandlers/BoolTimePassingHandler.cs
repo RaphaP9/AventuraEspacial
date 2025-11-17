@@ -11,6 +11,4 @@ public class BoolTimePassingHandler : TimePassingHandler
 
         return canPassTime;
     }
-
-
 }

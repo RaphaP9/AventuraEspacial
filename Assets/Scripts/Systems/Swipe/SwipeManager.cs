@@ -44,7 +44,11 @@ public class SwipeManager : MonoBehaviour
     {
         if (!CanSwipe())
         {
-            isSwiping = false;
+            if (isSwiping)
+            {
+                CutSwipe();
+            }
+
             return;
         }
 
@@ -58,38 +62,48 @@ public class SwipeManager : MonoBehaviour
 
         if (Pointer.current.press.wasReleasedThisFrame && isSwiping)
         {
-            isSwiping = false;
+            CheckSwipeConclusion();
+        }
+    }
 
-            Vector2 endPos = Pointer.current.position.ReadValue();
-            Vector2 swipeDelta = endPos - startPos;
+    private void CheckSwipeConclusion()
+    {
+        isSwiping = false;
 
-            if (swipeDelta.magnitude < minSwipeDistance) return; //Swipe too short
+        Vector2 endPos = Pointer.current.position.ReadValue();
+        Vector2 swipeDelta = endPos - startPos;
 
-            swipeDelta.Normalize();
+        if (swipeDelta.magnitude < minSwipeDistance) return; //Swipe too short
 
-            if (Mathf.Abs(swipeDelta.x) > Mathf.Abs(swipeDelta.y))
+        swipeDelta.Normalize();
+
+        if (Mathf.Abs(swipeDelta.x) > Mathf.Abs(swipeDelta.y))
+        {
+            if (swipeDelta.x > 0)
             {
-                if (swipeDelta.x > 0)
-                {
-                    OnSwipeRight?.Invoke(this, EventArgs.Empty);
-                }
-                else
-                {
-                    OnSwipeLeft?.Invoke(this, EventArgs.Empty);
-                }              
+                OnSwipeRight?.Invoke(this, EventArgs.Empty);
             }
             else
             {
-                if (swipeDelta.y > 0)
-                {
-                    OnSwipeUp?.Invoke(this, EventArgs.Empty);
-                }
-                else
-                {
-                    OnSwipeDown?.Invoke(this, EventArgs.Empty);
-                }
+                OnSwipeLeft?.Invoke(this, EventArgs.Empty);
             }
         }
+        else
+        {
+            if (swipeDelta.y > 0)
+            {
+                OnSwipeUp?.Invoke(this, EventArgs.Empty);
+            }
+            else
+            {
+                OnSwipeDown?.Invoke(this, EventArgs.Empty);
+            }
+        }
+    }
+
+    private void CutSwipe()
+    {
+        isSwiping = false;
     }
 
     protected virtual bool CanSwipe() => true;
