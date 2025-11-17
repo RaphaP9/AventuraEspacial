@@ -12,6 +12,9 @@ public class PasswordAccessUI : MonoBehaviour
     [SerializeField] private List<ButtonPasswordAccessedUIRelationship> buttonPasswordAccessedUIRelationships;
     [SerializeField] private Button closeButton;
 
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+
     public static event EventHandler OnPasswordAccessUIOpen;
     public static event EventHandler OnPasswordAccessUIClose;
     public static event EventHandler OnPasswordAccessUIUnlock;
@@ -37,12 +40,11 @@ public class PasswordAccessUI : MonoBehaviour
     {
         foreach (ButtonPasswordAccessedUIRelationship relationship in buttonPasswordAccessedUIRelationships)
         {
-            IPasswordAccessedUI passwordAccessedUI;
-            GeneralUtilities.TryGetGenericFromComponent(relationship.passwordAccessedUIComponent, out passwordAccessedUI);
+            GeneralUtilities.TryGetGenericFromComponent(relationship.passwordAccessedUIComponent, out IPasswordAccessedUI passwordAccessedUI);
 
-            if(passwordAccessedUI == null)
+            if (passwordAccessedUI == null)
             {
-                Debug.Log("Could not find an IPasswordAccessedUI interface in component");
+                if(debug) Debug.Log("Could not find an IPasswordAccessedUI interface in component");
                 continue;
             }
 

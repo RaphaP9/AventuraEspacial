@@ -10,7 +10,7 @@ public class TimeEndedAddTimeUI : MonoBehaviour, IPasswordAccessedUI
     [SerializeField] private UIPointerDetector exitUIDetector;
 
     [Header("UI Components")]
-    [SerializeField] private Button openButton;
+    [SerializeField] private List<Button> openButtons;
     [Space]
     [SerializeField] private List<Button> UIButtons;
 
@@ -36,7 +36,10 @@ public class TimeEndedAddTimeUI : MonoBehaviour, IPasswordAccessedUI
 
     private void InitializeButtonsListeners()
     {
-        openButton.onClick.AddListener(OpenUI);
+        foreach(Button button in openButtons)
+        {
+            button.onClick.AddListener(OpenUI);
+        }
 
         foreach (Button UIButton in UIButtons)
         {
