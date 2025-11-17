@@ -35,6 +35,10 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     public event EventHandler OnCompletePasswordTypedCorrectly;
     public event EventHandler OnCompletePasswordTypedWrong;
 
+    public event EventHandler OnCompletePasswordTypedCorrectlyPre;
+    public event EventHandler OnCompletePasswordTypedWrongPre;
+
+
     public event EventHandler OnPasswordCleared;
 
     public List<PasswordItemSO> TypedPassword => typedPassword;
@@ -151,9 +155,20 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     {
         performingCheck = true;
 
+        bool correctPassword = PasswordTypedCorrectely();
+
+        if (correctPassword)
+        {
+            OnCompletePasswordTypedCorrectlyPre?.Invoke(this, EventArgs.Empty);
+        }
+        else
+        {
+            OnCompletePasswordTypedWrongPre?.Invoke(this, EventArgs.Empty);
+        }
+
         yield return new WaitForSeconds(checkTime);
 
-        if (PasswordTypedCorrectely())
+        if (correctPassword)
         {
             passwordAccessUI.UnlockUI();
             OnCompletePasswordTypedCorrectly?.Invoke(this, EventArgs.Empty);
