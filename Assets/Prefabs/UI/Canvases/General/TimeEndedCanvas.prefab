@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 8684846965622098769}
   - component: {fileID: 4347109074049740554}
   m_Layer: 5
-  m_Name: TimeEndedTimeSelectionUI
+  m_Name: TimeEndedAddTimeUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8911680103860235808}
   exitUIDetector: {fileID: 4346845600334370605}
-  openButton: {fileID: 1633611622436294821}
+  openButtons: []
   UIButtons:
   - {fileID: 3686381726301183396}
   - {fileID: 8832676295048127875}

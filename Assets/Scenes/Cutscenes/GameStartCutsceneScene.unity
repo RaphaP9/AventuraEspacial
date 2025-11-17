@@ -219,6 +219,26 @@ PrefabInstance:
       propertyPath: 'passwordAccessButtons.Array.data[1]'
       value: 
       objectReference: {fileID: 1106930121}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].button
+      value: 
+      objectReference: {fileID: 986880863}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].button
+      value: 
+      objectReference: {fileID: 1106930121}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].passwordAccessedUIComponent
+      value: 
+      objectReference: {fileID: 1090883103}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].passwordAccessedUIComponent
+      value: 
+      objectReference: {fileID: 1106930122}
     - target: {fileID: 7280998685656786208, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: m_Name
       value: PasswordAccessCanvas
@@ -1190,6 +1210,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canPassTime: 0
+--- !u!1 &1058935788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058935790}
+  - component: {fileID: 1058935789}
+  m_Layer: 0
+  m_Name: --SCENE DATA--
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1058935789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058935788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204f8ae3eede44e4da05a3f940302b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  awakeLoadMode: 0
+  applicationQuitSaveMode: 0
+--- !u!4 &1058935790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058935788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1090883101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1680,6 +1746,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
   m_PrefabInstance: {fileID: 1090883101}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1090883103 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 1090883101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d632fb00f7b2df1479b285473059ff51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1106930119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1843,6 +1920,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1106930122 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2715902736562785026, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+  m_PrefabInstance: {fileID: 1106930119}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7cf49c46514b744ac0939bf4f5dfad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1148902396
@@ -2617,6 +2705,7 @@ SceneRoots:
   - {fileID: 3394847822390439739}
   - {fileID: 8795179513713014137}
   - {fileID: 507270062}
+  - {fileID: 1058935790}
   - {fileID: 1550010259}
   - {fileID: 197455049}
   - {fileID: 1020361393}

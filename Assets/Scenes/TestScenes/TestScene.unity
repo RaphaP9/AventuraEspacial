@@ -504,6 +504,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5760862910114589350, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
   m_PrefabInstance: {fileID: 17145158}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &17145160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1633611622436294821, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+  m_PrefabInstance: {fileID: 17145158}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &17145161 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2715902736562785026, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+  m_PrefabInstance: {fileID: 17145158}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7cf49c46514b744ac0939bf4f5dfad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &47060745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,18 +2496,6 @@ PrefabInstance:
       propertyPath: optionsButton
       value: 
       objectReference: {fileID: 1880999506}
-    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
-      propertyPath: optionsButtons.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
-      propertyPath: 'optionsButtons.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1880999506}
-    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
-      propertyPath: 'optionsButtons.Array.data[1]'
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2547848133449155496, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2620,6 +2630,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
@@ -2872,6 +2894,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
   m_PrefabInstance: {fileID: 890916837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &890916839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 890916837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d632fb00f7b2df1479b285473059ff51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &914136886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4688,6 +4721,26 @@ PrefabInstance:
       propertyPath: 'passwordAccessButtons.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].button
+      value: 
+      objectReference: {fileID: 1880999506}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].button
+      value: 
+      objectReference: {fileID: 17145160}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].passwordAccessedUIComponent
+      value: 
+      objectReference: {fileID: 890916839}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].passwordAccessedUIComponent
+      value: 
+      objectReference: {fileID: 17145161}
     - target: {fileID: 7280998685656786208, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: m_Name
       value: PasswordAccessCanvas
