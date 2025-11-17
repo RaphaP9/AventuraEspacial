@@ -1,12 +1,93 @@
-using System;
 using UnityEngine;
-
-public abstract class PasswordAccessUI : MonoBehaviour
+using System;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using System.Collections;
+public class PasswordAccessUI : MonoBehaviour
 {
-    public event EventHandler OnPasswordUIUnlock;
+    [Header("Components")]
+    [SerializeField] private Animator animator;
 
-    protected void UnlockUI()
+    [Header("UI Components")]
+    [SerializeField] private List<ButtonPasswordAccessedUIRelationship> buttonPasswordAccessedUIRelationships;
+    [SerializeField] private Button closeButton;
+
+    public static event EventHandler OnPasswordAccessUIOpen;
+    public static event EventHandler OnPasswordAccessUIClose;
+    public static event EventHandler OnPasswordAccessUIUnlock;
+
+    private const string SHOW_TRIGGER = "Show";
+    private const string HIDE_TRIGGER = "Hide";
+
+    private IPasswordAccessedUI currentPasswordAccessedUI;
+
+    [System.Serializable]
+    public class ButtonPasswordAccessedUIRelationship
     {
-        OnPasswordUIUnlock?.Invoke(this, EventArgs.Empty);
+        public Button button;
+        public Component passwordAccessedUIComponent;
     }
+
+    private void Awake()
+    {
+        InitializeButtonsListeners();
+    }
+
+    private void InitializeButtonsListeners()
+    {
+        foreach (ButtonPasswordAccessedUIRelationship relationship in buttonPasswordAccessedUIRelationships)
+        {
+            IPasswordAccessedUI passwordAccessedUI;
+            GeneralUtilities.TryGetGenericFromComponent(relationship.passwordAccessedUIComponent, out passwordAccessedUI);
+
+            if(passwordAccessedUI == null)
+            {
+                Debug.Log("Could not find an IPasswordAccessedUI interface in component");
+                continue;
+            }
+
+            relationship.button.onClick.AddListener(() => OpenUI(passwordAccessedUI));
+        }
+
+        closeButton.onClick.AddListener(CloseUI);
+    }
+
+    public void OpenUI(IPasswordAccessedUI passwordAccessedUI)
+    {
+        ShowPasswordUI();
+        OnPasswordAccessUIOpen?.Invoke(this, EventArgs.Empty);
+
+        currentPasswordAccessedUI = passwordAccessedUI;
+    }
+
+    public void UnlockUI()
+    {
+        if (currentPasswordAccessedUI == null) return;
+
+        HidePasswordUI();
+        OnPasswordAccessUIUnlock?.Invoke(this, EventArgs.Empty);
+
+        currentPasswordAccessedUI.AccessUI();
+        currentPasswordAccessedUI = null;
+    }
+
+    private void CloseUI()
+    {
+        HidePasswordUI();
+        OnPasswordAccessUIClose?.Invoke(this, EventArgs.Empty);
+    }
+
+    #region Animation Methods
+    public void ShowPasswordUI()
+    {
+        animator.ResetTrigger(HIDE_TRIGGER);
+        animator.SetTrigger(SHOW_TRIGGER);
+    }
+
+    public void HidePasswordUI()
+    {
+        animator.ResetTrigger(SHOW_TRIGGER);
+        animator.SetTrigger(HIDE_TRIGGER);
+    }
+    #endregion
 }

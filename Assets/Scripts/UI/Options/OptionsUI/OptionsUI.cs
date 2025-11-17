@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-public class OptionsUI : MonoBehaviour
+public class OptionsUI : MonoBehaviour, IPasswordAccessedUI
 {
     [Header("Components")]
     [SerializeField] private Animator optionsUIAnimator;
@@ -12,7 +12,6 @@ public class OptionsUI : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private List<Button> optionsButtons;
-    [SerializeField] private List<PasswordAccessUI> passwordAccessUIs;
     [SerializeField] private Button closeButton;
 
     public static event EventHandler OnOptionsUIOpen;
@@ -22,22 +21,6 @@ public class OptionsUI : MonoBehaviour
     private const string HIDE_TRIGGER = "Hide";
 
     private const float TOP_SCROLL_RECT_VERTICAL_NORMALIZED_POSITION = 1f;
-
-    private void OnEnable()
-    {
-        foreach(PasswordAccessUI passwordAccessUI in passwordAccessUIs)
-        {
-            passwordAccessUI.OnPasswordUIUnlock += PasswordAccessUI_OnPasswordUIUnlock;
-        }
-    }
-
-    private void OnDisable()
-    {
-        foreach (PasswordAccessUI passwordAccessUI in passwordAccessUIs)
-        {
-            passwordAccessUI.OnPasswordUIUnlock -= PasswordAccessUI_OnPasswordUIUnlock;
-        }
-    }
 
     private void Awake()
     {
@@ -71,6 +54,11 @@ public class OptionsUI : MonoBehaviour
     private void ResetScrollRectToTop()
     {
         scrollRect.verticalNormalizedPosition = TOP_SCROLL_RECT_VERTICAL_NORMALIZED_POSITION;
+    }
+
+    public void AccessUI()
+    {
+        OpenUI();
     }
 
     #region Animation Methods

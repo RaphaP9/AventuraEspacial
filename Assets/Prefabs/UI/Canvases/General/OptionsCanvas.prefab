@@ -489,7 +489,7 @@ RectTransform:
   m_GameObject: {fileID: 798813008459726780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3473998288461477557}
@@ -521,7 +521,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &9138852606506022637
 MonoBehaviour:
@@ -1603,6 +1603,7 @@ MonoBehaviour:
   optionsUIAnimator: {fileID: 8284051664067848172}
   scrollRect: {fileID: 3087290014489540146}
   optionsButtons: []
+  passwordAccessUIs: []
   closeButton: {fileID: 8557898440467350583}
 --- !u!114 &7167970715576037716
 MonoBehaviour:
