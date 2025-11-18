@@ -14,6 +14,7 @@ public class PasswordEntryUIHandler : MonoBehaviour
     [Header("Components")]
     [SerializeField] private PasswordEntryUI passwordEntryUI;
     [SerializeField] private Button deletePasswordButton;
+    [SerializeField] private Button bypassButton;
 
     [Header("Settings")]
     [SerializeField] private bool randomizeButtons;
@@ -87,6 +88,7 @@ public class PasswordEntryUIHandler : MonoBehaviour
     private void InitializeButtonsListeners()
     {
         deletePasswordButton.onClick.AddListener(() => DeleteLastTypedItem(false));
+        bypassButton.onClick.AddListener(UnlockUI);
     }
 
     private void InitializeVariables()
@@ -103,6 +105,7 @@ public class PasswordEntryUIHandler : MonoBehaviour
     #region Number Typing & Clear
     private void TypeItem(PasswordItemSO passwordItemSO, bool immediately)
     {
+        if (performingCheck) return;
         if (typedPassword.Contains(passwordItemSO)) return; //Item alreadyTyped
         if (typedPassword.Count >= PasswordUtilities.GetPasswordItemCount()) return;
 
@@ -162,7 +165,7 @@ public class PasswordEntryUIHandler : MonoBehaviour
 
         if (correctPassword)
         {
-            passwordEntryUI.LoadNextScene();
+            UnlockUI();
             OnCompletePasswordTypedCorrectly?.Invoke(this, EventArgs.Empty);
         }
         else
@@ -173,6 +176,7 @@ public class PasswordEntryUIHandler : MonoBehaviour
 
         performingCheck = false;
     }
+
     #endregion
 
     #region Utility Methods
@@ -195,6 +199,11 @@ public class PasswordEntryUIHandler : MonoBehaviour
     private bool PasswordTypedCorrectely()
     {
         return DataContainer.Instance.PasswordMatches(typedPassword);
+    }
+
+    private void UnlockUI()
+    {
+        passwordEntryUI.LoadNextScene();
     }
     #endregion
 

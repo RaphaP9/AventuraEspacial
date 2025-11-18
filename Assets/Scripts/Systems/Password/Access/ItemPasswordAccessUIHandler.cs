@@ -14,6 +14,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     [Header("Components")]
     [SerializeField] private PasswordAccessUI passwordAccessUI;
     [SerializeField] private Button deletePasswordButton;
+    [SerializeField] private Button bypassButton;
 
     [Header("Settings")]
     [SerializeField] private bool randomizeButtons;
@@ -22,9 +23,6 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     [Header("Runtime Filled")]
     [SerializeField] private List<PasswordItemSO> typedPassword;
     [SerializeField] private bool performingCheck;
-
-    [Header("Testing")]
-    [SerializeField] private Button mockButton;
 
     public event EventHandler<OnHandlerInitializedEventArgs> OnPasswordHandlerInitialized;
 
@@ -89,12 +87,12 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
         SetButtons();
         InitializePasswordHandler();
 
-        mockButton.onClick.AddListener(() => passwordAccessUI.UnlockUI());
     }
 
     private void InitializeButtonsListeners()
     {
         deletePasswordButton.onClick.AddListener(() => DeleteLastTypedItem(false));
+        bypassButton.onClick.AddListener(UnlockUI);
     }
 
     private void InitializeVariables()
@@ -111,6 +109,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     #region Number Typing & Clear
     private void TypeItem(PasswordItemSO passwordItemSO, bool immediately)
     {
+        if (performingCheck) return;
         if (typedPassword.Contains(passwordItemSO)) return; //Item alreadyTyped
         if (typedPassword.Count >= PasswordUtilities.GetPasswordItemCount()) return;
 
@@ -170,7 +169,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
 
         if (correctPassword)
         {
-            passwordAccessUI.UnlockUI();
+            UnlockUI();
             OnCompletePasswordTypedCorrectly?.Invoke(this, EventArgs.Empty);
         }
         else
@@ -181,6 +180,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
 
         performingCheck = false;
     }
+
     #endregion
 
     #region Utility Methods
@@ -203,6 +203,11 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
     private bool PasswordTypedCorrectely()
     {
         return DataContainer.Instance.PasswordMatches(typedPassword);
+    }
+
+    private void UnlockUI()
+    {
+        passwordAccessUI.UnlockUI();
     }
     #endregion
 
