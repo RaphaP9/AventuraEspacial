@@ -15,7 +15,6 @@ MonoBehaviour:
   id: 2
   nameLocalizationTable: MemoryMinigameCutscene1Strings
   nameLocalizationBinding: memoryMinigameCutscene1Strings.name
-  cutscenePanels:
-  - panelPrefab: {fileID: 0}
+  cutscenePanels: []
   cutsceneBGM: {fileID: 0}
   cutsceneThumbnail: {fileID: 0}

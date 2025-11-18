@@ -163,6 +163,7 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
     public void PlayCutscene(CutsceneSO cutsceneSO)
     {
         if (cutsceneActive) return;
+        if (cutsceneSO.cutscenePanels.Count <= 0) return;
 
         ClearPanelContainer();
 
