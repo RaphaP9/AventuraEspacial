@@ -2620,6 +2620,14 @@ PrefabInstance:
       propertyPath: optionsButton
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: optionsButtons.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+      propertyPath: 'optionsButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1409927932}
     - target: {fileID: 2547848133449155496, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
       propertyPath: m_Camera
       value: 
@@ -3018,6 +3026,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5646644124658112223, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
   m_PrefabInstance: {fileID: 890916837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &890916839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4659617840687467377, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 890916837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &890916840 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1946110792575650061, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 890916837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &890916841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6245052833993429688, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 890916837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8102ad802dc5a84a999f4314ba4f68d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &890916842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3228311527035509279, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
+  m_PrefabInstance: {fileID: 890916837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7966c9b03e41e4c8ed1cb83bd443a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &913130901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,22 +4196,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].button
       value: 
-      objectReference: {fileID: 1409927932}
+      objectReference: {fileID: 890916840}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].button
+      value: 
+      objectReference: {fileID: 890916839}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[2].button
       value: 
       objectReference: {fileID: 1102621713}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.data[0].passwordAccessedUIComponent
       value: 
-      objectReference: {fileID: 1546538317}
+      objectReference: {fileID: 890916842}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.data[1].passwordAccessedUIComponent
+      value: 
+      objectReference: {fileID: 890916841}
+    - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: buttonPasswordAccessedUIRelationships.Array.data[2].passwordAccessedUIComponent
       value: 
       objectReference: {fileID: 1610823233}
     - target: {fileID: 7280998685656786208, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
@@ -5128,17 +5188,6 @@ MonoBehaviour:
   backButton: {fileID: 1093763238}
   backScene: MainMenu
   backTransitionType: 0
---- !u!114 &1546538317 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2456269248319643078, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}
-  m_PrefabInstance: {fileID: 890916837}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d632fb00f7b2df1479b285473059ff51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!225 &1546538324 stripped
 CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 6304650817906956800, guid: 1c723ae8a3bcaab4c9315d63df53242b, type: 3}

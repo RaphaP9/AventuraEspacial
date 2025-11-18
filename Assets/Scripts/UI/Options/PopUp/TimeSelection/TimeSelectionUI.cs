@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class TimeSelectionUI : PopUpUI
+public class TimeSelectionUI : PopUpUI, IPasswordAccessedUI
 {
     public event EventHandler OnTimeSelectionUIClosedByButtonClick;
 
@@ -9,5 +9,10 @@ public class TimeSelectionUI : PopUpUI
     {
         base.CloseUIByButtonClick();
         OnTimeSelectionUIClosedByButtonClick?.Invoke(this, EventArgs.Empty);
+    }
+
+    public void AccessUI()
+    {
+        OpenUI();
     }
 }

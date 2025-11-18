@@ -10,7 +10,7 @@ public class PopUpUI : MonoBehaviour
     [SerializeField] private UIPointerDetector exitUIDetector;
 
     [Header("UI Components")]
-    [SerializeField] private Button openButton;
+    [SerializeField] private List<Button> openButtons;
     [Space]
     [SerializeField] private List<Button> UIButtons;
 
@@ -36,7 +36,10 @@ public class PopUpUI : MonoBehaviour
 
     private void InitializeButtonsListeners()
     {
-        openButton.onClick.AddListener(OpenUI);
+        foreach (Button openButton in openButtons)
+        {
+            openButton.onClick.AddListener(OpenUI);
+        }
 
         foreach (Button UIButton in UIButtons)
         {
@@ -44,6 +47,7 @@ public class PopUpUI : MonoBehaviour
         }
     }
 
+    #region Animations
     public void ShowUI()
     {
         animator.ResetTrigger(HIDE_TRIGGER);
@@ -55,13 +59,14 @@ public class PopUpUI : MonoBehaviour
         animator.ResetTrigger(SHOW_TRIGGER);
         animator.SetTrigger(HIDE_TRIGGER);
     }
+    #endregion
 
-    private void OpenUI()
+    protected void OpenUI()
     {
         ShowUI();
     }
 
-    private void CloseUI()
+    protected void CloseUI()
     {
         HideUI();
     }
@@ -75,7 +80,7 @@ public class PopUpUI : MonoBehaviour
     #region Subscriptions
     private void ExitUIDetector_OnPointerClicked(object sender, EventArgs e)
     {
-        HideUI();
+        CloseUI();
     }
     #endregion
 }

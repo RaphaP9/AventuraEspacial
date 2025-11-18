@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class LanguageSelectionUI : PopUpUI
+public class LanguageSelectionUI : PopUpUI, IPasswordAccessedUI
 {
     public event EventHandler OnLanguageSelectionUIClosedByButtonClick;
 
@@ -9,5 +9,10 @@ public class LanguageSelectionUI : PopUpUI
     {
         base.CloseUIByButtonClick();
         OnLanguageSelectionUIClosedByButtonClick?.Invoke(this, EventArgs.Empty);
+    }
+
+    public void AccessUI()
+    {
+        OpenUI();
     }
 }

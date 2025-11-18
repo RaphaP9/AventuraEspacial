@@ -1603,7 +1603,6 @@ MonoBehaviour:
   optionsUIAnimator: {fileID: 8284051664067848172}
   scrollRect: {fileID: 3087290014489540146}
   optionsButtons: []
-  passwordAccessUIs: []
   closeButton: {fileID: 8557898440467350583}
 --- !u!114 &7167970715576037716
 MonoBehaviour:
@@ -1926,13 +1925,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 32
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
