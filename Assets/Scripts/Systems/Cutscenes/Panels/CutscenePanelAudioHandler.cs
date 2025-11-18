@@ -9,9 +9,9 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private CutscenePanelUIHandler cutscenePanelUIHandler;
 
     [Header("Runtime Filled")]
-    [SerializeField] private CutscenePanel cutscenePanel;
     [SerializeField] private bool currentlyActive;
     [SerializeField] private bool currentlyPlaying;
     [SerializeField] private bool isPaused;
@@ -61,11 +61,9 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     }
 
     #region Public Methods
-    public void PlayAudioLogic(CutscenePanel cutscenePanel)
+    public void PlayAudioLogic()
     {
-        this.cutscenePanel = cutscenePanel;
         currentlyActive = true;
-
         StartCoroutine(PlayLocalizedAudioClip());
     }
 
@@ -83,12 +81,10 @@ public class CutscenePanelAudioHandler : MonoBehaviour
     #region Coroutines
     private IEnumerator PlayLocalizedAudioClip()
     {
-        if (cutscenePanel == null) yield break;
-
         StopAudioClip();
         ReleaseAudioClip();
 
-        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanelUIHandler.AudioLocalizationTable, cutscenePanelUIHandler.AudioLocalizationBinding);
         currentHandle = handle;
 
         yield return currentHandle.Value;
@@ -107,12 +103,10 @@ public class CutscenePanelAudioHandler : MonoBehaviour
 
     private IEnumerator PlayLocalizedAudioClipWithResume()
     {
-        if (cutscenePanel == null) yield break;
-
         StopAudioClip();
         ReleaseAudioClip();
 
-        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanel.audioLocalizationTable, cutscenePanel.audioLocalizationBinding);
+        AsyncOperationHandle<AudioClip> handle = LocalizationSettings.AssetDatabase.GetLocalizedAssetAsync<AudioClip>(cutscenePanelUIHandler.AudioLocalizationTable, cutscenePanelUIHandler.AudioLocalizationBinding);
         currentHandle = handle;
 
         yield return currentHandle.Value;

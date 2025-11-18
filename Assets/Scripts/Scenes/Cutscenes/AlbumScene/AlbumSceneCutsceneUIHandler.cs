@@ -10,7 +10,6 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private Transform cutscenePanelsContainer;
-    [SerializeField] private Transform cutscenePanelPrefab;
 
     [Header("Settings")]
     [SerializeField, Range(3, 5)] private int maxCutscenePanels;
@@ -68,7 +67,7 @@ public class AlbumSceneCutsceneUIHandler : MonoBehaviour
     #region Panels
     private void CreateCutscenePanel(int index)
     {
-        Transform cutscenePanelTransform = Instantiate(cutscenePanelPrefab, cutscenePanelsContainer);
+        Transform cutscenePanelTransform = Instantiate(currentCutsceneSO.cutscenePanels[index].panelPrefab, cutscenePanelsContainer);
         CutscenePanelUIHandler cutscenePanelUIHandler = cutscenePanelTransform.GetComponentInChildren<CutscenePanelUIHandler>();
 
         if (cutscenePanelUIHandler == null)

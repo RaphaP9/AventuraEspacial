@@ -8,9 +8,8 @@ public class CutscenePanelSentenceAnimationController : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Animator animator;
     [SerializeField] private TextMeshProUGUI sentenceText;
-
-    [Header("Runtime Filled")]
-    [SerializeField] private CutscenePanel cutscenePanel;
+    [Space]
+    [SerializeField] private CutscenePanelUIHandler cutscenePanelUIHandler;
 
     private const string SHOW_TRIGGER = "Show";
 
@@ -24,12 +23,10 @@ public class CutscenePanelSentenceAnimationController : MonoBehaviour
         LocalizationSettings.SelectedLocaleChanged -= LocalizationSettings_SelectedLocaleChanged;
     }
 
-    public void ShowSentenceLogic(CutscenePanel cutscenePanel)
+    public void ShowSentenceLogic()
     {
-        this.cutscenePanel = cutscenePanel;
-
-        SetSentenceColorByCurrentPanel();
-        LocalizeSentenceByCurrentPanel();
+        SetSentenceColor();
+        LocalizeSentence();
         ShowSentence();
     }
 
@@ -38,23 +35,13 @@ public class CutscenePanelSentenceAnimationController : MonoBehaviour
         animator.SetTrigger(SHOW_TRIGGER);
     }
 
-    private void SetSentenceColorByCurrentPanel()
-    {
-        sentenceText.color = cutscenePanel.sentenceColor;
-    }
-
-    private void LocalizeSentenceByCurrentPanel()
-    {
-        if (cutscenePanel == null) return;
-
-        if (!cutscenePanel.hasSentence) return;
-        sentenceText.text = LocalizationSettings.StringDatabase.GetLocalizedString(cutscenePanel.sentenceLocalizationTable, cutscenePanel.sentenceLocalizationBinding);
-    }
+    private void SetSentenceColor() => sentenceText.color = cutscenePanelUIHandler.SentenceColor;
+    private void LocalizeSentence() => sentenceText.text = LocalizationSettings.StringDatabase.GetLocalizedString(cutscenePanelUIHandler.SentenceLocalizationTable, cutscenePanelUIHandler.SentenceLocalizationBinding);
 
     #region Subsctiptions
     private void LocalizationSettings_SelectedLocaleChanged(Locale locale)
     {
-        LocalizeSentenceByCurrentPanel();
+        LocalizeSentence();
     }
     #endregion
 }

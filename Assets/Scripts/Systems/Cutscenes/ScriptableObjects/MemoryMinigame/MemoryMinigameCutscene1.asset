@@ -16,41 +16,6 @@ MonoBehaviour:
   nameLocalizationTable: MemoryMinigameCutscene1Strings
   nameLocalizationBinding: memoryMinigameCutscene1Strings.name
   cutscenePanels:
-  - panelSprite: {fileID: 21300000, guid: fc786a54cf122ee4ca24f34de6ff2d59, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: MemoryMinigameCutscene1Strings
-    sentenceLocalizationBinding: 
-    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
-    hasAudio: 0
-    audioLocalizationTable: MemoryMinigameCutscene1Audios
-    audioLocalizationBinding: 
-    transition: 0
-    timeToSkipPanel: 3
-    timeToAppearSentence: 1.5
-    timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 6b19c73f6822dbd40826b6f7c940250c, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: MemoryMinigameCutscene1Strings
-    sentenceLocalizationBinding: 
-    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
-    hasAudio: 0
-    audioLocalizationTable: MemoryMinigameCutscene1Audios
-    audioLocalizationBinding: 
-    transition: 1
-    timeToSkipPanel: 3
-    timeToAppearSentence: 1.5
-    timeToPlayAudio: 2
-  - panelSprite: {fileID: 21300000, guid: 9ea87e0f6c9d9bf419f9aeb741837d3a, type: 3}
-    hasSentence: 0
-    sentenceLocalizationTable: MemoryMinigameCutscene1Strings
-    sentenceLocalizationBinding: 
-    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
-    hasAudio: 0
-    audioLocalizationTable: MemoryMinigameCutscene1Audios
-    audioLocalizationBinding: 
-    transition: 1
-    timeToSkipPanel: 3
-    timeToAppearSentence: 1.5
-    timeToPlayAudio: 2
+  - panelPrefab: {fileID: 0}
   cutsceneBGM: {fileID: 0}
   cutsceneThumbnail: {fileID: 0}

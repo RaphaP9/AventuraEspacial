@@ -14,7 +14,6 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private Transform cutscenePanelsContainer;
-    [SerializeField] private Transform cutscenePanelPrefab;
 
     [Header("Settings")]
     [SerializeField,Range(3,5)] private int maxCutscenePanels;
@@ -71,7 +70,7 @@ public class CutsceneSceneUIHandler : MonoBehaviour
 
     private void CreateCutscenePanel(int index)
     {
-        Transform cutscenePanelTransform = Instantiate(cutscenePanelPrefab, cutscenePanelsContainer);
+        Transform cutscenePanelTransform = Instantiate(cutsceneSO.cutscenePanels[index].panelPrefab, cutscenePanelsContainer);
         CutscenePanelUIHandler cutscenePanelUIHandler = cutscenePanelTransform.GetComponentInChildren<CutscenePanelUIHandler>();
 
         if (cutscenePanelUIHandler == null)
