@@ -204,6 +204,18 @@ MonoBehaviour:
   - originScene: MinigameSelection
     targetScene: MainMenu
   - originScene: MainMenu
+    targetScene: Album
+  - originScene: Album
+    targetScene: MainMenu
+  - originScene: Album
+    targetScene: Album_Main
+  - originScene: Album_Main
+    targetScene: Album
+  - originScene: Album
+    targetScene: Album_Minigames
+  - originScene: Album_Minigames
+    targetScene: Album
+  - originScene: MainMenu
     targetScene: Collection
   - originScene: Collection
     targetScene: MainMenu
@@ -211,14 +223,8 @@ MonoBehaviour:
     targetScene: TestScene
   - originScene: TestScene
     targetScene: MainMenu
-  fadeInExceptionTransitions:
-  - originScene: MainMenu
-    targetScene: Album
-  fadeOutExceptionTransitions:
-  - originScene: MainMenu
-    targetScene: Album
-  - originScene: Album
-    targetScene: MainMenu
+  fadeInExceptionTransitions: []
+  fadeOutExceptionTransitions: []
 --- !u!1 &1636284014592437063
 GameObject:
   m_ObjectHideFlags: 0

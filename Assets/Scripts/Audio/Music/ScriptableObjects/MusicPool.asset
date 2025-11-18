@@ -31,6 +31,10 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: Album
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: Album_Main
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: Album_Minigames
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: Collection
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: MemoryMinigame

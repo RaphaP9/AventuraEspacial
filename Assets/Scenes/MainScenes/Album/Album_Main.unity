@@ -1755,7 +1755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backButton: {fileID: 7635212535395367452}
-  backScene: MainMenu
+  backScene: Album
   backTransitionType: 0
 --- !u!1 &845803663
 GameObject:
