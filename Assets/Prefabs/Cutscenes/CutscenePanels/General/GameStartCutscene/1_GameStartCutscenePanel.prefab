@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 7443403677069627312}
   - component: {fileID: 8561005679078177415}
   m_Layer: 5
-  m_Name: CutscenePanelUI
+  m_Name: 1_GameStartCutscenePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
