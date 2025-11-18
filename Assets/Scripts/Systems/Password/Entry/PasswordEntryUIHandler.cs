@@ -4,21 +4,27 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using System.Collections;
 
-public class PasswordConfigurationUIHandler : MonoBehaviour
+public class PasswordEntryUIHandler : MonoBehaviour
 {
     [Header("Lists")]
-    [SerializeField] private List<PasswordConfigurationButtonHandler> passwordButtonHandlers;
+    [SerializeField] private List<PasswordEntryButtonHandler> passwordButtonHandlers;
     [Space]
     [SerializeField] private List<PasswordItemSO> passwordItemsPool;
 
     [Header("Components")]
+    [SerializeField] private PasswordEntryUI passwordEntryUI;
     [SerializeField] private Button deletePasswordButton;
 
     [Header("Settings")]
     [SerializeField] private bool randomizeButtons;
+    [SerializeField, Range(0f, 0.5f)] private float checkTime;
 
     [Header("Runtime Filled")]
     [SerializeField] private List<PasswordItemSO> typedPassword;
+    [SerializeField] private bool performingCheck;
+
+    [Header("Testing")]
+    [SerializeField] private Button mockButton;
 
     public event EventHandler<OnHandlerInitializedEventArgs> OnPasswordHandlerInitialized;
 
@@ -26,6 +32,14 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
     public event EventHandler<OnPasswordItemEventArgs> OnPasswordItemDeleted;
 
     public event EventHandler OnCompletePasswordTyped;
+    public event EventHandler OnCompletePasswordTypedCorrectly;
+    public event EventHandler OnCompletePasswordTypedWrong;
+
+    public event EventHandler OnCompletePasswordTypedCorrectlyPre;
+    public event EventHandler OnCompletePasswordTypedWrongPre;
+
+
+    public event EventHandler OnPasswordCleared;
 
     public List<PasswordItemSO> TypedPassword => typedPassword;
 
@@ -43,17 +57,17 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        foreach(PasswordConfigurationButtonHandler passwordConfigurationButtonHandler in passwordButtonHandlers)
+        foreach (PasswordEntryButtonHandler passwordEntryButtonHandler in passwordButtonHandlers)
         {
-            passwordConfigurationButtonHandler.OnPasswordButtonClicked += PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
+            passwordEntryButtonHandler.OnPasswordButtonClicked += PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
         }
     }
 
     private void OnDisable()
     {
-        foreach (PasswordConfigurationButtonHandler passwordConfigurationButtonHandler in passwordButtonHandlers)
+        foreach (PasswordEntryButtonHandler passwordEntryButtonHandler in passwordButtonHandlers)
         {
-            passwordConfigurationButtonHandler.OnPasswordButtonClicked -= PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
+            passwordEntryButtonHandler.OnPasswordButtonClicked -= PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
         }
     }
 
@@ -64,6 +78,7 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
 
     private void Start()
     {
+        InitializeVariables();
         ClearTypedPassword(true);
         SetButtons();
         InitializePasswordHandler();
@@ -74,9 +89,14 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
         deletePasswordButton.onClick.AddListener(() => DeleteLastTypedItem(false));
     }
 
+    private void InitializeVariables()
+    {
+        performingCheck = false;
+    }
+
     private void InitializePasswordHandler()
     {
-        OnPasswordHandlerInitialized?.Invoke(this, new OnHandlerInitializedEventArgs { passwordItemsCount = PasswordUtilities.GetPasswordItemCount()});
+        OnPasswordHandlerInitialized?.Invoke(this, new OnHandlerInitializedEventArgs { passwordItemsCount = PasswordUtilities.GetPasswordItemCount() });
     }
 
 
@@ -95,6 +115,7 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
         if (CompletePasswordTyped())
         {
             OnCompletePasswordTyped?.Invoke(this, EventArgs.Empty);
+            StartCoroutine(PasswordCheckCoroutine());
         }
     }
 
@@ -112,10 +133,45 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
 
     private void ClearTypedPassword(bool immediately)
     {
-        while(typedPassword.Count > 0)
+        while (typedPassword.Count > 0)
         {
             DeleteLastTypedItem(immediately);
         }
+
+        OnPasswordCleared?.Invoke(this, EventArgs.Empty);
+    }
+    #endregion
+
+    #region Coroutines
+    private IEnumerator PasswordCheckCoroutine()
+    {
+        performingCheck = true;
+
+        bool correctPassword = PasswordTypedCorrectely();
+
+        if (correctPassword)
+        {
+            OnCompletePasswordTypedCorrectlyPre?.Invoke(this, EventArgs.Empty);
+        }
+        else
+        {
+            OnCompletePasswordTypedWrongPre?.Invoke(this, EventArgs.Empty);
+        }
+
+        yield return new WaitForSecondsRealtime(checkTime);
+
+        if (correctPassword)
+        {
+            passwordEntryUI.LoadNextScene();
+            OnCompletePasswordTypedCorrectly?.Invoke(this, EventArgs.Empty);
+        }
+        else
+        {
+            ClearTypedPassword(false);
+            OnCompletePasswordTypedWrong?.Invoke(this, EventArgs.Empty);
+        }
+
+        performingCheck = false;
     }
     #endregion
 
@@ -125,7 +181,7 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
     {
         List<PasswordItemSO> itemsPool = new List<PasswordItemSO>(passwordItemsPool);
 
-        if(randomizeButtons) itemsPool = GeneralUtilities.FisherYatesShuffle(passwordItemsPool);
+        if (randomizeButtons) itemsPool = GeneralUtilities.FisherYatesShuffle(passwordItemsPool);
 
         for (int i = 0; i < passwordButtonHandlers.Count; i++)
         {
@@ -135,10 +191,26 @@ public class PasswordConfigurationUIHandler : MonoBehaviour
     }
 
     public bool CompletePasswordTyped() => typedPassword.Count >= PasswordUtilities.GetPasswordItemCount();
+
+    private bool PasswordTypedCorrectely()
+    {
+        return DataContainer.Instance.PasswordMatches(typedPassword);
+    }
     #endregion
 
     #region Subscriptions
-    private void PasswordConfigurationButtonHandler_OnPasswordButtonClicked(object sender, PasswordConfigurationButtonHandler.OnPasswordButtonClickedEventArgs e)
+    private void PasswordAccessUI_OnThisPasswordAccessUIOpen(object sender, EventArgs e)
+    {
+        SetButtons();
+        ClearTypedPassword(true);
+    }
+
+    private void PasswordAccessUI_OnThisPasswordAccessUICloseCompletely(object sender, EventArgs e)
+    {
+        ClearTypedPassword(true);
+    }
+
+    private void PasswordConfigurationButtonHandler_OnPasswordButtonClicked(object sender, PasswordEntryButtonHandler.OnPasswordButtonClickedEventArgs e)
     {
         TypeItem(e.passwordItem, false);
     }

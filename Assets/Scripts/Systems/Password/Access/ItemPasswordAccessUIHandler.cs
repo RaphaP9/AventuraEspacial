@@ -62,7 +62,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
 
         foreach (PasswordAccessButtonHandler passwordAccessButtonHandler in passwordButtonHandlers)
         {
-            passwordAccessButtonHandler.OnPasswordButtonClicked += PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
+            passwordAccessButtonHandler.OnPasswordButtonClicked += PasswordAccessButtonHandler_OnPasswordButtonClicked;
         }
     }
 
@@ -73,7 +73,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
 
         foreach (PasswordAccessButtonHandler passwordAccessButtonHandler in passwordButtonHandlers)
         {
-            passwordAccessButtonHandler.OnPasswordButtonClicked -= PasswordConfigurationButtonHandler_OnPasswordButtonClicked;
+            passwordAccessButtonHandler.OnPasswordButtonClicked -= PasswordAccessButtonHandler_OnPasswordButtonClicked;
         }
     }
 
@@ -218,7 +218,7 @@ public class ItemPasswordAccessUIHandler : MonoBehaviour
         ClearTypedPassword(true);
     }
 
-    private void PasswordConfigurationButtonHandler_OnPasswordButtonClicked(object sender, PasswordAccessButtonHandler.OnPasswordButtonClickedEventArgs e)
+    private void PasswordAccessButtonHandler_OnPasswordButtonClicked(object sender, PasswordAccessButtonHandler.OnPasswordButtonClickedEventArgs e)
     {
         TypeItem(e.passwordItem, false);
     }

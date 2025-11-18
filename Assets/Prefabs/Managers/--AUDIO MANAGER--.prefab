@@ -193,6 +193,8 @@ MonoBehaviour:
     targetScene: PasswordConfigurationScene
   - originScene: PasswordConfigurationScene
     targetScene: TimerSelectorScene
+  - originScene: PasswordEntryScene
+    targetScene: TimerSelectorScene
   - originScene: TimerSelectorScene
     targetScene: RotationScene
   - originScene: RotationScene

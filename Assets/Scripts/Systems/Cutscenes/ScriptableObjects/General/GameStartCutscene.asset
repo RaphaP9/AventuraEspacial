@@ -20,7 +20,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1A
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -32,7 +32,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue1B
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue2A
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -56,7 +56,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: 
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -68,7 +68,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: 
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: gameStartCutsceneAudios.audio4A
@@ -80,7 +80,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue5A
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -92,7 +92,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue6A
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -104,7 +104,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue6B
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -116,7 +116,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue7A
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -128,7 +128,7 @@ MonoBehaviour:
     hasSentence: 1
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: gameStartCutsceneStrings.dialogue7B
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 
@@ -140,7 +140,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: GameStartCutsceneStrings
     sentenceLocalizationBinding: 
-    sentenceColor: {r: 1, g: 1, b: 1, a: 1}
+    sentenceColor: {r: 0.019607844, g: 0.02745098, b: 0.28235295, a: 1}
     hasAudio: 0
     audioLocalizationTable: GameStartCutsceneAudios
     audioLocalizationBinding: 

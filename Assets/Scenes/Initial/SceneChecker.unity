@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unconfiguredGameScene: LanguageSelectionScene
-  regularSceneScene: TimerSelectorScene
+  regularSceneScene: PasswordEntryScene
   timeToLoadNextScene: 0
 --- !u!1 &1064401214
 GameObject:

@@ -19,6 +19,8 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: PasswordConfigurationScene
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
+  - sceneName: PasswordEntryScene
+    music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: TimerSelectorScene
     music: {fileID: 8300000, guid: 9d96dab3044e57d41bc04ba4352a4483, type: 3}
   - sceneName: RotationScene

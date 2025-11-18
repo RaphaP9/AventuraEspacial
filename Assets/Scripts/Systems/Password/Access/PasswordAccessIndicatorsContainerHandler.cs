@@ -16,13 +16,13 @@ public class PasswordAccessIndicatorsContainerHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        itemPasswordAccessUIHandler.OnPasswordHandlerInitialized += PasswordConfigurationUIHandler_OnPasswordHandlerInitialized;
+        itemPasswordAccessUIHandler.OnPasswordHandlerInitialized += ItemPasswordAccessUIHandler_OnPasswordHandlerInitialized;
         itemPasswordAccessUIHandler.OnCompletePasswordTypedWrongPre += ItemPasswordAccessUIHandler_OnCompletePasswordTypedWrongPre;
     }
 
     private void OnDisable()
     {
-        itemPasswordAccessUIHandler.OnPasswordHandlerInitialized -= PasswordConfigurationUIHandler_OnPasswordHandlerInitialized;
+        itemPasswordAccessUIHandler.OnPasswordHandlerInitialized -= ItemPasswordAccessUIHandler_OnPasswordHandlerInitialized;
         itemPasswordAccessUIHandler.OnCompletePasswordTypedWrongPre -= ItemPasswordAccessUIHandler_OnCompletePasswordTypedWrongPre;
     }
 
@@ -63,7 +63,7 @@ public class PasswordAccessIndicatorsContainerHandler : MonoBehaviour
     }
 
     #region Subscriptions
-    private void PasswordConfigurationUIHandler_OnPasswordHandlerInitialized(object sender, ItemPasswordAccessUIHandler.OnHandlerInitializedEventArgs e)
+    private void ItemPasswordAccessUIHandler_OnPasswordHandlerInitialized(object sender, ItemPasswordAccessUIHandler.OnHandlerInitializedEventArgs e)
     {
         ClearContainer();
         CreateIndicators(e.passwordItemsCount);
