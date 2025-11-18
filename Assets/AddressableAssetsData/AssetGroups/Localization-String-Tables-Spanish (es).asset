@@ -93,12 +93,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bdb01c59266dba14d8fba93d6685b7b9
-    m_Address: MemoryMinigameStartCutsceneStrings_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c2a60b7745903a44685210aeb31764f4
     m_Address: Minigames_es
     m_ReadOnly: 1
@@ -125,12 +119,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0401975e85282844827691c629920d3
     m_Address: SilhouettesMinigameCutscene2Strings_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ead5d557ba245c44ba7f8465b1bf0e40
-    m_Address: SilhouettesMinigameStartCutsceneStrings_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

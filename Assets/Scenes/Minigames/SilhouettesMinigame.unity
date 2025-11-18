@@ -3482,6 +3482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectableSO: {fileID: 11400000, guid: 1d21699dd055c7e49aca242faa4eaa80, type: 2}
   minigameList: 0000000001000000
+  collectionDelay: 1.25
 --- !u!1 &1698240256
 GameObject:
   m_ObjectHideFlags: 0
@@ -4502,6 +4503,22 @@ PrefabInstance:
     - target: {fileID: 7280998685656786208, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: m_Name
       value: PasswordAccessCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8626756965261926322, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: m_Camera

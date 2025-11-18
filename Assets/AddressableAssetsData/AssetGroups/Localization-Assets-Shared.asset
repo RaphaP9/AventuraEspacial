@@ -65,20 +65,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6f102224c3986004fb08ee0b64dee831
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameStart/SilhouettesMinigameStartCutsceneStrings/SilhouettesMinigameStartCutsceneStrings
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6fcae5f89723ba54f860e0b73a3d9906
     m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene2/MemoryMinigameCutscene2Strings/MemoryMinigameCutscene2Strings
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7012e20f3dde6d14aa29dc1005212459
-    m_Address: Assets/Localization/Tables/Cutscenes/SilhouettesMinigameStart/SilhouettesMinigameStartCutsceneAudios/SilhouettesMinigameStartCutsceneAudios
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
@@ -113,12 +101,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 84ecbc3ce1f21814cb695966599017fb
     m_Address: Assets/Localization/Tables/Disclaimer Scene Labels Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8640e55fc19bbd2478a33df0750d15c4
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameStart/MemoryMinigameStartCutsceneStrings/MemoryMinigameStartCutsceneStrings
-      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -167,12 +149,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c74db7a787a68a34e992bd5e1c48a9ae
     m_Address: Assets/Localization/Tables/Videos Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1262e78e8bce19418e1258cf2304245
-    m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameStart/MemoryMinigameStartCutsceneAudios/MemoryMinigameStartCutsceneAudios
-      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

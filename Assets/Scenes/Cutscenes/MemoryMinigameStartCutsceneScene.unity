@@ -1892,6 +1892,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: PasswordAccessCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164143527350608616, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8626756965261926322, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2112,7 +2128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2190022c9c13118449be4c5277acd215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutsceneSO: {fileID: 11400000, guid: fcef5e9205a2589439d9fc7dfbaafd28, type: 2}
+  cutsceneSO: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
 --- !u!1 &1550010258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,7 +2475,7 @@ PrefabInstance:
     - target: {fileID: 2747031609616252428, guid: b3150a64293142845b1523df7e574771, type: 3}
       propertyPath: cutsceneSO
       value: 
-      objectReference: {fileID: 11400000, guid: fcef5e9205a2589439d9fc7dfbaafd28, type: 2}
+      objectReference: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
     - target: {fileID: 6577628795967397148, guid: b3150a64293142845b1523df7e574771, type: 3}
       propertyPath: m_Name
       value: CutsceneCanvas

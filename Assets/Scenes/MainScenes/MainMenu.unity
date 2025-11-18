@@ -3069,6 +3069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableSO: {fileID: 11400000, guid: af37468e1ade19f43aaa4d4c08c166c9, type: 2}
+  collectionDelay: 1.25
 --- !u!1 &1381305983
 GameObject:
   m_ObjectHideFlags: 0

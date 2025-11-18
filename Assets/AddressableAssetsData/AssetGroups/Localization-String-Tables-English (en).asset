@@ -69,12 +69,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 76c1da9977a81da44a288f1d6017fbdc
-    m_Address: MemoryMinigameStartCutsceneStrings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 873dc1d8a77990f498ffa70b8ba43d64
     m_Address: General_en
     m_ReadOnly: 1
@@ -119,12 +113,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2a8a2949a605724eb3f0d16e367e914
     m_Address: GameStartCutsceneStrings_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f81c42c5ce6e54e408ba94d1a9032dda
-    m_Address: SilhouettesMinigameStartCutsceneStrings_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

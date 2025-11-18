@@ -40,18 +40,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 818be2f817a73f044b175971b0c921cc
-    m_Address: MemoryMinigameStartCutsceneAudios_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 850e694c7b0165a42b697b354d8c9018
-    m_Address: SilhouettesMinigameStartCutsceneAudios_es
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9aba7df54c6bef04784623a8275663b3
     m_Address: MemoryMinigameCutscene3Audios_es
     m_ReadOnly: 1

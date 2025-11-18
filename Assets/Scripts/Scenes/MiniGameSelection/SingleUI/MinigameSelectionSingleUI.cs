@@ -10,14 +10,14 @@ public class MinigameSelectionSingleUI : MonoBehaviour
     [Header("UI Components")]
     [SerializeField] private Button minigameButton;
 
-    [Header("Start Cinematic Scene")]
-    [SerializeField] private string startCinematicScene;
-    [SerializeField] private TransitionType startCinematicTransitionType;
-    [SerializeField] private bool ignoreStartCinematic;
+    [Header("First Enter Scene")]
+    [SerializeField] private string firstEnterScene;
+    [SerializeField] private TransitionType firstEnterSceneTransitionType;
+    [SerializeField] private bool ignoreFirstEnterScene;
 
-    [Header("Minigame Scene")]
-    [SerializeField] private string minigameScene;
-    [SerializeField] private TransitionType minigameTransitionType;
+    [Header("Regular Enter Scene")]
+    [SerializeField] private string regularEnterScene;
+    [SerializeField] private TransitionType regularEnterSceneTransitionType;
 
     private void Awake()
     {
@@ -33,10 +33,10 @@ public class MinigameSelectionSingleUI : MonoBehaviour
     {
         bool isFirstTimeEntering = DataContainer.Instance.IsFirstTimeEnteringMinigame(minigame);
 
-        if (isFirstTimeEntering && !ignoreStartCinematic) LoadStartCinematicScene();
-        else LoadMinigameScene();
+        if (isFirstTimeEntering && !ignoreFirstEnterScene) LoadFirstEnterScene();
+        else LoadRegularEnterScene();
     }
 
-    private void LoadStartCinematicScene() => ScenesManager.Instance.TransitionLoadTargetScene(startCinematicScene, startCinematicTransitionType);
-    private void LoadMinigameScene() => ScenesManager.Instance.TransitionLoadTargetScene(minigameScene, minigameTransitionType);
+    private void LoadFirstEnterScene() => ScenesManager.Instance.TransitionLoadTargetScene(firstEnterScene, firstEnterSceneTransitionType);
+    private void LoadRegularEnterScene() => ScenesManager.Instance.TransitionLoadTargetScene(regularEnterScene, regularEnterSceneTransitionType);
 }

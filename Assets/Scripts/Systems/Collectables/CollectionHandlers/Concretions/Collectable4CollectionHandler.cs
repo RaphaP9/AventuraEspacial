@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public class Collectable4CollectionHandler : CollectableCollectionHandler
@@ -8,6 +9,9 @@ public class Collectable4CollectionHandler : CollectableCollectionHandler
 
     [Header("Lists")]
     [SerializeField] private List<Minigame> minigameList;
+
+    [Header("Settings")]
+    [SerializeField, Range(0f, 2f)] private float collectionDelay;
 
     private bool hasPerformedFirstUpdateLogic = false;
 
@@ -21,13 +25,15 @@ public class Collectable4CollectionHandler : CollectableCollectionHandler
     {
         if (hasPerformedFirstUpdateLogic) return;
 
-        CheckCollectableCollection();
-
         hasPerformedFirstUpdateLogic = true;
+
+        StartCoroutine(CheckCollectableCollectionCoroutine());
     }
 
-    private void CheckCollectableCollection()
+    private IEnumerator CheckCollectableCollectionCoroutine()
     {
+        yield return new WaitForSeconds(collectionDelay);
+
         bool condition = CheckAllMinigamesPlayed();
 
         if (condition) CollectCollectable(false);

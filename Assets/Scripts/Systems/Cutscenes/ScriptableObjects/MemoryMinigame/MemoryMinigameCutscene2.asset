@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3f3b22b4c4f364ab228a58103f1611, type: 3}
   m_Name: MemoryMinigameCutscene2
   m_EditorClassIdentifier: 
-  id: 4
+  id: 3
   nameLocalizationTable: MemoryMinigameCutscene2Strings
   nameLocalizationBinding: memoryMinigameCutscene2Strings.name
   cutscenePanels:
@@ -20,6 +20,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: MemoryMinigameCutscene2Strings
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: MemoryMinigameCutscene2Audios
     audioLocalizationBinding: 
@@ -31,6 +32,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: MemoryMinigameCutscene2Strings
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: MemoryMinigameCutscene2Audios
     audioLocalizationBinding: 
@@ -42,6 +44,7 @@ MonoBehaviour:
     hasSentence: 0
     sentenceLocalizationTable: MemoryMinigameCutscene2Strings
     sentenceLocalizationBinding: 
+    sentenceColor: {r: 0, g: 0, b: 0, a: 0}
     hasAudio: 0
     audioLocalizationTable: MemoryMinigameCutscene2Audios
     audioLocalizationBinding: 
@@ -49,3 +52,5 @@ MonoBehaviour:
     timeToSkipPanel: 3
     timeToAppearSentence: 1.5
     timeToPlayAudio: 2
+  cutsceneBGM: {fileID: 0}
+  cutsceneThumbnail: {fileID: 0}
