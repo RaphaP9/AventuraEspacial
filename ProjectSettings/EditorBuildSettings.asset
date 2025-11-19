@@ -33,10 +33,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/GameStartCutsceneScene.unity
     guid: 467e583f6da401e46b56a6b8782e14c4
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/MemoryMinigameStartCutsceneScene.unity
+    path: Assets/Scenes/Old/Cutscenes/MemoryMinigameStartCutsceneScene.unity
     guid: b84a6f1e9efa23043afb1e5119cc019f
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/SilhouettesMinigameStartCutsceneScene.unity
+    path: Assets/Scenes/Old/Cutscenes/SilhouettesMinigameStartCutsceneScene.unity
     guid: f4739da888cf6b142bf8f4c4341f8751
   - enabled: 1
     path: Assets/Scenes/MainScenes/MainMenu.unity

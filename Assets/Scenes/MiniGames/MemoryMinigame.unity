@@ -538,6 +538,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 184978104}
     m_Modifications:
     - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
+      propertyPath: rectDimensionsChangeDetector
+      value: 
+      objectReference: {fileID: 1617765715}
+    - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
       propertyPath: screenRectTransformRefference
       value: 
       objectReference: {fileID: 1617765714}
@@ -801,6 +805,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 184978104}
     m_Modifications:
+    - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
+      propertyPath: rectDimensionsChangeDetector
+      value: 
+      objectReference: {fileID: 1617765715}
     - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
       propertyPath: screenRectTransformRefference
       value: 
@@ -3258,6 +3266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1617765714}
+  - component: {fileID: 1617765715}
   m_Layer: 5
   m_Name: ScreenRefference
   m_TagString: Untagged
@@ -3284,6 +3293,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1617765715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617765713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9aa317984c340a4f92bfe3e8e3776b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceCanvasUpdateOnDimensionsChanged: 1
 --- !u!224 &1753308048 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4786845593983099187, guid: 4bd8a359a9d4893448920c986e95db9f, type: 3}
@@ -3411,6 +3433,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 184978104}
     m_Modifications:
+    - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
+      propertyPath: rectDimensionsChangeDetector
+      value: 
+      objectReference: {fileID: 1617765715}
     - target: {fileID: 2012736553433177133, guid: e39a7ab41ea757b4d8fc86c9c8cf960d, type: 3}
       propertyPath: screenRectTransformRefference
       value: 

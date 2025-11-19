@@ -5,6 +5,7 @@ using UnityEngine.VFX;
 public class MainMenuStarsVFXHandler : MonoBehaviour
 {
     [Header("Components")]
+    [SerializeField] private RectDimensionsChangeDetector rectDimensionsChangeDetector;
     [SerializeField] private RectTransform screenRectTransformRefference;
     [SerializeField] private VisualEffect visualEffect;
 
@@ -19,19 +20,19 @@ public class MainMenuStarsVFXHandler : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool debug;
 
-    private void Start()
+    private void OnEnable()
     {
-        StartCoroutine(InitializationCoroutine());
+        rectDimensionsChangeDetector.OnRectDimensionsChanged += RectDimensionsChangeDetector_OnRectDimensionsChanged;
     }
 
-    private IEnumerator InitializationCoroutine()
+    private void OnDisable()
     {
-        //Wait two Frames
-        yield return null; 
-        yield return null;
+        rectDimensionsChangeDetector.OnRectDimensionsChanged -= RectDimensionsChangeDetector_OnRectDimensionsChanged;
+    }
 
+    private void Start()
+    {
         InitializeDistances();
-
         SetVFXDimension(screenWidthPropertyName, width);
         SetVFXDimension(screenHeightPropertyName, height);
     }
@@ -53,4 +54,13 @@ public class MainMenuStarsVFXHandler : MonoBehaviour
 
         visualEffect.SetFloat(propertyName, value);
     }
+
+    #region Subscriptions
+    private void RectDimensionsChangeDetector_OnRectDimensionsChanged(object sender, System.EventArgs e)
+    {
+        InitializeDistances();
+        SetVFXDimension(screenWidthPropertyName, width);
+        SetVFXDimension(screenHeightPropertyName, height);
+    }
+    #endregion
 }

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class ResponsiveWidthElementGridLayoutGroup : MonoBehaviour
 {
+    [Header("Components")]
+    [SerializeField] private RectDimensionsChangeDetector rectDimensionsChangeDetector;
+
     [Header("Settings")]
     [SerializeField] private bool useFixedColummCount;
     [SerializeField] private int columnCount;
@@ -17,6 +20,16 @@ public class ResponsiveWidthElementGridLayoutGroup : MonoBehaviour
     private RectTransform rectTransform;
     private GridLayoutGroup gridLayoutGroup;
 
+    private void OnEnable()
+    {
+        rectDimensionsChangeDetector.OnRectDimensionsChanged += RectDimensionsChangeDetector_OnRectDimensionsChanged;
+    }
+
+    private void OnDisable()
+    {
+        rectDimensionsChangeDetector.OnRectDimensionsChanged -= RectDimensionsChangeDetector_OnRectDimensionsChanged;
+    }
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -25,12 +38,6 @@ public class ResponsiveWidthElementGridLayoutGroup : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(InitializationCoroutine());
-    }
-
-    private IEnumerator InitializationCoroutine()
-    {
-        yield return null; //Wait one Frame
         InitializeGridLayout();
     }
 
@@ -126,4 +133,11 @@ public class ResponsiveWidthElementGridLayoutGroup : MonoBehaviour
         float cellWitdh = (usableWitdh - spacingWidth)/columnCount;
         return cellWitdh;
     }
+
+    #region Subscriptions
+    private void RectDimensionsChangeDetector_OnRectDimensionsChanged(object sender, System.EventArgs e)
+    {
+        InitializeGridLayout();
+    }
+    #endregion
 }

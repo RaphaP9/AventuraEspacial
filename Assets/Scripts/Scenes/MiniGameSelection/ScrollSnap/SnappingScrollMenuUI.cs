@@ -79,8 +79,9 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     private IEnumerator InitializationCoroutine()
     {
-        //Wait two frames
-        yield return null;
+        //NOTE: This asumes previous scene was same resolution as this scene, so Canvas Layout will not take time to rebuild
+
+        //Wait one frames
         yield return null;
 
         InitializeItems();
