@@ -79,7 +79,10 @@ public class SnappingScrollMenuUI : MonoBehaviour
 
     private IEnumerator InitializationCoroutine()
     {
-        yield return null; //Wait one Frame
+        //Wait two frames
+        yield return null;
+        yield return null;
+
         InitializeItems();
         InstantSnapToStartIndex();
 

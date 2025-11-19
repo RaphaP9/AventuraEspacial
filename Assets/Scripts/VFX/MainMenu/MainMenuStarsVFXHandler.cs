@@ -26,7 +26,9 @@ public class MainMenuStarsVFXHandler : MonoBehaviour
 
     private IEnumerator InitializationCoroutine()
     {
-        yield return null; //Wait one Frame
+        //Wait two Frames
+        yield return null; 
+        yield return null;
         InitializeDistances();
 
         SetVFXDimension(screenWidthPropertyName, width);

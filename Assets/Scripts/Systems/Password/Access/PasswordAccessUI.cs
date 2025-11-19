@@ -12,6 +12,11 @@ public class PasswordAccessUI : MonoBehaviour
     [SerializeField] private List<ButtonPasswordAccessedUIRelationship> buttonPasswordAccessedUIRelationships;
     [SerializeField] private Button closeButton;
 
+    [Header("Configuration Scene")]
+    [SerializeField] private Button configurationSceneButton;
+    [SerializeField] private string configurationScene;
+    [SerializeField] private TransitionType configurationSceneTransitionType;
+
     [Header("Debug")]
     [SerializeField] private bool debug;
 
@@ -55,6 +60,7 @@ public class PasswordAccessUI : MonoBehaviour
         }
 
         closeButton.onClick.AddListener(CloseUI);
+        configurationSceneButton.onClick.AddListener(LoadConfigurationScene);
     }
 
     public void OpenUI(IPasswordAccessedUI passwordAccessedUI)
@@ -102,6 +108,13 @@ public class PasswordAccessUI : MonoBehaviour
     public void OnUIClosedCompletelyMethod()
     {
         OnThisPasswordAccessUICloseCompletely?.Invoke(this, EventArgs.Empty);
+    }
+    #endregion
+
+    #region Configuration Scene
+    private void LoadConfigurationScene()
+    {
+        ScenesManager.Instance.TransitionLoadTargetScene(configurationScene, configurationSceneTransitionType);
     }
     #endregion
 }
