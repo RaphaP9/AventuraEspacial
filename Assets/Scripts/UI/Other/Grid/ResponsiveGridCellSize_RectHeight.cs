@@ -10,6 +10,8 @@ public class ResponsiveGridCellSize_RectHeight : MonoBehaviour
     private RectTransform rectTransform;
     private GridLayoutGroup gridLayoutGroup;
 
+    private bool rectTransforDimensionsChanged = false;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -18,15 +20,17 @@ public class ResponsiveGridCellSize_RectHeight : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(InitializationCoroutine());
+        InitializeLogic();
     }
 
-    private IEnumerator InitializationCoroutine()
+    private void OnRectTransformDimensionsChange()
     {
-        //Wait two Frames
-        yield return null;
-        yield return null;
+        InitializeLogic();
+    }
 
+    private void InitializeLogic()
+    {
+        Canvas.ForceUpdateCanvases();
         InitializeGridLayout();
     }
 

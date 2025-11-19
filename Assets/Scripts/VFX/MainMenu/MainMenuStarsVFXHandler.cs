@@ -29,6 +29,7 @@ public class MainMenuStarsVFXHandler : MonoBehaviour
         //Wait two Frames
         yield return null; 
         yield return null;
+
         InitializeDistances();
 
         SetVFXDimension(screenWidthPropertyName, width);
