@@ -27,18 +27,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2739492178313216
-    m_Localized: "\xA1Desaf\xEDo r\xE1pido y entretenido!\nPerfecto para los m\xE1s
-      peque\xF1os\L(\xA1y toda la familia!)"
+    m_Localized: "\xA1Desaf\xEDo r\xE1pido y entretenido! Perfecto para los m\xE1s
+      peque\xF1os (\xA1y toda la familia!)"
     m_Metadata:
       m_Items: []
   - m_Id: 2740024003477504
-    m_Localized: "\xA1Una experiencia retadora!\LRecomendado solo para ni\xF1os\nmayores
+    m_Localized: "\xA1Una experiencia retadora! Recomendado solo para ni\xF1os mayores
       a 5 a\xF1os"
     m_Metadata:
       m_Items: []
   - m_Id: 2740376232738816
-    m_Localized: "Recomendado solo para \nni\xF1os mayores a 7 a\xF1os, \no ni\xF1os
-      con experiencia con \njuegos educativos similares"
+    m_Localized: "Recomendado solo para ni\xF1os mayores a 7 a\xF1os, o ni\xF1os
+      con experiencia con juegos educativos similares"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27127145002647552
+    m_Localized: Confirmar
     m_Metadata:
       m_Items: []
   references:

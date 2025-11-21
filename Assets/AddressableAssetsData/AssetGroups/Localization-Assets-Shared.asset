@@ -55,6 +55,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58b76eda7e2f77c4a9f32cb51541df20
+    m_Address: Assets/Localization/Tables/TimeEndedStrings/TimeEndedStrings Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d22119d56765c547ae64ae40632be21
     m_Address: Assets/Localization/Tables/LanguageSelectionScene Shared Data.asset
     m_ReadOnly: 1

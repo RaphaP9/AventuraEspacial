@@ -1952,6 +1952,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 452.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 226.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635776423999923749, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -56.129997
+      objectReference: {fileID: 0}
     - target: {fileID: 5760862910114589350, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2048,9 +2072,41 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 352.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 226.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964731564737957274, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -56.129997
+      objectReference: {fileID: 0}
     - target: {fileID: 6706402467691913546, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
       propertyPath: m_Name
       value: TimeEndedCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823585021215799730, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823585021215799730, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2064,7 +2120,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1069775370 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1633611622436294821, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6059887218188609717, guid: 6651ff15fae91c146bae3d69782e42ca, type: 3}
   m_PrefabInstance: {fileID: 1069775368}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -3014,7 +3070,7 @@ PrefabInstance:
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: 'passwordAccessButtons.Array.data[1]'
       value: 
-      objectReference: {fileID: 1069775370}
+      objectReference: {fileID: 0}
     - target: {fileID: 6816270600929261192, guid: faccc63189d03294b8046c08f93f77f9, type: 3}
       propertyPath: buttonPasswordAccessedUIRelationships.Array.size
       value: 3

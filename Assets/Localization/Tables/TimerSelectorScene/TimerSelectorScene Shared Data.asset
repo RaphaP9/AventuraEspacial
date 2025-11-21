@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: timerSelectorScene.15MinutesDescription
     m_Metadata:
       m_Items: []
+  - m_Id: 27127145002647552
+    m_Key: timerSelectorScene.confirm
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

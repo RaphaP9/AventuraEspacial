@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: "\rReady! Rotate the device to start playing"
     m_Metadata:
       m_Items: []
+  - m_Id: 26937330516836352
+    m_Localized: Simulate Rotation
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

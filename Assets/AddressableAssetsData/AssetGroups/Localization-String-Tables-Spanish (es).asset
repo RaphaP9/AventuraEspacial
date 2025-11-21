@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (es)
   m_GUID: f9561b31a86b9314eb28dca048558c8a
   m_SerializeEntries:
+  - m_GUID: 0ece144058c1132418252627de1cf83c
+    m_Address: TimeEndedStrings_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 10c70f57976f8074c94612e438aacfac
     m_Address: SilhouettesMinigame_es
     m_ReadOnly: 1

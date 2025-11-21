@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: RotationScene_es
+  m_Name: TimeEndedStrings_es
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: es
-  m_SharedData: {fileID: 11400000, guid: e94fb017e1c571742b2fc52d79fcba6b, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 58b76eda7e2f77c4a9f32cb51541df20, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 3337043968
-    m_Localized: "\xA1Listo! Gira el dispositivo para empezar a jugar"
+  - m_Id: 20873428992
+    m_Localized: "Se acab\xF3 el tiempo de juego"
     m_Metadata:
       m_Items: []
-  - m_Id: 26937330516836352
-    m_Localized: "Simular Rotaci\xF3n"
+  - m_Id: 157909729280
+    m_Localized: Agregar Tiempo de Juego
     m_Metadata:
       m_Items: []
   references:

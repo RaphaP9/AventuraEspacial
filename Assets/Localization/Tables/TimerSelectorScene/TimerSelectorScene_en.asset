@@ -27,18 +27,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2739492178313216
-    m_Localized: "\rA quick and fun challenge!\r\nPerfect for little ones \n(and
-      the whole family!)"
+    m_Localized: "\rA quick and fun challenge! Perfect for little ones (and the whole
+      family!) \r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 2740024003477504
-    m_Localized: "A challenging experience! \nRecommended only for\nchildren over
-      5 years old"
+    m_Localized: A challenging experience! Recommended only for children over 5 years
+      old
     m_Metadata:
       m_Items: []
   - m_Id: 2740376232738816
-    m_Localized: "\rRecommended only for \nchildren 7 years and older, \nor children
-      with experience with \nsimilar educational games."
+    m_Localized: "\rRecommended only for children 7 years and older, or children
+      with experience with similar educational games."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27127145002647552
+    m_Localized: Confirm
     m_Metadata:
       m_Items: []
   references:

@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: RotationScene Shared Data
+  m_Name: TimeEndedStrings Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: RotationScene
-  m_TableCollectionNameGuidString: e94fb017e1c571742b2fc52d79fcba6b
+  m_TableCollectionName: TimeEndedStrings
+  m_TableCollectionNameGuidString: 58b76eda7e2f77c4a9f32cb51541df20
   m_Entries:
-  - m_Id: 3337043968
-    m_Key: rotationScene.description
+  - m_Id: 20873428992
+    m_Key: timeEndedStrings.title
     m_Metadata:
       m_Items: []
-  - m_Id: 26937330516836352
-    m_Key: rortation.simulateRotation
+  - m_Id: 157909729280
+    m_Key: timeEndedString.addTime
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 4749425313386332160
+    rid: 8552090977771978860
   references:
     version: 2
     RefIds:
-    - rid: 4749425313386332160
+    - rid: 8552090977771978860
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1757265257476
+        m_CustomEpoch: 1763689737641
