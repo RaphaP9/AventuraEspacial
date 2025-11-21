@@ -3,21 +3,30 @@ using UnityEngine;
 public class AlbumVibrationHandler : SceneVibrationHandler
 {
     [Header("Settings")]
+    [SerializeField] private HapticPreset albumSectionSelectedHapticPreset;
     [SerializeField] private HapticPreset nextCutscenePanelHapticPreset;
 
     protected override void OnEnable()
     {
         base.OnEnable();
+        AlbumSectionsHandler.OnAlbumRelationshipSelected += AlbumSectionsHandler_OnAlbumRelationshipSelected;
         AlbumSceneCutsceneUIHandler.OnNextCutscenePanelCreated += AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
+        AlbumSectionsHandler.OnAlbumRelationshipSelected -= AlbumSectionsHandler_OnAlbumRelationshipSelected;
         AlbumSceneCutsceneUIHandler.OnNextCutscenePanelCreated -= AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated;
     }
 
     #region Subscriptions
+    private void AlbumSectionsHandler_OnAlbumRelationshipSelected(object sender, AlbumSectionsHandler.OnAlbumRelationshipSelectedEventArgs e)
+    {
+        if (e.instant) return;
+        PlayHaptic_Unforced(albumSectionSelectedHapticPreset);
+    }
+
     private void AlbumSceneCutsceneUIHandler_OnNextCutscenePanelCreated(object sender, AlbumSceneCutsceneUIHandler.OnCutsceneEventArgs e)
     {
         PlayHaptic_Unforced(nextCutscenePanelHapticPreset);

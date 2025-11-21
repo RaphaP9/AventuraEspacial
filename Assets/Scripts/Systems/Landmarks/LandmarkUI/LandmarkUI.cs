@@ -97,11 +97,9 @@ public class LandmarkUI : MonoBehaviour
     #region Public Methods
     public void ClaimLandmark()
     {
+        CutsceneUnlockHandler.Instance.UnlockCutscene(unlockedCutscene);
+
         SetLandmarkState(LandmarkState.Claimed);
-        DataContainer.Instance.UnlockCutscene(unlockedCutscene);
-
-        GeneralDataManager.Instance.SaveJSONData();
-
         OnLandmarkClaimed?.Invoke(this, EventArgs.Empty);
     }
     #endregion

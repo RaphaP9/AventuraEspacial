@@ -16,6 +16,15 @@ public class AlbumSectionsHandler : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool debug;
 
+    public static event EventHandler<OnAlbumRelationshipSelectedEventArgs> OnAlbumRelationshipSelected;
+    public static event EventHandler<OnAlbumRelationshipSelectedEventArgs> OnAlbumRelationshipDeselected;
+
+    public class OnAlbumRelationshipSelectedEventArgs : EventArgs
+    {
+        public AlbumSectionButtonUIRelationship relationship;
+        public bool instant;
+    }
+
     [Serializable]
     public class AlbumSectionButtonUIRelationship
     {
@@ -84,6 +93,8 @@ public class AlbumSectionsHandler : MonoBehaviour
             relationship.albumSectionUI.Select();
             relationship.albumSectionUI.transform.SetAsLastSibling();
         }
+
+        OnAlbumRelationshipSelected?.Invoke(this, new OnAlbumRelationshipSelectedEventArgs { relationship = relationship, instant = instant});
     }
 
     private void DeselectRelationship(AlbumSectionButtonUIRelationship relationship, bool instant)
@@ -100,6 +111,8 @@ public class AlbumSectionsHandler : MonoBehaviour
             relationship.albumSectionButton.Deselect();
             relationship.albumSectionUI.Deselect();
         }
+
+        OnAlbumRelationshipDeselected?.Invoke(this, new OnAlbumRelationshipSelectedEventArgs { relationship = relationship, instant = instant });
     }
 
     private bool IsValidRelationship(AlbumSectionButtonUIRelationship relationship)

@@ -2198,9 +2198,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1489061201}
+  - component: {fileID: 1489061203}
   - component: {fileID: 1489061202}
   m_Layer: 0
-  m_Name: CutsceneUnlockHandler
+  m_Name: Cutscenes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2234,6 +2235,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cutsceneSO: {fileID: 11400000, guid: b88816c7f209bb545bb11847b1a5ed2a, type: 2}
+--- !u!114 &1489061203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489061200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d9d7ffb79c4fc418f9671537a4be38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550010258
 GameObject:
   m_ObjectHideFlags: 0

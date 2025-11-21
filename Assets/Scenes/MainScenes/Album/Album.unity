@@ -405,7 +405,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47060746}
-  - component: {fileID: 47060749}
   - component: {fileID: 47060748}
   m_Layer: 0
   m_Name: Vibration
@@ -441,19 +440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc00e1afaf50e4e4b887b47e093f55d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &47060749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47060745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb5117afbc7a5e543b436e70bde1a950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextCutscenePanelHapticPreset: 0
 --- !u!1001 &89185430
 PrefabInstance:
   m_ObjectHideFlags: 0

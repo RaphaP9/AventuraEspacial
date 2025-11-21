@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SceneStartCutsceneUnlockHandler : CutsceneUnlockHandler
+public class SceneStartCutsceneUnlockHandler : SingleCutsceneUnlockHandler
 {
     private void Start()
     {
