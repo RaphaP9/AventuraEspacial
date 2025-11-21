@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: CompasStudios
-  productName: NYC_Rescate Espacial
+  companyName: Compas Studios
+  productName: Rescate Espacial
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.14733224, g: 0, b: 0.27450982, a: 1}
