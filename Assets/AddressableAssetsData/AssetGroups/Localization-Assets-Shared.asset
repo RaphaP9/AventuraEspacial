@@ -147,6 +147,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be1b126837f9faf4786f33f270b59bed
+    m_Address: Assets/Localization/Tables/DebugStrings/DebugStrings Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5137a8331589d043b4a2638ab5c1634
     m_Address: Assets/Localization/Tables/Cutscenes/MemoryMinigameCutscene1/MemoryMinigameCutscene1Audios/MemoryMinigameCutscene1Audios
       Shared Data.asset

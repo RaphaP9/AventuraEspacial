@@ -51,6 +51,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63c83d2e0e44141458c48c29f1cb5f7f
+    m_Address: DebugStrings_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 64d06ff479671b043a357e193acda385
     m_Address: SilhouettesMinigameCutscene3Strings_es
     m_ReadOnly: 1
