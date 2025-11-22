@@ -1,16 +1,16 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class SpaceshipPropulsionVFXHandler : MonoBehaviour
+public class FigureDragVFXHandler_Trail : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private RectTransform rectTransformRefference;
+
+    [SerializeField] private FigureHandler figureHandler;
     [SerializeField] private VisualEffect visualEffect;
 
     [Header("Settings")]
     [SerializeField, Range(0f, 0.005f)] private float minVertexDistance;
-    [SerializeField, Range(0.1f, 5f)] private float VFXActiveTime;
 
     [Header("Runtime Filled")]
     [SerializeField] private bool VFXEnabled;
@@ -22,12 +22,14 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        MinigameManager.OnRoundEnd += MinigameManager_OnRoundEnd;
+        figureHandler.OnThisFigureDragStart += FigureHandler_OnThisFigureDragStart;
+        figureHandler.OnThisFigureDragEnd += FigureHandler_OnThisFigureDragEnd;
     }
 
     private void OnDisable()
     {
-        MinigameManager.OnRoundEnd -= MinigameManager_OnRoundEnd;
+        figureHandler.OnThisFigureDragStart -= FigureHandler_OnThisFigureDragStart;
+        figureHandler.OnThisFigureDragEnd -= FigureHandler_OnThisFigureDragEnd;
     }
 
     private void Start()
@@ -45,7 +47,7 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
     {
         if (!VFXEnabled) return;
 
-        if (Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minVertexDistance)
+        if(Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minVertexDistance)
         {
             if (VFXEnabled && VFXEnabledDueToVertexDistance)
             {
@@ -60,7 +62,7 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
                 SetVFXEnablement(true);
                 VFXEnabledDueToVertexDistance = true;
             }
-        }
+        }      
     }
 
     private Vector3 GetRectTransformPosition() => rectTransformRefference.position;
@@ -75,21 +77,20 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
         visualEffect.SetBool(SPAWN_ENABLED_PROPERTY_NAME, enable);
     }
 
-    private IEnumerator PlayVFXCoroutine()
+    private void FigureHandler_OnThisFigureDragStart(object sender, System.EventArgs e)
     {
         PlayVFX();
         SetVFXEnablement(true);
+
         VFXEnabled = true;
-
-        yield return new WaitForSeconds(VFXActiveTime);
-
-        StopVFX();
-        VFXEnabled = false;
+        VFXEnabledDueToVertexDistance = true;
     }
 
-    private void MinigameManager_OnRoundEnd(object sender, MinigameManager.OnRoundEventArgs e)
+    private void FigureHandler_OnThisFigureDragEnd(object sender, System.EventArgs e)
     {
-        StopAllCoroutines();
-        StartCoroutine(PlayVFXCoroutine());
+        StopVFX();
+
+        VFXEnabled = false;
+        VFXEnabledDueToVertexDistance = true;
     }
 }

@@ -211,7 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031530941745915850}
   - component: {fileID: 8945151759211722458}
-  - component: {fileID: 1649458186474529883}
+  - component: {fileID: 3022504756814555038}
   m_Layer: 5
   m_Name: FigureDragVFXHandler_Trail
   m_TagString: Untagged
@@ -247,7 +247,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6780143373628857650}
   m_CullTransparentMesh: 1
---- !u!114 &1649458186474529883
+--- !u!114 &3022504756814555038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,8 +256,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6780143373628857650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 241ef3685a745a64693e94d353702072, type: 3}
+  m_Script: {fileID: 11500000, guid: 60e2235a2bf710948a02e10cc7854fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rectTransformRefference: {fileID: 0}
   figureHandler: {fileID: 0}
   visualEffect: {fileID: 3785561727598377860}
+  minVertexDistance: 0.0025
+  VFXEnabled: 0
+  VFXEnabledDueToVertexDistance: 0

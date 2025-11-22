@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class FigureDragVFXHandler : MonoBehaviour
+public class FigureDragVFXHandler_Particles : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private FigureHandler figureHandler;
     [SerializeField] private VisualEffect visualEffect;
-
     private void OnEnable()
     {
         figureHandler.OnThisFigureDragStart += FigureHandler_OnThisFigureDragStart;

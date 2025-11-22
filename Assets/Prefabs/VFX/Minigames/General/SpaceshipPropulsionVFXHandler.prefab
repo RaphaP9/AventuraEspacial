@@ -49,8 +49,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78765ec65f221d54ea25db101517cf97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rectTransformRefference: {fileID: 0}
   visualEffect: {fileID: 4500098102726776744}
+  minVertexDistance: 0.001
   VFXActiveTime: 3
+  VFXEnabled: 0
+  VFXEnabledDueToVertexDistance: 0
+  test: {x: 0, y: 0, z: 0}
 --- !u!1 &3312859862387078857
 GameObject:
   m_ObjectHideFlags: 0
