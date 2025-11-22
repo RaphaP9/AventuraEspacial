@@ -51,11 +51,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rectTransformRefference: {fileID: 0}
   visualEffect: {fileID: 4500098102726776744}
-  minVertexDistance: 0.001
+  minRefferenceDisplacement: 0.00085
   VFXActiveTime: 3
   VFXEnabled: 0
   VFXEnabledDueToVertexDistance: 0
-  test: {x: 0, y: 0, z: 0}
 --- !u!1 &3312859862387078857
 GameObject:
   m_ObjectHideFlags: 0

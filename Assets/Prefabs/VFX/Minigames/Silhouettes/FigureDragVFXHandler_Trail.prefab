@@ -262,6 +262,6 @@ MonoBehaviour:
   rectTransformRefference: {fileID: 0}
   figureHandler: {fileID: 0}
   visualEffect: {fileID: 3785561727598377860}
-  minVertexDistance: 0.0025
+  minRefferenceDisplacement: 0.0025
   VFXEnabled: 0
   VFXEnabledDueToVertexDistance: 0

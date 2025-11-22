@@ -10,7 +10,7 @@ public class FigureDragVFXHandler_Trail : MonoBehaviour
     [SerializeField] private VisualEffect visualEffect;
 
     [Header("Settings")]
-    [SerializeField, Range(0f, 0.005f)] private float minVertexDistance;
+    [SerializeField, Range(0f, 0.005f)] private float minRefferenceDisplacement;
 
     [Header("Runtime Filled")]
     [SerializeField] private bool VFXEnabled;
@@ -47,7 +47,7 @@ public class FigureDragVFXHandler_Trail : MonoBehaviour
     {
         if (!VFXEnabled) return;
 
-        if(Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minVertexDistance)
+        if(Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minRefferenceDisplacement)
         {
             if (VFXEnabled && VFXEnabledDueToVertexDistance)
             {

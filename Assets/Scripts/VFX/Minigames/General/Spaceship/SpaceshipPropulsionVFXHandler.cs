@@ -9,7 +9,7 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
     [SerializeField] private VisualEffect visualEffect;
 
     [Header("Settings")]
-    [SerializeField, Range(0f, 0.005f)] private float minVertexDistance;
+    [SerializeField, Range(0f, 0.005f)] private float minRefferenceDisplacement;
     [SerializeField, Range(0.1f, 5f)] private float VFXActiveTime;
 
     [Header("Runtime Filled")]
@@ -45,7 +45,7 @@ public class SpaceshipPropulsionVFXHandler : MonoBehaviour
     {
         if (!VFXEnabled) return;
 
-        if (Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minVertexDistance)
+        if (Vector3.Distance(GetRectTransformPosition(), previousRectTransformPosition) < minRefferenceDisplacement)
         {
             if (VFXEnabled && VFXEnabledDueToVertexDistance)
             {
